@@ -6,6 +6,8 @@
 
 https://telegram.me/Tele_zh_TW
 
+https://telegram.me/Tele_zhCN
+
 # License
 
 GPLv3
