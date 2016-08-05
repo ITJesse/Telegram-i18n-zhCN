@@ -6,7 +6,7 @@
 
 https://telegram.me/Tele_zh_TW
 
-https://telegram.me/Tele_zhCN
+https://telegram.me/Tele_zh_CN
 
 # License
 
