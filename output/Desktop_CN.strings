@@ -814,7 +814,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_save_audio" = "另存语音消息为...";
 "lng_context_pack_info" = "贴图集信息";
 "lng_context_pack_add" = "添加贴图";
-"lng_context_save_file" = "另存盘案为...";
+"lng_context_save_file" = "另存档案为...";
 "lng_context_forward_file" = "转发文件";
 "lng_context_delete_file" = "删除文件";
 "lng_context_close_file" = "关闭文件";
