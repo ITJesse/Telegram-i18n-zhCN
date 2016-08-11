@@ -103,12 +103,12 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_status_lastseen_yesterday" = "最后上线于昨日{time}";
 "lng_status_lastseen_date" = "最后上线于 {date}";
 "lng_status_lastseen_date_time" = "最后上线于 {date} 时间 {time}";
-"lng_status_online" = "在在线";
+"lng_status_online" = "在线";
 "lng_status_connecting" = "连接中...";
 
 "lng_chat_status_unaccessible" = "无法访问群组";
 "lng_chat_status_members" = "{count:没有成员|# 位成员|# 位成员}";
-"lng_chat_status_members_online" = "{count:_not_used_|# 位成员|# 位成员}, {count_online:_not_used_|# 人在在线|# 人在在线}";
+"lng_chat_status_members_online" = "{count:_not_used_|# 位成员|# 位成员}, {count_online:_not_used_|# 人在线|# 人在线}";
 
 "lng_channel_status" = "频道";
 "lng_group_status" = "群组";
@@ -214,14 +214,14 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_crop_profile" = "为您的个人头像选择一方形范围";
 "lng_settings_uploading_photo" = "上传照片中...";
 
-"lng_username_title" = "用户名称";
-"lng_username_about" = "您可以在 Telegram 上选择一用户名称。\n如果您这样做，其他人就能够用这个\n用户名称找到您，并且与您联系\n，而不需要知道您的手机号码。\n\n您可以使用 a-z, 0-9 和下划线。\n最小长度为5个字符。";
-"lng_username_choose" = "选择您的用户名称。";
-"lng_username_invalid" = "这个用户名称是无效的。";
-"lng_username_occupied" = "这个用户名称已经被占用。";
-"lng_username_too_short" = "这个用户名称太短了。";
-"lng_username_bad_symbols" = "这个用户名称有不适当的符号。";
-"lng_username_available" = "这个用户名称可以使用。";
+"lng_username_title" = "用户名";
+"lng_username_about" = "您可以在 Telegram 上选择一用户名。\n如果您这样做，其他人就能够用这个\n用户名找到您，并且与您联系\n，而不需要知道您的手机号码。\n\n您可以使用 a-z, 0-9 和下划线。\n最小长度为5个字符。";
+"lng_username_choose" = "选择您的用户名。";
+"lng_username_invalid" = "这个用户名是无效的。";
+"lng_username_occupied" = "这个用户名已经被占用。";
+"lng_username_too_short" = "这个用户名太短了。";
+"lng_username_bad_symbols" = "这个用户名有不适当的符号。";
+"lng_username_available" = "这个用户名可以使用。";
 "lng_username_not_found" = "找不到用户 @{user} 。";
 "lng_username_link_willbe" = "这样的链接会开启一个与您的聊天：";
 "lng_username_link" = "这个链接开启一个与您的聊天：";
@@ -229,8 +229,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_settings_section_contact_info" = "联系信息";
 "lng_settings_phone_number" = "手机号码：";
-"lng_settings_username" = "用户名称：";
-"lng_settings_choose_username" = "选择用户名称";
+"lng_settings_username" = "用户名：";
+"lng_settings_choose_username" = "选择用户名";
 
 "lng_settings_section_notify" = "通知";
 "lng_settings_desktop_notify" = "桌面通知";
@@ -267,19 +267,19 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_replace_emojis" = "取代表情符号";
 "lng_settings_view_emojis" = "查看清单";
 "lng_settings_emoji_list" = "支持的表情符号清单";
-"lng_settings_send_enter" = "按下 Enter 键就送出消息";
-"lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 键才送出消息";
-"lng_settings_send_cmdenter" = "发送消息透过 Cmd+Enter 键";
+"lng_settings_send_enter" = "按下 Enter 键发送消息";
+"lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 键发送消息";
+"lng_settings_send_cmdenter" = "按下 Cmd+Enter 键发送消息";
 
 "lng_settings_section_background" = "聊天室背景";
 "lng_settings_bg_from_gallery" = "从图库选择";
 "lng_settings_bg_from_file" = "从文件选择";
-"lng_settings_bg_tile" = "铺排背景";
+"lng_settings_bg_tile" = "平铺背景";
 "lng_settings_adaptive_wide" = "根据窗口宽度自动调整对话气泡位置";
 
 "lng_backgrounds_header" = "选择新的聊天室背景";
 
-"lng_download_path_dont_ask" = "不要问每个文件的下载路径";
+"lng_download_path_dont_ask" = "不要询问每个文件的下载路径";
 "lng_download_path_label" = "下载路径：";
 "lng_download_path_temp" = "暂存文件夹";
 "lng_download_path_default" = "缺省文件夹";
@@ -300,7 +300,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_section_cache" = "本地保存";
 "lng_settings_no_data_cached" = "找不到缓存的数据！";
 "lng_settings_images_cached" = "{count:_not_used_|# 张图片|# 张图片}, {size}";
-"lng_settings_audios_cached" = "{count:_not_used_|# 则语音频息|# 则语音频息}, {size}";
+"lng_settings_audios_cached" = "{count:_not_used_|# 则语音消息|# 则语音消息}, {size}";
 "lng_local_storage_clear" = "清除全部";
 "lng_local_storage_clearing" = "清除中...";
 "lng_local_storage_cleared" = "已清除！";
@@ -363,15 +363,15 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_connection_auto_connecting" = "缺省 (连接中...)";
 "lng_connection_auto" = "缺省 (使用{transport} )";
 "lng_connection_proxy_connecting" = "透过代理连接中...";
-"lng_connection_proxy" = "{transport} 用代理方式";
+"lng_connection_proxy" = "通过 {transport} 代理访问";
 "lng_connection_header" = "连接类型";
-"lng_connection_auto_rb" = "自动 (TCP 如果可用或 HTTP)";
-"lng_connection_http_proxy_rb" = "HTTP 用自订 http-代理";
-"lng_connection_tcp_proxy_rb" = "TCP 用自订 socks5-代理";
+"lng_connection_auto_rb" = "自动 (TCP 或 HTTP)";
+"lng_connection_http_proxy_rb" = "HTTP 代理";
+"lng_connection_tcp_proxy_rb" = "SOCKS5 代理";
 "lng_connection_try_ipv6" = "尝试透过 IPv6 连接";
 "lng_connection_host_ph" = "主机名称";
 "lng_connection_port_ph" = "连接端口";
-"lng_connection_user_ph" = "用户名称";
+"lng_connection_user_ph" = "用户名";
 "lng_connection_password_ph" = "密码";
 "lng_connection_save" = "保存";
 "lng_settings_show_sessions" = "显示所有连接";
@@ -414,7 +414,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_participants_section" = "成员";
 "lng_profile_info_section" = "信息";
 "lng_profile_mobile_number" = "手机：";
-"lng_profile_username" = "用户名称：";
+"lng_profile_username" = "用户名：";
 "lng_profile_link" = "链接：";
 "lng_profile_add_contact" = "添加联系人";
 "lng_profile_edit_contact" = "编辑";
@@ -457,8 +457,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_songs_header" = "音频档总揽";
 "lng_profile_files" = "{count:_not_used_|# 个文件|# 个文件}";
 "lng_profile_files_header" = "文件总览";
-"lng_profile_audios" = "{count:_not_used_|# 则语音频息|# 则语音频息}";
-"lng_profile_audios_header" = "语音频息总览";
+"lng_profile_audios" = "{count:_not_used_|# 则语音消息|# 则语音消息}";
+"lng_profile_audios_header" = "语音消息总览";
 "lng_profile_shared_links" = "{count:_not_used_|# 个共享的链接|# 个共享的链接}";
 "lng_profile_shared_links_header" = "共享链接总览";
 "lng_profile_copy_phone" = "复制手机号码";
@@ -564,7 +564,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_photo" = "一张照片";
 "lng_action_pinned_media_video" = "一个影片档";
 "lng_action_pinned_media_audio" = "一个音频档";
-"lng_action_pinned_media_voice" = "一则语音频息";
+"lng_action_pinned_media_voice" = "一则语音消息";
 "lng_action_pinned_media_file" = "一个文件";
 "lng_action_pinned_media_gif" = "一张 GIF 动画";
 "lng_action_pinned_media_contact" = "一则联系人信息";
@@ -641,18 +641,18 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_media_type_videos" = "影片档";
 "lng_media_type_songs" = "音频档";
 "lng_media_type_files" = "文件";
-"lng_media_type_audios" = "语音频息";
+"lng_media_type_audios" = "语音消息";
 "lng_media_type_links" = "共享的链接";
 
 "lng_media_open_with" = "开启";
 "lng_media_download" = "下载";
 "lng_media_cancel" = "取消";
 "lng_media_video" = "影片档";
-"lng_media_audio" = "语音频息";
+"lng_media_audio" = "语音消息";
 
 "lng_media_auto_settings" = "自动下载媒体的设置";
 "lng_media_auto_photo" = "自动下载照片";
-"lng_media_auto_audio" = "自动下载语音频息";
+"lng_media_auto_audio" = "自动下载语音消息";
 "lng_media_auto_gif" = "自动下载 GIF";
 "lng_media_auto_private_chats" = "私人的聊天";
 "lng_media_auto_groups" = "群组和频道";
@@ -669,10 +669,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_recent_stickers" = "常用";
 "lng_switch_stickers" = "贴图";
-"lng_switch_stickers_gifs" = "GIF 图档 & 贴图";
+"lng_switch_stickers_gifs" = "GIF 图片 & 贴图";
 "lng_switch_emoji" = "表情符号";
 
-"lng_saved_gifs" = "已保存的 GIF 图档";
+"lng_saved_gifs" = "已保存的 GIF 图片";
 "lng_inline_bot_results" = "结果来自 {inline_bot}";
 "lng_inline_bot_no_results" = "没有结果";
 "lng_inline_bot_via" = "透过 {inline_bot}";
@@ -703,7 +703,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_in_dlg_video" = "影片档";
 "lng_in_dlg_audio_file" = "音频档";
 "lng_in_dlg_contact" = "联系人";
-"lng_in_dlg_audio" = "语音频息";
+"lng_in_dlg_audio" = "语音消息";
 "lng_in_dlg_file" = "文件";
 "lng_in_dlg_sticker" = "贴图";
 "lng_in_dlg_sticker_emoji" = "{emoji} 贴图";
@@ -727,14 +727,14 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_cant_do_this" = "抱歉，这个动作不可用。";
 
 "lng_send_button" = "发送";
-"lng_message_ph" = "撰写一则消息...";
+"lng_message_ph" = "编写一则消息...";
 "lng_broadcast_ph" = "广播一则消息...";
 "lng_broadcast_silent_ph" = "无声广播...";
 "lng_record_cancel" = "发布在这范围外要取消";
 "lng_will_be_notified" = "当您发布时，成员将会收到通知";
 "lng_wont_be_notified" = "当您发布时，成员将不会收到通知";
 "lng_empty_history" = "";
-"lng_willbe_history" = "请选择聊天对象开始传讯";
+"lng_willbe_history" = "请选择好友开始聊天";
 "lng_from_you" = "您";
 "lng_from_draft" = "草稿";
 "lng_bot_description" = "这个机器人可以做什么？";
@@ -766,10 +766,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_user_action_record_video" = "{user} 正在录制影片";
 "lng_send_action_upload_video" = "正在发送影片";
 "lng_user_action_upload_video" = "{user} 正在发送影片";
-"lng_send_action_record_audio" = "正在录制语音频息";
-"lng_user_action_record_audio" = "{user} 正在录制语音频息";
-"lng_send_action_upload_audio" = "正在发送语音频息";
-"lng_user_action_upload_audio" = "{user} 正在发送语音频息";
+"lng_send_action_record_audio" = "正在录制语音消息";
+"lng_user_action_record_audio" = "{user} 正在录制语音消息";
+"lng_send_action_upload_audio" = "正在发送语音消息";
+"lng_user_action_upload_audio" = "{user} 正在发送语音消息";
 "lng_send_action_upload_photo" = "正在发送照片";
 "lng_user_action_upload_photo" = "{user} 正在发送照片";
 "lng_send_action_upload_file" = "正在发送文件";
@@ -784,7 +784,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_save_photo" = "保存图片";
 "lng_save_video" = "保存影片档";
 "lng_save_audio_file" = "保存音频档";
-"lng_save_audio" = "保存语音频息";
+"lng_save_audio" = "保存语音消息";
 "lng_save_file" = "保存文件";
 "lng_save_downloaded" = "{ready} / {total} {mb}";
 "lng_duration_and_size" = "{duration}, {size}";
@@ -800,7 +800,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_copy_post_link" = "复制贴文链接";
 "lng_context_copy_email" = "复制电子邮件地址";
 "lng_context_copy_hashtag" = "复制＃号标签";
-"lng_context_copy_mention" = "复制用户名称";
+"lng_context_copy_mention" = "复制用户名";
 "lng_context_save_image" = "另存图片为...";
 "lng_context_forward_image" = "转发图片";
 "lng_context_delete_image" = "删除图片";
@@ -811,7 +811,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_show_in_finder" = "在 Finder 中显示";
 "lng_context_save_video" = "另存影片档为...";
 "lng_context_save_audio_file" = "另存音频档为...";
-"lng_context_save_audio" = "另存语音频息为...";
+"lng_context_save_audio" = "另存语音消息为...";
 "lng_context_pack_info" = "贴图集信息";
 "lng_context_pack_add" = "添加贴图";
 "lng_context_save_file" = "另存盘案为...";
@@ -819,7 +819,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_delete_file" = "删除文件";
 "lng_context_close_file" = "关闭文件";
 "lng_context_copy_text" = "复制文本";
-"lng_context_save_gif" = "保存 GIF 图档";
+"lng_context_save_gif" = "保存 GIF 图片";
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";

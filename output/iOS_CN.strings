@@ -6,7 +6,7 @@
 "MESSAGE_CONTACT" = "%1$@ 与您分享了一个联系人";
 "MESSAGE_GEO" = "%1$@ 传给您一张地图";
 "MESSAGE_DOC" = "%1$@ 传给您一个文件";
-"MESSAGE_AUDIO" = "%1$@ 传给您一则语音频息";
+"MESSAGE_AUDIO" = "%1$@ 传给您一则语音消息";
 "MESSAGE_GIF" = "%1$@ 传给您一个 GIF 图";
 "ENCRYPTED_MESSAGE" = "您有一则新消息%1$@";
 "LOCKED_MESSAGE" = "您有一则新消息%1$@";
@@ -23,7 +23,7 @@
 "CHAT_MESSAGE_CONTACT" = "%1$@ 于 %2$@ 群组中分享了一个联系人";
 "CHAT_MESSAGE_GEO" = "%1$@ 发送了一张地图到 %2$@ 群组";
 "CHAT_MESSAGE_DOC" = "%1$@ 发送了一个文件到 %2$@ 群组";
-"CHAT_MESSAGE_AUDIO" = "%1$@ 发送了一则语音频息到 %2$@ 群组";
+"CHAT_MESSAGE_AUDIO" = "%1$@ 发送了一则语音消息到 %2$@ 群组";
 "CHAT_MESSAGE_GIF" = "%1$@ 发送了一个 GIF 图到 %2$@ 群组";
 "CHAT_CREATED" = "%1$@ 将您邀请到 %2$@ 群组";
 "CHAT_TITLE_EDITED" = "%1$@ 编辑了群组的 %2$@ 名称";
@@ -53,11 +53,11 @@
 "CHANNEL_MESSAGE_VIDEO" = "%1$@ 张贴了一个影片";
 "CHANNEL_MESSAGE_DOC" = "%1$@ 张贴了一份文档";
 "CHANNEL_MESSAGE_STICKER" = "%1$@ 张贴了一张 %2$@的贴图";
-"CHANNEL_MESSAGE_AUDIO" = "%1$@ 张贴了一则语音频息";
+"CHANNEL_MESSAGE_AUDIO" = "%1$@ 张贴了一则语音消息";
 "CHANNEL_MESSAGE_CONTACT" = "%1$@ 张贴了一个联系人";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 张贴一张地图";
 "CHANNEL_MESSAGE_FWDS" = "%1$@ 张贴了 %2$@ 转发的消息";
-"CHANNEL_MESSAGE_GIF" = "%1$@ 张贴了一个 GIF 图档";
+"CHANNEL_MESSAGE_GIF" = "%1$@ 张贴了一个 GIF 图片";
 
 "PINNED_TEXT" = "%1$@ 置顶了「%2$@」";
 "PINNED_NOTEXT" = "%1$@ 置顶了一则消息";
@@ -65,10 +65,10 @@
 "PINNED_VIDEO" = "%1$@ 置顶了一个影片";
 "PINNED_DOC" = "%1$@ 置顶了一个文件";
 "PINNED_STICKER" = "%1$@ 置顶了一张 %2$@的贴图";
-"PINNED_AUDIO" = "%1$@ 置顶了一则语音频息";
+"PINNED_AUDIO" = "%1$@ 置顶了一则语音消息";
 "PINNED_CONTACT" = "%1$@ 置顶了一个联系人";
 "PINNED_GEO" = "%1$@ 置顶了一张地图";
-"PINNED_GIF" = "%1$@ 置顶了一个 GIF 图档";
+"PINNED_GIF" = "%1$@ 置顶了一个 GIF 图片";
 
 // Common
 "Common.OK" = "好";
@@ -100,7 +100,7 @@
 "State.WaitingForNetwork" = "正在等待网络";
 
 // Presence
-"Presence.online" = "在在线";
+"Presence.online" = "在线";
 "Presence.offline" = "脱机";
 "Presence.invisible" = "隐形";
 
@@ -366,10 +366,10 @@
 "Conversation.StatusRecipients_3_10" = "%@ 位接收者";
 "Conversation.StatusRecipients_any" = "%@ 位接收者";
 
-"Conversation.StatusOnline_1" = "1 人在在线";
-"Conversation.StatusOnline_2" = "2 人在在线";
-"Conversation.StatusOnline_3_10" = "%@ 人在在线";
-"Conversation.StatusOnline_any" = "%@ 人在在线";
+"Conversation.StatusOnline_1" = "1 人在线";
+"Conversation.StatusOnline_2" = "2 人在线";
+"Conversation.StatusOnline_3_10" = "%@ 人在线";
+"Conversation.StatusOnline_any" = "%@ 人在线";
 
 "Conversation.UnreadMessages" = "未读消息";
 "Conversation.InfoGroup" = "群组";
@@ -415,10 +415,10 @@
 "Message.Contact" = "联系人";
 "Message.File" = "文件";
 "Message.Sticker" = "贴图";
-"Message.Audio" = "语音频息";
+"Message.Audio" = "语音消息";
 "Message.ForwardedMessage" = "转发的消息\n来自：%@";
 "Message.SharedContact" = "共享的联系人";
-"Message.Animation" = "GIF 图档";
+"Message.Animation" = "GIF 图片";
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "发生错误";
@@ -455,7 +455,7 @@
 "Conversation.SlideToCancel" = "滑动以取消";
 "Conversation.ApplyLocalization" = "套用本地化语系档";
 "Conversation.OpenFile" = "开启文件";
-"Conversation.MicrophoneAccessDisabled" = "Telegram 需要访问您的麦克风以发送语音频息。请到「设置」-「隐私」-「麦克风」，然后设置 Telegram 为「开启」。";
+"Conversation.MicrophoneAccessDisabled" = "Telegram 需要访问您的麦克风以发送语音消息。请到「设置」-「隐私」-「麦克风」，然后设置 Telegram 为「开启」。";
 
 // Media Picker
 "MediaPicker.Send" = "发送";
@@ -662,7 +662,7 @@
 "BlockedUsers.BlockFormat" = "封锁 %@？";
 "BlockedUsers.BlockTitle" = "封锁";
 "BlockedUsers.LeavePrefix" = "离开";
-"BlockedUsers.Info" = "被封锁的用户无法向您发送消息或将您加入到群组。他们不会看到您的个人头像，在在线和最后上线的状态。";
+"BlockedUsers.Info" = "被封锁的用户无法向您发送消息或将您加入到群组。他们不会看到您的个人头像，在线和最后上线的状态。";
 "BlockedUsers.AddNew" = "添加新的...";
 "BlockedUsers.Unblock" = "解除封锁";
 
@@ -771,23 +771,23 @@
 "Compatibility.SecretMediaVersionTooLow" = "%@ 正在使用较旧版本的 Telegram，因此私密照片会以兼容模式显示。\n\n当 %@ 更新了 Telegram 之后，阅后即焚计时器设在 1 分钟以内时，照片将开始以「长按查看」模式运作，而对方运行屏幕快照时，您也将收到通知。";
 
 "Contacts.GlobalSearch" = "全域搜索";
-"Profile.Username" = "用户名称";
-"Settings.Username" = "用户名称";
+"Profile.Username" = "用户名";
+"Settings.Username" = "用户名";
 "Settings.UsernameEmpty" = "无";
 
-"Username.Title" = "用户名称";
-"Username.Placeholder" = "您的用户名称";
-"Username.Help" = "您可以在 Telegram 上设置用户名称。如果您这样做，别人就可以借由此用户名称找到您及与您联系，而不需要知道您的手机号码。\n\n您可以使用 a-z，0-9 及底线。最小长度是 5 个字符。";
-"Username.InvalidTooShort" = "用户名称必须至少有5个字母。";
-"Username.InvalidStartsWithNumber" = "抱歉，用户名称不能以数字开头。";
-"Username.InvalidCharacters" = "抱歉，此用户名称无效。";
-"Username.InvalidTaken" = "抱歉，此用户名称已被他人使用。";
+"Username.Title" = "用户名";
+"Username.Placeholder" = "您的用户名";
+"Username.Help" = "您可以在 Telegram 上设置用户名。如果您这样做，别人就可以借由此用户名找到您及与您联系，而不需要知道您的手机号码。\n\n您可以使用 a-z，0-9 及底线。最小长度是 5 个字符。";
+"Username.InvalidTooShort" = "用户名必须至少有5个字母。";
+"Username.InvalidStartsWithNumber" = "抱歉，用户名不能以数字开头。";
+"Username.InvalidCharacters" = "抱歉，此用户名无效。";
+"Username.InvalidTaken" = "抱歉，此用户名已被他人使用。";
 
-"Username.CheckingUsername" = "正在检查用户名称...";
+"Username.CheckingUsername" = "正在检查用户名...";
 "Username.UsernameIsAvailable" = "可以使用 %@。";
 
 "WebSearch.Images" = "图片";
-"WebSearch.GIFs" = "GIF 图档";
+"WebSearch.GIFs" = "GIF 图片";
 "WebSearch.RecentSectionTitle" = "最近的";
 "WebSearch.RecentSectionClear" = "清除";
 
@@ -1095,7 +1095,7 @@
 
 "AccessDenied.Contacts" = "Telegram 传讯是基于您现有的联系人清单。\n\n请到「设置」>「隐私」>「联系人」中，设置 Telegram 为开启。";
 
-"AccessDenied.VoiceMicrophone" = "Telegram 需要访问您的麦克风以发送语音频息。\n\n请到「设置」>「隐私」>「麦克风」中，并将 Telegram 设置为开启。";
+"AccessDenied.VoiceMicrophone" = "Telegram 需要访问您的麦克风以发送语音消息。\n\n请到「设置」>「隐私」>「麦克风」中，并将 Telegram 设置为开启。";
 
 "AccessDenied.VideoMicrophone" = "Telegram 需要访问您的麦克风以便在录像时收录声音。\n\n请到「设置」>「隐私」>「麦克风」中，设置 Telegram 为开启。";
 
@@ -1163,10 +1163,10 @@
 "ForwardedLocations_3_10" = "%@ 则转发的位置信息";
 "ForwardedLocations_any" = "%@ 则转发的位置信息";
 
-"ForwardedGifs_1" = "1 个转发的 GIF 图档";
-"ForwardedGifs_2" = "2 个转发的 GIF 图档";
-"ForwardedGifs_3_10" = "%@ 个转发的 GIF 图档";
-"ForwardedGifs_any" = "%@ 个转发的 GIF 图档";
+"ForwardedGifs_1" = "1 个转发的 GIF 图片";
+"ForwardedGifs_2" = "2 个转发的 GIF 图片";
+"ForwardedGifs_3_10" = "%@ 个转发的 GIF 图片";
+"ForwardedGifs_any" = "%@ 个转发的 GIF 图片";
 
 "ForwardedContacts_1" = "1 个转发的联系人";
 "ForwardedContacts_2" = "2 个转发的联系人";
@@ -1379,7 +1379,7 @@
 "UserInfo.BotSettings" = "设置";
 "UserInfo.BotHelp" = "帮助";
 
-"Contacts.SearchLabel" = "搜索联系人或用户名称";
+"Contacts.SearchLabel" = "搜索联系人或用户名";
 "ChatSearch.SearchPlaceholder" = "搜索";
 
 "WatchRemote.NotificationText" = "在您的手机上开启此通知以查看来自您 Apple Watch 的消息";
@@ -1436,7 +1436,7 @@
 "Channel.Username.InvalidStartsWithNumber" = "频道名称不能以数字开头。";
 "Channel.Username.InvalidCharacters" = "抱歉，此名称无效。";
 "Channel.Username.InvalidTaken" = "抱歉，此名称已被占用。";
-"Channel.Username.CheckingUsername" = "检查用户名称中...";
+"Channel.Username.CheckingUsername" = "检查用户名中...";
 "Channel.Username.UsernameIsAvailable" = "%@ 是可用的。";
 
 "Channel.Share" = "分享";
@@ -1481,8 +1481,8 @@
 "Channel.NotificationLoading" = "加载中...";
 
 "Conversation.InputTextDisabledPlaceholder" = "留言已停用";
-"Compose.ChannelTokenListPlaceholder" = "搜索联系人或用户名称";
-"Compose.GroupTokenListPlaceholder" = "搜索联系人或用户名称";
+"Compose.ChannelTokenListPlaceholder" = "搜索联系人或用户名";
+"Compose.GroupTokenListPlaceholder" = "搜索联系人或用户名";
 
 "Compose.ChannelMembers" = "成员";
 
@@ -1578,7 +1578,7 @@
 "Conversation.ReportSpamConfirmation" = "您确定要检举出自此用户的垃圾消息？";
 "SharedMedia.EmptyMusicText" = "在这个聊天室中所分享的全部音乐会出现在这里。";
 
-"ChatSettings.AutoPlayAnimations" = "自动播放 GIF 图档";
+"ChatSettings.AutoPlayAnimations" = "自动播放 GIF 图片";
 
 "GroupInfo.ChatAdmins" = "添加管理员";
 
@@ -1759,7 +1759,7 @@
 "StickerSettings.ContextShow" = "显示";
 
 "Conversation.LinkDialogSave" = "保存";
-"Conversation.GifTooltip" = "点击这里访问已保存的 GIF 图档";
+"Conversation.GifTooltip" = "点击这里访问已保存的 GIF 图片";
 
 "AttachmentMenu.PhotoOrVideo" = "照片或影片";
 "AttachmentMenu.ImageSearch" = "图片搜索";
@@ -1775,10 +1775,10 @@
 "AttachmentMenu.SendVideo_3_10" = "发送 %@ 个影片";
 "AttachmentMenu.SendVideo_any" = "发送 %@ 个影片";
 
-"AttachmentMenu.SendGif_1" = "发送 1 个 GIF 图档";
-"AttachmentMenu.SendGif_2" = "发送 2 个 GIF 图档";
-"AttachmentMenu.SendGif_3_10" = "发送 %@ 个 GIF 图档";
-"AttachmentMenu.SendGif_any" = "发送 %@ 个 GIF 图档";
+"AttachmentMenu.SendGif_1" = "发送 1 个 GIF 图片";
+"AttachmentMenu.SendGif_2" = "发送 2 个 GIF 图片";
+"AttachmentMenu.SendGif_3_10" = "发送 %@ 个 GIF 图片";
+"AttachmentMenu.SendGif_any" = "发送 %@ 个 GIF 图片";
 
 "AttachmentMenu.SendItem_1" = "发送 1 个项目";
 "AttachmentMenu.SendItem_2" = "发送 2 个项目";
@@ -1821,21 +1821,21 @@
 
 "ChannelMembers.GroupAdminsTitle" = "群组管理员";
 "ChannelMembers.ChannelAdminsTitle" = "频道管理员";
-"MusicPlayer.VoiceNote" = "语音频息";
+"MusicPlayer.VoiceNote" = "语音消息";
 
 "PrivacyLastSeenSettings.WhoCanSeeMyTimestamp" = "谁可以看到我的时间戳记";
 
 "PrivacyLastSeenSettings.GroupsAndChannelsHelp" = "变更谁可以将您加入到群组和频道。";
-"MusicPlayer.VoiceNote" = "语音频息";
+"MusicPlayer.VoiceNote" = "语音消息";
 
 "Watch.Microphone.Access" = "允许 Telegram 在您的手机上访问麦克风";
 
 "Settings.AppleWatch" = "Apple Watch";
 "AppleWatch.Title" = "Apple Watch";
 "AppleWatch.ReplyPresets" = "回复缺省";
-"AppleWatch.ReplyPresetsHelp" = "当您撰写或回复一则消息，您可以选择这些缺省回复中的一个，也可以将其变更为您喜欢的任何内容。";
+"AppleWatch.ReplyPresetsHelp" = "当您编写或回复一则消息，您可以选择这些缺省回复中的一个，也可以将其变更为您喜欢的任何内容。";
 
-"KeyCommand.FocusOnInputField" = "撰写消息";
+"KeyCommand.FocusOnInputField" = "编写消息";
 "KeyCommand.Find" = "搜索";
 "KeyCommand.ScrollUp" = "向上卷动";
 "KeyCommand.ScrollDown" = "向下卷动";
@@ -1888,9 +1888,9 @@
 "Notification.PinnedTextMessage" = "%@ 置顶了「%@」";
 "Notification.PinnedPhotoMessage" = "%@ 置顶了一张照片";
 "Notification.PinnedVideoMessage" = "%@ 置顶了一个影片";
-"Notification.PinnedAudioMessage" = "%@ 置顶了一则语音频息";
+"Notification.PinnedAudioMessage" = "%@ 置顶了一则语音消息";
 "Notification.PinnedDocumentMessage" = "%@ 置顶了一个文件";
-"Notification.PinnedAnimationMessage" = "%@ 置顶了一个 GIF 图档";
+"Notification.PinnedAnimationMessage" = "%@ 置顶了一个 GIF 图片";
 "Notification.PinnedStickerMessage" = "%@ 置顶了一张贴图";
 "Notification.PinnedLocationMessage" = "%@ 置顶了一张地图";
 "Notification.PinnedContactMessage" = "%@ 置顶了一个联系人";
@@ -1899,7 +1899,7 @@
 "Message.PinnedTextMessage" = "置顶了「%@」";
 "Message.PinnedPhotoMessage" = "置顶了照片";
 "Message.PinnedVideoMessage" = "置顶了影片";
-"Message.PinnedAudioMessage" = "置顶了语音频息";
+"Message.PinnedAudioMessage" = "置顶了语音消息";
 "Message.PinnedDocumentMessage" = "置顶了文件";
 "Message.PinnedAnimationMessage" = "置顶了 GIF";
 "Message.PinnedStickerMessage" = "置顶了贴图";
@@ -1962,14 +1962,14 @@
 
 "ShareMenu.ShareTo" = "分享给";
 "ShareMenu.SelectChats" = "选择聊天室";
-"ShareMenu.Comment" = "撰写一则留言...";
+"ShareMenu.Comment" = "编写一则留言...";
 
 "MediaPicker.Videos" = "影片";
 
 "Coub.TapForSound" = "点击声音";
 
-"Preview.SaveGif" = "保存 GIF 图档";
-"Preview.DeleteGif" = "删除 GIF 图档";
+"Preview.SaveGif" = "保存 GIF 图片";
+"Preview.DeleteGif" = "删除 GIF 图片";
 "Preview.CopyAddress" = "复制地址";
 "Preview.ViewStickerPack" = "查看贴图集";
 
