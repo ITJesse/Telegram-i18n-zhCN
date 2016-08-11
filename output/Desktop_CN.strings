@@ -393,7 +393,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_restart_later" = "晚些时候";
 
 "lng_sessions_header" = "目前的连接";
-"lng_sessions_other_header" = "作用中的连接";
+"lng_sessions_other_header" = "登陆中的设备";
 "lng_sessions_no_other" = "没有其它连接";
 "lng_sessions_other_desc" = "您可以登录到 Telegram 从其它行动设备、平板电脑和桌面电脑，使用相同的手机号码。所有您的数据将立即同步。";
 "lng_sessions_terminate_all" = "中断所有连接";

@@ -396,7 +396,7 @@
   <string name="NotificationGroupKickYou">%1$s 将您从 %2$s 群组中移除</string>
   <string name="NotificationGroupLeftMember">%1$s 已离开了 %2$s 群组</string>
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
-  <string name="NotificationUnrecognizedDevice">%1$s，\n我们侦测到有新设备%2$s 使用您的帐号登录\n\n设备类型：%3$s\n位置：%4$s\n\n如果这不是您，您可以到「设置」&gt;「隐私和安全」&gt;「作用中的连接」里，中断该连接。\n\n如果您怀疑有人未经您的同意登录您的帐号，请在「隐私和安全」的设置中，启用「两步验证」。\n\n感谢您！\nTelegram 团队</string>
+  <string name="NotificationUnrecognizedDevice">%1$s，\n我们侦测到有新设备%2$s 使用您的帐号登录\n\n设备类型：%3$s\n位置：%4$s\n\n如果这不是您，您可以到「设置」&gt;「隐私和安全」&gt;「登陆中的设备」里，中断该连接。\n\n如果您怀疑有人未经您的同意登录您的帐号，请在「隐私和安全」的设置中，启用「两步验证」。\n\n感谢您！\nTelegram 团队</string>
   <string name="NotificationContactNewPhoto">%1$s 更新了个人头像</string>
   <string name="NotificationInvitedToGroupByLink">%1$s 透过邀请链接加入了%2$s群组</string>
   <string name="Reply">回复</string>
@@ -667,11 +667,11 @@
   <string name="KeepMediaInfo">云端聊天记录中的照片、影片和其他文件，在这期间如果您<![CDATA[<b>没有访问</b>]]>，将会从该设备中移除以节省磁盘空间。所有媒体将留在 Telegram 云端中，并且在您需要它时，可以重新下载。</string>
   <string name="KeepMediaForever">永远</string>
   <!--sessions view-->
-  <string name="SessionsTitle">作用中的连接</string>
+  <string name="SessionsTitle">登陆中的设备</string>
   <string name="CurrentSession">目前的连接</string>
-  <string name="NoOtherSessions">没有其他作用中的连接</string>
+  <string name="NoOtherSessions">没有其他登陆中的设备</string>
   <string name="NoOtherSessionsInfo">您可以透过使用同一组电话号码，在其他行动、平板及桌面设备上登录 Telegram。您的所有数据均会立即同步。</string>
-  <string name="OtherSessions">作用中的连接</string>
+  <string name="OtherSessions">登陆中的设备</string>
   <string name="SessionsInfo">控制您在其他设备上的连接。</string>
   <string name="TerminateSessionInfo">请点击要中断的连接。</string>
   <string name="TerminateSessionQuestion">要中断这个连接吗？</string>

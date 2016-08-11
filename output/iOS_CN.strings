@@ -394,7 +394,7 @@
 "Notification.CreatedChatWithTitle" = "%@ 创建了 \"%@\" 群组";
 "Notification.Joined" = "%@ 加入了 Telegram";
 "Notification.ChangedGroupName" = "%@ 将群组名称变更为 \"%@\"";
-"Notification.NewAuthDetected" = "%1$@,\n我们侦测到有新设备于%3$@%2$@ %4$@ 使用您的帐号登录\n设备类型：%5$@\n位置：%6$@\n\n如果这不是您，您可以到「设置」>「隐私和安全」>「作用中的连接」里，中断该连接。\n\n如果您怀疑有人未经您的同意登录您的帐号，请在「隐私和安全」的设置中，启用「两步验证」。\n\n感谢您！\nTelegram 团队";
+"Notification.NewAuthDetected" = "%1$@,\n我们侦测到有新设备于%3$@%2$@ %4$@ 使用您的帐号登录\n设备类型：%5$@\n位置：%6$@\n\n如果这不是您，您可以到「设置」>「隐私和安全」>「登陆中的设备」里，中断该连接。\n\n如果您怀疑有人未经您的同意登录您的帐号，请在「隐私和安全」的设置中，启用「两步验证」。\n\n感谢您！\nTelegram 团队";
 "Notification.EncryptedChatRequested" = "请求私密聊天";
 "Notification.EncryptedChatAccepted" = "私密聊天已开始";
 "Notification.MessageLifetimeChanged" = "%1$@ 将阅后即焚计时器设置为 %2$@";
@@ -644,7 +644,7 @@
 "ChatSettings.Groups" = "群组";
 "ChatSettings.Security" = "安全";
 "ChatSettings.Language" = "语言";
-"ChatSettings.RevertLanguage" = "恢复为英文接口";
+"ChatSettings.RevertLanguage" = "恢复为英文";
 "ChatSettings.Cache" = "缓存";
 
 // Usage
@@ -1289,13 +1289,13 @@
 
 "AccessDenied.LocationTracking" = "Telegram 需要访问您的位置以方便在地图上显示您。\n\n请前往「设置」>「隐私」>「位置服务」，并将其设置为 ON。";
 
-"PrivacySettings.AuthSessions" = "作用中的连接";
-"AuthSessions.Title" = "作用中的连接";
+"PrivacySettings.AuthSessions" = "登陆中的设备";
+"AuthSessions.Title" = "登陆中的设备";
 "AuthSessions.CurrentSession" = "目前的连接";
-"AuthSessions.TerminateOtherSessions" = "中断所有其他连接";
+"AuthSessions.TerminateOtherSessions" = "注销所有其他设备";
 "AuthSessions.TerminateOtherSessionsHelp" = "注销所有其他设备，只保留这个。";
 "AuthSessions.TerminateSession" = "中断连接";
-"AuthSessions.OtherSessions" = "作用中的连接";
+"AuthSessions.OtherSessions" = "登陆中的设备";
 "AuthSessions.EmptyTitle" = "没有其他连接";
 "AuthSessions.EmptyText" = "您可以使用同一个手机号码，在其他手机、平板电脑及桌面设备上登录 Telegram。您的所有数据都将立即同步。";
 "AuthSessions.AppUnofficial" = "(ID: %@)";

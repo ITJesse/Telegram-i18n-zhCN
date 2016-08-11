@@ -36,6 +36,9 @@ do
     sed -i "" 's/TCP 用自订 socks5-代理/SOCKS5 代理/g' ./output/$out_filename
     sed -i "" 's/用户名称/用户名/g' ./output/$out_filename
     sed -i "" 's/{transport} 用代理方式/通过 {transport} 代理访问/g' ./output/$out_filename
+    sed -i "" 's/恢复为英文接口/恢复为英文/g' ./output/$out_filename
+    sed -i "" 's/作用中的连接/登陆中的设备/g' ./output/$out_filename
+    sed -i "" 's/中断所有其他连接/注销所有其他设备/g' ./output/$out_filename
   fi
 done
 
