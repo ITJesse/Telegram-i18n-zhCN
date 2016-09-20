@@ -899,7 +899,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_about_version" = "版本 {version}";
 "lng_about_text_1" = "官方的免费即时通信软件，基于为了\n安全和速度而建的 [a href=\"https://core.telegram.org/api\"]Telegram API[/a] 。";
-"lng_about_text_2" = "本软件是授权于 [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] 版本 3，\n源代码可在 [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a] 取得。";
+"lng_about_text_2" = "本软件是授权于 [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] 版本 3，\n原代码可在 [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a] 取得。";
 "lng_about_text_3" = "前往 {faq_open}Telegram FAQ{faq_close} 取得更多信息。";
 "lng_about_done" = "完成";
 
