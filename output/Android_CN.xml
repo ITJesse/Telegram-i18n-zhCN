@@ -108,7 +108,7 @@
   <string name="ActionPinnedVoice">un1 置顶了一则语音消息</string>
   <string name="ActionPinnedContact">un1 置顶了一个联系人</string>
   <string name="ActionPinnedGeo">un1 置顶了一张地图</string>
-  <string name="ActionPinnedGif">un1 置顶了一个 GIF 图片</string>
+  <string name="ActionPinnedGif">un1 置顶了一个 GIF 动图</string>
   <string name="ActionPinnedMusic">un1 置顶了一首音乐</string>
   <string name="ActionMigrateFromGroup">这个群组被升级为一个超级群组</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 被升级为一个超级群组</string>
@@ -128,10 +128,10 @@
   <string name="MegaPublic">公开的群组</string>
   <string name="ChannelPublicInfo">公开的频道可以用搜索找到，且任何人都可以加入它们。</string>
   <string name="MegaPublicInfo">公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。</string>
-  <string name="ChannelPrivate">私人的频道</string>
-  <string name="MegaPrivate">私人的群组</string>
-  <string name="ChannelPrivateInfo">私人的频道只能透过邀请链接加入。</string>
-  <string name="MegaPrivateInfo">私人的群组只能当您被邀请或有一个邀请链接的情况才能加入。</string>
+  <string name="ChannelPrivate">非公开的频道</string>
+  <string name="MegaPrivate">非公开的群组</string>
+  <string name="ChannelPrivateInfo">非公开的频道只能透过邀请链接加入。</string>
+  <string name="MegaPrivateInfo">非公开的群组只有当您被邀请或有一个邀请链接的情况才能加入。</string>
   <string name="ChannelLinkTitle">链接</string>
   <string name="ChannelInviteLinkTitle">邀请链接</string>
   <string name="ChannelAddMembers">添加成员</string>
@@ -162,17 +162,17 @@
   <string name="ChannelLeaveAlert">您确定要离开此频道？</string>
   <string name="ChannelDeleteInfo">您将失去所有此频道的消息。</string>
   <string name="ChannelEdit">编辑</string>
-  <string name="MegaWasPrivateAlert">请注意，如果您选择一公开的链接给您的群组，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的群组为私人的。</string>
-  <string name="ChannelWasPrivateAlert">请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为私人的。</string>
+  <string name="MegaWasPrivateAlert">请注意，如果您选择一公开的链接给您的群组，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的群组为非公开的。</string>
+  <string name="ChannelWasPrivateAlert">请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。</string>
   <string name="ChannelPublicEmptyUsername">请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。
 
-如果您不感兴趣，我们建议创建一个私人频道来代替。</string>
+如果您不感兴趣，我们建议建一个非公开的频道。</string>
   <string name="ActionCreateChannel">频道已创建</string>
   <string name="ActionChannelChangedPhoto">已变更频道照片</string>
   <string name="ActionChannelRemovedPhoto">频道照片已移除</string>
   <string name="ActionChannelChangedTitle">频道名称变更为 un2</string>
-  <string name="ChannelPublicLimitReached">抱歉，您已经创建了太多公开的频道。首先，您可以选择创建私人的频道，或是删除您存在频道中的一个。</string>
-  <string name="ChangePublicLimitReached">很抱歉，您已经创建了太多公开的链接。请尝试删除或让一些你的群组或频道转为私人的。</string>
+  <string name="ChangePublicLimitReached">抱歉，您已经创建了太多公开的链接。
+您可以撤销其中一个旧群组或频道的公开链接，或是改用非公开的链接。</string>
   <string name="ChannelModerator">版主</string>
   <string name="ChannelCreator">创建者</string>
   <string name="ChannelEditor">管理员</string>
@@ -209,7 +209,7 @@
   <string name="ChannelMessageGroupContact">%1$s 在 %2$s 频道分享了一个联系人</string>
   <string name="ChannelMessageGroupMap">%1$s 发送了一则位置信息到 %2$s 频道</string>
   <string name="ChannelMessageGroupDocument">%1$s 发送一个文件到 %2$s 频道</string>
-  <string name="ChannelMessageGroupGif">%1$s 发送一个 GIF 动画到 %2$s 频道</string>
+  <string name="ChannelMessageGroupGif">%1$s 发送一个 GIF 动图到 %2$s 频道</string>
   <string name="ChannelMessageGroupAudio">%1$s 发送了一则语音消息到 %2$s 频道</string>
   <string name="ChannelMessageGroupMusic">%1$s 发送一首歌曲到 %2$s 频道</string>
   <string name="ChannelMessageGroupSticker">%1$s 发送一张贴图到 %2$s 频道</string>
@@ -220,7 +220,7 @@
   <string name="ChannelMessageContact">%1$s 张贴了一个联系人</string>
   <string name="ChannelMessageMap">%1$s 张贴了一则位置信息</string>
   <string name="ChannelMessageDocument">%1$s 张贴了一个文件</string>
-  <string name="ChannelMessageGIF">%1$s 张贴了一个 GIF 动画</string>
+  <string name="ChannelMessageGIF">%1$s 张贴了一个 GIF 动图</string>
   <string name="ChannelMessageAudio">%1$s 张贴了一则语音消息</string>
   <string name="ChannelMessageMusic">%1$s 张贴了一首歌曲</string>
   <string name="ChannelMessageSticker">%1$s 张贴了一张贴图</string>
@@ -302,7 +302,7 @@
   <string name="SlideToCancel">滑动以取消</string>
   <string name="SaveToDownloads">保存至下载</string>
   <string name="SaveToGIFs">保存至 GIF 图库</string>
-  <string name="DeleteGif">删除 GIF 图片？</string>
+  <string name="DeleteGif">删除 GIF 动图？</string>
   <string name="SaveToMusic">保存为音乐</string>
   <string name="ShareFile">分享</string>
   <string name="ApplyLocalizationFile">套用本地化文件</string>
@@ -315,6 +315,7 @@
   <string name="CopyUrl">复制网址</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">开启网址 %1$s？</string>
+  <string name="BotPermissionUrlAlert">是否允许 %1$s 传递您的 Telegram 名称和 id 给您透过这个机器人开启的网页？</string>
   <string name="ReportSpam">检举垃圾消息</string>
   <string name="ReportSpamAndLeave">检举垃圾消息并离开</string>
   <string name="AddContactChat">添加联系人</string>
@@ -326,7 +327,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">更多信息</string>
   <string name="ShareSendTo">发送给...</string>
-  <string name="TapHereGifs">点击这里可访问已保存的 GIF 图片</string>
+  <string name="TapHereGifs">点击这里可访问已保存的 GIF 动图</string>
   <string name="PinMessage">置顶</string>
   <string name="PinNotify">通知所有成员</string>
   <string name="UnpinMessage">取消置顶</string>
@@ -369,7 +370,7 @@
   <string name="NotificationMessageContact">%1$s 分享了联系人给您</string>
   <string name="NotificationMessageMap">%1$s 发送了一则位置信息给您</string>
   <string name="NotificationMessageDocument">%1$s 发送给您一个文件</string>
-  <string name="NotificationMessageGif">%1$s 发送给您一个 GIF 图片</string>
+  <string name="NotificationMessageGif">%1$s 发送给您一个 GIF 动图</string>
   <string name="NotificationMessageAudio">%1$s 发送给您一则语音消息</string>
   <string name="NotificationMessageMusic">%1$s 传给您一首歌曲</string>
   <string name="NotificationMessageSticker">%1$s 发送贴图给您</string>
@@ -381,7 +382,7 @@
   <string name="NotificationMessageGroupContact">%1$s 分享了联系人信息到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一则位置信息到 %2$s 群组</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送一个文件给 %2$s 群组</string>
-  <string name="NotificationMessageGroupGif">%1$s 发送一个 GIF 图片到 %2$s 群组</string>
+  <string name="NotificationMessageGroupGif">%1$s 发送一个 GIF 动图到 %2$s 群组</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一则语音消息到 %2$s 群组</string>
   <string name="NotificationMessageGroupMusic">%1$s 发送一首歌曲到 %2$s 群组</string>
   <string name="NotificationMessageGroupSticker">%1$s 发送贴图给 %2$s 群组</string>
@@ -413,7 +414,7 @@
   <string name="NotificationActionPinnedVoice">%1$s 在 %2$s 群组中置顶了一则语音消息</string>
   <string name="NotificationActionPinnedContact">%1$s 在 %2$s 群组置顶了一个联系人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在 %2$s 群组置顶了一张地图</string>
-  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群组置顶了一个 GIF 图片</string>
+  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群组置顶了一个 GIF 动图</string>
   <string name="NotificationActionPinnedMusic">%1$s 在 %2$s 群组置顶了一首歌曲</string>
   <string name="NotificationActionPinnedTextChannel">%1$s 置顶了「%2$s」</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置顶了一则消息</string>
@@ -425,7 +426,7 @@
   <string name="NotificationActionPinnedVoiceChannel">%1$s 置顶了一则语音消息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置顶了一个联系人</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了一张地图</string>
-  <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一个 GIF 图片</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一个 GIF 动图</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了一首歌曲</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
@@ -460,6 +461,8 @@
   <string name="RevokeAlertNewLink">先前的邀请链接现在已经没有作用。而一个新的链接已经产生了。</string>
   <string name="RevokeButton">撤销</string>
   <string name="RevokeLink">撤销链接</string>
+  <string name="RevokeLinkAlert">您确定要撤销链接 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\n群组 \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 将变成非公开的。</string>
+  <string name="RevokeLinkAlertChannel">您确定要撤销链接 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\n频道 \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 将变成非公开的。</string>
   <string name="CopyLink">复制链接</string>
   <string name="ShareLink">分享链接</string>
   <string name="LinkInfo">任何已安装 Telegram 的人可以透过跟随此链接加入到您的群组。</string>
@@ -488,6 +491,8 @@
   <string name="ShareContact">分享</string>
   <string name="AddContact">添加</string>
   <string name="AddContactTitle">添加联系人</string>
+  <string name="ContactNotRegistered">%1$s 目前还没有使用 Telegram，您想要邀请他或她加入吗？</string>
+  <string name="Invite">邀请</string>
   <string name="BlockContact">封锁</string>
   <string name="EditContact">编辑</string>
   <string name="DeleteContact">删除</string>
@@ -522,24 +527,35 @@
   <!--stickers view-->
   <string name="Stickers">贴图</string>
   <string name="AddStickers">添加贴图</string>
+  <string name="AddMasks">添加面具</string>
   <string name="AddToStickers">添加贴图</string>
+  <string name="AddToMasks">添加到面具</string>
   <string name="AddStickersNotFound">没有找到贴图</string>
   <string name="StickersRemoved">贴图已移除</string>
+  <string name="MasksRemoved">面具已移除</string>
   <string name="AddStickersInstalled">已加入新贴图</string>
+  <string name="AddMasksInstalled">新面具已加入</string>
   <string name="StickersHide">封存</string>
   <string name="StickersShare">分享</string>
   <string name="StickersCopy">复制链接</string>
   <string name="StickersRemove">移除</string>
   <string name="NoStickers">还没有贴图</string>
-  <string name="FeaturedStickers">热门贴图</string>
+  <string name="NoMasks">还没有面具</string>
+  <string name="Masks">面具</string>
+  <string name="MasksInfo">您可以将面具添加到您要发送的照片。要做到这一点，请在发送照片前，开启照片编辑器。</string>
+  <string name="FeaturedStickers">热门的贴图</string>
   <string name="FeaturedStickersInfo">这些贴图目前在 Telegram 上很热门。您可以透过 @stickers 机器人添加自订贴图。</string>
-  <string name="ArchivedStickers">封存贴图</string>
+  <string name="ArchivedStickers">封存的贴图</string>
+  <string name="ArchivedMasks">封存的面具</string>
   <string name="ArchivedStickersEmpty">没有封存的贴图</string>
+  <string name="ArchivedMasksEmpty">没有封存的面具</string>
   <string name="ArchivedStickersInfo">您最多可以有200套已安装的贴图集。当您安装新贴图集时，未使用的贴图会被封存。</string>
+  <string name="ArchivedMasksInfo">您最多可以有200套面具。当您添加更多时，未使用的面具会被封存。</string>
   <string name="SendSticker">发送贴图</string>
-  <string name="TooMuchStickersets">抱歉，您已经达到了贴图集的最大数量。</string>
-  <string name="ArchivedStickersAlertTitle">封存贴图</string>
+  <string name="ArchivedStickersAlertTitle">封存的贴图</string>
   <string name="ArchivedStickersAlertInfo">一些较旧的贴图集已经被封存。您可以在贴图设置里重新启用它们。</string>
+  <string name="ArchivedMasksAlertTitle">封存的面具</string>
+  <string name="ArchivedMasksAlertInfo">一些较旧的面具已经被封存。您可以在面具设置里重新启用它们。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重设所有通知设置为默认值</string>
   <string name="TextSize">消息的字体大小</string>
@@ -610,7 +626,7 @@
   <string name="WhenConnectedOnWiFi">使用 Wi-Fi 时</string>
   <string name="WhenRoaming">漫游时</string>
   <string name="NoMediaAutoDownload">没有媒体</string>
-  <string name="AutoplayGifs">自动播放 GIF 图片</string>
+  <string name="AutoplayGifs">自动播放 GIF 动图</string>
   <string name="RaiseToSpeak">手机贴近脸颊说话</string>
   <string name="SaveToGallerySettings">保存至图库</string>
   <string name="EditName">编辑名称</string>
@@ -733,12 +749,12 @@
   <string name="NoVideo">尚无影片</string>
   <string name="PleaseDownload">请先下载媒体</string>
   <string name="NoRecentPhotos">没有最近的照片</string>
-  <string name="NoRecentGIFs">最近没有 GIF 图片</string>
+  <string name="NoRecentGIFs">没有最近的 GIF 动图</string>
   <string name="SearchImages">寻找图片</string>
   <string name="SearchImagesInfo">网页搜索</string>
-  <string name="SearchGifs">寻找 GIF 图片 </string>
+  <string name="SearchGifs">寻找 GIF 动图 </string>
   <string name="SearchImagesTitle">搜索网页</string>
-  <string name="SearchGifsTitle">搜索 GIF 图片</string>
+  <string name="SearchGifsTitle">搜索 GIF 动图</string>
   <string name="CropImage">裁切影像</string>
   <string name="EditImage">编辑影像</string>
   <string name="Enhance">补强</string>
@@ -775,6 +791,14 @@
   <string name="PhotoCaption">照片说明文本</string>
   <string name="VideoCaption">影片说明文本</string>
   <string name="Caption">说明文本</string>
+  <string name="PaintDraw">画图</string>
+  <string name="PaintStickers">贴图</string>
+  <string name="PaintText">文本</string>
+  <string name="PaintDelete">删除</string>
+  <string name="PaintEdit">编辑</string>
+  <string name="PaintDuplicate">复制</string>
+  <string name="PaintOutlined">轮廓</string>
+  <string name="PaintRegular">规则的</string>
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置额外的密码</string>
@@ -874,6 +898,7 @@
   <string name="OriginalVideo">原始影片</string>
   <string name="EditedVideo">编辑过的影片</string>
   <string name="SendingVideo">发送影片中…</string>
+  <string name="SendingGif">正在发送 gif...</string>
   <string name="CompressVideo">压缩影片</string>
   <!--bot-->
   <string name="Bot">机器人</string>
@@ -924,6 +949,10 @@
   <string name="ActionYouKickUser">您移除了 un2</string>
   <string name="ActionYouLeftUser">您离开了群组</string>
   <string name="ActionYouAddUser">您加入了 un2</string>
+  <string name="ActionYouScored">您得到 %1$s 分</string>
+  <string name="ActionUserScored">un1 得到 %1$s 分</string>
+  <string name="ActionYouScoredInGame">您得到 %1$s 分在 un2 中</string>
+  <string name="ActionUserScoredInGame">un1 得到 %1$s 分在 un2 中</string>
   <string name="ActionYouRemovedPhoto">您移除了群组照片</string>
   <string name="ActionYouChangedPhoto">您变更了群组照片</string>
   <string name="ActionYouChangedTitle">您将群组名称变更为 un2</string>
@@ -947,6 +976,7 @@
   <string name="ActionTakeScreenshoot">un1 拍摄了屏幕快照！</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">手机号码无效</string>
+  <string name="BannedPhoneNumber">封锁的电话号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
   <string name="FloodWait">尝试太多次了，请稍后再试</string>
   <string name="FloodWaitTime">尝试太多次了，请于 %1$s 后再试</string>
@@ -1142,6 +1172,12 @@
   <string name="Photos_few">%1$d 张照片</string>
   <string name="Photos_many">%1$d 张照片</string>
   <string name="Photos_other">%1$d 张照片</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">最后上线于 %1$d 分钟前</string>
   <string name="LastSeenMinutes_one">最后上线于 %1$d 分钟前</string>
   <string name="LastSeenMinutes_two">最后上线于 %1$d 分钟前</string>

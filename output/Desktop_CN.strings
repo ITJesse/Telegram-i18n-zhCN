@@ -118,7 +118,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_server_error" = "内部服务器错误。";
 "lng_flood_error" = "尝试次数过多，请稍后再试。";
-"lng_gif_error" = "读取 GIF 动画发生错误 :(";
+"lng_gif_error" = "读取GIF动图发生错误 :(";
 "lng_edit_error" = "您不能编辑这则消息";
 "lng_join_channel_error" = "抱歉，您已经加入了太多的频道和超级群组。在加入之前，请退出一些。";
 "lng_edit_deleted" = "这则消息已被删除";
@@ -213,6 +213,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_upload" = "设置个人头像";
 "lng_settings_crop_profile" = "为您的个人头像选择一方形范围";
 "lng_settings_uploading_photo" = "上传照片中...";
+"lng_settings_edit" = "编辑";
+
+"lng_settings_drop_area_subtitle" = "将其设置为您的照片";
 
 "lng_username_title" = "用户名";
 "lng_username_about" = "您可以在 Telegram 上选择一用户名。\n如果您这样做，其他人就能够用这个\n用户名找到您，并且与您联系\n，而不需要知道您的手机号码。\n\n您可以使用 a-z, 0-9 和下划线。\n最小长度为5个字符。";
@@ -227,7 +230,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_username_link" = "这个链接开启一个与您的聊天：";
 "lng_username_copied" = "链接已复制到剪贴板。";
 
-"lng_settings_section_contact_info" = "联系信息";
+"lng_settings_section_info" = "信息";
 "lng_settings_phone_number" = "手机号码：";
 "lng_settings_username" = "用户名：";
 "lng_settings_choose_username" = "选择用户名";
@@ -246,7 +249,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_change_lang" = "变更语言";
 "lng_languages" = "语言";
 "lng_sure_save_language" = "为了改变接口语言\nTelegram 将重新启动";
-"lng_settings_auto_update" = "自动更新";
+"lng_settings_update_automatically" = "自动更新 (版本. {version})";
 "lng_settings_current_version" = "版本 {version}";
 "lng_settings_check_now" = "检查更新";
 "lng_settings_update_checking" = "正在检查更新...";
@@ -260,10 +263,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_auto_start" = "开机时启动 Telegram";
 "lng_settings_start_min" = "启动时最小化";
 "lng_settings_add_sendto" = "将 Telegram 放于 «发送到» 菜单";
-"lng_settings_scale_label" = "接口显示比例";
+"lng_settings_section_scale" = "接口缩放比例";
 "lng_settings_scale_auto" = "自动 ({cur})";
 
-"lng_settings_section_chat" = "聊天选项";
+"lng_settings_section_chat_settings" = "聊天设置";
 "lng_settings_replace_emojis" = "取代表情符号";
 "lng_settings_view_emojis" = "查看清单";
 "lng_settings_emoji_list" = "支持的表情符号清单";
@@ -297,7 +300,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_download_path_cleared" = "已清除！";
 "lng_download_path_clear_failed" = "清除失败 :(";
 
-"lng_settings_section_cache" = "本地保存";
+"lng_settings_section_privacy" = "隐私和安全";
+
+"lng_local_storage_title" = "本地保存";
 "lng_settings_no_data_cached" = "找不到缓存的数据！";
 "lng_settings_images_cached" = "{count:_not_used_|# 张图片|# 张图片}, {size}";
 "lng_settings_audios_cached" = "{count:_not_used_|# 则语音消息|# 则语音消息}, {size}";
@@ -306,7 +311,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_local_storage_cleared" = "已清除！";
 "lng_local_storage_clear_failed" = "清除失败 :(";
 
-"lng_settings_section_advanced" = "高端";
+"lng_settings_section_advanced_settings" = "高端设置";
 
 "lng_passcode_remove_button" = "移除";
 
@@ -380,6 +385,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_reset_one_sure" = "您想要中断这个连接吗？";
 "lng_settings_reset_button" = "中断";
 "lng_settings_reset_done" = "已中断其它连接";
+"lng_settings_manage_local_storage" = "管理本地保存";
 "lng_settings_ask_question" = "提出疑问";
 "lng_settings_ask_sure" = "请留意，Telegram 的技术支持是由志工提供。我们会试着尽快回复，但还是需要一点时间。\n\n请看看 Telegram FAQ：它回答了大部分的问题及提供了对于故障排除的重要提示。";
 "lng_settings_faq_button" = "前往 FAQ";
@@ -503,12 +509,12 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_create_channel_about" = "频道是一个工具，用于将您的消息广播给人数不受限制的观众";
 "lng_create_public_channel_title" = "公开的频道";
 "lng_create_public_channel_about" = "任何人都可以透过搜索找到这个频道，并且加入";
-"lng_create_private_channel_title" = "私人的频道";
-"lng_create_private_channel_about" = "只有具备特殊邀请链接的人可以加入";
+"lng_create_private_channel_title" = "非公开的频道";
+"lng_create_private_channel_about" = "仅拥有特别邀请链接的人可以加入";
 "lng_create_public_group_title" = "公开的群组";
 "lng_create_public_group_about" = "任何人可以透过搜索找到这个群组并且加入，而聊天记录每个人都看得见";
-"lng_create_private_group_title" = "私人的群组";
-"lng_create_private_group_about" = "私人群组只能加入，当您被邀请或有一个邀请链接。";
+"lng_create_private_group_title" = "非公开的群组";
+"lng_create_private_group_about" = "当被邀请或有一邀请链接时，人们才可以加入";
 "lng_create_group_skip" = "略过";
 
 "lng_create_channel_link_invalid" = "此链接是无效的";
@@ -566,7 +572,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_audio" = "一个音频档";
 "lng_action_pinned_media_voice" = "一则语音消息";
 "lng_action_pinned_media_file" = "一个文件";
-"lng_action_pinned_media_gif" = "一张 GIF 动画";
+"lng_action_pinned_media_gif" = "一张GIF动画";
 "lng_action_pinned_media_contact" = "一则联系人信息";
 "lng_action_pinned_media_location" = "一个位置标记";
 "lng_action_pinned_media_sticker" = "一张贴图";
@@ -595,8 +601,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_not_accessible" = "抱歉，这个频道不能访问。";
 "lng_group_not_accessible" = "抱歉，这个群组不能访问。";
 
-"lng_channels_too_much_public_existing" = "抱歉，您已经创建了太多公开的频道。请先删除一个。";
-"lng_channels_too_much_public" = "抱歉，您已经创建了太多公开的频道。\n\n首先，您可以选择创建私人的频道\n或是删除您公开频道中的一个。";
+"lng_channels_too_much_public_about" = "抱歉，您已经创建了太多公开的链接。您可以撤销其中一个旧群组或频道的公开链接。";
+"lng_channels_too_much_public_revoke_confirm_group" = "您确定要撤销链接 {link}？\n\n群组 «{group}» 将变成非公开的。";
+"lng_channels_too_much_public_revoke_confirm_channel" = "您确定要撤销链接 {link}？\n\n频道 «{group}» 将变成非公开的。";
+"lng_channels_too_much_public_revoke" = "撤销";
 
 "lng_group_invite_bad_link" = "这个邀请链接已经坏掉或过期了。";
 "lng_group_invite_want_join" = "您想要加入 «{title}» 群组吗？";
@@ -653,7 +661,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_media_auto_settings" = "自动下载媒体的设置";
 "lng_media_auto_photo" = "自动下载照片";
 "lng_media_auto_audio" = "自动下载语音消息";
-"lng_media_auto_gif" = "自动下载 GIF";
+"lng_media_auto_gif" = "自动下载GIF动图";
 "lng_media_auto_private_chats" = "私人的聊天";
 "lng_media_auto_groups" = "群组和频道";
 "lng_media_auto_play" = "自动播放";
@@ -669,10 +677,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_recent_stickers" = "常用";
 "lng_switch_stickers" = "贴图";
-"lng_switch_stickers_gifs" = "GIF 图片 & 贴图";
+"lng_switch_stickers_gifs" = "GIF动图 & 贴图";
 "lng_switch_emoji" = "表情符号";
 
-"lng_saved_gifs" = "已保存的 GIF 图片";
+"lng_saved_gifs" = "已保存的GIF动图";
 "lng_inline_bot_results" = "结果来自 {inline_bot}";
 "lng_inline_bot_no_results" = "没有结果";
 "lng_inline_bot_via" = "透过 {inline_bot}";
@@ -685,13 +693,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_stickers_share_pack" = "分享贴图";
 "lng_stickers_not_found" = "找不到贴图集。";
 "lng_stickers_packs_archived" = "一些您未使用的贴图已经被封存以腾出空间给您启用的。";
-"lng_stickers_archived" = "封存贴图";
+"lng_stickers_archived" = "封存的贴图";
 "lng_stickers_copied" = "贴图集链接已复制到剪贴板。";
 "lng_stickers_default_set" = "Great Minds";
 "lng_stickers_you_have" = "管理和重新排列贴图集";
 "lng_stickers_packs" = "贴图集";
 "lng_stickers_reorder" = "点击并拖曳以重新排列贴图集";
-"lng_stickers_featured" = "热门贴图";
+"lng_stickers_featured" = "热门的贴图";
 "lng_stickers_clear_recent" = "清除";
 "lng_stickers_clear_recent_sure" = "您确定想要清除您频繁使用的贴图清单？";
 "lng_stickers_remove" = "删除";
@@ -819,7 +827,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_delete_file" = "删除文件";
 "lng_context_close_file" = "关闭文件";
 "lng_context_copy_text" = "复制文本";
-"lng_context_save_gif" = "保存 GIF 图片";
+"lng_context_save_gif" = "保存 GIF 动图";
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";
@@ -856,7 +864,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_share_cant" = "抱歉，没办法在这里分享 :(";
 "lng_reply_cant" = "抱歉，没办法在超级群组中回复一则旧的消息 :(";
-"lng_reply_cant_forward" = "抱歉，没办法在超级群组中回复一则旧的消息 :( 您是否希望转发它并且加上您的留言？";
+"lng_reply_cant_forward" = "抱歉，没办法在超级群组中回复一则旧的消息 :( 您是否希望转发它并且加上您的评论？";
 
 "lng_contact_phone" = "手机号码";
 "lng_enter_contact_data" = "添加联系人";
@@ -930,7 +938,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新纪录可以在这里找到：\n{link}";
 "lng_new_version_minor" = "— 错误修正和其它细微的改进";
-"lng_new_version_text" = "— 热门贴图。从设置中的新标签，查看和安装值得注意的贴图集。\n— 封存贴图。当您使用超过200套贴图限制时，未使用的现在会自动封存。\n— 群组预览。透过邀请链接来预览私人群组（Private Group） - 加入之前，可粗略地查看\n— 添加内部影片播放器。\n— 改进聊天室设计。";
+"lng_new_version_text" = "— 设置页面添加可爱的设计\n— 错误修复和其他小的改进";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字符";
 

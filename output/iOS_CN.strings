@@ -7,7 +7,7 @@
 "MESSAGE_GEO" = "%1$@ 传给您一张地图";
 "MESSAGE_DOC" = "%1$@ 传给您一个文件";
 "MESSAGE_AUDIO" = "%1$@ 传给您一则语音消息";
-"MESSAGE_GIF" = "%1$@ 传给您一个 GIF 图";
+"MESSAGE_GIF" = "%1$@ 传给您一个 GIF 动图";
 "ENCRYPTED_MESSAGE" = "您有一则新消息%1$@";
 "LOCKED_MESSAGE" = "您有一则新消息%1$@";
 "ENCRYPTION_REQUEST" = "新的加密请求%1$@";
@@ -24,7 +24,7 @@
 "CHAT_MESSAGE_GEO" = "%1$@ 发送了一张地图到 %2$@ 群组";
 "CHAT_MESSAGE_DOC" = "%1$@ 发送了一个文件到 %2$@ 群组";
 "CHAT_MESSAGE_AUDIO" = "%1$@ 发送了一则语音消息到 %2$@ 群组";
-"CHAT_MESSAGE_GIF" = "%1$@ 发送了一个 GIF 图到 %2$@ 群组";
+"CHAT_MESSAGE_GIF" = "%1$@ 发送了一个 GIF 动图到 %2$@ 群组";
 "CHAT_CREATED" = "%1$@ 将您邀请到 %2$@ 群组";
 "CHAT_TITLE_EDITED" = "%1$@ 编辑了群组的 %2$@ 名称";
 "CHAT_PHOTO_EDITED" = "%1$@ 编辑了群组的 %2$@ 照片";
@@ -57,7 +57,7 @@
 "CHANNEL_MESSAGE_CONTACT" = "%1$@ 张贴了一个联系人";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 张贴一张地图";
 "CHANNEL_MESSAGE_FWDS" = "%1$@ 张贴了 %2$@ 转发的消息";
-"CHANNEL_MESSAGE_GIF" = "%1$@ 张贴了一个 GIF 图片";
+"CHANNEL_MESSAGE_GIF" = "%1$@ 张贴了一个 GIF 动图";
 
 "PINNED_TEXT" = "%1$@ 置顶了「%2$@」";
 "PINNED_NOTEXT" = "%1$@ 置顶了一则消息";
@@ -68,7 +68,7 @@
 "PINNED_AUDIO" = "%1$@ 置顶了一则语音消息";
 "PINNED_CONTACT" = "%1$@ 置顶了一个联系人";
 "PINNED_GEO" = "%1$@ 置顶了一张地图";
-"PINNED_GIF" = "%1$@ 置顶了一个 GIF 图片";
+"PINNED_GIF" = "%1$@ 置顶了一个 GIF 动图";
 
 // Common
 "Common.OK" = "好";
@@ -188,7 +188,7 @@
 "Tour.Title6" = "免费";
 "Tour.Text6" = "**Telegram** 永久免费。没有广告。\n没有年费。";
 
-"Tour.Title7" = "隐密的";
+"Tour.Title7" = "私人";
 "Tour.Text7" = "**Telegram** 的消息经过大量加密而且能自动销毁。";
 
 "Tour.StartButton" = "开始使用";
@@ -418,7 +418,7 @@
 "Message.Audio" = "语音消息";
 "Message.ForwardedMessage" = "转发的消息\n来自：%@";
 "Message.SharedContact" = "共享的联系人";
-"Message.Animation" = "GIF 图片";
+"Message.Animation" = "GIF 动图";
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "发生错误";
@@ -787,7 +787,7 @@
 "Username.UsernameIsAvailable" = "可以使用 %@。";
 
 "WebSearch.Images" = "图片";
-"WebSearch.GIFs" = "GIF 图片";
+"WebSearch.GIFs" = "GIF 动图";
 "WebSearch.RecentSectionTitle" = "最近的";
 "WebSearch.RecentSectionClear" = "清除";
 
@@ -1163,10 +1163,10 @@
 "ForwardedLocations_3_10" = "%@ 则转发的位置信息";
 "ForwardedLocations_any" = "%@ 则转发的位置信息";
 
-"ForwardedGifs_1" = "1 个转发的 GIF 图片";
-"ForwardedGifs_2" = "2 个转发的 GIF 图片";
-"ForwardedGifs_3_10" = "%@ 个转发的 GIF 图片";
-"ForwardedGifs_any" = "%@ 个转发的 GIF 图片";
+"ForwardedGifs_1" = "1 个转发的 GIF 动图";
+"ForwardedGifs_2" = "2 个转发的 GIF 动图";
+"ForwardedGifs_3_10" = "%@ 个转发的 GIF 动图";
+"ForwardedGifs_any" = "%@ 个转发的 GIF 动图";
 
 "ForwardedContacts_1" = "1 个转发的联系人";
 "ForwardedContacts_2" = "2 个转发的联系人";
@@ -1464,23 +1464,23 @@
 
 "Conversation.InfoChannel" = "频道";
 
-"Channel.ErrorAccessDenied" = "抱歉，此频道是私人的。";
+"Channel.ErrorAccessDenied" = "抱歉，此频道是非公开的。";
 "Conversation.InputTextBroadcastPlaceholder" = "广播";
 
-"Channel.NotificationCommentsEnabled" = "留言已启用";
-"Channel.NotificationCommentsDisabled" = "留言已停用";
-"Channel.Edit.EnableComments" = "留言";
+"Channel.NotificationCommentsEnabled" = "评论已启用";
+"Channel.NotificationCommentsDisabled" = "评论已停用";
+"Channel.Edit.EnableComments" = "评论";
 
-"Channel.TitleShowDiscussion" = "显示留言";
+"Channel.TitleShowDiscussion" = "显示评论";
 "Channel.ShareChannel" = "分享";
 
-"Channel.NotificationComments_1" = "1 则留言";
-"Channel.NotificationComments_2" = "2 则留言";
-"Channel.NotificationComments_3_10" = "%@ 则留言";
-"Channel.NotificationComments_any" = "%@ 则留言";
+"Channel.NotificationComments_1" = "1 则评论";
+"Channel.NotificationComments_2" = "2 则评论";
+"Channel.NotificationComments_3_10" = "%@ 则评论";
+"Channel.NotificationComments_any" = "%@ 则评论";
 "Channel.NotificationLoading" = "加载中...";
 
-"Conversation.InputTextDisabledPlaceholder" = "留言已停用";
+"Conversation.InputTextDisabledPlaceholder" = "评论已停用";
 "Compose.ChannelTokenListPlaceholder" = "搜索联系人或用户名";
 "Compose.GroupTokenListPlaceholder" = "搜索联系人或用户名";
 
@@ -1490,19 +1490,19 @@
 "Channel.Setup.TypePrivate" = "私人";
 "Channel.Setup.TypePublic" = "公开";
 "Channel.Setup.TypePublicHelp" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
-"Channel.Setup.TypePrivateHelp" = "私人频道只能透过邀请链接加入。";
+"Channel.Setup.TypePrivateHelp" = "非公开的频道只能透过邀请链接加入。";
 
 "Channel.Setup.Title" = "频道";
 
 "Channel.Username.CreatePublicLinkHelp" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的频道。";
 "Channel.Username.CreatePrivateLinkHelp" = "人们可以透过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
 
-"Channel.Username.CreateCommentsEnabled" = "留言";
-"Channel.Username.CreateCommentsHelp" = "如果启用了留言功能，成员将能够在频道中对您的贴文发表意见。";
+"Channel.Username.CreateCommentsEnabled" = "评论";
+"Channel.Username.CreateCommentsHelp" = "如果启用了评论功能，成员将能够在频道中对您的贴文发表意见。";
 
-"Channel.Setup.PublicNoLink" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议创建一个私人频道来代替。";
+"Channel.Setup.PublicNoLink" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
 
-"Channel.Edit.PrivatePublicLinkAlert" = "请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为私人的。";
+"Channel.Edit.PrivatePublicLinkAlert" = "请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。";
 
 "Channel.Info.Description" = "简介";
 
@@ -1525,7 +1525,7 @@
 "Channel.Members.Kick" = "移除";
 "Channel.Management.Remove" = "移除";
 
-"Conversation.InputTextCommentPlaceholder" = "留言";
+"Conversation.InputTextCommentPlaceholder" = "评论";
 
 "Channel.Members.InviteLink" = "透过链接邀请";
 
@@ -1535,7 +1535,7 @@
 "Channel.Moderator.AccessLevelEditor" = "编辑";
 "Channel.Moderator.AccessLevelModerator" = "版主";
 
-"Channel.Moderator.AccessLevelModeratorHelp" = "版主可以移除用户的留言及管理频道的封锁名单。\n\n版主不能变更频道名称、链接、照片和简介。";
+"Channel.Moderator.AccessLevelModeratorHelp" = "版主可以移除用户的评论及管理频道的封锁名单。\n\n版主不能变更频道名称、链接、照片和简介。";
 "Channel.Moderator.AccessLevelEditorHelp" = "编辑可以在频道贴文，管理封锁名单和移除贴文。\n\n编辑不能变更频道名称、链接、照片和简介。";
 "Channel.Moderator.AccessLevelRevoke" = "开除版主";
 
@@ -1550,7 +1550,7 @@
 "ChannelInfo.DeleteChannel" = "删除频道";
 "ChannelInfo.DeleteChannelConfirmation" = "等一下！删除此频道将移除所有成员，并且所有的消息都将会遗失。您确定要删除频道？";
 
-"Channel.Username.InvalidTooManyUsernames" = "抱歉，您已经创建了太多公开的频道。首先，您可以选择创建私人的频道，或是删除您存在频道中的一个。";
+"Channel.Username.InvalidTooManyUsernames" = "抱歉，您已经创建了太多公开的频道。首先，您可以选择创建非公开的频道，或是删除您存在频道中的一个公开链接。";
 
 "ChannelInfo.ChannelForbidden" = "很抱歉，「 %@ 」频道无法再被访问。";
 
@@ -1578,7 +1578,7 @@
 "Conversation.ReportSpamConfirmation" = "您确定要检举出自此用户的垃圾消息？";
 "SharedMedia.EmptyMusicText" = "在这个聊天室中所分享的全部音乐会出现在这里。";
 
-"ChatSettings.AutoPlayAnimations" = "自动播放 GIF 图片";
+"ChatSettings.AutoPlayAnimations" = "自动播放 GIF 动图";
 
 "GroupInfo.ChatAdmins" = "添加管理员";
 
@@ -1759,7 +1759,7 @@
 "StickerSettings.ContextShow" = "显示";
 
 "Conversation.LinkDialogSave" = "保存";
-"Conversation.GifTooltip" = "点击这里访问已保存的 GIF 图片";
+"Conversation.GifTooltip" = "点击这里访问已保存的 GIF 动图";
 
 "AttachmentMenu.PhotoOrVideo" = "照片或影片";
 "AttachmentMenu.ImageSearch" = "图片搜索";
@@ -1775,10 +1775,10 @@
 "AttachmentMenu.SendVideo_3_10" = "发送 %@ 个影片";
 "AttachmentMenu.SendVideo_any" = "发送 %@ 个影片";
 
-"AttachmentMenu.SendGif_1" = "发送 1 个 GIF 图片";
-"AttachmentMenu.SendGif_2" = "发送 2 个 GIF 图片";
-"AttachmentMenu.SendGif_3_10" = "发送 %@ 个 GIF 图片";
-"AttachmentMenu.SendGif_any" = "发送 %@ 个 GIF 图片";
+"AttachmentMenu.SendGif_1" = "发送 1 个 GIF 动图";
+"AttachmentMenu.SendGif_2" = "发送 2 个 GIF 动图";
+"AttachmentMenu.SendGif_3_10" = "发送 %@ 个 GIF 动图";
+"AttachmentMenu.SendGif_any" = "发送 %@ 个 GIF 动图";
 
 "AttachmentMenu.SendItem_1" = "发送 1 个项目";
 "AttachmentMenu.SendItem_2" = "发送 2 个项目";
@@ -1890,7 +1890,7 @@
 "Notification.PinnedVideoMessage" = "%@ 置顶了一个影片";
 "Notification.PinnedAudioMessage" = "%@ 置顶了一则语音消息";
 "Notification.PinnedDocumentMessage" = "%@ 置顶了一个文件";
-"Notification.PinnedAnimationMessage" = "%@ 置顶了一个 GIF 图片";
+"Notification.PinnedAnimationMessage" = "%@ 置顶了一个 GIF 动图";
 "Notification.PinnedStickerMessage" = "%@ 置顶了一张贴图";
 "Notification.PinnedLocationMessage" = "%@ 置顶了一张地图";
 "Notification.PinnedContactMessage" = "%@ 置顶了一个联系人";
@@ -1901,7 +1901,7 @@
 "Message.PinnedVideoMessage" = "置顶了影片";
 "Message.PinnedAudioMessage" = "置顶了语音消息";
 "Message.PinnedDocumentMessage" = "置顶了文件";
-"Message.PinnedAnimationMessage" = "置顶了 GIF";
+"Message.PinnedAnimationMessage" = "置顶了 GIF 动图";
 "Message.PinnedStickerMessage" = "置顶了贴图";
 "Message.PinnedLocationMessage" = "置顶了位置信息";
 "Message.PinnedContactMessage" = "置顶了联系人";
@@ -1921,7 +1921,7 @@
 
 "Group.Setup.TypeHeader" = "群组类型";
 "Group.Setup.TypePublicHelp" = "公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
-"Group.Setup.TypePrivateHelp" = "私人的群组只能当您被邀请或有一个邀请链接的情况才能加入。";
+"Group.Setup.TypePrivateHelp" = "非公开的群组只有当您被邀请或有一个邀请链接的情况才能加入。";
 
 "Group.Username.CreatePublicLinkHelp" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。";
 "Group.Username.CreatePrivateLinkHelp" = "人们可以透过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
@@ -1962,14 +1962,14 @@
 
 "ShareMenu.ShareTo" = "分享给";
 "ShareMenu.SelectChats" = "选择聊天室";
-"ShareMenu.Comment" = "编写一则留言...";
+"ShareMenu.Comment" = "编写一则评论...";
 
 "MediaPicker.Videos" = "影片";
 
 "Coub.TapForSound" = "点击声音";
 
-"Preview.SaveGif" = "保存 GIF 图片";
-"Preview.DeleteGif" = "删除 GIF 图片";
+"Preview.SaveGif" = "保存 GIF 动图";
+"Preview.DeleteGif" = "删除 GIF 动图";
 "Preview.CopyAddress" = "复制地址";
 "Preview.ViewStickerPack" = "查看贴图集";
 
@@ -2010,8 +2010,8 @@
 "MediaPicker.MomentsDateRangeSameMonthFormat" = "{month} {day1} – {day2}";
 "MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
 
-"StickerPacksSettings.FeaturedPacks" = "热门贴图";
-"FeaturedStickerPacks.Title" = "热门贴图";
+"StickerPacksSettings.FeaturedPacks" = "热门的贴图";
+"FeaturedStickerPacks.Title" = "热门的贴图";
 
 "Invitation.JoinGroup" = "加入群组";
 "Invitation.Members_1" = "1 位成员：";
@@ -2019,7 +2019,7 @@
 "Invitation.Members_3_10" = "%@ 位成员：";
 "Invitation.Members_any" = "%@ 位成员：";
 
-"StickerPacksSettings.ArchivedPacks" = "封存贴图";
+"StickerPacksSettings.ArchivedPacks" = "封存的贴图";
 "StickerPacksSettings.ArchivedPacks.Info" = "您最多可以有200套已安装的贴图集。\n当您添加更多时，未使用的贴图会被封存。";
 
 "Conversation.CloudStorageInfo.Title" = "您的云存储";
@@ -2052,3 +2052,78 @@
 "CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚透过短信发送到您手机号码的验证码。";
 
 "CancelResetAccount.Success" = "您帐号 %@ 的删除过程被取消了。";
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
+
+"Paint.Clear" = "全部清除";
+"Paint.ClearConfirm" = "清除绘画";
+"Paint.Delete" = "删除";
+"Paint.Edit" = "编辑";
+"Paint.Duplicate" = "复制";
+"Paint.Stickers" = "贴图";
+"Paint.RecentStickers" = "最近的";
+"Paint.Masks" = "面具";
+
+"Paint.Outlined" = "轮廓";
+"Paint.Regular" = "规则的";
+
+"MediaPicker.VideoMuteDescription" = "声音现在是关闭的，所以影片在聊天室中将自动播放及循环，就像一个 GIF 动图";
+
+
+"Group.Username.RemoveExistingUsernamesInfo" = "抱歉，您已经创建了太多公开的链接。\n您可以撤销其中一个旧群组或频道的公开链接，或是改为创建非公开的。";
+
+"ServiceMessage.GameScoreExtended_1" = "{name} 得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreExtended_2" = "{name} 得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreExtended_3_10" = "{name} 得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreExtended_any" = "{name} 得到 {score} 分在 {game} 中";
+
+"ServiceMessage.GameScoreSelfExtended_1" = "您得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreSelfExtended_2" = "您得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreSelfExtended_3_10" = "您得到 {score} 分在 {game} 中";
+"ServiceMessage.GameScoreSelfExtended_any" = "您得到 {score} 分在 {game} 中";
+
+"ServiceMessage.GameScoreSimple_1" = "{name} 得到 {score} 分";
+"ServiceMessage.GameScoreSimple_2" = "{name} 得到 {score} 分";
+"ServiceMessage.GameScoreSimple_3_10" = "{name} 得到 {score} 分";
+"ServiceMessage.GameScoreSimple_any" = "{name} 得到 {score} 分";
+
+"ServiceMessage.GameScoreSelfSimple_1" = "您得到 {score} 分";
+"ServiceMessage.GameScoreSelfSimple_2" = "您得到 {score} 分";
+"ServiceMessage.GameScoreSelfSimple_3_10" = "您得到 {score} 分";
+"ServiceMessage.GameScoreSelfSimple_any" = "您得到 {score} 分";
+
+"Notification.GameScoreExtended_1" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreExtended_2" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreExtended_3_10" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreExtended_any" = "在 {game} 中得到 {score} 分";
+
+"Notification.GameScoreSimple_1" = "得到 {score} 分";
+"Notification.GameScoreSimple_2" = "得到 {score} 分";
+"Notification.GameScoreSimple_3_10" = "得到 {score} 分";
+"Notification.GameScoreSimple_any" = "得到 {score} 分";
+
+"Stickers.Install" = "添加";
+
+"MaskStickerSettings.Title" = "面具";
+"MaskStickerSettings.Info" = "您可以将面具添加到您要发送的照片和影片。要做到这一点，请在发送照片或影片前，开启照片编辑器。";
+
+"StickerPack.MaskCount_1" = "1 个面具";
+"StickerPack.MaskCount_2" = "2 个面具";
+"StickerPack.MaskCount_3_10" = "%@ 个面具";
+"StickerPack.MaskCount_any" = "%@ 个面具";
+
+"StickerPack.Add" = "添加";
+"StickerPack.AddMaskCount_1" = "添加 1 个面具";
+"StickerPack.AddMaskCount_2" = "添加 2 个面具";
+"StickerPack.AddMaskCount_3_10" = "添加 %@ 个面具";
+"StickerPack.AddMaskCount_any" = "添加 %@ 个面具";
+
+"StickerPack.Remove" = "移除";
+"StickerPack.RemoveMaskCount_1" = "移除 1 个面具";
+"StickerPack.RemoveMaskCount_2" = "移除 2 个面具";
+"StickerPack.RemoveMaskCount_3_10" = "移除 %@ 个面具";
+"StickerPack.RemoveMaskCount_any" = "移除 %@ 个面具";
+
+"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id 给您透过这个机器人开启的网页？";
+"StickerPacksSettings.ArchivedMasks" = "封存的面具";
+"StickerSettings.MaskContextInfo" = "如果您封存了一套面具，之后您还是可以快速地从封存的面具中恢复。";
+"StickerPacksSettings.ArchivedMasks.Info" = "您最多可以有200套面具。\n当您添加更多时，未使用的面具会被封存。";
