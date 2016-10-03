@@ -8,11 +8,11 @@
 
 [Android](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/Android_CN.xml)
 
-[iOS](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/iOS_CN.xml)
+[iOS](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/iOS_CN.strings)
 
-[Desktop](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/Desktop_CN.xml)
+[Desktop](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/Desktop_CN.strings)
 
-[macOS](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/macOS_CN.xml)
+[macOS](https://raw.githubusercontent.com/ITJesse/Telegram-i18n-zhCN/master/output/macOS_CN.strings)
 
 # 使用方法
 
