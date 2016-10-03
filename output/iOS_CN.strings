@@ -605,7 +605,7 @@
 "Settings.Support" = "提出疑问";
 "Settings.FAQ" = "Telegram FAQ";
 "Settings.FAQ_URL" = "http://telegram.org/faq#general";
-"Settings.FAQ_Intro" = "请留意，Telegram 的技术支持是由志工提供。我们会试着尽快回复，但还是需要一点时间。\n\n请看看 Telegram FAQ：其中有重要的故障排除提示，并且回答了大多数问题。";
+"Settings.FAQ_Intro" = "请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。\n\n请看看 Telegram FAQ：其中有重要的故障排除提示，并且回答了大多数问题。";
 "Settings.FAQ_Button" = "FAQ";
 "Settings.SaveIncomingPhotos" = "保存收到的照片";
 "Settings.SaveIncomingPhotosHelp" = "将收到的照片保存至相机胶卷中。";
@@ -657,7 +657,7 @@
 "Cache.ClearCache" = "清除缓存";
 "Cache.ClearCacheAlert" = "在云端聊天记录中的照片、影片和其它文件将从这个设备中移除以节省磁盘空间。\n\n所有的媒体都会留在 Telegram 云端，并且在您需要时，可以重新下载。";
 "Cache.KeepMedia" = "保留媒体";
-"Cache.Help" = "在这段时间内，聊天记录中的照片、影片和其他文件若**未被访问**，则将会从设备中被移除以节省空间。\n\n所有媒体仍会留在 Telegram 云端。当您有需要时，可再次下载。";
+"Cache.Help" = "在这段时间内，聊天记录中的照片、影片和其他文件若**未被访问**，则将会从设备中移除以节省空间。\n\n所有媒体仍会留在 Telegram 云端。当您有需要时，可再次下载。";
 
 // Blocked Users
 "BlockedUsers.Title" = "封锁名单";

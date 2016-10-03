@@ -597,8 +597,8 @@
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
-  <string name="AskAQuestionInfo">请留意，Telegram 的技术支持是由志工提供。我们会试着尽快回复，但还是需要一点时间。<![CDATA[<br><br>]]>请看看  <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ</a>]]>：它回答了大部分的问题及提供了对于<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">故障排除</a>]]>的重要提示。</string>
-  <string name="AskButton">询问志工</string>
+  <string name="AskAQuestionInfo">请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。<![CDATA[<br><br>]]>请看看  <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ</a>]]>：它回答了大部分的问题及提供了对于<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">故障排除</a>]]>的重要提示。</string>
+  <string name="AskButton">询问志愿者</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隐私政策</string>

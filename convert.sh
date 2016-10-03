@@ -20,6 +20,7 @@ do
     opencc -i $tmpdir/$filename -o ./output/$out_filename -c tw2sp.json
 
     sed -i "" 's/转寄/转发/g' ./output/$out_filename
+    sed -i "" 's/志工/志愿者/g' ./output/$out_filename
     sed -i "" 's/国码/国家代码/g' ./output/$out_filename
     sed -i "" 's/请选择聊天对象开始传讯/请选择好友开始聊天/g' ./output/$out_filename
     sed -i "" 's/图档/图片/g' ./output/$out_filename
@@ -40,6 +41,7 @@ do
     sed -i "" 's/恢复为英文接口/恢复为英文/g' ./output/$out_filename
     sed -i "" 's/作用中的连接/登陆中的设备/g' ./output/$out_filename
     sed -i "" 's/中断所有其他连接/注销所有其他设备/g' ./output/$out_filename
+    sed -i "" 's/则将会从设备中被移除/则将会从设备中移除/g' ./output/$out_filename
   fi
 done
 
