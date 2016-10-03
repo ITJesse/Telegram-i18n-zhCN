@@ -70,6 +70,11 @@
 "PINNED_GEO" = "%1$@ 置顶了一张地图";
 "PINNED_GIF" = "%1$@ 置顶了一个 GIF 动图";
 
+"MESSAGE_GAME" = "%1$@ 邀请了您玩 %2$@";
+"CHANNEL_MESSAGE_GAME" = "%1$@ 邀请了您玩 %2$@";
+"CHAT_MESSAGE_GAME" = "%1$@ 邀请了 %2$@ 群组玩 %3$@";
+"PINNED_GAME" = "%1$@ 置顶了一个游戏";
+
 // Common
 "Common.OK" = "好";
 "Common.Cancel" = "取消";
@@ -2066,7 +2071,7 @@
 "Paint.Outlined" = "轮廓";
 "Paint.Regular" = "规则的";
 
-"MediaPicker.VideoMuteDescription" = "声音现在是关闭的，所以影片在聊天室中将自动播放及循环，就像一个 GIF 动图";
+"MediaPicker.VideoMuteDescription" = "声音现在被关闭，因此影片会自动播放和循环如同一 GIF 动图。";
 
 
 "Group.Username.RemoveExistingUsernamesInfo" = "抱歉，您已经创建了太多公开的链接。\n您可以撤销其中一个旧群组或频道的公开链接，或是改为创建非公开的。";
@@ -2096,10 +2101,20 @@
 "Notification.GameScoreExtended_3_10" = "在 {game} 中得到 {score} 分";
 "Notification.GameScoreExtended_any" = "在 {game} 中得到 {score} 分";
 
+"Notification.GameScoreSelfExtended_1" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreSelfExtended_2" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreSelfExtended_3_10" = "在 {game} 中得到 {score} 分";
+"Notification.GameScoreSelfExtended_any" = "在 {game} 中得到 {score} 分";
+
 "Notification.GameScoreSimple_1" = "得到 {score} 分";
 "Notification.GameScoreSimple_2" = "得到 {score} 分";
 "Notification.GameScoreSimple_3_10" = "得到 {score} 分";
 "Notification.GameScoreSimple_any" = "得到 {score} 分";
+
+"Notification.GameScoreSelfSimple_1" = "得到 {score} 分";
+"Notification.GameScoreSelfSimple_2" = "得到 {score} 分";
+"Notification.GameScoreSelfSimple_3_10" = "得到 {score} 分";
+"Notification.GameScoreSelfSimple_any" = "得到 {score} 分";
 
 "Stickers.Install" = "添加";
 
@@ -2123,7 +2138,25 @@
 "StickerPack.RemoveMaskCount_3_10" = "移除 %@ 个面具";
 "StickerPack.RemoveMaskCount_any" = "移除 %@ 个面具";
 
-"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id 给您透过这个机器人开启的网页？";
+"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您透过这个机器人开启的网页？";
 "StickerPacksSettings.ArchivedMasks" = "封存的面具";
 "StickerSettings.MaskContextInfo" = "如果您封存了一套面具，之后您还是可以快速地从封存的面具中恢复。";
 "StickerPacksSettings.ArchivedMasks.Info" = "您最多可以有200套面具。\n当您添加更多时，未使用的面具会被封存。";
+
+"CloudStorage.Title" = "云存储";
+
+"Widget.AuthRequired" = "登录到  Telegram";
+"Widget.NoUsers" = "开始信息发送以求在这里看到您的朋友";
+
+"Message.GamePreviewLabel" = "游戏";
+
+"ShareMenu.CopyShareLinkGame" = "将链接复制到游戏";
+
+"Message.PinnedGame" = "置顶了一个游戏";
+
+"Target.ShareGameConfirmationPrivate" = "和 %@ 分享游戏？";
+"Target.ShareGameConfirmationGroup" = "和 \"%@\" 分享游戏？";
+
+"Activity.PlayingGame" = "正在玩游戏";
+
+"DialogList.SinglePlayingGameSuffix" = "%@ 正在玩游戏";

@@ -19,13 +19,13 @@
 
 "ChatMedia.Audio" = "音频";
 "ChatMedia.Voice" = "语音消息";
-"ChatMedia.Photo" = "照片";
-"ChatMedia.Contact" = "联系人";
-"ChatMedia.Video" = "影片";
-"ChatMedia.Location" = "位置";
-"ChatMedia.File" = "文件";
+"ChatMedia.Photo" = "🖼 照片";
+"ChatMedia.Contact" = "👤 联系人";
+"ChatMedia.Video" = "📹 影片";
+"ChatMedia.Location" = "📍 位置";
+"ChatMedia.File" = "📎 文件";
 "ChatMedia.Unsupported" = "不支持的";
-
+"ChatMedia.Game" = "🎮";
 
 
 "User.Unlock" = "解除封锁";
@@ -645,8 +645,8 @@
 "Context.Quote" = "引用";
 
 
-"Conversation.Confirm.SendThisGif" = "您想发送这个 GIF 图片吗?";
-"Conversation.Confirm.SendThisGifDescription" = "您可以随时透过复制及粘贴来发送 gif 图片到一个 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisGif" = "您想发送这个GIF动图吗?";
+"Conversation.Confirm.SendThisGifDescription" = "您可以随时透过复制及粘贴来发送GIF动图到一个 Telegram 聊天室中。";
 
 
 
@@ -786,6 +786,7 @@
 "TL_sendMessageUploadDocumentAction" = "%@ 正在发送文件";
 "TL_sendMessageGeoLocationAction" = "%@ 正在选择地理位置";
 "TL_sendMessageChooseContactAction" = "%@ 正在选择联系人";
+"TL_sendMessageGamePlayAction" = "%@ 正在玩游戏";
 
 "Settings.iCloudSynch" = "iCloud 联系人同步化";
 "Profile.Photos" = "照片";
@@ -1047,16 +1048,16 @@
 "Conversation.CantForwardMessagesToThisConversation" = "无法转发消息到这个对话中。请稍候再试。";
 "Conversation.Action.JoinToChannel" = "加入频道";
 "MessageAction.Service.ChannelCreated" = "频道已创建";
-"Channel.showcomments" = "显示留言";
+"Channel.showcomments" = "显示评论";
 "Conversation.ChannelTitle" = "频道";
-"Message.Action.Service.ChannelEnableComments" = "留言已启用";
-"Message.Action.Service.ChannelDisableComments" = "留言已停用";
+"Message.Action.Service.ChannelEnableComments" = "评论已启用";
+"Message.Action.Service.ChannelDisableComments" = "评论已停用";
 
-"Channel.oneComment" = "+%d 则留言";
-"Channel.manyComments" = "+%d 则留言";
+"Channel.oneComment" = "+%d 则评论";
+"Channel.manyComments" = "+%d 则评论";
 "Channel.AccessHeader" = "访问";
-"Channel.AccessDescription" = "版主可以移除用户的留言及管理频道的封锁名单。\n\n版主不能变更频道名称、链接、照片和描述。";
-"Profile.EnableComments" = "留言";
+"Channel.AccessDescription" = "版主可以移除用户的评论及管理频道的封锁名单。\n\n版主不能变更频道名称、链接、照片和描述。";
+"Profile.EnableComments" = "评论";
 "Profile.Managment" = "管理员";
 "Channel.AddModeratorDescription" = "您可以添加管理员来帮助您管理频道。";
 
@@ -1082,7 +1083,7 @@
 "MessageAction.Service.RemovedChannelPhoto" = "频道照片已移除";
 "MessageAction.Service.ChannelGroupName" = "频道已重命名";
 "MessageAction.Service.ChangedChannelPhoto" = "频道照片已更新";
-"Conversation.Action.CommentsBlocked" = "留言已停用";
+"Conversation.Action.CommentsBlocked" = "评论已停用";
 "MessageAction.ServiceMessage.ChangedChannelPhoto" = "变更了频道照片";
 "MessageAction.ServiceMessage.RemovedChannelPhoto" = "移除了频道照片";
 "MessageAction.ServiceMessage.ChangedChannelName" = "变更了频道名称";
@@ -1094,13 +1095,13 @@
 "Channel.TypeHeader" = "频道类型";
 "Channel.Public" = "公开";
 "Channel.Private" = "私人";
-"Channel.ChoiceTypeDescriptionPrivate" = "私人频道只能透过邀请链接加入。";
+"Channel.ChoiceTypeDescriptionPrivate" = "非公开的频道只能透过邀请链接加入。";
 "Channel.ChoiceTypeDescriptionPublic" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
 "Channel.NewChannelSettingUpUserNameDescription" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的频道。";
 "Channel.NewChannelSettingUpJoinLinkDescription" = "人们可以透过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
 "Conversation.ShowChannelInfo" = "显示频道信息";
-"Channel.SetPublicUsernameDescription" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议创建一个私人频道来代替。";
-"CHANNELS_ADMIN_PUBLIC_TOO_MUCH" = "抱歉，您已经创建了太多公开的频道。首先，您可以选择创建私人的频道，或是删除您存在频道中的一个。";
+"Channel.SetPublicUsernameDescription" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
+"CHANNELS_ADMIN_PUBLIC_TOO_MUCH" = "抱歉，您已经创建了太多公开的频道。首先，您可以选择创建一个非公开的频道，或是删除您存在频道中的一个公开链接。";
 "Profile.DeleteChannel" = "删除频道";
 "Profile.ExportInviteLink" = "邀请链接";
 "Channel.AddEditor" = "添加管理员";
@@ -1202,10 +1203,11 @@
 "TL_sendMessageUploadDocumentAction_ConversationUser" = "正在发送文件";
 "TL_sendMessageGeoLocationAction_ConversationUser" = "正在选择位置";
 "TL_sendMessageChooseContactAction_ConversationUser" = "正在选择联系人";
+"TL_sendMessageGamePlayAction_ConversationUser" = "正在玩游戏";
 "ContextBot.Message.Via" = "透过";
-"Context.RemoveGif" = "移除 GIF 图片";
-"Context.AddGif" = "加入 GIF 图片";
-"Settings.AutoplayGifs" = "自动播放 GIF 图片";
+"Context.RemoveGif" = "移除GIF动图";
+"Context.AddGif" = "加入GIF动图";
+"Settings.AutoplayGifs" = "自动播放GIF动图";
 "Reply.Loading" = "加载中...";
 "Context.OpenInQuickLook" = "用 Quick Look 开启";
 "document" = "文件";
@@ -1233,7 +1235,7 @@
 "groups" = "群组";
 "channels" = "频道";
 "Channel.SetMegagroupLinkDescription" = "您可以在 **Telegram** 上选择一群组名称。如果您这样做，别人就可以借由此名称找到您的群组。\n\n您可以使用 a-z，0-9 及底线。最小长度是 5 个字符。";
-"MEGAGROUPS_ADMIN_PUBLIC_TOO_MUCH" = "抱歉，您已经创建了太多公开的群组。您可以选择创建私人的群组，或是删除您存在群组中的一个。";
+"MEGAGROUPS_ADMIN_PUBLIC_TOO_MUCH" = "抱歉，您已经创建了太多公开的群组。您可以选择创建一个非公开的群组，或是删除您存在群组中的一个公开链接。";
 "Channel.SignMessagesDescription" = "将管理员的名字加入到他们发布的消息中。";
 "Channel.SignMessages" = "消息附上签名";
 "Conversation.Action.CopyShareLink" = "复制分享链接";
@@ -1258,7 +1260,7 @@
 "Modern.Channel.GroupType" = "群组类型";
 
 "Group.ChoiceTypeDescriptionPublic" = "公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
-"Group.ChoiceTypeDescriptionPrivate" = "私人的群组只能当您被邀请或有一个邀请链接的情况才能加入。";
+"Group.ChoiceTypeDescriptionPrivate" = "非公开的群组只有您被邀请或有一个邀请链接的情况才能加入。";
 "Group.PrivateTypeUpJoinLinkDescription" = "人们可以透过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
 "Group.PublicTypeUpJoinLinkDescription" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。";
 "Group.TypeHeader" = "群组类型";
@@ -1314,7 +1316,7 @@
 "EGS.Emoji" = "表情符号";
 "EGS.GifsAndStickers" = "贴图 & GIF";
 "Stickers.Recent" = "贴图 & GIF";
-"Gifs.SavedGifs" = "保存GIF图片";
+"Gifs.SavedGifs" = "已保存的GIF动图";
 "TL_topPeerCategoryCorrespondents" = "人们";
 "TL_topPeerCategoryGroups" = "群组";
 "TL_topPeerCategoryBotsPM" = "机器人";
@@ -1332,7 +1334,7 @@
 "Account.ServiceNotifications" = "服务通知";
 "Media.AddCaptionPlaceholder" = "说明文本...";
 "SendMedia.SendAsCompressed" = "发送压缩过的图片";
-"Stickers.Featured" = "热门贴图";
+"Stickers.Featured" = "热门的贴图";
 "Stickers.AddFeatured" = "添加";
 "Stickers.ArtistDesc" = "欢迎画家使用我们的 @Stickers 机器人来加入他们所拥有的贴图集。\n\n点击一张贴图来查看和添加整套贴图集。";
 "Passcode.forceLogout" = "如果您丢失了密码，您可以 %1$@注销%2$@。";
@@ -1355,7 +1357,7 @@
 "Message.SendBroadcast" = "广播消息...";
 "Placeholder.EditMessage" = "编辑消息...";
 "Stickers.WillArchived" = "一些较旧的贴图集已经被封存。您可以在贴图设置里重新启用它们。";
-"Stickers.Archived" = "封存贴图";
+"Stickers.Archived" = "封存的贴图";
 "Stickers.ArchivedDesc" = "您最多可以有200套已安装的贴图集。\n当您添加更多时，未使用的贴图会被封存。";
 "Stickers.RemoveOrArchive" = "移除或是封存「%@」？";
 "Stickers.ArchiveAlert" = "封存「%@」？";
@@ -1382,7 +1384,27 @@
 "YourCloudStorage" = "您的云存储 (⌘ + 0)";
 "YourCloudStorageDesc" = "• 转发消息到这里以保存它们\n• 发送媒体和文件以保存它们\n• 从任何设备访问聊天\n• 使用搜索功能快速找到东西";
 "Alert.RevokeLink" = "撤销链接";
-"Alert.RevokeLinkInfo" = "您确定要撤销此链接 telegram.me/%@?\n\n 群组「%@」将变成私有。";
+"Alert.RevokeLinkInfo" = "您确定要撤销此链接 telegram.me/%@?\n\n 群组「%@」将变成非公开的。";
 "Modal.Done" = "完成";
 "AddContact.NewContact" = "添加联系人";
 "Message.SendSilentBroadcast" = "无声广播";
+
+"Message.Action.ConversationGameSingular" = "得到 %d 分";
+"Message.Action.ConversationGamePluar" = "得到 %d 分";
+"Message.Action.ConversationGameZero" = "得到 %d 分";
+
+"Message.Action.GameScoredSingular" = "得到 %d 分在";
+"Message.Action.GameScoredPluar" = "得到 %d 分在";
+"Message.Action.GameScoredZero" = "得到 %d 分在";
+
+"SendMessage.FolderFound" = "发送文件夹";
+"SendMessage.FolderFoundDesc" = "您的文件夹将在发送前被压缩成一个压缩档";
+"Message.Action.GameScoredShortSingular" = "得到 %d 分";
+"Message.Action.GameScoredShortPluar" = "得到 %d 分";
+"Message.Action.GameScoredShortZero" = "得到 %d 分";
+"Game.Mark" = "游戏";
+"Messages.SharingGame" = "分享游戏";
+"BotSharingAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您透过这个机器人开启的网页？";
+"Notification.GamePrivateInvite" = "邀请了您玩 %@";
+"Notification.GamePrivateGroup" = "邀请了 %@ 群组玩 %@";
+"ShareGameAlert" = "和 \"%@\" 分享游戏？";

@@ -107,6 +107,7 @@
   <string name="ActionPinnedSticker">un1 置顶了一张贴图</string>
   <string name="ActionPinnedVoice">un1 置顶了一则语音消息</string>
   <string name="ActionPinnedContact">un1 置顶了一个联系人</string>
+  <string name="ActionPinnedGame">un1 置顶了一 %1$s</string>
   <string name="ActionPinnedGeo">un1 置顶了一张地图</string>
   <string name="ActionPinnedGif">un1 置顶了一个 GIF 动图</string>
   <string name="ActionPinnedMusic">un1 置顶了一首音乐</string>
@@ -315,7 +316,7 @@
   <string name="CopyUrl">复制网址</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">开启网址 %1$s？</string>
-  <string name="BotPermissionUrlAlert">是否允许 %1$s 传递您的 Telegram 名称和 id 给您透过这个机器人开启的网页？</string>
+  <string name="BotPermissionGameAlert">是否允许 %1$s 传递您的 Telegram 名称和 id (并非您的手机号码) 给您透过这个机器人开启的网页？</string>
   <string name="ReportSpam">检举垃圾消息</string>
   <string name="ReportSpamAndLeave">检举垃圾消息并离开</string>
   <string name="AddContactChat">添加联系人</string>
@@ -369,6 +370,7 @@
   <string name="NotificationMessageVideo">%1$s 发送了影片给您</string>
   <string name="NotificationMessageContact">%1$s 分享了联系人给您</string>
   <string name="NotificationMessageMap">%1$s 发送了一则位置信息给您</string>
+  <string name="NotificationMessageGame">%1$s 邀请了您玩 %2$s</string>
   <string name="NotificationMessageDocument">%1$s 发送给您一个文件</string>
   <string name="NotificationMessageGif">%1$s 发送给您一个 GIF 动图</string>
   <string name="NotificationMessageAudio">%1$s 发送给您一则语音消息</string>
@@ -381,6 +383,7 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了影片到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了联系人信息到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一则位置信息到 %2$s 群组</string>
+  <string name="NotificationMessageGroupGame">%1$s 邀请了 %2$s 群组玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送一个文件给 %2$s 群组</string>
   <string name="NotificationMessageGroupGif">%1$s 发送一个 GIF 动图到 %2$s 群组</string>
   <string name="NotificationMessageGroupAudio">%1$s 发送了一则语音消息到 %2$s 群组</string>
@@ -407,6 +410,7 @@
   <string name="NotificationActionPinnedText">%1$s 在 %3$s 群组中置顶了「%2$s」</string>
   <string name="NotificationActionPinnedNoText">%1$s 在 %2$s 群组中置顶了一则消息</string>
   <string name="NotificationActionPinnedPhoto">%1$s 在 %2$s 群组中置顶了一张照片</string>
+  <string name="NotificationActionPinnedGame">%1$s 在 %2$s 群组中置顶了一个游戏</string>
   <string name="NotificationActionPinnedVideo">%1$s 在 %2$s 群组中置顶了一个影片</string>
   <string name="NotificationActionPinnedFile">%1$s 在 %2$s 群组中置顶了一个文件</string>
   <string name="NotificationActionPinnedSticker">%1$s 在 %2$s 群组中置顶了一张贴图</string>
@@ -428,6 +432,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s 置顶了一张地图</string>
   <string name="NotificationActionPinnedGifChannel">%1$s 置顶了一个 GIF 动图</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置顶了一首歌曲</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s 置顶了一个游戏</string>
   <!--contacts view-->
   <string name="SelectContact">选择联系人</string>
   <string name="NoContacts">还没有任何联系人</string>
@@ -971,6 +976,7 @@
   <string name="AttachDocument">文件</string>
   <string name="AttachSticker">贴图</string>
   <string name="AttachAudio">语音消息</string>
+  <string name="AttachGame">游戏</string>
   <string name="FromYou">您</string>
   <string name="ActionTakeScreenshootYou">您拍摄了屏幕快照！</string>
   <string name="ActionTakeScreenshoot">un1 拍摄了屏幕快照！</string>
@@ -995,6 +1001,7 @@
   <string name="UserAlreadyInGroup">此用户已是此群组的一员</string>
   <string name="ForwardMessagesTo">转发消息给 %1$s？</string>
   <string name="SendMessagesTo">发送消息给 %1$s？</string>
+  <string name="SendGameTo">分享游戏到 %1$s？</string>
   <string name="SendContactTo">发送联系人信息给 %1$s?</string>
   <string name="AreYouSureLogout">您确定要注销？\n\n请注意，您可以无缝地在所有设备上同时使用 Telegram。 但记住，注销会让您失去所有的私密聊天。</string>
   <string name="AreYouSureSessions">您确定要中断其他连接？</string>
@@ -1019,6 +1026,7 @@
   <string name="AreYouSureClearHistorySuper">删除这个群组所有缓存的文本和媒体？</string>
   <string name="AreYouSureDeleteMessages">您确定要删除 %1$s？</string>
   <string name="SendMessagesToGroup">发送消息给 %1$s？</string>
+  <string name="SendGameToGroup">分享游戏到 %1$s？</string>
   <string name="SendContactToGroup">发送联系人信息给 %1$s?</string>
   <string name="ForwardMessagesToGroup">转发消息给 %1$s？</string>
   <string name="FeatureUnavailable">抱歉，此功能目前无法在您的国家使用。</string>
