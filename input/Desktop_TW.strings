@@ -563,7 +563,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_changed_title" = "{from} 將群組名稱變更為 «{title}»";
 "lng_action_changed_title_channel" = "頻道名稱被變更為 «{title}»";
 "lng_action_created_chat" = "{from} 建立了 «{title}» 群組";
-"lng_action_created_channel" = "«{title}» 頻道已建立";
+"lng_action_created_channel" = "頻道已建立";
 "lng_action_group_migrate" = "群組被升級為一個超級群組";
 "lng_action_pinned_message" = "{from} 置頂了 «{text}»";
 "lng_action_pinned_media" = "{from} 置頂了 {media}";
@@ -576,6 +576,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_contact" = "一則聯絡人資訊";
 "lng_action_pinned_media_location" = "一個位置標記";
 "lng_action_pinned_media_sticker" = "一張貼圖";
+"lng_action_pinned_media_emoji_sticker" = "一 {emoji} 貼圖";
+"lng_action_pinned_media_game" = "遊戲 «{game}»";
+"lng_action_game_score" = "{from} 在 {game} 中得到了 {count:#|#|#} 分";
+"lng_action_game_you_scored" = "您在 {game} 中得到了 {count:#|#|#} 分";
 
 "lng_profile_migrate_reached" = "{count:_not_used_|# 位成員|# 位成員} 上限已達到";
 "lng_profile_migrate_body" = "要克服此限制，您可以將您的群組升級為超級群組。";
@@ -679,6 +683,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_switch_stickers" = "貼圖";
 "lng_switch_stickers_gifs" = "GIF動圖 & 貼圖";
 "lng_switch_emoji" = "表情符號";
+"lng_stickers_featured_add" = "添加";
 
 "lng_saved_gifs" = "已儲存的GIF動圖";
 "lng_inline_bot_results" = "結果來自 {inline_bot}";
@@ -706,6 +711,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_stickers_return" = "復原";
 "lng_stickers_restore" = "恢復";
 "lng_stickers_count" = "{count:載入中...|# 張貼圖|# 張貼圖}";
+"lng_stickers_masks_pack" = "這是一套面具貼圖。您可以在我們的行動應用程式的照片編輯器內使用它們。";
 
 "lng_in_dlg_photo" = "照片";
 "lng_in_dlg_video" = "影片檔";
@@ -758,18 +764,29 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_open_this_link" = "開啟此連結？";
 "lng_open_link" = "開啟";
+"lng_allow_bot_pass" = "您允許透過這個 {bot_name} 機器人傳遞您的 Telegram 名稱和 id 到您要開啟的網頁嗎？";
+"lng_allow_bot" = "允許";
 
 "lng_bot_start" = "開始";
-"lng_bot_choose_group" = "選擇群組";
+"lng_bot_choose_group" = "選擇一個群組";
 "lng_bot_no_groups" = "您沒有群組";
 "lng_bot_groups_not_found" = "沒找到群組";
 "lng_bot_sure_invite" = "將機器人加入到 «{group}»？";
 "lng_bot_already_in_group" = "機器人已經是群組的一個成員。";
+"lng_bot_choose_chat" = "選擇一個聊天室";
+"lng_bot_no_chats" = "您沒有聊天";
+"lng_bot_chats_not_found" = "找不到聊天室";
+"lng_bot_sure_share_game" = "與 {user} 分享遊戲嗎？";
+"lng_bot_sure_share_game_group" = "與 «{group}» 分享遊戲嗎？";
 
 "lng_typing" = "正在輸入";
 "lng_user_typing" = "{user} 正在輸入";
 "lng_users_typing" = "{user} 和 {second_user} 正在輸入";
 "lng_many_typing" = "{count:_not_used_|# 個人|# 個人}正在輸入";
+"lng_playing_game" = "正在玩遊戲";
+"lng_user_playing_game" = "{user} 正在玩遊戲";
+"lng_users_playing_game" = "{user} 和 {second_user} 正在玩遊戲";
+"lng_many_playing_game" = "{count:_not_used_|# 個人|# 個人}正在玩遊戲";
 "lng_send_action_record_video" = "正在錄製影片";
 "lng_user_action_record_video" = "{user} 正在錄製影片";
 "lng_send_action_upload_video" = "正在傳送影片";
@@ -799,6 +816,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
 "lng_choose_images" = "選擇圖片";
+"lng_game_tag" = "遊戲";
 
 "lng_context_view_profile" = "檢視個人資訊";
 "lng_context_view_group" = "檢視群組資訊";
@@ -865,6 +883,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_share_cant" = "抱歉，沒辦法在這裡分享 :(";
 "lng_reply_cant" = "抱歉，沒辦法在超級群組中回覆一則舊的訊息 :(";
 "lng_reply_cant_forward" = "抱歉，沒辦法在超級群組中回覆一則舊的訊息 :( 您是否希望轉寄它並且加上您的評論？";
+
+"lng_share_title" = "分享給";
+"lng_share_copy_link" = "複製分享連結";
+"lng_share_confirm" = "傳送";
+"lng_share_wrong_user" = "這個遊戲是由一個不同的用戶開啟。";
+"lng_share_game_link_copied" = "遊戲的連結已複製到剪貼簿。";
+"lng_share_done" = "完成！";
 
 "lng_contact_phone" = "手機號碼";
 "lng_enter_contact_data" = "新增聯絡人";
