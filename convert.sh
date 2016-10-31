@@ -21,7 +21,10 @@ do
 
     sed -i "" 's/转寄/转发/g' ./output/$out_filename
     sed -i "" 's/志工/志愿者/g' ./output/$out_filename
+    sed -i "" 's/系统匣/ Dock /g' ./output/$out_filename
     sed -i "" 's/国码/国家代码/g' ./output/$out_filename
+    sed -i "" 's/开启文件/打开文件/g' ./output/$out_filename
+    sed -i "" 's/套用本地化语系档/应用语言文件/g' ./output/$out_filename
     sed -i "" 's/请选择聊天对象开始传讯/请选择好友开始聊天/g' ./output/$out_filename
     sed -i "" 's/图档/图片/g' ./output/$out_filename
     sed -i "" 's/撰写/编写/g' ./output/$out_filename

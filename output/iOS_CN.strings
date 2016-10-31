@@ -458,8 +458,8 @@
 "Conversation.View" = "查看";
 "Conversation.Download" = "下载";
 "Conversation.SlideToCancel" = "滑动以取消";
-"Conversation.ApplyLocalization" = "套用本地化语系档";
-"Conversation.OpenFile" = "开启文件";
+"Conversation.ApplyLocalization" = "应用语言文件";
+"Conversation.OpenFile" = "打开文件";
 "Conversation.MicrophoneAccessDisabled" = "Telegram 需要访问您的麦克风以发送语音消息。请到「设置」-「隐私」-「麦克风」，然后设置 Telegram 为「开启」。";
 
 // Media Picker

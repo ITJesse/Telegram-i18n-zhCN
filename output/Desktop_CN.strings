@@ -27,7 +27,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_disable_notifications_from_tray" = "关闭消息通知";
 "lng_enable_notifications_from_tray" = "恢复消息通知";
 "lng_open_from_tray" = "开启 Telegram";
-"lng_minimize_to_tray" = "最小化至系统匣";
+"lng_minimize_to_tray" = "最小化至 Dock ";
 "lng_quit_from_tray" = "离开 Telegram";
 "lng_tray_icon_text" = "Telegram 还在这里运行，\n您可以从设置页面进行变更。\n\n如果此图标从通知区域菜单中消失，\n您可以将它从隐藏的图标中拖回到这里。";
 
@@ -265,7 +265,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_update_ready" = "新版本已准备就绪";
 "lng_settings_update_now" = "立即重新启动";
 "lng_settings_update_fail" = "更新检查失败 :(";
-"lng_settings_workmode_tray" = "显示系统匣图标";
+"lng_settings_workmode_tray" = "显示 Dock 图标";
 "lng_settings_workmode_window" = "显示任务栏图标";
 "lng_settings_auto_start" = "开机时启动 Telegram";
 "lng_settings_start_min" = "启动时最小化";
