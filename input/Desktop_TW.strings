@@ -240,10 +240,17 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_show_name" = "顯示傳送者名稱";
 "lng_settings_show_preview" = "顯示訊息預覽";
 "lng_settings_use_windows" = "使用 Windows 通知";
+"lng_settings_use_native_notifications" = "使用原生通知";
+"lng_settings_advanced_notifications" = "通知位置和數量";
+"lng_settings_notifications_position" = "在螢幕上的位置";
+"lng_settings_notifications_count" = "通知數量";
 "lng_settings_sound_notify" = "播放音效";
 "lng_settings_include_muted" = "在未讀計數中包括關閉通知的聊天";
 
 "lng_notification_preview" = "您有一則新訊息";
+"lng_notification_reply" = "回覆";
+"lng_notification_hide_all" = "全部隱藏";
+"lng_notification_sample" = "這是一則通知範例";
 
 "lng_settings_section_general" = "一般";
 "lng_settings_change_lang" = "變更語言";
@@ -580,6 +587,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_game" = "遊戲 «{game}»";
 "lng_action_game_score" = "{from} 在 {game} 中得到了 {count:#|#|#} 分";
 "lng_action_game_you_scored" = "您在 {game} 中得到了 {count:#|#|#} 分";
+"lng_action_game_score_no_game" = "{from} 得到了 {count:#|#|#} 分";
+"lng_action_game_you_scored_no_game" = "您得了 {count:#|#|#} 分";
 
 "lng_profile_migrate_reached" = "{count:_not_used_|# 位成員|# 位成員} 上限已達到";
 "lng_profile_migrate_body" = "要克服此限制，您可以將您的群組升級為超級群組。";
@@ -825,7 +834,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_copy_link" = "複製連結";
 "lng_context_copy_post_link" = "複製貼文連結";
 "lng_context_copy_email" = "複製電子郵件地址";
-"lng_context_copy_hashtag" = "複製＃號標籤";
+"lng_context_copy_hashtag" = "複製 ＃號標籤";
 "lng_context_copy_mention" = "複製用戶名稱";
 "lng_context_save_image" = "另存圖片為...";
 "lng_context_forward_image" = "轉寄圖片";
@@ -931,7 +940,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_box_leave" = "離開";
 
 "lng_about_version" = "版本 {version}";
-"lng_about_text_1" = "官方的免費即時通訊軟體，基於為了\n安全和速度而建的 [a href=\"https://core.telegram.org/api\"]Telegram API[/a] 。";
+"lng_about_text_1" = "官方版的免費通訊軟體，基於為了安全和速度而建的 [a href=\"https://core.telegram.org/api\"]Telegram API[/a]";
 "lng_about_text_2" = "本軟體是授權於 [a href=\"https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE\"]GNU GPL[/a] 版本 3，\n原始碼可在 [a href=\"https://github.com/telegramdesktop/tdesktop\"]GitHub[/a] 取得。";
 "lng_about_text_3" = "前往 {faq_open}Telegram FAQ{faq_close} 取得更多資訊。";
 "lng_about_done" = "完成";
@@ -963,7 +972,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新紀錄可以在這裡找到：\n{link}";
 "lng_new_version_minor" = "— 錯誤修正和其它細微的改進";
-"lng_new_version_text" = "— 設定頁面新增可愛的設計\n— 錯誤修復和其他小的改進";
+"lng_new_version_text" = "— 新的音訊播放器設計\n\nWindows 和 Linux：\n— 從通知快速回覆\n— 隱藏所有增加的通知按鈕\n— 變更通知位置和最大數量\n\nWindows 10:\n— 遵守通知的安靜時間\n\nLinux:\n— 您可以在“設定”中啟用原生通知";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字元";
 
