@@ -23,7 +23,7 @@
   <string name="WrongNumber">号码不对吗？</string>
   <string name="DidNotGetTheCode">仍未收到验证码？</string>
   <string name="CancelAccountReset">取消帐号重设</string>
-  <string name="CancelAccountResetInfo">有访问您手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚透过短信发送到您手机号码的验证码。</string>
+  <string name="CancelAccountResetInfo">有访问您手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。</string>
   <string name="ResetAccount">重设帐号</string>
   <string name="ResetAccountInfo">由于帐号 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消这一过程。</string>
   <string name="ResetAccountStatus">您可以重设您的帐号在：</string>
@@ -115,25 +115,25 @@
   <string name="ActionPinnedMusic">un1 置顶了一首音乐</string>
   <string name="ActionMigrateFromGroup">这个群组被升级为一个超级群组</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 被升级为一个超级群组</string>
-  <string name="NoBlockedGroup">封锁名单上的用户会从群组中被移除，只能透过管理员的邀请而回来。邀请链接对他们没作用。</string>
+  <string name="NoBlockedGroup">封锁名单上的用户会从群组中被移除，只能通过管理员的邀请而回来。邀请链接对他们没作用。</string>
   <string name="NewChannel">添加频道</string>
   <string name="EnterChannelName">频道名称</string>
   <string name="AddMutual">将联系人添加到您的频道</string>
   <string name="ChannelUsernameHelp">人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的频道。</string>
   <string name="MegaUsernameHelp">人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。</string>
   <string name="ChannelUsernamePlaceholder">链接</string>
-  <string name="ChannelPrivateLinkHelp">人们可以透过跟随此链接加入您的频道。任何时间，您都可以撤销链接。</string>
-  <string name="MegaPrivateLinkHelp">人们可以透过点击此链接加入您的群组。任何时间，您都可以撤销链接。</string>
+  <string name="ChannelPrivateLinkHelp">人们可以通过跟随此链接加入您的频道。任何时间，您都可以撤销链接。</string>
+  <string name="MegaPrivateLinkHelp">人们可以通过点击此链接加入您的群组。任何时间，您都可以撤销链接。</string>
   <string name="DescriptionOptionalPlaceholder">简介 (选填)</string>
   <string name="DescriptionPlaceholder">简介</string>
   <string name="DescriptionInfo">您可以为您的频道提供选择性的描述。</string>
   <string name="ChannelPublic">公开的频道</string>
   <string name="MegaPublic">公开的群组</string>
   <string name="ChannelPublicInfo">公开的频道可以用搜索找到，且任何人都可以加入它们。</string>
-  <string name="MegaPublicInfo">公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。</string>
+  <string name="MegaPublicInfo">公开的群组可以通过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。</string>
   <string name="ChannelPrivate">非公开的频道</string>
   <string name="MegaPrivate">非公开的群组</string>
-  <string name="ChannelPrivateInfo">非公开的频道只能透过邀请链接加入。</string>
+  <string name="ChannelPrivateInfo">非公开的频道只能通过邀请链接加入。</string>
   <string name="MegaPrivateInfo">非公开的群组只有当您被邀请或有一个邀请链接的情况才能加入。</string>
   <string name="ChannelLinkTitle">链接</string>
   <string name="ChannelInviteLinkTitle">邀请链接</string>
@@ -165,9 +165,9 @@
   <string name="ChannelLeaveAlert">您确定要离开此频道？</string>
   <string name="ChannelDeleteInfo">您将失去所有此频道的消息。</string>
   <string name="ChannelEdit">编辑</string>
-  <string name="MegaWasPrivateAlert">请注意，如果您选择一公开的链接给您的群组，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的群组为非公开的。</string>
-  <string name="ChannelWasPrivateAlert">请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。</string>
-  <string name="ChannelPublicEmptyUsername">请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。
+  <string name="MegaWasPrivateAlert">请注意，如果您选择一公开的链接给您的群组，任何人可以通过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的群组为非公开的。</string>
+  <string name="ChannelWasPrivateAlert">请注意，如果您选择一公开的链接给您的频道，任何人可以通过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。</string>
+  <string name="ChannelPublicEmptyUsername">请为您公开的频道选择一链接，那么人们可以通过搜索找到它，并与其他人分享。
 
 如果您不感兴趣，我们建议建一个非公开的频道。</string>
   <string name="ActionCreateChannel">频道已创建</string>
@@ -182,12 +182,12 @@
   <string name="ChannelMute">关闭消息通知</string>
   <string name="ChannelUnmute">恢复消息通知</string>
   <string name="ChannelAddAdmin">添加管理员</string>
-  <string name="ChannelInviteViaLink">透过链接邀请</string>
+  <string name="ChannelInviteViaLink">通过链接邀请</string>
   <string name="ChannelAddUserAdminAlert">您确定要让 %1$s 成为管理员？</string>
   <string name="ChannelRemoveUserAdmin">移除</string>
   <string name="ChannelMembersInfo">只有频道管理员可以看到这个清单。</string>
   <string name="ChannelAdminNotParticipant">这个用户目前还没有加入频道中。您想要邀请该用户吗？</string>
-  <string name="ChannelLinkInfo">任何已安装 Telegram 的人可以透过跟随此链接加入到您的频道。</string>
+  <string name="ChannelLinkInfo">任何已安装 Telegram 的人可以通过跟随此链接加入到您的频道。</string>
   <string name="ChannelAdminsInfo">您可以添加管理员来帮助您管理频道。长按可以移除管理员。</string>
   <string name="ChannelJoinTo">您想要加入「%1$s」频道？</string>
   <string name="ChannelCantOpenPrivate">抱歉，这个聊天室无法再被访问。</string>
@@ -198,7 +198,7 @@
   <string name="ChannelUserCantAdd">抱歉，您无法将此用户加入到频道。</string>
   <string name="ChannelUserCantAdmin">抱歉，这个频道有太多管理员了。</string>
   <string name="ChannelUserCantBot">抱歉，这个频道有太多机器人了。</string>
-  <string name="ChannelUserAddLimit">抱歉，您只能添加频道的前 200 名成员。但请注意，透过频道的邀请链接加入，则没有人数限制。</string>
+  <string name="ChannelUserAddLimit">抱歉，您只能添加频道的前 200 名成员。但请注意，通过频道的邀请链接加入，则没有人数限制。</string>
   <string name="ChannelAddedBy">un1 将您加入到这个频道</string>
   <string name="ChannelJoined">您加入了这个频道</string>
   <string name="ChannelMegaJoined">您加入了这个群组</string>
@@ -320,7 +320,7 @@
   <string name="CopyUrl">复制网址</string>
   <string name="SendItems">发送 %1$s</string>
   <string name="OpenUrlAlert">开启网址 %1$s？</string>
-  <string name="BotPermissionGameAlert">是否允许透过 %1$s 机器人传递您的 Telegram 名称和 id (并非您的手机号码) 到您要开启的网页？</string>
+  <string name="BotPermissionGameAlert">是否允许通过 %1$s 机器人传递您的 Telegram 名称和 id (并非您的手机号码) 到您要开启的网页？</string>
   <string name="ReportSpam">检举垃圾消息</string>
   <string name="ReportSpamAndLeave">检举垃圾消息并离开</string>
   <string name="AddContactChat">添加联系人</string>
@@ -406,7 +406,7 @@
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
   <string name="NotificationUnrecognizedDevice">%1$s，\n我们侦测到有新设备%2$s 使用您的帐号登录\n\n设备类型：%3$s\n位置：%4$s\n\n如果这不是您，您可以到「设置」&gt;「隐私和安全」&gt;「登陆中的设备」里，中断该连接。\n\n如果您怀疑有人未经您的同意登录您的帐号，请在「隐私和安全」的设置中，启用「两步验证」。\n\n感谢您！\nTelegram 团队</string>
   <string name="NotificationContactNewPhoto">%1$s 更新了个人头像</string>
-  <string name="NotificationInvitedToGroupByLink">%1$s 透过邀请链接加入了%2$s群组</string>
+  <string name="NotificationInvitedToGroupByLink">%1$s 通过邀请链接加入了%2$s群组</string>
   <string name="Reply">回复</string>
   <string name="ReplyToGroup">回复%1$s</string>
   <string name="ReplyToUser">回复%1$s</string>
@@ -465,7 +465,7 @@
   <string name="JoinToGroupErrorFull">抱歉，此群组名额已经满了。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，这个聊天室似乎并不存在。</string>
   <string name="LinkCopied">「链接」已复制到剪贴板</string>
-  <string name="InviteToGroupByLink">透过链接邀请到群组</string>
+  <string name="InviteToGroupByLink">通过链接邀请到群组</string>
   <string name="InviteLink">邀请链接</string>
   <string name="RevokeAlert">您确定要撤销此链接？一旦链接被撤销，没有人可以利用它加入。</string>
   <string name="RevokeAlertNewLink">先前的邀请链接现在已经没有作用。而一个新的链接已经产生了。</string>
@@ -475,7 +475,7 @@
   <string name="RevokeLinkAlertChannel">您确定要撤销链接 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\n频道 \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 将变成非公开的。</string>
   <string name="CopyLink">复制链接</string>
   <string name="ShareLink">分享链接</string>
-  <string name="LinkInfo">任何已安装 Telegram 的人可以透过跟随此链接加入到您的群组。</string>
+  <string name="LinkInfo">任何已安装 Telegram 的人可以通过跟随此链接加入到您的群组。</string>
   <!--set admins view-->
   <string name="SetAdminsTitle">聊天室管理员</string>
   <string name="SetAdminsAll">所有成员都是管理员</string>
@@ -557,7 +557,7 @@
   <string name="Masks">面具</string>
   <string name="MasksInfo">您可以将面具添加到您要发送的照片。要做到这一点，请在发送照片前，开启照片编辑器。</string>
   <string name="FeaturedStickers">热门的贴图</string>
-  <string name="FeaturedStickersInfo">这些贴图目前在 Telegram 上很热门。您可以透过 @stickers 机器人添加自订贴图。</string>
+  <string name="FeaturedStickersInfo">这些贴图目前在 Telegram 上很热门。您可以通过 @stickers 机器人添加自订贴图。</string>
   <string name="ArchivedStickers">封存的贴图</string>
   <string name="ArchivedMasks">封存的面具</string>
   <string name="ArchivedStickersEmpty">没有封存的贴图</string>
@@ -723,7 +723,7 @@
   <string name="SessionsTitle">登陆中的设备</string>
   <string name="CurrentSession">目前的连接</string>
   <string name="NoOtherSessions">没有其他登陆中的设备</string>
-  <string name="NoOtherSessionsInfo">您可以透过使用同一组电话号码，在其他行动、平板及桌面设备上登录 Telegram。您的所有数据均会立即同步。</string>
+  <string name="NoOtherSessionsInfo">您可以通过使用同一组电话号码，在其他行动、平板及桌面设备上登录 Telegram。您的所有数据均会立即同步。</string>
   <string name="OtherSessions">登陆中的设备</string>
   <string name="SessionsInfo">控制您在其他设备上的连接。</string>
   <string name="TerminateSessionInfo">请点击要中断的连接。</string>
@@ -758,9 +758,9 @@
   <string name="SharedMediaTitle">共享的媒体</string>
   <string name="LinksTitle">共享的链接</string>
   <string name="AudioTitle">共享的音乐</string>
-  <string name="NoMedia">在此对话群组内分享照片与影片，且只能透过您已登录的设备来访问。</string>
+  <string name="NoMedia">在此对话群组内分享照片与影片，且只能通过您已登录的设备来访问。</string>
   <string name="NoSharedAudio">在这个聊天中分享音乐，然后在任何设备上访问它们。</string>
-  <string name="NoSharedFiles">在此对话群组内分享文件与文档，且只能透过您已登录的设备来访问。</string>
+  <string name="NoSharedFiles">在此对话群组内分享文件与文档，且只能通过您已登录的设备来访问。</string>
   <string name="NoSharedLinks">在这个聊天中分享链接，然后在任何设备上访问它们。</string>
   <string name="NoMediaSecret">这个聊天室的照片和影片会显示在这里。</string>
   <string name="NoSharedAudioSecret">这个聊天室的音乐档会显示在这里。</string>
@@ -841,7 +841,7 @@
   <!--password view-->
   <string name="TwoStepVerification">两步验证</string>
   <string name="SetAdditionalPassword">设置额外的密码</string>
-  <string name="SetAdditionalPasswordInfo">您可以设置当您使用一个新设备登录时，除了透过短信取得的验证码外，另外要输入的密码。</string>
+  <string name="SetAdditionalPasswordInfo">您可以设置当您使用一个新设备登录时，除了通过短信取得的验证码外，另外要输入的密码。</string>
   <string name="YourPassword">您的密码</string>
   <string name="PleaseEnterCurrentPassword">请输入您的密码</string>
   <string name="PleaseEnterFirstPassword">输入密码</string>
@@ -973,8 +973,8 @@
   <string name="OK">确定</string>
   <string name="Crop">裁切</string>
   <!--messages-->
-  <string name="ActionInviteYou">您透过邀请链接加入了群组</string>
-  <string name="ActionInviteUser">un1 透过邀请链接加入了群组</string>
+  <string name="ActionInviteYou">您通过邀请链接加入了群组</string>
+  <string name="ActionInviteUser">un1 通过邀请链接加入了群组</string>
   <string name="ActionKickUser">un1 移除了 un2</string>
   <string name="ActionLeftUser">un1 离开了群组</string>
   <string name="ActionAddUser">un1 加入了 un2</string>

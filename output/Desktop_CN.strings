@@ -157,7 +157,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_code_ph" = "验证码";
 "lng_code_desc" = "我们已经发送一则包含验证码的短信\n到您的手机。请在下面输入。";
 "lng_code_telegram" = "请输入刚才在您原本的[b]Telegram[/b]\n App 中收到的验证码。";
-"lng_code_no_telegram" = "透过短信发送验证码";
+"lng_code_no_telegram" = "通过短信发送验证码";
 "lng_code_call" = "Telegram 会在 {minutes}:{seconds} 后改用电话语音报验证码";
 "lng_code_calling" = "正在要求 Telegram 来电…";
 "lng_code_called" = "Telegram 拨打了您的手机号码";
@@ -279,7 +279,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_emoji_list" = "支持的表情符号清单";
 "lng_settings_send_enter" = "按下 Enter 键发送消息";
 "lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 键发送消息";
-"lng_settings_send_cmdenter" = "按下 Cmd+Enter 键发送消息";
+"lng_settings_send_cmdenter" = "发送消息通过 Cmd+Enter 键";
 
 "lng_settings_section_background" = "聊天室背景";
 "lng_settings_bg_from_gallery" = "从图库选择";
@@ -374,13 +374,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_connection_type" = "连接类型：";
 "lng_connection_auto_connecting" = "缺省 (连接中...)";
 "lng_connection_auto" = "缺省 (使用{transport} )";
-"lng_connection_proxy_connecting" = "透过代理连接中...";
+"lng_connection_proxy_connecting" = "通过代理连接中...";
 "lng_connection_proxy" = "通过 {transport} 代理访问";
 "lng_connection_header" = "连接类型";
 "lng_connection_auto_rb" = "自动 (TCP 或 HTTP)";
 "lng_connection_http_proxy_rb" = "HTTP 代理";
 "lng_connection_tcp_proxy_rb" = "SOCKS5 代理";
-"lng_connection_try_ipv6" = "尝试透过 IPv6 连接";
+"lng_connection_try_ipv6" = "尝试通过 IPv6 连接";
 "lng_connection_host_ph" = "主机名称";
 "lng_connection_port_ph" = "连接端口";
 "lng_connection_user_ph" = "用户名";
@@ -506,7 +506,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_participant_filter" = "搜索";
 "lng_participant_invite" = "邀请";
-"lng_participant_invite_sorry" = "抱歉，您个人仅能将前 {count:_not_used_|# 位成员|# 位成员} 加入到一频道。\n\n从现在开始，人们将需要透过\n邀请链接加入至频道中。";
+"lng_participant_invite_sorry" = "抱歉，您个人仅能将前 {count:_not_used_|# 位成员|# 位成员} 加入到一频道。\n\n从现在开始，人们将需要通过\n邀请链接加入至频道中。";
 "lng_create_group_back" = "返回";
 "lng_create_group_next" = "下一步";
 "lng_create_group_create" = "创建";
@@ -515,11 +515,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_create_channel_title" = "添加频道";
 "lng_create_channel_about" = "频道是一个工具，用于将您的消息广播给人数不受限制的观众";
 "lng_create_public_channel_title" = "公开的频道";
-"lng_create_public_channel_about" = "任何人都可以透过搜索找到这个频道，并且加入";
+"lng_create_public_channel_about" = "任何人都可以通过搜索找到这个频道，并且加入";
 "lng_create_private_channel_title" = "非公开的频道";
 "lng_create_private_channel_about" = "仅拥有特别邀请链接的人可以加入";
 "lng_create_public_group_title" = "公开的群组";
-"lng_create_public_group_about" = "任何人可以透过搜索找到这个群组并且加入，而聊天记录每个人都看得见";
+"lng_create_public_group_about" = "任何人可以通过搜索找到这个群组并且加入，而聊天记录每个人都看得见";
 "lng_create_private_group_title" = "非公开的群组";
 "lng_create_private_group_about" = "当被邀请或有一邀请链接时，人们才可以加入";
 "lng_create_group_skip" = "略过";
@@ -561,7 +561,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_kick_user" = "{from} 移除了 {user}";
 "lng_action_user_left" = "{from} 离开了群组";
 "lng_action_user_joined" = "{from} 加入了群组";
-"lng_action_user_joined_by_link" = "{from} 透过邀请链接加入了群组";
+"lng_action_user_joined_by_link" = "{from} 通过邀请链接加入了群组";
 "lng_action_user_registered" = "{from} 刚才加入了 Telegram";
 "lng_action_removed_photo" = "{from} 移除了群组照片";
 "lng_action_removed_photo_channel" = "已移除频道照片";
@@ -638,8 +638,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_forwarded" = "转发自 {user}";
 "lng_forwarded_channel" = "转发自 {channel}";
-"lng_forwarded_via" = "转发自 {user} 透过 {inline_bot}";
-"lng_forwarded_channel_via" = "转发自 {channel} 透过 {inline_bot}";
+"lng_forwarded_via" = "转发自 {user} 通过 {inline_bot}";
+"lng_forwarded_channel_via" = "转发自 {channel} 通过 {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
 "lng_in_reply_to" = "回复";
 "lng_edited" = "已编辑";
@@ -697,7 +697,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_saved_gifs" = "已保存的GIF动图";
 "lng_inline_bot_results" = "结果来自 {inline_bot}";
 "lng_inline_bot_no_results" = "没有结果";
-"lng_inline_bot_via" = "透过 {inline_bot}";
+"lng_inline_bot_via" = "通过 {inline_bot}";
 
 "lng_box_remove" = "移除";
 
@@ -773,7 +773,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_open_this_link" = "开启此链接？";
 "lng_open_link" = "开启";
-"lng_allow_bot_pass" = "您允许透过这个 {bot_name} 机器人传递您的 Telegram 名称和 id 到您要开启的网页吗？";
+"lng_allow_bot_pass" = "您允许通过这个 {bot_name} 机器人传递您的 Telegram 名称和 id 到您要开启的网页吗？";
 "lng_allow_bot" = "允许";
 
 "lng_bot_start" = "开始";
@@ -980,7 +980,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_confirm_phone_link_invalid" = "这个链接已经坏掉或过期了。";
 "lng_confirm_phone_title" = "取消帐号重设";
-"lng_confirm_phone_about" = "有访问您手机号码 {phone} 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚透过短信发送到您手机号码的验证码。";
+"lng_confirm_phone_about" = "有访问您手机号码 {phone} 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 "lng_confirm_phone_success" = "成功 ！\n\n 您帐号 {phone} 的删除过程已经取消。现在，您可以关闭这个窗口。";
 "lng_confirm_phone_send" = "发送";
 "lng_confirm_phone_enter_code" = "请输入验证码。";

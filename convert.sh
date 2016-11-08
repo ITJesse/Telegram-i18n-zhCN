@@ -20,6 +20,7 @@ do
     opencc -i $tmpdir/$filename -o ./output/$out_filename -c tw2sp.json
 
     sed -i "" 's/转寄/转发/g' ./output/$out_filename
+    sed -i "" 's/透过/通过/g' ./output/$out_filename
     sed -i "" 's/志工/志愿者/g' ./output/$out_filename
     sed -i "" 's/系统匣/ Dock /g' ./output/$out_filename
     sed -i "" 's/国码/国家代码/g' ./output/$out_filename

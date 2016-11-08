@@ -567,7 +567,7 @@
 "Preview.LoadingImages" = "正在加载完整图片...";
 "Preview.DeletePhoto" = "删除照片";
 "Preview.DeleteVideo" = "删除影片";
-"Preview.ForwardViaTelegram" = "透过 Telegram 转发";
+"Preview.ForwardViaTelegram" = "通过 Telegram 转发";
 "Preview.SaveToCameraRoll" = "保存到相机胶卷";
 
 // Map
@@ -578,7 +578,7 @@
 "Map.Satellite" = "卫星";
 "Map.Hybrid" = "混合";
 "Map.AccessDeniedError" = "为使此功能生效，请为 Telegram 开启您在 iPhone 隐私设置中的定位服务。";
-"Map.ForwardViaTelegram" = "透过 Telegram 转发";
+"Map.ForwardViaTelegram" = "通过 Telegram 转发";
 "Map.GetDirections" = "取得方向";
 "Map.OpenInGoogleMaps" = "在 Google 地图打开";
 
@@ -1187,7 +1187,7 @@
 "PrivacySettings.TwoStepAuth" = "两步验证";
 "TwoStepAuth.Title" = "两步验证";
 "TwoStepAuth.SetPassword" = "设置额外的密码";
-"TwoStepAuth.SetPasswordHelp" = "您可以设置当您使用一个新设备登录时，除了透过短信取得的验证码外，另外要输入的密码。";
+"TwoStepAuth.SetPasswordHelp" = "您可以设置当您使用一个新设备登录时，除了通过短信取得的验证码外，另外要输入的密码。";
 "TwoStepAuth.SetupPasswordTitle" = "您的密码";
 
 "TwoStepAuth.SetupHintTitle" = "密码提示";
@@ -1312,11 +1312,11 @@
 
 "MediaPicker.AddCaption" = "加入一说明文本...";
 
-"GroupInfo.InviteByLink" = "透过链接邀请到群组";
+"GroupInfo.InviteByLink" = "通过链接邀请到群组";
 
 "GroupInfo.InviteLink.Title" = "邀请链接";
 "GroupInfo.InviteLink.LinkSection" = "链接";
-"GroupInfo.InviteLink.Help" = "任何已安装 Telegram 的人可以透过开启此链接加入到您的群组。";
+"GroupInfo.InviteLink.Help" = "任何已安装 Telegram 的人可以通过开启此链接加入到您的群组。";
 "GroupInfo.InviteLink.CopyLink" = "复制链接";
 "GroupInfo.InviteLink.RevokeLink" = "撤销链接";
 "GroupInfo.InviteLink.ShareLink" = "分享链接";
@@ -1335,7 +1335,7 @@
 
 "Core.ServiceUserStatus" = "服务通知";
 
-"Notification.JoinedGroupByLink" = "%@ 透过邀请链接加入了群组";
+"Notification.JoinedGroupByLink" = "%@ 通过邀请链接加入了群组";
 
 "ChatSettings.Other" = "其他";
 "ChatSettings.Stickers" = "贴图";
@@ -1453,7 +1453,7 @@
 "Channel.About.Help" = "您可以为您的频道提供选择性的描述。";
 "Group.About.Help" = "您可以为您的群组提供选择性的描述。";
 "Channel.About.Error" = "发生错误。";
-"Channel.ShareNoLink" = "请选择一个链接给您的频道以便人们可以透过搜索找到它。";
+"Channel.ShareNoLink" = "请选择一个链接给您的频道以便人们可以通过搜索找到它。";
 
 "Channel.Status" = "频道";
 "Group.Status" = "群组";
@@ -1495,19 +1495,19 @@
 "Channel.Setup.TypePrivate" = "私人";
 "Channel.Setup.TypePublic" = "公开";
 "Channel.Setup.TypePublicHelp" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
-"Channel.Setup.TypePrivateHelp" = "非公开的频道只能透过邀请链接加入。";
+"Channel.Setup.TypePrivateHelp" = "非公开的频道只能通过邀请链接加入。";
 
 "Channel.Setup.Title" = "频道";
 
 "Channel.Username.CreatePublicLinkHelp" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的频道。";
-"Channel.Username.CreatePrivateLinkHelp" = "人们可以透过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
+"Channel.Username.CreatePrivateLinkHelp" = "人们可以通过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
 
 "Channel.Username.CreateCommentsEnabled" = "评论";
 "Channel.Username.CreateCommentsHelp" = "如果启用了评论功能，成员将能够在频道中对您的贴文发表意见。";
 
-"Channel.Setup.PublicNoLink" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
+"Channel.Setup.PublicNoLink" = "请为您公开的频道选择一链接，那么人们可以通过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
 
-"Channel.Edit.PrivatePublicLinkAlert" = "请注意，如果您选择一公开的链接给您的频道，任何人可以透过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。";
+"Channel.Edit.PrivatePublicLinkAlert" = "请注意，如果您选择一公开的链接给您的频道，任何人可以通过搜索找到它，并加入。\n\n不要创建此链接，如果您想维持您的频道为非公开的。";
 
 "Channel.Info.Description" = "简介";
 
@@ -1532,7 +1532,7 @@
 
 "Conversation.InputTextCommentPlaceholder" = "评论";
 
-"Channel.Members.InviteLink" = "透过链接邀请";
+"Channel.Members.InviteLink" = "通过链接邀请";
 
 "Channel.Management.ErrorNotMember" = "%@ 目前还没有加入频道中。您想要邀请该用户吗？";
 
@@ -1571,7 +1571,7 @@
 "PhotoEditor.CurvesBlue" = "蓝";
 
 "Channel.ErrorAddBlocked" = "抱歉，您无法将此用户加入到频道。";
-"Channel.ErrorAddTooMuch" = "抱歉，您只能将前 200 名成员加入到一个频道。但注意，透过频道的邀请链接加入，则没有人数限制。";
+"Channel.ErrorAddTooMuch" = "抱歉，您只能将前 200 名成员加入到一个频道。但注意，通过频道的邀请链接加入，则没有人数限制。";
 
 "ChannelIntro.Title" = "什么是频道？";
 "ChannelIntro.Text" = "频道是一个向大量\n观众广播消息的新\n工具。";
@@ -1625,7 +1625,7 @@
 
 "Notification.InvitedMany" = "%@ 邀请了 %@";
 
-"ChannelMembers.Blacklist.EmptyText" = "封锁名单上的用户会从群组中被移除，只能透过管理员的邀请而回来。邀请链接对他们没作用。";
+"ChannelMembers.Blacklist.EmptyText" = "封锁名单上的用户会从群组中被移除，只能通过管理员的邀请而回来。邀请链接对他们没作用。";
 
 "ChannelInfo.DeleteGroup" = "删除群组";
 "ChannelInfo.DeleteGroupConfirmation" = "等一下！删除此群组将移除所有成员，并且所有的消息都将会遗失。您确定要删除群组？";
@@ -1639,7 +1639,7 @@
 
 "ReportPeer.AlertSuccess" = "感谢您！\n您的检举将很快被我们的团队进行审查。";
 
-"Login.TermsOfServiceLabel" = "透过注册，\n您同意 [Terms of Service]。";
+"Login.TermsOfServiceLabel" = "通过注册，\n您同意 [Terms of Service]。";
 "Login.TermsOfServiceHeader" = "服务条款";
 
 "ReportPeer.ReasonOther.Placeholder" = "描述";
@@ -1795,7 +1795,7 @@
 
 "Conversation.Processing" = "正在处理...";
 
-"Conversation.MessageViaUser" = "透过 %@";
+"Conversation.MessageViaUser" = "通过 %@";
 
 "CreateGroup.SoftUserLimitAlert" = "在完成创建群组并转换成一个超级群组之后，您将能够加入更多的用户。";
 "ChannelMembers.AllMembersMayInvite" = "所有成员可以邀请";
@@ -1925,11 +1925,11 @@
 "GroupInfo.GroupType" = "群组类型";
 
 "Group.Setup.TypeHeader" = "群组类型";
-"Group.Setup.TypePublicHelp" = "公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
+"Group.Setup.TypePublicHelp" = "公开的群组可以通过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
 "Group.Setup.TypePrivateHelp" = "非公开的群组只有当您被邀请或有一个邀请链接的情况才能加入。";
 
 "Group.Username.CreatePublicLinkHelp" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。";
-"Group.Username.CreatePrivateLinkHelp" = "人们可以透过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
+"Group.Username.CreatePrivateLinkHelp" = "人们可以通过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
 
 "Conversation.PinMessageAlertGroup" = "要置顶这则消息并且通知所有群组成员？";
 "Conversation.PinMessageAlertChannel" = "要置顶这则消息并且通知所有频道成员？";
@@ -2054,7 +2054,7 @@
 "Login.SmsRequestState3" = "Telegram 传给您一则短信\n[没有收到验证码？]";
 
 "CancelResetAccount.Title" = "取消帐号重设";
-"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚透过短信发送到您手机号码的验证码。";
+"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 
 "CancelResetAccount.Success" = "您帐号 %@ 的删除过程被取消了。";
 "MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
@@ -2138,7 +2138,7 @@
 "StickerPack.RemoveMaskCount_3_10" = "移除 %@ 个面具";
 "StickerPack.RemoveMaskCount_any" = "移除 %@ 个面具";
 
-"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您透过这个机器人开启的网页？";
+"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您通过这个机器人开启的网页？";
 "StickerPacksSettings.ArchivedMasks" = "封存的面具";
 "StickerSettings.MaskContextInfo" = "如果您封存了一套面具，之后您还是可以快速地从封存的面具中恢复。";
 "StickerPacksSettings.ArchivedMasks.Info" = "您最多可以有200套面具。\n当您添加更多时，未使用的面具会被封存。";

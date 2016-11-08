@@ -267,10 +267,10 @@
 "Conversation.Confirm.SendThisFile" = "您想要发送这个文件吗？";
 "Conversation.Confirm.SendThisPicture" = "您想要发送这个照片吗？";
 "Conversation.Confirm.SendThisVideo" = "您想要发送这个影片吗？";
-"Conversation.Confirm.SendThisFileDescription" = "您可以随时透过复制及粘贴来发送一个文件到 Telegram 聊天室中。";
-"Conversation.Confirm.SendThisPictureDescription" = "您可以随时透过复制及粘贴来发送图片到一个 Telegram 聊天室中。";
-"Conversation.Confirm.SendThisVideoDescription" = "您可以随时透过复制及粘贴来发送影片到一个 Telegram 聊天室中。";
-"Conversation.Confirm.SendThisPicturesDescription" = "您可以随时透过复制及粘贴来发送图片和文件到一个 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisFileDescription" = "您可以随时通过复制及粘贴来发送一个文件到 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisPictureDescription" = "您可以随时通过复制及粘贴来发送图片到一个 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisVideoDescription" = "您可以随时通过复制及粘贴来发送影片到一个 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisPicturesDescription" = "您可以随时通过复制及粘贴来发送图片和文件到一个 Telegram 聊天室中。";
 "Conversation.Action.YouKickedGroup" = "您从群组中被移除了";
 "Conversation.Action.YouLeftGroup" = "您已离开此群组";
 "Conversation.Actions.ReturnToGroup" = "返回群组";
@@ -636,7 +636,7 @@
 
 "UserCard.ExportDesc" = "您可以和其他 Telegram 用户分享这张名片，让他们可以不用知道您的电话号码就可以和您联系。目前仅适用于OSX用户，其他应用程序也将会有此功能。";
 
-"Login.WeSendSms" = "我们已经透过短信向您发送验证码。请在上面输入它。";
+"Login.WeSendSms" = "我们已经通过短信向您发送验证码。请在上面输入它。";
 
 
 
@@ -646,7 +646,7 @@
 
 
 "Conversation.Confirm.SendThisGif" = "您想发送这个GIF动图吗?";
-"Conversation.Confirm.SendThisGifDescription" = "您可以随时透过复制及粘贴来发送GIF动图到一个 Telegram 聊天室中。";
+"Conversation.Confirm.SendThisGifDescription" = "您可以随时通过复制及粘贴来发送GIF动图到一个 Telegram 聊天室中。";
 
 
 
@@ -877,7 +877,7 @@
 "PasswordSettings.ChangePassword" = "变更密码";
 "PasswordSettings.ChangeRecoveryEmail" = "变更复原用的电子邮件";
 "PasswordSettings.SetRecoveryEmail" = "设置复原用的电子邮件";
-"PasswordSettings.TurnOnPasswordDescription" = "您可以设置当您使用一个新设备登录时，除了透过短信取得的验证码外，另外要输入的密码。";
+"PasswordSettings.TurnOnPasswordDescription" = "您可以设置当您使用一个新设备登录时，除了通过短信取得的验证码外，另外要输入的密码。";
 "PasswordSettings.SetPassword" = "请输入您的新密码";
 "PasswordSettings.Next" = "下一步";
 "PasswordSettings.ConfirmPassword" = "请再次输入您的新密码";
@@ -920,7 +920,7 @@
 "PasswordSettings.AbortPassword" = "中止两步验证设置";
 "PasswordSettings.ConfrimEmailDescription" = "请按照以下步骤来完成两步验证设置：\n\n1. 检查您的电子邮件 (别忘了垃圾邮件文件夹)：%@\n\n2. 点击验证链接。";
 
-"PasswordSettings.AdditionDescription" = "您可以设置当您登录到一个新设备上时，除了输入透过短信取得的验证码外，另外要输入的密码。";
+"PasswordSettings.AdditionDescription" = "您可以设置当您登录到一个新设备上时，除了输入通过短信取得的验证码外，另外要输入的密码。";
 
 "Authorization.Authorizations" = "连接";
 "Authorization.Official" = "官方";
@@ -941,14 +941,14 @@
 "Settings.SmartNotifications" = "智能型通知";
 
 "Confirm.ConfrimToJoinGroup" = "您是否想要加入群组 \"%@\"？";
-"MessageAction.Service.JoinedGroupByLink" = "透过邀请链接加入群组";
+"MessageAction.Service.JoinedGroupByLink" = "通过邀请链接加入群组";
 
-"Group.CopyExportChatInvite" = "透过链接邀请到群组";
+"Group.CopyExportChatInvite" = "通过链接邀请到群组";
 "ChatExportLink.CopyLink" = "复制邀请链接";
 "ChatExportLink.RevokeLink" = "撤销邀请链接";
 "ChatExportLink.RevokeConfirm" = "您确定要撤销此链接？一旦链接被撤销，没有人可以利用它加入。";
 "ChatExportLink.Alert.Revoked" = "先前的邀请链接现在已经没有作用。而一个新的已经产生了。";
-"ChatExportLink.Description" = "任何已安装 Telegram 的人可以透过开启此链接加入到您的群组。";
+"ChatExportLink.Description" = "任何已安装 Telegram 的人可以通过开启此链接加入到您的群组。";
 
 "AddAttachmentCaption" = "添加说明文本";
 "USERS_TOO_MUCH" = "很抱歉，此群组名额已经满了。";
@@ -963,7 +963,7 @@
 "Sticker.StickerSettings" = "贴图设置";
 "Stickers.StickersCount" = "%d 张贴图";
 "Stickers.StickersPacksHeader" = "贴图集";
-"Stickers.StickersSetDescription" = "\n欢迎画家使用我们的 @Stickers 机器人来加入他们自己的贴图套件。\n\n用户可以透过右键点击贴图集中的一贴图加入贴图，并选择 \"加入贴图\"。";
+"Stickers.StickersSetDescription" = "\n欢迎画家使用我们的 @Stickers 机器人来加入他们自己的贴图套件。\n\n用户可以通过右键点击贴图集中的一贴图加入贴图，并选择 \"加入贴图\"。";
 "Context.AddStickers" = "添加贴图";
 "Settings.MessageNotificationsAlert" = "提示";
 "Settings.MessageNotificationsHeader" = "消息通知";
@@ -1095,12 +1095,12 @@
 "Channel.TypeHeader" = "频道类型";
 "Channel.Public" = "公开";
 "Channel.Private" = "私人";
-"Channel.ChoiceTypeDescriptionPrivate" = "非公开的频道只能透过邀请链接加入。";
+"Channel.ChoiceTypeDescriptionPrivate" = "非公开的频道只能通过邀请链接加入。";
 "Channel.ChoiceTypeDescriptionPublic" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
 "Channel.NewChannelSettingUpUserNameDescription" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的频道。";
-"Channel.NewChannelSettingUpJoinLinkDescription" = "人们可以透过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
+"Channel.NewChannelSettingUpJoinLinkDescription" = "人们可以通过点击此链接加入您的频道。任何时间，您都可以撤销链接。";
 "Conversation.ShowChannelInfo" = "显示频道信息";
-"Channel.SetPublicUsernameDescription" = "请为您公开的频道选择一链接，那么人们可以透过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
+"Channel.SetPublicUsernameDescription" = "请为您公开的频道选择一链接，那么人们可以通过搜索找到它，并与其他人分享。\n\n如果您不感兴趣，我们建议建一个非公开的频道。";
 "CHANNELS_ADMIN_PUBLIC_TOO_MUCH" = "抱歉，您已经创建了太多公开的频道。首先，您可以选择创建一个非公开的频道，或是删除您存在频道中的一个公开链接。";
 "Profile.DeleteChannel" = "删除频道";
 "Profile.ExportInviteLink" = "邀请链接";
@@ -1153,7 +1153,7 @@
 "Modern.Profile.SetAdmins" = "添加管理员";
 "Modern.Chat.UpgrateToMegagroup" = "升级为超级群组";
 "Modern.Chat.UpgradeToMegagroupDescription" = "要超越 %d 个成员的限制并获得额外的功能，请升级为超级群组：\n• 超级群组可以加入高达 %d 个成员\n• 新成员可以看到完整的聊天记录\n• 管理员可以删除每个人的消息\n• 通知缺省情况下是关闭的";
-"Modern.Channel.InviteViaLink" = "透过链接邀请";
+"Modern.Channel.InviteViaLink" = "通过链接邀请";
 "Modern.Channel.ChannelMembersDescription" = "只有频道管理员可以看到这个清单。";
 "Compose.Edit" = "编辑";
 "Compose.Done" = "完成";
@@ -1188,7 +1188,7 @@
 "Channel.Comments.Moderator" = "版主";
 "Channel.Comments.Editor" = "编辑";
 "Compose.ChatAboutDescription" = "您可以为您的群组提供一可选择的描述。";
-"Compose.ChannelEmptyBlackList" = "封锁名单上的用户会从群组中被移除，只能透过管理员的邀请而回来。\n邀请链接对他们没作用。";
+"Compose.ChannelEmptyBlackList" = "封锁名单上的用户会从群组中被移除，只能通过管理员的邀请而回来。\n邀请链接对他们没作用。";
 "Conversation.Confirm.DeleteSupergroupInfo" = "等一下！删除此群组将移除所有成员，并且所有的消息都将会遗失。您确定要删除群组？";
 "Conversation.Confirm.DeleteGroup" = "删除群组";
 "Group.AddModeratorDescription" = "您可以添加管理员来帮助您管理群组。";
@@ -1204,7 +1204,7 @@
 "TL_sendMessageGeoLocationAction_ConversationUser" = "正在选择位置";
 "TL_sendMessageChooseContactAction_ConversationUser" = "正在选择联系人";
 "TL_sendMessageGamePlayAction_ConversationUser" = "正在玩游戏";
-"ContextBot.Message.Via" = "透过";
+"ContextBot.Message.Via" = "通过";
 "Context.RemoveGif" = "移除GIF动图";
 "Context.AddGif" = "加入GIF动图";
 "Settings.AutoplayGifs" = "自动播放GIF动图";
@@ -1259,9 +1259,9 @@
 "DeletedMessage" = "已删除的消息";
 "Modern.Channel.GroupType" = "群组类型";
 
-"Group.ChoiceTypeDescriptionPublic" = "公开的群组可以透过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
+"Group.ChoiceTypeDescriptionPublic" = "公开的群组可以通过搜索找到，聊天记录每个人都看得见，且任何人都可以加入。";
 "Group.ChoiceTypeDescriptionPrivate" = "非公开的群组只有您被邀请或有一个邀请链接的情况才能加入。";
-"Group.PrivateTypeUpJoinLinkDescription" = "人们可以透过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
+"Group.PrivateTypeUpJoinLinkDescription" = "人们可以通过点击此链接加入您的群组。任何时间，您都可以撤销链接。";
 "Group.PublicTypeUpJoinLinkDescription" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。";
 "Group.TypeHeader" = "群组类型";
 "PinnedHeaderMessage" = "置顶消息";
@@ -1304,7 +1304,7 @@
 "LocationService.WifiDisabledError" = "请开启 Wi-Fi 以启用定位服务。";
 "Link.ConfirmOpenExternalLink" = "开启 %@？";
 "Message.Action.ShareInlineSwitch" = "分享机器人内容";
-"Conversation.ShareInlineSwitchResult" = "透过 %@ 选择一位用户或聊天室来分享内容";
+"Conversation.ShareInlineSwitchResult" = "通过 %@ 选择一位用户或聊天室来分享内容";
 "Settings.HandleMediaKeys" = "处理应用程序内播放器的媒体键";
 
 "Emoji.Recent" = "最近的";
@@ -1363,7 +1363,7 @@
 "Stickers.ArchiveAlert" = "封存「%@」？";
 "Stickers.Remove" = "移除";
 "Stickers.Archive" = "封存";
-"Account.CancelReset" = "有访问您手机号码 **%@** 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。如果这不是您，请输入我们刚刚透过短信发送到您手机号码的验证码。";
+"Account.CancelReset" = "有访问您手机号码 **%@** 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 "Account.Code" = "验证码";
 "AccountReset.IncorrectCode" = "您已输入一个无效验证码。请再试一次。";
 "AccountReset.SuccessHeader" = "成功了！";
@@ -1404,7 +1404,7 @@
 "Message.Action.GameScoredShortZero" = "得到 %d 分";
 "Game.Mark" = "游戏";
 "Messages.SharingGame" = "分享游戏";
-"BotSharingAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您透过这个机器人开启的网页？";
+"BotSharingAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您通过这个机器人开启的网页？";
 "Notification.GamePrivateInvite" = "邀请了您玩 %@";
 "Notification.GamePrivateGroup" = "邀请了 %@ 群组玩 %@";
 "ShareGameAlert" = "和 \"%@\" 分享游戏？";
