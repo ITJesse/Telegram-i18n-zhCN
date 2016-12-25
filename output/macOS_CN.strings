@@ -1,5 +1,5 @@
 ﻿
-"EncryptionKey.Description" = "这张图片是您与 %1$@ 的这个私密聊天的可视化加密密钥。\n\n若此图片与 %2$@ 的设备上的图片看起来一样，则您与对方的聊天是 200%% 安全的。\n\n到 telegram.org 了解更多信息";
+"EncryptionKey.Description" = "这张图片是您与 %1$@ 的这个秘密聊天的可视化加密密钥。\n\n若此图片与 %2$@ 的设备上的图片看起来一样，则您与对方的聊天是 200%% 安全的。\n\n到 telegram.org 了解更多信息";
 "EncryptionKey.EncryptionKey" = "加密密钥";
 
 
@@ -72,9 +72,9 @@
 "NewConversation.CreateBroadcast" = "创建广播";
 "NewConversation.CreateGroup" = "创建";
 "NewConversation.CreateGroupChat" = "创建群组聊天";
-"NewConversation.CreateSecretChat" = "创建私密聊天";
+"NewConversation.CreateSecretChat" = "创建秘密聊天";
 "NewConversation.CreatingGroupChat" = "群组聊天";
-"NewConversation.CreatingSecretChat" = "私密聊天";
+"NewConversation.CreatingSecretChat" = "秘密聊天";
 "NewConversation.GroupNamePlaceholder" = "群组名称...";
 "NewConversation.AddContact" = "添加联系人";
 
@@ -90,8 +90,8 @@
 "Login.InvalidCountry" = "无效的国家";
 "Login.InvalidPhoneNumber" = "无效手机号码";
 "Login.Country" = "国家";
-"Login.Description" = "官方 macOS 版 Telegram Messenger";
-"Login.Label" = "欢迎使用官方 macOS 应用程序";
+"Login.Description" = "macOS 版的 Telegram Messenger";
+"Login.Label" = "欢迎使用 macOS 版的 Telegram";
 "Login.GetNewCode" = "取得一个新的验证码";
 "Login.GetCode" = "下一步";
 "Login.Error" = "错误 ;(";
@@ -128,7 +128,7 @@
 "Message.ForwardedFrom" = "转发的消息，来自";
 "message" = "消息";
 "messages" = "消息";
-"MessageAction.Secret.CreatedSecretChat" = "创建了私密聊天";
+"MessageAction.Secret.CreatedSecretChat" = "创建了秘密聊天";
 "MessageAction.ServiceMessage.ChangedGroupName" = "%@ 将群组名称变更为 \"%@\"";
 "MessageAction.ServiceMessage.RemovedGroupPhoto" = "%@ 移除了群组照片";
 "MessageAction.ServiceMessage.ChangedGroupPhoto" = "%@ 变更了群组照片";
@@ -137,7 +137,7 @@
 "MessageAction.ServiceMessage.KickedGroup" = "%@ 删除了 %@";
 "MessageAction.ServiceMessage.CreatedChat" ="%@ 创建了 \"%@\" 群组";
 "MessageAction.ServiceMessage.LeftGroup" = "%@ 离开了群组";
-"MessageAction.Secret.CancelledSecretChat" = "已取消私密聊天";
+"MessageAction.Secret.CancelledSecretChat" = "秘密聊天已取消";
 "MessageAction.Service.ChangedGroupName" = "重命名群组";
 "MessageAction.Service.RemovedGroupPhoto" = "移除了群组照片";
 "MessageAction.Service.ChangedGroupPhoto" = "变更群组照片";
@@ -256,9 +256,9 @@
 
 "Conversation.ShowProfile" = "显示 %@ 的个人数据";
 "Conversation.ShowGroupInfo" = "显示群组信息";
-"Conversation.StartSecretChat" = "开始私密聊天";
-"Conversation.CantForwardSecretMessages" = "很不幸的，您不能将消息转发至私密聊天中";
-"Conversation.CantShareContactToSecretChat" = "很不幸的，您不能分享联系人至私密聊天中";
+"Conversation.StartSecretChat" = "开始秘密聊天";
+"Conversation.CantForwardSecretMessages" = "很不幸的，您不能将消息转发至秘密聊天中";
+"Conversation.CantShareContactToSecretChat" = "很不幸的，您不能分享联系人至秘密聊天中";
 "Conversation.Confirm.ClearHistory" = "您想要删除这个聊天中的所有消息？";
 "Conversation.Confirm.LeaveAndClear" = "您想要离开这个群组并且清除消息记录吗？";
 "Conversation.Confirm.DeleteAndClear" = "您想要删除这个聊天室并且清除消息记录吗？";
@@ -277,7 +277,7 @@
 "Conversation.Actions.LeaveGroup" = "离开群组";
 "Conversation.Members" = "成员";
 "Conversation.Member" = "成员";
-"Conversation.DeleteSecretChat" = "删除私密聊天";
+"Conversation.DeleteSecretChat" = "删除秘密聊天";
 "Conversation.ShowEncryptionKey" = "显示加密密钥";
 "Conversation.Delete" = "删除聊天";
 "Conversation.Back" = "返回聊天室";
@@ -495,12 +495,12 @@
 "Settings.General" = "一般的";
 "Settings.Account" = "帐号";
 
-"MessageAction.Secret.UserJoined" = "%@ 加入了您的私密聊天。";
-"MessageAction.Secret.CreatedSecretChat" = "创建了私密聊天";
+"MessageAction.Secret.UserJoined" = "%@ 加入了您的秘密聊天。";
+"MessageAction.Secret.CreatedSecretChat" = "创建了秘密聊天";
 
-"Secret.join.description" = "您已邀请 %1$@ 加入\n一个私密聊天。";
-"Secret.join.invitedDescription" = "%1$@ 已邀请您加入\n一个私密聊天。";
-"Secret.join.secret_chats" = "\n\n私密聊天：\n";
+"Secret.join.description" = "您已邀请 %1$@ 加入\n一个秘密聊天。";
+"Secret.join.invitedDescription" = "%1$@ 已邀请您加入\n一个秘密聊天。";
+"Secret.join.secret_chats" = "\n\n秘密聊天：\n";
 "Secret.join.desc1" = "使用端到端加密\n";
 "Secret.join.desc2" = "不会在 Telegram 服务器留下痕迹\n";
 "Secret.join.desc3" = "使用「阅后即焚计时器」";
@@ -520,7 +520,7 @@
 "Document.Downloading" = "%.0f%% 正在下载";
 "Document.Uploading" = "%.0f%% 正在上传";
 
-"MessageService.Action.JoinedSecretChat" = "加入了私密聊天";
+"MessageService.Action.JoinedSecretChat" = "加入了秘密聊天";
 
 "Attach.Location" = "位置";
 "Attach.PictureOrVideo" = "照片或影片";
@@ -593,10 +593,10 @@
 
 "ComposeMenu.CreateGroup" = "添加群组";
 "ComposeMenu.Broadcast" = "广播名单";
-"ComposeMenu.SecretChat" = "添加私密聊天";
+"ComposeMenu.SecretChat" = "添加秘密聊天";
 
 "Compose.GroupTitle" = "添加群组";
-"Compose.SecretChat" = "添加私密聊天";
+"Compose.SecretChat" = "添加秘密聊天";
 "Compose.BroadcastTitle" = "广播名单";
 
 
@@ -930,7 +930,7 @@
 "Forward.Messages" = "%d 则转发的消息";
 
 
-"PasscodeSettings.TurnOnDescription" = "请注意：如果您忘记了密码，您将需要注销。而您将失去所有的私密聊天。";
+"PasscodeSettings.TurnOnDescription" = "请注意：如果您忘记了密码，您将需要注销。而您将失去所有的秘密聊天。";
 
 "AuthSessions.CurrentSession" = "目前的连接";
 "AuthSessions.OtherSessions" = "其他连接";
@@ -962,8 +962,8 @@
 "Settings.Stickers" = "贴图";
 "Sticker.StickerSettings" = "贴图设置";
 "Stickers.StickersCount" = "%d 张贴图";
-"Stickers.StickersPacksHeader" = "贴图集";
-"Stickers.StickersSetDescription" = "\n欢迎画家使用我们的 @Stickers 机器人来加入他们自己的贴图套件。\n\n用户可以通过右键点击贴图集中的一贴图加入贴图，并选择 \"加入贴图\"。";
+"Stickers.StickersPacksHeader" = "贴图包";
+"Stickers.StickersSetDescription" = "\n欢迎画家使用我们的 @Stickers 机器人来加入他们自己的贴图包。\n\n用户可以通过右键点击贴图包中的一个贴图来加贴图，并选择 \"加入贴图\"。";
 "Context.AddStickers" = "添加贴图";
 "Settings.MessageNotificationsAlert" = "提示";
 "Settings.MessageNotificationsHeader" = "消息通知";
@@ -1072,7 +1072,7 @@
 "Profile.ChannelBlackList" = "封锁名单";
 "Channel.DeleteMessageModal" = "删除";
 "Channel.BanUserModal" = "封锁用户";
-"Channel.ReportSpamModal" = "检举垃圾消息";
+"Channel.ReportSpamModal" = "举报垃圾消息";
 "Channel.DeleteAllMessagesModal" = "删除所有消息";
 "Channel.DeleteMessagesModalHeader" = "删除消息";
 "Compose.Unban" = "解除封锁";
@@ -1123,9 +1123,9 @@
 "MessageAction.Service.YouChoinedToChannel" = "加入了频道";
 "Settings.IncludeMutedUnread" = "未读计数中包含关闭消息通知的聊天";
 "USER_ALREADY_PARTICIPANT" = "此用户已经是成员了。";
-"Messages.MessagesTopInfoActionReportSpam.Button" = "检举垃圾消息";
+"Messages.MessagesTopInfoActionReportSpam.Button" = "举报垃圾消息";
 "Messages.MessagesTopInfoActionReportSpam.ButtonCancel" = "取消";
-"ReportSpam.ConfirmDescription" = "您确定要检举出自此用户的垃圾消息？";
+"ReportSpam.ConfirmDescription" = "您确定要举报出自此用户的垃圾消息？";
 "Messages.SharingLink" = "分享链接";
 "ShowConversationWithAnotherWindow" = "在另一个窗口开启对话";
 "Conversation.Pin" = "置顶";
@@ -1169,13 +1169,13 @@
 "Modern.Chat.UpgradeConfirmDescription" = "请注意，群组成员将需要更新其 Telegram APP 至最新版本，才可以看到您的超级群组。";
 "MessageAction.Service.Invited" = "已邀请";
 "MessageAction.Service.InvitedUsers" = "邀请了用户";
-"Profile.ReportChannel" = "检举";
+"Profile.ReportChannel" = "举报";
 "Report.ReportOther" = "其他";
 "Report.ReportPorno" = "色情";
 "Report.ReportViolence" = "暴力";
 "Report.ReportSpam" = "垃圾消息";
 "Report.AlertText" = "感谢您！";
-"Report.AlertDescription" = "您的检举将很快被我们的团队进行审查。";
+"Report.AlertDescription" = "您的举报将很快被我们的团队进行审查。";
 "Conversation.GroupTitle" = "群组";
 
 "USER_BLOCKED" = "很抱歉，您无法将此用户加入到频道。";
@@ -1213,7 +1213,7 @@
 "document" = "文件";
 
 
-"Secret.InactiveCap" = "在私密聊天中，请专注于窗口以查看消息。";
+"Secret.InactiveCap" = "在秘密聊天中，请专注于窗口以查看消息。";
 "Conversation.SelectConversationToViewChatInfo" = "选择一聊天室以查看信息";
 "Audio.QuickRecordRelease" = "按下 Command 键 + R 键以发送语音消息";
 "PrivacyAndSecurity.Groups" = "群组";
@@ -1336,7 +1336,7 @@
 "SendMedia.SendAsCompressed" = "发送压缩过的图片";
 "Stickers.Featured" = "热门的贴图";
 "Stickers.AddFeatured" = "添加";
-"Stickers.ArtistDesc" = "欢迎画家使用我们的 @Stickers 机器人来加入他们所拥有的贴图集。\n\n点击一张贴图来查看和添加整套贴图集。";
+"Stickers.ArtistDesc" = "欢迎画家使用我们的 @Stickers 机器人来加入他们所拥有的贴图包。\n\n点击一张贴图来查看和添加整套贴图包。";
 "Passcode.forceLogout" = "如果您丢失了密码，您可以 %1$@注销%2$@。";
 
 
@@ -1356,9 +1356,9 @@
 "Message.SendPlaceholder" = "编写一则消息...";
 "Message.SendBroadcast" = "广播消息...";
 "Placeholder.EditMessage" = "编辑消息...";
-"Stickers.WillArchived" = "一些较旧的贴图集已经被封存。您可以在贴图设置里重新启用它们。";
+"Stickers.WillArchived" = "一些较旧的贴图包已经被封存。您可以在贴图设置里重新启用它们。";
 "Stickers.Archived" = "封存的贴图";
-"Stickers.ArchivedDesc" = "您最多可以有200套已安装的贴图集。\n当您添加更多时，未使用的贴图会被封存。";
+"Stickers.ArchivedDesc" = "您最多可以有200套已安装的贴图包。\n当您添加更多时，未使用的贴图会被封存。";
 "Stickers.RemoveOrArchive" = "移除或是封存「%@」？";
 "Stickers.ArchiveAlert" = "封存「%@」？";
 "Stickers.Remove" = "移除";
@@ -1393,9 +1393,9 @@
 "Message.Action.ConversationGamePluar" = "得到 %d 分";
 "Message.Action.ConversationGameZero" = "得到 %d 分";
 
-"Message.Action.GameScoredSingular" = "得到 %d 分在";
-"Message.Action.GameScoredPluar" = "得到 %d 分在";
-"Message.Action.GameScoredZero" = "得到 %d 分在";
+"Message.Action.GameScoredSingular" = "得到了 %d 分在";
+"Message.Action.GameScoredPluar" = "得到了 %d 分在";
+"Message.Action.GameScoredZero" = "得到了 %d 分在";
 
 "SendMessage.FolderFound" = "发送文件夹";
 "SendMessage.FolderFoundDesc" = "您的文件夹将在发送前被压缩成一个压缩档";
@@ -1404,7 +1404,14 @@
 "Message.Action.GameScoredShortZero" = "得到 %d 分";
 "Game.Mark" = "游戏";
 "Messages.SharingGame" = "分享游戏";
-"BotSharingAlert" = "是否允许 %@ 传递您的 Telegram 名称和 id (并非您的手机号码) 给您通过这个机器人开启的网页？";
+"BotSharingAlert" = "是否允许通过这个 %@ 机器人传递您的 Telegram 名称和 id (并非您的手机号码) 到您要开启的网页？";
 "Notification.GamePrivateInvite" = "邀请了您玩 %@";
 "Notification.GamePrivateGroup" = "邀请了 %@ 群组玩 %@";
 "ShareGameAlert" = "和 \"%@\" 分享游戏？";
+"Modern.SharedMedia.CommonGroup" = "共同的群组";
+"Modern.SharedMedia.CommonGroups" = "共同的群组";
+"CommonGroups.Header" = "共同的群组";
+"Conversation.Pin" = "置顶";
+"Conversation.Unpin" = "取消钉选";
+"Conversation.Alert.PinLimitError" = "抱歉，您无法钉选超过 %d 个聊天室到顶端。";
+"Conversation.Alert.SecretPinLimitError" = "抱歉，您无法钉选超过 %d 个秘密聊天室到顶端。";
