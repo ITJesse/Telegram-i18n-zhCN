@@ -75,6 +75,8 @@
 "CHAT_MESSAGE_GAME" = "%1$@ 邀请了 %2$@ 群组玩 %3$@";
 "PINNED_GAME" = "%1$@ 置顶了一个游戏";
 
+"PHONE_CALL_REQUEST" = "%1$@ 正在打电话给您";
+
 // Common
 "Common.OK" = "好";
 "Common.Cancel" = "取消";
@@ -599,7 +601,7 @@
 "Settings.Logout" = "注销";
 "Settings.Title" = "设置";
 "Settings.NotificationsAndSounds" = "通知与音效";
-"Settings.ChatSettings" = "聊天设置";
+"Settings.ChatSettings" = "数据和保存空间";
 "Settings.BlockedUsers" = "封锁名单";
 "Settings.ChatBackground" = "聊天室背景";
 "Settings.Support" = "提出疑问";
@@ -634,12 +636,12 @@
 "Notifications.InAppNotificationsVibrate" = "程序内震动";
 "Notifications.InAppNotificationsPreview" = "程序内预览";
 
-"Notifications.Reset" = "重设";
-"Notifications.ResetAllNotifications" = "重设所有通知";
+"Notifications.Reset" = "重置";
+"Notifications.ResetAllNotifications" = "重置所有通知";
 "Notifications.ResetAllNotificationsHelp" = "撤销您全部联系人和群组的所有自订通知设置。";
 
 // Chat Settings
-"ChatSettings.Title" = "聊天设置";
+"ChatSettings.Title" = "数据和保存空间";
 "ChatSettings.Appearance" = "外观";
 "ChatSettings.TextSize" = "文本大小";
 "ChatSettings.TextSizeUnits" = "pt";
@@ -653,7 +655,7 @@
 "ChatSettings.Cache" = "缓存";
 
 // Usage
-"Cache.Title" = "缓存设置";
+"Cache.Title" = "保存空间用量";
 "Cache.ClearCache" = "清除缓存";
 "Cache.ClearCacheAlert" = "在云端聊天记录中的照片、影片和其它文件将从这个设备中移除以节省磁盘空间。\n\n所有的媒体都会留在 Telegram 云端，并且在您需要时，可以重新下载。";
 "Cache.KeepMedia" = "保留媒体";
@@ -858,7 +860,7 @@
 "PhotoEditor.Original" = "原始";
 "PhotoEditor.Current" = "目前";
 
-"PhotoEditor.CropReset" = "重设";
+"PhotoEditor.CropReset" = "重置";
 "PhotoEditor.CropAuto" = "自动";
 "PhotoEditor.CropAspectRatioOriginal" = "原始";
 "PhotoEditor.CropAspectRatioSquare" = "方形";
@@ -915,7 +917,7 @@
 "LoginPassword.FloodError" = "超过限制。请稍后再试。";
 "LoginPassword.ForgotPassword" = "忘记密码了？";
 "LoginPassword.PasswordHelp" = "两步验证启用。您的帐号已被保护，用一个额外的密码。";
-"LoginPassword.ResetAccount" = "重设帐号";
+"LoginPassword.ResetAccount" = "重置帐号";
 
 "QuickSend.Photos_1" = "发送 1 张照片";
 "QuickSend.Photos_2" = "发送 2 张照片";
@@ -1228,11 +1230,11 @@
 "TwoStepAuth.PasswordSet" = "您用于两步验证的密码现在起作用了。";
 "TwoStepAuth.PasswordRemoveConfirmation" = "您确定要停用密码？";
 
-"TwoStepAuth.RecoveryUnavailable" = "由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重设您的帐号。";
-"TwoStepAuth.RecoveryFailed" = "您剩余的选项就是要记住您的密码或重设您的帐号。";
-"TwoStepAuth.ResetAccount" = "重设我的帐号";
-"TwoStepAuth.ResetAccountHelp" = "如果您继续重设您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。";
-"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重设您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。";
+"TwoStepAuth.RecoveryUnavailable" = "由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重置您的帐号。";
+"TwoStepAuth.RecoveryFailed" = "您剩余的选项就是要记住您的密码或重置您的帐号。";
+"TwoStepAuth.ResetAccount" = "重置我的帐号";
+"TwoStepAuth.ResetAccountHelp" = "如果您继续重置您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。";
+"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。";
 
 "TwoStepAuth.RecoveryTitle" = "电子信箱验证码";
 "TwoStepAuth.RecoverySent" = "我们已经发送一组复原用的验证码到您所提供的电子信箱：\n\n%@";
@@ -2037,15 +2039,15 @@
 
 "ArchivedPacksAlert.Title" = "一些较旧的贴图包已经被封存。您可以在贴图设置里重新启用它们。";
 
-"StickerSettings.ContextInfo" = "如果您封存了一套贴图，之后您还是可以快速地从封存的贴图中恢复。";
+"StickerSettings.ContextInfo" = "如果您封存了一套贴图，之后您还是可以快速地从封存的贴图包中恢复。";
 
 "Contacts.TopSection" = "联系人";
 
-"Login.ResetAccountProtected.Title" = "重设帐号";
+"Login.ResetAccountProtected.Title" = "重置帐号";
 "Login.ResetAccountProtected.Text" = "由于帐号 %@ 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消此一过程。";
-"Login.ResetAccountProtected.TimerTitle" = "您可以重设您的帐号在：";
-"Login.ResetAccountProtected.Reset" = "重设";
-"Login.ResetAccountProtected.LimitExceeded" = "您最近重设此帐号的尝试已被其活跃用户取消。请在7天内再试一次。";
+"Login.ResetAccountProtected.TimerTitle" = "您可以重置您的帐号在：";
+"Login.ResetAccountProtected.Reset" = "重置";
+"Login.ResetAccountProtected.LimitExceeded" = "您最近重置此帐号的尝试已被其活跃用户取消。请在7天内再试一次。";
 
 "Login.CodeSentCall" = "我们正拨打您的手机，语音告知一组验证码。";
 
@@ -2053,8 +2055,8 @@
 "Login.SmsRequestState2" = "正在请求来自 Telegram 的短信…";
 "Login.SmsRequestState3" = "Telegram 传给您一则短信\n[没有收到验证码？]";
 
-"CancelResetAccount.Title" = "取消帐号重设";
-"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
+"CancelResetAccount.Title" = "取消帐号重置";
+"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重置您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 
 "CancelResetAccount.Success" = "您帐号 %@ 的删除过程被取消了。";
 "MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
@@ -2159,12 +2161,12 @@
 
 "Activity.PlayingGame" = "正在玩游戏";
 
-"DialogList.SinglePlayingGameSuffix" = "%@ 正在玩游戏";
+"DialogList.SinglePlayingGameSuffix" = "%@ 正在玩一个游戏";
 
 "UserInfo.GroupsInCommon" = "共同的群组";
 "Conversation.InstantPagePreview" = "立即查看";
 
-"StickerPack.ViewPack" = "查看包";
+"StickerPack.ViewPack" = "查看贴图包";
 "InstantPage.AuthorAndDateTitle" = "作者 %1$@ • %2$@";
 "InstantPage.FeedbackButton" = "留下您对于此预览的反应";
 "Conversation.JumpToDate" = "跳到该日期";
@@ -2179,3 +2181,84 @@
 "DialogList.Pin" = "钉选";
 "DialogList.Unpin" = "取消钉选";
 "DialogList.PinLimitError" = "抱歉，您无法钉选超过 %@ 个聊天室到顶端。";
+
+"Conversation.DeleteMessagesForMe" = "为我删除";
+"Conversation.DeleteMessagesFor" = "为我和 %@ 删除";
+"Conversation.DeleteMessagesForEveryone" = "为大家删除";
+
+"NetworkUsageSettings.Title" = "网络用量";
+"NetworkUsageSettings.Cellular" = "行动数据";
+"NetworkUsageSettings.Wifi" = "Wi-Fi";
+
+"NetworkUsageSettings.GeneralDataSection" = "消息";
+"NetworkUsageSettings.MediaImageDataSection" = "照片";
+"NetworkUsageSettings.MediaVideoDataSection" = "影片";
+"NetworkUsageSettings.MediaAudioDataSection" = "音频";
+"NetworkUsageSettings.MediaDocumentDataSection" = "文档";
+"NetworkUsageSettings.TotalSection" = "总字节";
+"NetworkUsageSettings.BytesSent" = "已发送的字节";
+"NetworkUsageSettings.BytesReceived" = "已接收的字节";
+
+"NetworkUsageSettings.ResetStats" = "重置统计数据";
+"NetworkUsageSettings.ResetStatsConfirmation" = "您想要重置您的用量统计数据吗？";
+"NetworkUsageSettings.CellularUsageSince" = "自从 %@ 以来的行动数据用量";
+"NetworkUsageSettings.WifiUsageSince" = " 自从 %@ 以来的 Wi-Fi 用量";
+
+"Settings.CallSettings" = "语音通话";
+
+"Calls.TabTitle" = "通话";
+"Calls.All" = "全部";
+"Calls.Missed" = "未接来电";
+"Calls.Clear" = "清除";
+
+"CallSettings.Title" = "语音通话";
+"CallSettings.RecentCalls" = "最近的通话";
+"CallSettings.TabIcon" = "显示通话页签";
+"CallSettings.TabIconDescription" = "通话图标将显示在标签栏中。";
+"CallSettings.UseLessData" = "使用较少的数据";
+"CallSettings.UseLessDataDescription" = "使用较少的数据来通话";
+"CallSettings.Never" = "永不";
+"CallSettings.OnMobile" = "在移动网络上";
+"CallSettings.Always" = "总是";
+"CallSettings.UseLessDataLongDescription" = "使用较少的数据可以改善糟糕的网络体验，但会略微降低音频品质。";
+
+"Calls.CallTabTitle" = "通话页签";
+"Calls.CallTabDescription" = "您可以在标签栏中添加通话页签。";
+"Calls.NotNow" = "不是现在";
+"Calls.AddTab" = "添加页签";
+"Calls.Search" = "搜索通话";
+"Calls.NewCall" = "新的通话";
+
+"Calls.RatingTitle" = "请评价您的 Telegram \n通话品质";
+"Calls.SubmitRating" = "提交";
+
+"Call.Seconds_1" = "%@ 秒钟";
+"Call.Seconds_2" = "%@ 秒钟";
+"Call.Seconds_3_10" = "%@ 秒钟";
+"Call.Seconds_any" = "%@ 秒钟";
+"Call.Minutes_1" = "%@ 分钟";
+"Call.Minutes_2" = "%@ 分钟";
+"Call.Minutes_3_10" = "%@ 分钟";
+"Call.Minutes_any" = "%@ 分钟";
+
+"Call.ShortSeconds_1" = "%@ 秒";
+"Call.ShortSeconds_2" = "%@ 秒";
+"Call.ShortSeconds_3_10" = "%@ 秒";
+"Call.ShortSeconds_any" = "%@ 秒";
+"Call.ShortMinutes_1" = "%@ 分";
+"Call.ShortMinutes_2" = "%@ 分";
+"Call.ShortMinutes_3_10" = "%@ 分";
+"Call.ShortMinutes_any" = "%@ 分";
+
+"Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - type, 2 - duration
+"Notification.CallOutgoing" = "呼出电话";
+"Notification.CallIncoming" = "拨入电话";
+"Notification.CallMissed" = "未接来电";
+"Notification.CallCanceled" = "取消的通话";
+"Notification.CallFormat" = "%1$@ %2$@"; // 1 - title, 2 - time
+
+"Call.ConnectionErrorTitle" = "无法通话";
+"Call.ConnectionErrorMessage" = "请检查您的网络连接，然后再试一次。";
+
+"Call.CallBack" = "回调";
+"Call.CallAgain" = "重拨";

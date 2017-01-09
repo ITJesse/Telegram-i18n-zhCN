@@ -22,13 +22,13 @@
   <string name="Code">验证码</string>
   <string name="WrongNumber">号码不对吗？</string>
   <string name="DidNotGetTheCode">仍未收到验证码？</string>
-  <string name="CancelAccountReset">取消帐号重设</string>
-  <string name="CancelAccountResetInfo">有访问您手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。</string>
-  <string name="ResetAccount">重设帐号</string>
+  <string name="CancelAccountReset">取消帐号重置</string>
+  <string name="CancelAccountResetInfo">有访问您手机号码 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人请求删除您的 Telegram 帐号及重置您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。</string>
+  <string name="ResetAccount">重置帐号</string>
   <string name="ResetAccountInfo">由于帐号 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消这一过程。</string>
-  <string name="ResetAccountStatus">您可以重设您的帐号在：</string>
-  <string name="ResetAccountCancelledAlert">您最近重设此帐号的尝试已被其活跃用户取消。请在7天内再试一次。</string>
-  <string name="ResetAccountButton">重设</string>
+  <string name="ResetAccountStatus">您可以重置您的帐号在：</string>
+  <string name="ResetAccountCancelledAlert">您最近重置此帐号的尝试已被其活跃用户取消。请在7天内再试一次。</string>
+  <string name="ResetAccountButton">重置</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">您帐号 %1$s 的删除过程被取消了。 现在您可以关闭此窗口。</string>
   <!--signup view-->
@@ -39,6 +39,7 @@
   <string name="LastName">姓氏 (选填)</string>
   <string name="CancelRegistration">取消注册</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">新的对话</string>
   <string name="Settings">设置</string>
   <string name="Contacts">联系人</string>
   <string name="NewGroup">添加群组</string>
@@ -84,6 +85,9 @@
   <string name="ViewPackPreview">查看包</string>
   <string name="PinToTop">钉选到顶端</string>
   <string name="UnpinFromTop">从顶端取消钉选</string>
+  <string name="Bold">粗体</string>
+  <string name="Italic">斜体</string>
+  <string name="Regular">正常</string>
   <!--channels-->
   <string name="GroupType">群组类型</string>
   <string name="ChannelType">频道类型</string>
@@ -369,6 +373,8 @@
   <string name="ChatYourSelfDescription4">使用搜索功能快速找到东西</string>
   <string name="ChatYourSelfTitle">您的云存储</string>
   <string name="JumpToDate">跳到该日期</string>
+  <string name="DeleteForUser">为 %1$s 删除</string>
+  <string name="DeleteForAll">为所有成员删除</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 将阅后即焚计时器设置为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您将阅后即焚计时器设置为 %1$s</string>
@@ -578,7 +584,7 @@
   <string name="ArchivedMasksAlertTitle">封存的面具</string>
   <string name="ArchivedMasksAlertInfo">一些较旧的面具已经被封存。您可以在面具设置里重新启用它们。</string>
   <!--settings view-->
-  <string name="ResetNotificationsText">重设所有通知设置为默认值</string>
+  <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">消息的字体大小</string>
   <string name="AskAQuestion">提出疑问</string>
   <string name="EnableAnimations">使用动画效果</string>
@@ -595,8 +601,8 @@
   <string name="InAppVibrate">程序内震动</string>
   <string name="Vibrate">震动</string>
   <string name="InAppPreview">程序内预览</string>
-  <string name="Reset">重设</string>
-  <string name="ResetAllNotifications">重设所有通知</string>
+  <string name="Reset">重置</string>
+  <string name="ResetAllNotifications">重置所有通知</string>
   <string name="UndoAllCustom">撤销您对所有联系人与群组的自订通知设置</string>
   <string name="NotificationsAndSounds">通知与音效</string>
   <string name="CustomNotifications">自订通知</string>
@@ -634,6 +640,7 @@
   <string name="ContactJoined">联系人加入 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
+  <string name="Theme">主题</string>
   <string name="AskAQuestionInfo">请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。<![CDATA[<br><br>]]>请看看  <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ</a>]]>：它回答了大部分的问题及提供了对于<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">故障排除</a>]]>的重要提示。</string>
   <string name="AskButton">询问志愿者</string>
   <string name="TelegramFaq">Telegram FAQ</string>
@@ -679,7 +686,7 @@
   <string name="NotificationsPriorityLow">低</string>
   <string name="NotificationsPriorityHigh">高</string>
   <string name="NotificationsPriorityMax">最大</string>
-  <string name="RepeatNotificationsNever">从未</string>
+  <string name="RepeatNotificationsNever">永不</string>
   <string name="RepeatNotifications">重复通知</string>
   <string name="PhoneNumberHelp">您可以在这里改变 Telegram 所绑定的电话号码。您的帐号和所有您的云端数据 — 消息、媒体、联系人...等，将被移动到新的号码。\n\n<![CDATA[<b>重要提示：</b>]]> 您的所有 Telegram 联系人将取得您的<![CDATA[<b>新号码</b>]]> ，并加入到他们的手机通信录中，条件是他们有您的旧号码，且您没有在 Telegram 中封锁他们。</string>
   <string name="PhoneNumberAlert">您的所有 Telegram 联系人将取得您的新号码，并加入到他们的手机通信录中，条件是他们有您的旧号码，且您没有在 Telegram 中封锁他们。</string>
@@ -711,8 +718,11 @@
   <string name="Emoji">表情符号</string>
   <string name="EmojiBigSize">绘制单个大表情符号</string>
   <string name="EmojiUseDefault">使用系统缺省表情符号</string>
+  <string name="TelegramVersion">Android 版的 Telegram %1$s</string>
+  <string name="DebugMenu">调试菜单</string>
+  <string name="DebugMenuImportContacts">导入联系人</string>
+  <string name="DebugMenuReloadContacts">重新加载联系人</string>
   <!--cache view-->
-  <string name="CacheSettings">缓存设置</string>
   <string name="LocalDatabase">本地数据库</string>
   <string name="LocalDatabaseClear">清除缓存的文本消息？</string>
   <string name="LocalDatabaseInfo">清除本地数据库将删除缓存消息的文本和压缩数据库来节省内部磁盘空间。Telegram 需要一些数据来工作，所以数据库的大小不会达到零。\n\n这个操作可能需要几分钟的时间才能完成。</string>
@@ -724,6 +734,7 @@
   <string name="LocalAudioCache">语音消息</string>
   <string name="LocalVideoCache">影片</string>
   <string name="LocalMusicCache">音乐</string>
+  <string name="LocalGifCache">GIFs</string>
   <string name="LocalCache">其他文件</string>
   <string name="CacheEmpty">空的</string>
   <string name="KeepMedia">保留媒体</string>
@@ -733,7 +744,7 @@
   <string name="SessionsTitle">登陆中的设备</string>
   <string name="CurrentSession">目前的连接</string>
   <string name="NoOtherSessions">没有其他登陆中的设备</string>
-  <string name="NoOtherSessionsInfo">您可以通过使用同一组电话号码，在其他行动、平板及桌面设备上登录 Telegram。您的所有数据均会立即同步。</string>
+  <string name="NoOtherSessionsInfo">您可以通过使用同一组电话号码，在其他手机、平板及桌面设备上登录 Telegram。您的所有数据均会立即同步。</string>
   <string name="OtherSessions">登陆中的设备</string>
   <string name="SessionsInfo">控制您在其他设备上的连接。</string>
   <string name="TerminateSessionInfo">请点击要中断的连接。</string>
@@ -849,7 +860,7 @@
   <string name="PaintDuplicate">复制</string>
   <string name="PaintOutlined">轮廓</string>
   <string name="PaintRegular">规则的</string>
-  <string name="CropReset">重设</string>
+  <string name="CropReset">重置</string>
   <string name="CropOriginal">原始</string>
   <string name="CropSquare">方形</string>
   <!--password view-->
@@ -884,16 +895,16 @@
   <string name="PasswordAsHintError">提示必须跟您的密码不同</string>
   <string name="PasswordEmailInvalid">无效的电子信箱</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
-  <string name="RestorePasswordNoEmailText">由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重设您的帐号。</string>
+  <string name="RestorePasswordNoEmailText">由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重置您的帐号。</string>
   <string name="RestoreEmailSent">我们已经发送一组复原用的验证码到您所提供的电子信箱：\n\n%1$s</string>
   <string name="RestoreEmailSentInfo">请检查您的电子邮件，并输入我们在这里发送的6位数验证码。</string>
   <string name="RestoreEmailTrouble">无法访问您的电子信箱 %1$s？</string>
-  <string name="RestoreEmailTroubleText">如果无法恢复访问您的电子信箱，您剩下的选项就是要记住您的密码或重设您的帐号。</string>
-  <string name="ResetMyAccount">重设我的帐号</string>
-  <string name="ResetMyAccountText">如果您继续重设您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。</string>
+  <string name="RestoreEmailTroubleText">如果无法恢复访问您的电子信箱，您剩下的选项就是要记住您的密码或重置您的帐号。</string>
+  <string name="ResetMyAccount">重置我的帐号</string>
+  <string name="ResetMyAccountText">如果您继续重置您的帐号，您将失去所有的聊天记录和消息，连同您所分享过的任何媒体和文件。</string>
   <string name="ResetMyAccountWarning">警告</string>
-  <string name="ResetMyAccountWarningText">这个动作无法复原。\n\n如果您继续重设您的帐号，那您的所有消息及聊天都会被删除。</string>
-  <string name="ResetMyAccountWarningReset">重设</string>
+  <string name="ResetMyAccountWarningText">这个动作无法复原。\n\n如果您继续重置您的帐号，那您的所有消息及聊天都会被删除。</string>
+  <string name="ResetMyAccountWarningReset">重置</string>
   <string name="LoginPassword">密码</string>
   <string name="LoginPasswordText">您已经启用了「两步验证」，因此您的帐号被一个额外的密码所保护。</string>
   <string name="ForgotPassword">忘记密码了？</string>
@@ -902,6 +913,27 @@
   <string name="PasswordReset">密码已撤销</string>
   <string name="EnabledPasswordText">您已启动了「两步验证」。\n您需要提供您先前设立的密码，才可以登录您的 Telegram 帐号。</string>
   <string name="PendingEmailText">您的复原用电子信箱 %1$s 还没有起作用，正等候确认。</string>
+  <!--data settings-->
+  <string name="DataSettings">数据和保存空间</string>
+  <string name="DataUsage">磁盘和网络用量</string>
+  <string name="StorageUsage">保存空间用量</string>
+  <string name="MobileUsage">行动数据用量</string>
+  <string name="RoamingUsage">漫游数据用量</string>
+  <string name="WiFiUsage">Wi-Fi 数据用量</string>
+  <string name="MessagesDataUsage">消息和其他数据</string>
+  <string name="CountSent">已发送</string>
+  <string name="CountReceived">已接收</string>
+  <string name="BytesSent">已发送的字节</string>
+  <string name="BytesReceived">已接收的字节</string>
+  <string name="FilesDataUsage">文件</string>
+  <string name="CallsDataUsage">通话</string>
+  <string name="OutgoingCalls">呼出电话</string>
+  <string name="IncomingCalls">拨入电话</string>
+  <string name="CallsTotalTime">总计时间</string>
+  <string name="TotalDataUsage">总计</string>
+  <string name="ResetStatistics">重置统计数据</string>
+  <string name="NetworkUsageSince">自从%1$s以来的网络用量</string>
+  <string name="ResetStatisticsAlert">您想要重置您的用量统计数据吗？</string>
   <!--privacy settings-->
   <string name="PrivacySettings">隐私和安全</string>
   <string name="PrivacyTitle">隐私</string>
@@ -949,7 +981,7 @@
   <!--edit video view-->
   <string name="EditVideo">编辑影片</string>
   <string name="SendingVideo">发送影片中…</string>
-  <string name="SendingGif">正在发送 gif...</string>
+  <string name="SendingGif">正在发送 GIF...</string>
   <!--bot-->
   <string name="Bot">机器人</string>
   <string name="BotShare">分享</string>
@@ -986,6 +1018,8 @@
   <string name="Set">设置</string>
   <string name="OK">确定</string>
   <string name="Crop">裁切</string>
+  <string name="Yes">是</string>
+  <string name="No">否</string>
   <!--messages-->
   <string name="ActionInviteYou">您通过邀请链接加入了群组</string>
   <string name="ActionInviteUser">un1 通过邀请链接加入了群组</string>
@@ -1032,6 +1066,7 @@
   <string name="FloodWait">尝试太多次了，请稍后再试</string>
   <string name="FloodWaitTime">尝试太多次了，请于 %1$s 后再试</string>
   <string name="InvalidCode">无效验证码</string>
+  <string name="PhoneNumberFlood">很抱歉，您最近删除并重新创建帐号的次数过多。 请等待几天再重新注册。</string>
   <string name="InvalidFirstName">姓氏无效</string>
   <string name="InvalidLastName">名字无效</string>
   <string name="Loading">加载中……</string>
@@ -1095,7 +1130,7 @@
   <string name="PermissionNoCamera">Telegram 需要访问您的相机，让您可以拍摄照片和影片。</string>
   <string name="PermissionNoLocation">Telegram 需要访问您的位置信息，让您可以将它分享给朋友。</string>
   <string name="PermissionNoLocationPosition">Telegram 需要访问您的位置信息。</string>
-  <string name="PermissionDrawAboveOtherApps">Telegram 需要访问权限，以在其他应用程序之上绘制，然后以子母画面模式播放影片。</string>
+  <string name="PermissionDrawAboveOtherApps">Telegram 需要访问权限，以在其他应用程序之上绘制，然后以画中画模式播放影片。</string>
   <string name="PermissionOpenSettings">设置</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
@@ -1113,6 +1148,52 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> 让您可以<![CDATA[<br/>]]>在多个不同设备中收发消息。</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> 针对消息的收发都采高度加密，<![CDATA[<br/>]]>且还能自动销毁。</string>
   <string name="StartMessaging">开始聊天</string>
+  <!--VoIP-->
+  <string name="AccountSettings">帐号设置</string>
+  <string name="VoipUseLessData">使用较少的数据通话</string>
+  <string name="VoipIncoming">拨入电话</string>
+  <string name="VoipConnecting">正在连接</string>
+  <string name="VoipExchangingKeys">正在交换加密密钥</string>
+  <string name="VoipWaiting">等待中</string>
+  <string name="VoipRequesting">正在请求</string>
+  <string name="VoipHangingUp">正在挂断</string>
+  <string name="VoipCallEnded">通话已结束</string>
+  <string name="VoipFailed">连接失败</string>
+  <string name="VoipRinging">拨号中</string>
+  <string name="VoipBusy">忙线</string>
+  <string name="VoipInCallBranding">Telegram Call</string>
+  <string name="VoipOutgoingCall">正在进行 Telegram 通话</string>
+  <string name="VoipEndCall">挂断</string>
+  <string name="VoipOngoingAlertTitle">另一个通话正在进行</string>
+  <string name="VoipOngoingAlert">您目前正在与 <![CDATA[<b>%1$s</b>]]> 进行通话。您想要挂断该通话，并与 <![CDATA[<b>%2$s</b>]]> 开始新的通话吗？</string>
+  <string name="VoipNotificationSettings">语音通话</string>
+  <string name="VoipSettingsRingtone">铃声</string>
+  <string name="VoipRingtoneInfo">您可以自订此联系人在 Telegram 上打电话给您时使用的铃声。</string>
+  <string name="Calls">通话</string>
+  <string name="WhoCanCallMe">谁可以打电话给我？</string>
+  <string name="WhoCanCallMeInfo">您可以限制谁可以打电话给您。</string>
+  <string name="CustomCallInfo">无论上述设置如何，这些用户将能或不能打电话给您。</string>
+  <string name="UseLessDataNever">永不</string>
+  <string name="UseLessDataOnMobile">仅限行动数据</string>
+  <string name="UseLessDataAlways">总是允许</string>
+  <string name="VoipAnswerCall">回答</string>
+  <string name="VoipDeclineCall">婉拒</string>
+  <string name="VoipOffline">您目前处于脱机状态。 请连接到网络以拨打电话。</string>
+  <string name="VoipOfflineAirplane">您目前启用了飞行模式。 请关闭或连接到 Wi-Fi 以拨打电话。</string>
+  <string name="VoipOfflineTitle">脱机</string>
+  <string name="VoipOfflineAirplaneTitle">飞行模式</string>
+  <string name="VoipOfflineOpenSettings">设置</string>
+  <string name="CallMessageOutgoing">呼出电话</string>
+  <string name="CallMessageIncoming">拨入电话</string>
+  <string name="CallMessageIncomingMissed">未接来电</string>
+  <string name="CallMessageOutgoingMissed">取消的通话</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">这张图片和文本是产生自与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话的加密密钥。<![CDATA[<br><br>]]>如果它们看起来和在 <![CDATA[<b>]]>%2$s 的<![CDATA[</b>]]> 设备上的一样，则端到端加密会得到保证。</string>
+  <string name="NoCallLog">您尚未拨打任何电话。</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用程序正在使用不兼容的通信传输协定。对方需要更新应用程序，然后您才能打电话给对方。</string>
+  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用程序不支持语音通话。对方需要更新应用程序，然后您才能打电话给对方。</string>
+  <string name="VoipRateCallAlert">请评价您的 Telegram 通话品质</string>
+  <string name="VoipFeedbackAlert">您想留下任何意见反馈，以帮助我们改进通话服务吗？</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
@@ -1332,6 +1413,8 @@
   <string name="AndOther_many">和其他 %1$d 人</string>
   <string name="AndOther_other">和其他 %1$d 人</string>
   <!--date formatters-->
+  <string name="formatterStats12H">yyyy年MMMdd日, a h:mm</string>
+  <string name="formatterStats24H">yyyy年MMMdd日, HH:mm</string>
   <string name="formatterMonthYear">yyyy\'年\'MM\'月\'</string>
   <string name="formatterMonth">MM\'月\'dd\'日\'</string>
   <string name="formatterYear"> \'20\'yy.MM.dd</string>

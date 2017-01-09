@@ -901,19 +901,19 @@
 "EnterPassword.EnterPasswordDescription" = "您已启动了「两步验证」，所以您的帐号多了一道密码的保护。";
 "EnterPassword.forgotPassword" = "忘记密码了吗？";
 "Alert.Sorry" = "抱歉";
-"PASSWORD_RECOVERY_NA" = "由于您在设置密码时没有提供复原用的电子邮件，您剩余的选项就是要记住您的密码，或是重设您的帐号。";
+"PASSWORD_RECOVERY_NA" = "由于您在设置密码时没有提供复原用的电子邮件，您剩余的选项就是要记住您的密码，或是重置您的帐号。";
 
 
-"EnterPassword.ResetAccount" = "重设我的帐号";
-"EnterPassword.ResetAccountDescription" = "如果您继续重设您的帐号，您将失去所有的聊天和消息，以及与您共享的任何媒体和文件。";
+"EnterPassword.ResetAccount" = "重置我的帐号";
+"EnterPassword.ResetAccountDescription" = "如果您继续重置您的帐号，您将失去所有的聊天和消息，以及与您共享的任何媒体和文件。";
 "Alert.Warning" = "警告";
 
-"Password.ResetAlertDescription" = "这个动作无法复原。\n\n如果您继续重设您的帐号，那您的所有消息及聊天都会被删除。";
+"Password.ResetAlertDescription" = "这个动作无法复原。\n\n如果您继续重置您的帐号，那您的所有消息及聊天都会被删除。";
 
 "Password.SentRecoryCode" = "我们已经发送一组复原用的验证码到您所提供的电子邮件：\n\n%@";
 
 "EnterPassword.EnterCodeDescription" = "请检查您的电子邮件，并输入我们在这里发送的6位数验证码。";
-"EnterPassword.AlertTroubleEmailAccess" = "如果无法恢复访问您的电子邮件，您剩下的选项就是要记住您的密码或重设您的帐号。";
+"EnterPassword.AlertTroubleEmailAccess" = "如果无法恢复访问您的电子邮件，您剩下的选项就是要记住您的密码或重置您的帐号。";
 "EnterPassword.TroubleEmailAccess" = "无法访问您的电子邮件？";
 "EnterPassword.BadEmailCode" = "不正确的电子邮件验证码，请核对后再试一次。";
 
@@ -925,7 +925,7 @@
 "Authorization.Authorizations" = "连接";
 "Authorization.Official" = "官方";
 "Authorization.Unofficial" = "非官方";
-"Authorization.Reset" = "重设";
+"Authorization.Reset" = "重置";
 "Forward.Message" = "%d 则转发的消息";
 "Forward.Messages" = "%d 则转发的消息";
 
@@ -999,11 +999,11 @@
 "Cache.ClearPhotoCache" = "移除所有缓存的照片档。照片本身会留在您的 Telegram 云端中，并且在您又需要它们时，您可以重新下载。";
 "Cache.Description" = "所有媒体会留在您的 Telegram 云中，并且在您又需要它时，您可以重新下载。";
 "NotificationSettings.Description" = "您可以针对以下特定用户和群组设置自订通知。";
-"NotificationSettings.ResetAllNotifications" = "重设自订通知";
+"NotificationSettings.ResetAllNotifications" = "重置自订通知";
 "NotificationSettings.MessagePreview" = "消息预览";
 "NotificationSettings.Sound" = "音效";
 "Notifications" = "通知";
-"NotificationSettings.ResetAllNotificationsConfirm" = "您确定要重设所有个别的通知设置？";
+"NotificationSettings.ResetAllNotificationsConfirm" = "您确定要重置所有个别的通知设置？";
 "SharedMedia.NoSharedLinks" = "在这个聊天室中所分享的全部链接会出现在这里。";
 "DatabaseOptimizing" = "正在优化数据库。这可能需要花费一分钟，请不要重新启动 App！抱歉让您等待，我们只需要做一次就好。";
 "Settings.AdvancedSettingsHeader" = "高端";
@@ -1363,14 +1363,14 @@
 "Stickers.ArchiveAlert" = "封存「%@」？";
 "Stickers.Remove" = "移除";
 "Stickers.Archive" = "封存";
-"Account.CancelReset" = "有访问您手机号码 **%@** 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
+"Account.CancelReset" = "有访问您手机号码 **%@** 的人请求删除您的 Telegram 帐号及重置您的 2 步验证密码。如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 "Account.Code" = "验证码";
 "AccountReset.IncorrectCode" = "您已输入一个无效验证码。请再试一次。";
 "AccountReset.SuccessHeader" = "成功了！";
 "AccountReset.Success" = "您帐号 %@ 的删除过程被取消了。";
 "AccountReset.Error" = "错误";
-"2FA_RECENT_CONFIRM" = "您最近重设此帐号的尝试已被其活跃用户取消。请在7天内再试一次。";
-"Account.CancelResetDesc" = "**重设帐号**\n\n由于帐号 %@ 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消此一过程。\n\n\n您可以重设您的帐号在：";
+"2FA_RECENT_CONFIRM" = "您最近重置此帐号的尝试已被其活跃用户取消。请在7天内再试一次。";
+"Account.CancelResetDesc" = "**重置帐号**\n\n由于帐号 %@ 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消此一过程。\n\n\n您可以重置您的帐号在：";
 
 "Timer.DaysDate" = "**%d** 天";
 "Timer.DayDate" = "**%d** 天";
@@ -1415,3 +1415,10 @@
 "Conversation.Unpin" = "取消钉选";
 "Conversation.Alert.PinLimitError" = "抱歉，您无法钉选超过 %d 个聊天室到顶端。";
 "Conversation.Alert.SecretPinLimitError" = "抱歉，您无法钉选超过 %d 个秘密聊天室到顶端。";
+"Messages.DeleteMessagesForAll" = "全部删除";
+"Stickers.PackIsNotAvailable" = "抱歉，这个贴图包似乎并不存在。";
+"TL_phoneCallDiscardReasonHangup_incoming" = "拨入电话 (%@)";
+"TL_phoneCallDiscardReasonHangup_outcoming" = "呼出电话 (%@)";
+"TL_phoneCallDiscardReasonBusy" = "忙线";
+"TL_phoneCallDiscardReasonDisconnect" = "通话已取消";
+"TL_phoneCallDiscardReasonMissed" = "未接来电";
