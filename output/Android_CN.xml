@@ -38,6 +38,54 @@
   <string name="FirstName">名字 (必填)</string>
   <string name="LastName">姓氏 (选填)</string>
   <string name="CancelRegistration">取消注册</string>
+  <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">您刚刚成功为 %3$s 而将 %1$s 转帐到 %2$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">您刚刚成功将 %1$s 转帐到 %2$s</string>
+  <string name="PaymentCheckout">结帐</string>
+  <string name="PaymentShippingMethod">送货方式</string>
+  <string name="PaymentNoShippingMethod">很抱歉，无法运送到您的地址。</string>
+  <string name="PaymentShippingInfo">送货信息</string>
+  <string name="PaymentShippingAddress">送货地址</string>
+  <string name="PaymentShippingAddress1Placeholder">地址1 (街道)</string>
+  <string name="PaymentShippingAddress2Placeholder">地址2 (街道)</string>
+  <string name="PaymentShippingCityPlaceholder">城市</string>
+  <string name="PaymentShippingStatePlaceholder">州 / 省</string>
+  <string name="PaymentShippingCountry">国家</string>
+  <string name="PaymentShippingZipPlaceholder">邮递区号</string>
+  <string name="PaymentShippingReceiver">收件人</string>
+  <string name="PaymentShippingName">全名</string>
+  <string name="PaymentShippingPhoneNumber">手机号码</string>
+  <string name="PaymentShippingEmailPlaceholder">电子信箱</string>
+  <string name="PaymentShippingSave">保存送货信息</string>
+  <string name="PaymentShippingSaveInfo">可以保存您的送货信息以备将来使用。</string>
+  <string name="PaymentCardInfo">付款信息</string>
+  <string name="PaymentCardTitle">支付卡</string>
+  <string name="PaymentCardNumber">卡号</string>
+  <string name="PaymentCardCvv">安全码 (CVV)</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
+  <string name="PaymentBillingAddress">帐单地址</string>
+  <string name="PaymentCardNameTitle">持卡人</string>
+  <string name="PaymentCardName">姓名</string>
+  <string name="PaymentCardSavePaymentInformation">保存付款信息</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">您可以保存付款信息以备将来使用。</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">请打开*两步验证*以启用此功能。</string>
+  <string name="PaymentTransactionReview">交易审查</string>
+  <string name="PaymentTransactionMessage">您真的想为 %3$s 将 %1$s 转移到 %2$s 机器人？ </string>
+  <string name="PaymentTransactionTotal">总计</string>
+  <string name="PaymentInvoice">发货单</string>
+  <string name="PaymentTestInvoice">测试发货单</string>
+  <string name="PaymentCheckoutPay">支付 %1$s</string>
+  <string name="PaymentCheckoutMethod">付款方法</string>
+  <string name="PaymentCheckoutName">名称</string>
+  <string name="PaymentCheckoutPhoneNumber">电话号码</string>
+  <string name="PaymentCheckoutEmail">联系地址</string>
+  <string name="PaymentCheckoutShippingMethod">送货方式</string>
+  <string name="PaymentReceipt">收据</string>
+  <string name="PaymentConfirmationNewCard">选择其他卡</string>
+  <string name="PaymentConfirmationMessage">您的卡 %1$s 已受保护。要使用此卡付款，请输入您的 2 步验证密码。</string>
+  <string name="PaymentPrecheckoutFailed">很抱歉，付款已被机器人取消。</string>
+  <string name="PaymentFailed">很抱歉，付款被拒绝了。</string>
+  <string name="PaymentConnectionFailed">无法访问付款服务器。请检查您的网络连接，然后重试。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新的对话</string>
   <string name="Settings">设置</string>
@@ -46,7 +94,7 @@
   <string name="Yesterday">昨天</string>
   <string name="NoResult">查无结果</string>
   <string name="NoChats">还没有聊天...</string>
-  <string name="NoChatsHelp">通过按下在右上角的新消息按钮开始聊天\n，或点击菜单按钮以获得更多选项。</string>
+  <string name="NoChatsHelp">通过按下在右下角的新消息按钮开始传消息\n，或点击菜单按钮以获得更多选项。</string>
   <string name="WaitingForNetwork">等待网络中...</string>
   <string name="Connecting">连接中...</string>
   <string name="Updating">更新中...</string>
@@ -82,9 +130,9 @@
   <string name="ArticleDateByAuthor">%1$s 作者 %2$s</string>
   <string name="PreviewFeedback">留下您对于此预览的反应</string>
   <string name="SendStickerPreview">发送贴图</string>
-  <string name="ViewPackPreview">查看包</string>
-  <string name="PinToTop">钉选到顶端</string>
-  <string name="UnpinFromTop">从顶端取消钉选</string>
+  <string name="ViewPackPreview">查看贴图包</string>
+  <string name="PinToTop">置顶</string>
+  <string name="UnpinFromTop">取消置顶</string>
   <string name="Bold">粗体</string>
   <string name="Italic">斜体</string>
   <string name="Regular">正常</string>
@@ -101,7 +149,7 @@
   <string name="DeleteMegaMenu">删除群组</string>
   <string name="MegaDeleteInfo">您将失去所有此群组的消息。</string>
   <string name="MegaAdminsInfo">您可以添加管理员来帮助您管理群组。长按可以移除该名管理员。</string>
-  <string name="MegaDeleteAlert">等一下！删除此群组将移除所有成员，并且所有的消息都将会遗失。您确定要删除群组？</string>
+  <string name="MegaDeleteAlert">等一下！删除此群组将移除所有成员，且所有的消息都将会丢失。您确定要删除群组？</string>
   <string name="ActionCreateMega">群组已创建</string>
   <string name="MegaAddedBy">un1 将您加入到这个群组</string>
   <string name="MegaLeaveAlert">您确定要离开此群组？</string>
@@ -170,7 +218,7 @@
   <string name="ChannelAdministrators">管理员</string>
   <string name="ChannelDelete">删除频道</string>
   <string name="ChannelDeleteMenu">删除频道</string>
-  <string name="ChannelDeleteAlert">等一下！删除此频道将移除所有成员，并且所有的消息都将会遗失。您确定要删除频道？</string>
+  <string name="ChannelDeleteAlert">等一下！删除此频道将移除所有成员，且所有的消息都将会丢失。您确定要删除频道？</string>
   <string name="ChannelLeaveAlert">您确定要离开此频道？</string>
   <string name="ChannelDeleteInfo">您将失去所有此频道的消息。</string>
   <string name="ChannelEdit">编辑</string>
@@ -184,14 +232,14 @@
   <string name="ActionChannelRemovedPhoto">频道照片已移除</string>
   <string name="ActionChannelChangedTitle">频道名称变更为 un2</string>
   <string name="ChangePublicLimitReached">抱歉，您已经创建了太多公开的链接。
-您可以撤销其中一个旧群组或频道的公开链接，或是改用非公开的链接。</string>
+您可以撤销其中一个旧群组或频道的链接，或是改用非公开的。</string>
   <string name="ChannelModerator">版主</string>
   <string name="ChannelCreator">创建者</string>
   <string name="ChannelEditor">管理员</string>
   <string name="ChannelMute">关闭消息通知</string>
   <string name="ChannelUnmute">恢复消息通知</string>
   <string name="ChannelAddAdmin">添加管理员</string>
-  <string name="ChannelInviteViaLink">通过链接邀请</string>
+  <string name="ChannelInviteViaLink">通过链接来邀请</string>
   <string name="ChannelAddUserAdminAlert">您确定要让 %1$s 成为管理员？</string>
   <string name="ChannelRemoveUserAdmin">移除</string>
   <string name="ChannelMembersInfo">只有频道管理员可以看到这个清单。</string>
@@ -243,7 +291,7 @@
   <string name="ChannelNotifyMembersInfoOn">当您发布时，成员将会收到通知</string>
   <string name="ChannelNotifyMembersInfoOff">当您发布时，成员将不会收到通知</string>
   <string name="ChannelSignMessages">消息附上签名</string>
-  <string name="ChannelSignMessagesInfo">将管理员的名字加入到他们发布的消息中。</string>
+  <string name="ChannelSignMessagesInfo">将管理员的名称加入到他们发布的消息中。</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">添加广播名单</string>
   <string name="EnterListName">输入名单名称</string>
@@ -308,7 +356,7 @@
   <string name="EncryptedDescriptionTitle">秘密聊天：</string>
   <string name="EncryptedDescription1">使用端到端加密</string>
   <string name="EncryptedDescription2">不会在我们服务器留下痕迹</string>
-  <string name="EncryptedDescription3">使用「阅后即焚计时器」</string>
+  <string name="EncryptedDescription3">有一个「阅后即焚计时器」</string>
   <string name="EncryptedDescription4">不允许转发</string>
   <string name="YouWereKicked">您从群组中被移除了</string>
   <string name="YouLeft">您离开了此群组</string>
@@ -321,6 +369,7 @@
   <string name="SaveToMusic">保存为音乐</string>
   <string name="ShareFile">分享</string>
   <string name="ApplyLocalizationFile">套用本地化文件</string>
+  <string name="ApplyThemeFile">套用主题档</string>
   <string name="UnsupportedAttachment">不支持的附件</string>
   <string name="SetTimer">设置阅后即焚计时器</string>
   <string name="ServiceNotifications">服务通知</string>
@@ -337,8 +386,10 @@
   <string name="ReportSpamAlert">您确定要举报出自此用户的垃圾消息？</string>
   <string name="ReportSpamAlertGroup">您确定要举报出自此群组的垃圾消息？</string>
   <string name="ReportSpamAlertChannel">您确定要举报出自此频道的垃圾消息？</string>
-  <string name="NobodyLikesSpam1">您今天已经联系了太多非联系人，请明天再试试！但如果这个用户先传消息给您，您将能够回复。</string>
-  <string name="NobodyLikesSpam2">您无法添加这个用户，因为今天您已经联系了太多非联系人。请明天再试试！您可以请其他成员将该用户加入群组。</string>
+  <string name="NobodyLikesSpam1">抱歉，目前您只能发送消息给互为联系人的用户。</string>
+  <string name="NobodyLikesSpam2">抱歉，目前您只能将互为联系人的用户加入到群组。</string>
+  <string name="NobodyLikesSpam3">您今天已经联系了过多的非联系人，请明天再试试！但如果这个用户先发消息给您，您将可以立即回复。</string>
+  <string name="NobodyLikesSpam4">您无法添加这个用户，因为今天您已经联系了过多的非联系人。请明天再试试！您可以请其他成员将该用户加入群组。</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">更多信息</string>
   <string name="ShareSendTo">发送给...</string>
@@ -375,6 +426,7 @@
   <string name="JumpToDate">跳到该日期</string>
   <string name="DeleteForUser">为 %1$s 删除</string>
   <string name="DeleteForAll">为所有成员删除</string>
+  <string name="TextCopied">文本已复制到剪贴板</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s 将阅后即焚计时器设置为 %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">您将阅后即焚计时器设置为 %1$s</string>
@@ -478,7 +530,7 @@
   <string name="JoinToGroupErrorFull">抱歉，此群组名额已经满了。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，这个聊天室似乎并不存在。</string>
   <string name="LinkCopied">「链接」已复制到剪贴板</string>
-  <string name="InviteToGroupByLink">通过链接邀请到群组</string>
+  <string name="InviteToGroupByLink">通过链接，邀请到群组</string>
   <string name="InviteLink">邀请链接</string>
   <string name="RevokeAlert">您确定要撤销此链接？一旦链接被撤销，没有人可以利用它加入。</string>
   <string name="RevokeAlertNewLink">先前的邀请链接现在已经没有作用。而一个新的链接已经产生了。</string>
@@ -534,6 +586,7 @@
   <string name="ShortMessageLifetimeForever">关闭</string>
   <string name="EncryptionKeyDescription">这张图片和文本是产生自这个包括 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的秘密聊天之加密密钥。<![CDATA[<br><br>]]>如果它们看起来和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 设备的一样，则端到端加密会得到保障。<![CDATA[<br><br>]]>了解更多于 telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">点击 emojify</string>
   <string name="NumberUnknown">未知</string>
   <string name="Info">信息</string>
   <string name="Phone">手机号码</string>
@@ -583,6 +636,20 @@
   <string name="ArchivedStickersAlertInfo">一些较旧的贴图包已经被封存。您可以在贴图设置里重新启用它们。</string>
   <string name="ArchivedMasksAlertTitle">封存的面具</string>
   <string name="ArchivedMasksAlertInfo">一些较旧的面具已经被封存。您可以在面具设置里重新启用它们。</string>
+  <!--theme view-->
+  <string name="Theme">主题</string>
+  <string name="DeleteThemeAlert">您确定要删除此主题吗？</string>
+  <string name="IncorrectTheme">不正确的主题档</string>
+  <string name="EnterThemeName">输入主题名称</string>
+  <string name="CloseEditor">关闭编辑器</string>
+  <string name="SaveTheme">保存主题</string>
+  <string name="NewTheme">新主题</string>
+  <string name="ApplyTheme">套用</string>
+  <string name="ThemePreview">主题预览</string>
+  <string name="SelectColor">选择颜色</string>
+  <string name="CreateNewTheme">创建新主题</string>
+  <string name="CreateNewThemeHelp">点击调色板图标可查看每个画面上组成元素的列表，并进行编辑。</string>
+  <string name="CreateNewThemeInfo">您可以通过更改应用程序中的颜色来创建自己的主题。您可以随时切换回缺省的 Telegram 主题。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">消息的字体大小</string>
@@ -637,11 +704,10 @@
   <string name="SendByEnter">按下 Enter 就送出消息</string>
   <string name="TerminateAllSessions">中断其他连接</string>
   <string name="Events">事件</string>
-  <string name="ContactJoined">联系人加入 Telegram</string>
+  <string name="ContactJoined">联系人加入了 Telegram</string>
   <string name="PinnedMessages">置顶消息</string>
   <string name="Language">语言</string>
-  <string name="Theme">主题</string>
-  <string name="AskAQuestionInfo">请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。<![CDATA[<br><br>]]>请看看  <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ</a>]]>：它回答了大部分的问题及提供了对于<![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">故障排除</a>]]>的重要提示。</string>
+  <string name="AskAQuestionInfo">请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。<![CDATA[<br><br>]]>请看看  <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>：它回答了大部分的问题及提供了对于<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>的重要提示。</string>
   <string name="AskButton">询问志愿者</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -670,7 +736,7 @@
   <string name="Long">长</string>
   <string name="AutomaticMediaDownload">自动下载媒体</string>
   <string name="WhenUsingMobileData">使用行动数据时</string>
-  <string name="WhenConnectedOnWiFi">使用 Wi-Fi 时</string>
+  <string name="WhenConnectedOnWiFi">在 Wi-Fi 上连接时</string>
   <string name="WhenRoaming">漫游时</string>
   <string name="NoMediaAutoDownload">没有媒体</string>
   <string name="AutoplayGifs">自动播放 GIF 动图</string>
@@ -753,7 +819,7 @@
   <!--passcode view-->
   <string name="Passcode">密码锁</string>
   <string name="ChangePasscode">变更密码</string>
-  <string name="ChangePasscodeInfo">当您设置了一个额外的密码，一个锁形图标将出现在聊天页面上。点击它来锁定和解锁您的 Telegram 程序。\n\n注意：如果您忘记了密码，您将需要删除并重新安装应用程序。而所有的秘密聊天记录都将遗失。</string>
+  <string name="ChangePasscodeInfo">当您设置了一个额外的密码，一个锁形图标将出现在聊天页面上。点击它来锁定和解锁您的 Telegram 程序。\n\n注意：如果您忘记了密码，您将需要删除并重新安装应用程序。而所有的秘密聊天记录都将会遗失。</string>
   <string name="ChangePasscodeAlert">现在，您将看到聊天记录页面上的锁形图标。点击它，用您的新密码锁定您的 Telegram 应用程序。</string>
   <string name="PasscodePIN">PIN码</string>
   <string name="PasscodePassword">密码</string>
@@ -1060,7 +1126,7 @@
   <string name="ActionTakeScreenshootYou">您拍摄了屏幕快照！</string>
   <string name="ActionTakeScreenshoot">un1 拍摄了屏幕快照！</string>
   <!--Alert messages-->
-  <string name="InvalidPhoneNumber">手机号码无效</string>
+  <string name="InvalidPhoneNumber">无效的手机号码</string>
   <string name="BannedPhoneNumber">封锁的电话号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
   <string name="FloodWait">尝试太多次了，请稍后再试</string>
@@ -1121,6 +1187,7 @@
   <string name="AllowFillNumber">请允许 Telegram 接听来电和短信，以便我们可以填写您的电话号码，向您发送验证码，然后为您输入。</string>
   <string name="AllowReadCallAndSms">请允许 Telegram 接听电话和接收短信，这样我们就可以自动为你输入密码。</string>
   <string name="UserRestricted">抱歉，您未被允许这样做。</string>
+  <string name="YouBlockedUser">抱歉，您无法将此用户或机器人添加到群组，因为您已经封锁他们了。请解除封锁以继续。</string>
   <string name="JoinGroup">加入群组</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram 需要访问您的联系人，让您在所有您的设备上都可以很方便地与朋友联系。</string>
@@ -1147,7 +1214,7 @@
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> 没有流量的限制，<![CDATA[<br/>]]>不论媒体文件与聊天消息。</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> 让您可以<![CDATA[<br/>]]>在多个不同设备中收发消息。</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> 针对消息的收发都采高度加密，<![CDATA[<br/>]]>且还能自动销毁。</string>
-  <string name="StartMessaging">开始聊天</string>
+  <string name="StartMessaging">开始传消息</string>
   <!--VoIP-->
   <string name="AccountSettings">帐号设置</string>
   <string name="VoipUseLessData">使用较少的数据通话</string>
@@ -1177,7 +1244,7 @@
   <string name="UseLessDataOnMobile">仅限行动数据</string>
   <string name="UseLessDataAlways">总是允许</string>
   <string name="VoipAnswerCall">回答</string>
-  <string name="VoipDeclineCall">婉拒</string>
+  <string name="VoipDeclineCall">拒绝</string>
   <string name="VoipOffline">您目前处于脱机状态。 请连接到网络以拨打电话。</string>
   <string name="VoipOfflineAirplane">您目前启用了飞行模式。 请关闭或连接到 Wi-Fi 以拨打电话。</string>
   <string name="VoipOfflineTitle">脱机</string>
@@ -1186,7 +1253,8 @@
   <string name="CallMessageOutgoing">呼出电话</string>
   <string name="CallMessageIncoming">拨入电话</string>
   <string name="CallMessageIncomingMissed">未接来电</string>
-  <string name="CallMessageOutgoingMissed">取消的通话</string>
+  <string name="CallMessageOutgoingMissed">已取消通话</string>
+  <string name="CallMessageIncomingDeclined">拒接来电</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">这张图片和文本是产生自与 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 通话的加密密钥。<![CDATA[<br><br>]]>如果它们看起来和在 <![CDATA[<b>]]>%2$s 的<![CDATA[</b>]]> 设备上的一样，则端到端加密会得到保证。</string>
   <string name="NoCallLog">您尚未拨打任何电话。</string>
@@ -1194,6 +1262,18 @@
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的应用程序不支持语音通话。对方需要更新应用程序，然后您才能打电话给对方。</string>
   <string name="VoipRateCallAlert">请评价您的 Telegram 通话品质</string>
   <string name="VoipFeedbackAlert">您想留下任何意见反馈，以帮助我们改进通话服务吗？</string>
+  <string name="VoipNeedMicPermission">Telegram 需要访问您的麦克风，以便您可以拨打电话。</string>
+  <string name="VoipFeedbackCommentHint">添加可选择的评论</string>
+  <string name="CallBack">回调</string>
+  <string name="CallAgain">重拨</string>
+  <string name="DefaultRingtone">缺省</string>
+  <string name="ConfirmDeleteCallLog">您确定要删除这一笔联系历史？</string>
+  <string name="CallViaTelegram">Telegram Call</string>
+  <string name="VoipAudioRoutingEarpiece">耳机</string>
+  <string name="VoipAudioRoutingSpeaker">喇叭</string>
+  <string name="VoipAudioRoutingBluetooth">蓝牙</string>
+  <string name="ReturnToCall">返回通话</string>
+  <string name="CallNotAvailable">抱歉，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受通话。</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在线</string>
   <string name="Online_one">%1$d 人在线</string>
