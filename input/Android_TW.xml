@@ -6,7 +6,7 @@
   <string name="LanguageNameInEnglish">Chinese Traditional (Taiwan)</string>
   <string name="LanguageCode">zh_TW</string>
   <!--signin view-->
-  <string name="YourPhone">您的手機號碼</string>
+  <string name="YourPhone">您的手機</string>
   <string name="StartText">請確認您的國碼並輸入您的手機號碼。</string>
   <string name="ChooseCountry">選擇國家</string>
   <string name="WrongCountry">錯誤的國碼</string>
@@ -168,7 +168,7 @@
   <string name="ActionPinnedContact">un1 置頂了一個聯絡人</string>
   <string name="ActionPinnedGame">un1 置頂了 %1$s</string>
   <string name="ActionPinnedGeo">un1 置頂了一張地圖</string>
-  <string name="ActionPinnedGif">un1 置頂了一個 GIF 動圖</string>
+  <string name="ActionPinnedGif">un1 置頂了一 GIF 動圖</string>
   <string name="ActionPinnedMusic">un1 置頂了一首音樂</string>
   <string name="ActionMigrateFromGroup">這個群組被升級為一個超級群組</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 被升級為一個超級群組</string>
@@ -269,7 +269,7 @@
   <string name="ChannelMessageGroupContact">%1$s 在 %2$s 頻道分享了一個聯絡人</string>
   <string name="ChannelMessageGroupMap">%1$s 傳送了一則位置資訊到 %2$s 頻道</string>
   <string name="ChannelMessageGroupDocument">%1$s 傳送一個檔案到 %2$s 頻道</string>
-  <string name="ChannelMessageGroupGif">%1$s 傳送一個 GIF 動圖到 %2$s 頻道</string>
+  <string name="ChannelMessageGroupGif">%1$s 傳送一 GIF 動圖到 %2$s 頻道</string>
   <string name="ChannelMessageGroupAudio">%1$s 傳送了一則語音訊息到 %2$s 頻道</string>
   <string name="ChannelMessageGroupMusic">%1$s 傳送一首歌曲到 %2$s 頻道</string>
   <string name="ChannelMessageGroupSticker">%1$s 傳送一張貼圖到 %2$s 頻道</string>
@@ -280,7 +280,7 @@
   <string name="ChannelMessageContact">%1$s 張貼了一個聯絡人</string>
   <string name="ChannelMessageMap">%1$s 張貼了一則位置資訊</string>
   <string name="ChannelMessageDocument">%1$s 張貼了一個檔案</string>
-  <string name="ChannelMessageGIF">%1$s 張貼了一個 GIF 動圖</string>
+  <string name="ChannelMessageGIF">%1$s 張貼了一 GIF 動圖</string>
   <string name="ChannelMessageAudio">%1$s 張貼了一則語音訊息</string>
   <string name="ChannelMessageMusic">%1$s 張貼了一首歌曲</string>
   <string name="ChannelMessageSticker">%1$s 張貼了一張貼圖</string>
@@ -356,7 +356,7 @@
   <string name="EncryptedDescriptionTitle">秘密聊天：</string>
   <string name="EncryptedDescription1">使用端到端加密</string>
   <string name="EncryptedDescription2">不會在我們伺服器留下痕跡</string>
-  <string name="EncryptedDescription3">有一個「閱後即焚計時器」</string>
+  <string name="EncryptedDescription3">有一個「自毀計時器」</string>
   <string name="EncryptedDescription4">不允許轉寄</string>
   <string name="YouWereKicked">您從群組中被移除了</string>
   <string name="YouLeft">您離開了此群組</string>
@@ -371,7 +371,7 @@
   <string name="ApplyLocalizationFile">套用本地化檔案</string>
   <string name="ApplyThemeFile">套用主題檔</string>
   <string name="UnsupportedAttachment">不支援的附件</string>
-  <string name="SetTimer">設定閱後即焚計時器</string>
+  <string name="SetTimer">設定自毀計時器</string>
   <string name="ServiceNotifications">服務通知</string>
   <string name="GettingLinkInfo">正在取得連結資訊...</string>
   <string name="OpenInBrowser">開啟於...</string>
@@ -428,10 +428,10 @@
   <string name="DeleteForAll">為所有成員刪除</string>
   <string name="TextCopied">文字已復製到剪貼簿</string>
   <!--notification-->
-  <string name="MessageLifetimeChanged">%1$s 將閱後即焚計時器設定為 %2$s</string>
-  <string name="MessageLifetimeChangedOutgoing">您將閱後即焚計時器設定為 %1$s</string>
-  <string name="MessageLifetimeRemoved">%1$s 停用了閱後即焚計時器</string>
-  <string name="MessageLifetimeYouRemoved">您停用了閱後即焚計時器</string>
+  <string name="MessageLifetimeChanged">%1$s 將自毀計時器設定為 %2$s</string>
+  <string name="MessageLifetimeChangedOutgoing">您將自毀計時器設定為 %1$s</string>
+  <string name="MessageLifetimeRemoved">%1$s 停用了自毀計時器</string>
+  <string name="MessageLifetimeYouRemoved">您停用了自毀計時器</string>
   <string name="YouHaveNewMessage">您有一則新訊息</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
   <string name="NotificationMessageNoText">%1$s 傳送了新訊息給您</string>
@@ -441,7 +441,7 @@
   <string name="NotificationMessageMap">%1$s 傳送了一則位置資訊給您</string>
   <string name="NotificationMessageGame">%1$s 邀請了您玩 %2$s</string>
   <string name="NotificationMessageDocument">%1$s 傳送給您一個檔案</string>
-  <string name="NotificationMessageGif">%1$s 傳送給您一個 GIF 動圖</string>
+  <string name="NotificationMessageGif">%1$s 傳送給您一 GIF 動圖</string>
   <string name="NotificationMessageAudio">%1$s 傳送給您一則語音訊息</string>
   <string name="NotificationMessageMusic">%1$s 傳給您一首歌曲</string>
   <string name="NotificationMessageSticker">%1$s 傳送貼圖給您</string>
@@ -454,7 +454,7 @@
   <string name="NotificationMessageGroupMap">%1$s 傳送了一則位置資訊到 %2$s 群組</string>
   <string name="NotificationMessageGroupGame">%1$s 邀請了 %2$s 群組玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 傳送一個檔案給 %2$s 群組</string>
-  <string name="NotificationMessageGroupGif">%1$s 傳送一個 GIF 動圖到 %2$s 群組</string>
+  <string name="NotificationMessageGroupGif">%1$s 傳送一 GIF 動圖到 %2$s 群組</string>
   <string name="NotificationMessageGroupAudio">%1$s 傳送了一則語音訊息到 %2$s 群組</string>
   <string name="NotificationMessageGroupMusic">%1$s 傳送一首歌曲到 %2$s 群組</string>
   <string name="NotificationMessageGroupSticker">%1$s 傳送貼圖給 %2$s 群組</string>
@@ -487,7 +487,7 @@
   <string name="NotificationActionPinnedVoice">%1$s 在 %2$s 群組中置頂了一則語音訊息</string>
   <string name="NotificationActionPinnedContact">%1$s 在 %2$s 群組置頂了一個聯絡人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在 %2$s 群組置頂了一張地圖</string>
-  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群組置頂了一個 GIF 動圖</string>
+  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群組置頂了一 GIF 動圖</string>
   <string name="NotificationActionPinnedMusic">%1$s 在 %2$s 群組置頂了一首歌曲</string>
   <string name="NotificationActionPinnedTextChannel">%1$s 置頂了「%2$s」</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置頂了一則訊息</string>
@@ -499,7 +499,7 @@
   <string name="NotificationActionPinnedVoiceChannel">%1$s 置頂了一則語音訊息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置頂了一個聯絡人</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置頂了一張地圖</string>
-  <string name="NotificationActionPinnedGifChannel">%1$s 置頂了一個 GIF 動圖</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s 置頂了一 GIF 動圖</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置頂了一首歌曲</string>
   <string name="NotificationActionPinnedGameChannel">%1$s 置頂了一個遊戲</string>
   <!--contacts view-->
@@ -582,11 +582,11 @@
   <string name="NoGroupsInCommon">還沒有共同的群組</string>
   <string name="CreateEncryptedChatError">發生錯誤。</string>
   <string name="EncryptionKey">加密金鑰</string>
-  <string name="MessageLifetime">閱後即焚計時器</string>
+  <string name="MessageLifetime">自毀計時器</string>
   <string name="ShortMessageLifetimeForever">關閉</string>
   <string name="EncryptionKeyDescription">這張圖片和文字是產生自這個包括 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的秘密聊天之加密金鑰。<![CDATA[<br><br>]]>如果它們看起來和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 裝置的一樣，則端到端加密會得到保障。<![CDATA[<br><br>]]>了解更多於 telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
-  <string name="TapToEmojify">點擊 emojify</string>
+  <string name="TapToEmojify">點擊以進行表情符號化</string>
   <string name="NumberUnknown">未知</string>
   <string name="Info">資訊</string>
   <string name="Phone">手機號碼</string>
@@ -916,7 +916,7 @@
   <string name="AddCaption">加入一說明文字...</string>
   <string name="PhotoCaption">照片說明文字</string>
   <string name="VideoCaption">影片說明文字</string>
-  <string name="GifCaption">GIF圖片說明</string>
+  <string name="GifCaption">GIF 說明</string>
   <string name="Caption">說明文字</string>
   <string name="PaintDraw">畫圖</string>
   <string name="PaintStickers">貼圖</string>
@@ -1015,7 +1015,7 @@
   <string name="SecurityTitle">安全</string>
   <string name="DeleteAccountTitle">帳號自動銷毀</string>
   <string name="DeleteAccountIfAwayFor">如果您離開</string>
-  <string name="DeleteAccountHelp">如果您在這期間內都不上線，您的帳號與您所有的群組、訊息和聯絡人將一並刪除。</string>
+  <string name="DeleteAccountHelp">如果您在這期間內不至少上線一次，您的帳號與您所有的群組、訊息和聯絡人將一起被刪除。</string>
   <string name="DeleteAccountNowConfirmation">刪除您的帳號嗎？</string>
   <string name="LastSeenHelp">變更誰可以看見您最後上線的時間。</string>
   <string name="LastSeenTitle">誰可以看見您的最後上線時間？</string>
@@ -1072,7 +1072,7 @@
   <string name="Add">添加</string>
   <string name="Edit">編輯</string>
   <string name="Send">傳送</string>
-  <string name="Call">撥打</string>
+  <string name="Call">通話</string>
   <string name="Copy">複製</string>
   <string name="Delete">刪除</string>
   <string name="DeleteAndStop">刪除並停止</string>
@@ -1115,7 +1115,7 @@
   <string name="UnsupportedMedia">您使用的 Telegram 版本不支援此訊息。請更新應用程式： https://telegram.org/update</string>
   <string name="AttachPhoto">照片</string>
   <string name="AttachVideo">影片</string>
-  <string name="AttachGif">GIF圖</string>
+  <string name="AttachGif">GIF</string>
   <string name="AttachLocation">位置</string>
   <string name="AttachContact">聯絡人</string>
   <string name="AttachDocument">檔案</string>
@@ -1274,6 +1274,7 @@
   <string name="VoipAudioRoutingBluetooth">藍牙</string>
   <string name="ReturnToCall">返回通話</string>
   <string name="CallNotAvailable">抱歉，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受通話。</string>
+  <string name="CallEmojiKeyTooltip">如果這些表情符號與 %1$s 螢幕上的相同，則此通話為 100%% 安全。</string>
   <!--plural-->
   <string name="Online_zero">%1$d 人在線上</string>
   <string name="Online_one">%1$d 人在線上</string>

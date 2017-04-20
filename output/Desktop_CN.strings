@@ -14,8 +14,8 @@ to link the code of portions of this program with the OpenSSL library.
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
 Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
-"lng_language_name" = "正体中文";
-"lng_switch_to_this" = "切换到正体中文";
+"lng_language_name" = "正体中文（台湾）";
+"lng_switch_to_this" = "切换到正体中文（台湾）";
 
 "lng_menu_contacts" = "联系人";
 "lng_menu_settings" = "设置";
@@ -405,6 +405,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_groups_invite_privacy" = "群组邀请设置";
 "lng_settings_show_sessions" = "显示所有连接";
 "lng_settings_self_destruct" = "帐号自毁设置";
+"lng_settings_change_phone" = "更改电话号码";
 
 "lng_settings_reset" = "中断所有其它连接";
 "lng_settings_reset_sure" = "您确定想要中断\n所有其它连接吗？";
@@ -618,6 +619,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_message_empty" = "空的消息";
 "lng_message_unsupported" = "您的 Telegram Desktop 版本不支持此消息。请在设置中更新到最新版或从 {link} 安装它。";
 
+"lng_duration_seconds" = "{count:_not_used_|# 秒|# 秒}";
+"lng_duration_minutes_seconds" = "{count_minutes:# 分|# 分|# 分} {count_seconds:# 秒|# 秒|# 秒}";
+
 "lng_action_add_user" = "{from} 加入了 {user}";
 "lng_action_add_users_many" = "{from} 加入了 {users}";
 "lng_action_add_users_and_one" = "{accumulated}, {user}";
@@ -657,6 +661,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_game_you_scored" = "您在 {game} 中得到了 {count:#|#|#} 分";
 "lng_action_game_score_no_game" = "{from} 得到了 {count:#|#|#} 分";
 "lng_action_game_you_scored_no_game" = "您得了 {count:#|#|#} 分";
+"lng_action_call_outgoing" = "在 {time} 的呼出电话";
+"lng_action_call_incoming" = "在 {time} 的拨入电话";
+"lng_action_call_outgoing_duration" = "在 {time} 呼出电话 ({duration})";
+"lng_action_call_incoming_duration" = "在 {time} 拨入电话 ({duration})";
+"lng_action_call_incoming_missed" = "在 {time} 的未接来电";
+"lng_action_call_outgoing_missed" = "在 {time} 取消的电话";
+"lng_action_payment_done" = "您刚刚成功转帐 {amount} 给 {user}";
+"lng_action_payment_done_for" = "您刚刚成功为 {invoice} 转帐 {amount} 给 {user}";
 
 "lng_profile_migrate_reached" = "{count:_not_used_|# 位成员|# 位成员} 上限已达到";
 "lng_profile_migrate_body" = "要克服此限制，您可以将您的群组升级为超级群组。";
@@ -758,20 +770,19 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_recent_stickers" = "常用";
 "lng_switch_stickers" = "贴图";
-"lng_switch_stickers_gifs" = "GIF动图 & 贴图";
 "lng_switch_emoji" = "表情符号";
+"lng_switch_gifs" = "GIFs";
 "lng_stickers_featured_add" = "添加";
+"lng_gifs_search" = "搜索 GIF 动图";
 
-"lng_saved_gifs" = "已保存的GIF动图";
-"lng_inline_bot_results" = "结果来自 {inline_bot}";
 "lng_inline_bot_no_results" = "没有结果";
 "lng_inline_bot_via" = "通过 {inline_bot}";
 
 "lng_box_remove" = "移除";
 
 "lng_stickers_installed_tab" = "贴图";
-"lng_stickers_featured_tab" = "热门";
-"lng_stickers_archived_tab" = "已封存";
+"lng_stickers_featured_tab" = "热门的";
+"lng_stickers_archived_tab" = "封存的";
 "lng_stickers_remove_pack" = "移除 «{sticker_pack}»？";
 "lng_stickers_add_pack" = "添加贴图";
 "lng_stickers_share_pack" = "分享贴图";
@@ -1060,7 +1071,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新纪录可以在这里找到：\n{link}";
 "lng_new_version_minor" = "— 错误修正和其它细微的改进";
-"lng_new_version_text" = "— 支持更多的表情符号。\n— 点击并拖动播放进度条，然后从选定的时刻播放音频。\n— 在设置中，添加了\"主题编辑器\"。\n— 错误修复和其他小的改进。";
+"lng_new_version_text" = "— 改进了表情符号、贴图及已保存GIF的皮肤。\n— 错误修正和其他小的改进。";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字符";
 
@@ -1088,6 +1099,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_theme_editor_done" = "主题导出成功！";
 "lng_theme_editor_title" = "编辑调色板";
 "lng_theme_editor_export_button" = "导出主题";
+
+"lng_payments_not_supported" = "很抱歉，Telegram Desktop 还不支持付款功能。请使用我们的手机应用程序来运行此操作。";
+"lng_payments_receipt_label" = "收据";
+"lng_payments_receipt_label_test" = "测试收据";
+"lng_payments_invoice_label" = "发票";
+"lng_payments_invoice_label_test" = "测试发票";
+"lng_payments_receipt_button" = "收据";
 
 // Not used
 
