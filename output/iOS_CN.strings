@@ -370,7 +370,7 @@
 "Conversation.EncryptedDescription2" = "不会在我们服务器留下痕迹";
 "Conversation.EncryptedDescription3" = "有一个「自毁计时器」";
 "Conversation.EncryptedDescription4" = "不允许转传";
-"Conversation.EncryptedForwardingAlert" = "抱歉，您无法从秘密聊天中转传消息。";
+"Conversation.EncryptedForwardingAlert" = "抱歉，您无法从秘密聊天中转发消息。";
 "Conversation.ContextMenuCopy" = "复制";
 "Conversation.ContextMenuDelete" = "删除";
 "Conversation.ContextMenuForward" = "转传";
@@ -1723,7 +1723,7 @@
 "Group.UpgradeNoticeHeader" = "成员数量已达上限";
 
 "Group.UpgradeNoticeText1" = "要超越这个限制，并获得额外的功能，请升级为超级群组：";
-"Group.UpgradeNoticeText2" = "•  超级群组可以加入高达 {supergroup_member_limit} 个成员\n•  新成员可以看到完整的聊天纪录\n•  管理员可以删除每个人的消息\n•  通知缺省情况下是关闭的";
+"Group.UpgradeNoticeText2" = "•  超级群组可以加入高达 {supergroup_member_limit} 个成员\n•  新成员可以看到完整的聊天纪录\n•  管理员可以删除每个人的消息\n•  通知默认情况下是关闭的";
 "GroupInfo.UpgradeButton" = "升级为超级群组";
 "Group.UpgradeConfirmation" = "警告：这个动作是不可逆的。要将一个超级群组降级为普通群组是不可能的。";
 
@@ -1974,8 +1974,8 @@
 
 "Settings.AppleWatch" = "Apple Watch";
 "AppleWatch.Title" = "Apple Watch";
-"AppleWatch.ReplyPresets" = "回复缺省";
-"AppleWatch.ReplyPresetsHelp" = "当您编写或回复一则消息，您可以选择这些缺省回复中的一个，也可以将其变更为您喜欢的任何内容。";
+"AppleWatch.ReplyPresets" = "回复默认";
+"AppleWatch.ReplyPresetsHelp" = "当您编写或回复一则消息，您可以选择这些默认回复中的一个，也可以将其变更为您喜欢的任何内容。";
 
 "KeyCommand.FocusOnInputField" = "编写消息";
 "KeyCommand.Find" = "搜索";
@@ -2170,7 +2170,7 @@
 "StickerPacksSettings.ArchivedPacks.Info" = "您最多可以有200套已安装的贴图包。\n当您添加更多时，未使用的贴图会被封存。";
 
 "Conversation.CloudStorageInfo.Title" = "您的云存储";
-"Conversation.ClousStorageInfo.Description1" = "• 转传消息到这里以保存它们";
+"Conversation.ClousStorageInfo.Description1" = "• 转发消息到这里以保存它们";
 "Conversation.ClousStorageInfo.Description2" = "• 发送媒体和文件以保存它们";
 "Conversation.ClousStorageInfo.Description3" = "• 从任何设备访问此聊天";
 "Conversation.ClousStorageInfo.Description4" = "• 使用搜索功能快速找到东西";
@@ -2694,8 +2694,8 @@
 "Channel.EditAdmin.PermissinAddAdminOn" = "此管理员将能够添加拥有相同权限 (或较多限制) 的新管理员。";
 "Channel.EditAdmin.PermissinAddAdminOff" = "此管理员将不能添加新的管理员。";
 
-"Login.ContinueWithLocalization" = "继续使用繁体中文（台湾）";
-"Localization.LanguageName" = "繁体中文（台湾）";
+"Login.ContinueWithLocalization" = "继续使用简体中文";
+"Localization.LanguageName" = "简体中文";
 "Localization.ChooseLanguage" = "选择您的语言";
 "Localization.EnglishLanguageName" = "Chinese (Taiwan)";
 "Localization.LanguageOther" = "其他";

@@ -46,7 +46,7 @@
 "Auth.CantLogout" = "无法注销";
 "Auth.CheckConnection" = "检查您的网络连接然后再试一次";
 
-"Settings.CantUpdateFolder" = "无法将此文件夹作为缺省";
+"Settings.CantUpdateFolder" = "无法将此文件夹作为默认";
 "Settings.ChooseAnotherFolder" = "请选择一个不同的文件夹";
 "Settings.BlockUsers" = "封锁用户";
 
@@ -399,7 +399,7 @@
 "Notification.MessageLifetime1d" = "1 天";
 "Notification.MessageLifetime1w" = "1 星期";
 
-"DefaultSoundName" = "缺省";
+"DefaultSoundName" = "默认";
 
 "Date.DialogDateFormat" = "{month} {day}";
 
@@ -1152,7 +1152,7 @@
 "Modern.Chat.Members" = "%d 位成员";
 "Modern.Profile.SetAdmins" = "添加管理员";
 "Modern.Chat.UpgrateToMegagroup" = "升级为超级群组";
-"Modern.Chat.UpgradeToMegagroupDescription" = "要超越 %d 个成员的限制并获得额外的功能，请升级为超级群组：\n• 超级群组可以加入高达 %d 个成员\n• 新成员可以看到完整的聊天记录\n• 管理员可以删除每个人的消息\n• 通知缺省情况下是关闭的";
+"Modern.Chat.UpgradeToMegagroupDescription" = "要超越 %d 个成员的限制并获得额外的功能，请升级为超级群组：\n• 超级群组可以加入高达 %d 个成员\n• 新成员可以看到完整的聊天记录\n• 管理员可以删除每个人的消息\n• 通知默认情况下是关闭的";
 "Modern.Channel.InviteViaLink" = "通过链接邀请";
 "Modern.Channel.ChannelMembersDescription" = "只有频道管理员可以看到这个清单。";
 "Compose.Edit" = "编辑";

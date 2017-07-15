@@ -18,7 +18,7 @@ to link the code of portions of this program with the OpenSSL library.
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
 Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
-"lng_language_name" = "繁体中文（台湾）";
+"lng_language_name" = "简体中文";
 "lng_switch_to_this" = "切换到英文";
 
 "lng_menu_contacts" = "联系人";
@@ -296,7 +296,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_section_general" = "一般";
 "lng_settings_change_lang" = "变更语言";
 "lng_languages" = "语言";
-"lng_sure_save_language" = "为了改变接口语言\nTelegram 将重新启动";
+"lng_sure_save_language" = "为了改变语言\nTelegram 将重新启动";
 "lng_settings_update_automatically" = "自动更新";
 "lng_settings_current_version_label" = "版本 {version}:";
 "lng_settings_current_version" = "版本 {version}";
@@ -312,7 +312,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_auto_start" = "开机时启动 Telegram";
 "lng_settings_start_min" = "启动时最小化";
 "lng_settings_add_sendto" = "将 Telegram 放于 «发送到» 菜单";
-"lng_settings_section_scale" = "接口缩放比例";
+"lng_settings_section_scale" = "窗口缩放比例";
 "lng_settings_scale_auto" = "自动 ({cur})";
 
 "lng_settings_section_chat_settings" = "聊天设置";
@@ -324,7 +324,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_send_cmdenter" = "发送消息通过 Cmd+Enter 键";
 
 "lng_settings_section_background" = "聊天室背景";
-"lng_settings_bg_use_default" = "使用缺省颜色主题";
+"lng_settings_bg_use_default" = "使用默认颜色主题";
 "lng_settings_bg_from_gallery" = "从图库选择";
 "lng_settings_bg_from_file" = "从文件选择";
 "lng_settings_bg_edit_theme" = "编辑主题";
@@ -341,7 +341,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_download_path_dont_ask" = "不要询问每个文件的下载路径";
 "lng_download_path_label" = "下载路径：";
 "lng_download_path_temp" = "暂存文件夹";
-"lng_download_path_default" = "缺省文件夹";
+"lng_download_path_default" = "默认文件夹";
 "lng_download_path_clear" = "清除全部";
 "lng_download_path_header" = "选择下载路径";
 "lng_download_path_default_radio" = "Telegram 文件夹在系统目录的 «下载» 中";
@@ -428,8 +428,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cloud_password_is_same" = "密码没有被变更";
 
 "lng_connection_type" = "连接类型：";
-"lng_connection_auto_connecting" = "缺省 (连接中...)";
-"lng_connection_auto" = "缺省 (使用{transport} )";
+"lng_connection_auto_connecting" = "默认 (连接中...)";
+"lng_connection_auto" = "默认 (使用{transport} )";
 "lng_connection_proxy_connecting" = "通过代理连接中...";
 "lng_connection_proxy" = "通过 {transport} 代理访问";
 "lng_connection_header" = "连接类型";
@@ -768,7 +768,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_migrate_feature1#other" = "— 成员限制是 {count} 位用户";
 "lng_profile_migrate_feature2" = "— 新成员可以看到完整的聊天纪录";
 "lng_profile_migrate_feature3" = "— 管理员可以删除每个人的消息";
-"lng_profile_migrate_feature4" = "— 通知缺省情况下是关闭的";
+"lng_profile_migrate_feature4" = "— 通知默认情况下是关闭的";
 "lng_profile_migrate_button" = "升级为超级群组";
 "lng_profile_migrate_sure" = "您确定要将本群组升级为超级群组？这个动作无法复原。";
 "lng_profile_convert_button" = "转换为超级群组";
@@ -1049,7 +1049,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_to_msg" = "前往消息";
 "lng_context_reply_msg" = "回复";
 "lng_context_edit_msg" = "编辑";
-"lng_context_forward_msg" = "转传消息";
+"lng_context_forward_msg" = "转发消息";
 "lng_context_delete_msg" = "删除消息";
 "lng_context_select_msg" = "选取消息";
 "lng_context_pin_msg" = "置顶消息";
@@ -1402,7 +1402,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 // Wnd specific
 
-"lng_wnd_choose_program_menu" = "选择缺省程序...";
+"lng_wnd_choose_program_menu" = "选择默认程序...";
 
 "lng_wnd_menu_undo" = "复原";
 "lng_wnd_menu_redo" = "重做";

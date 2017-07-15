@@ -2,11 +2,11 @@
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
-  <string name="LanguageName">繁体中文（台湾）</string>
+  <string name="LanguageName">简体中文</string>
   <string name="English">英文</string>
   <string name="LanguageNameInEnglish">Chinese（Taiwan）</string>
   <string name="LanguageCode">eo</string>
-  <string name="ContinueOnThisLanguage">继续使用繁体中文（台湾）</string>
+  <string name="ContinueOnThisLanguage">继续使用简体中文</string>
   <!--signin view-->
   <string name="YourPhone">您的手机</string>
   <string name="StartText">请确认您的国家代码并输入您的手机号码。</string>
@@ -553,7 +553,7 @@
   <string name="ShortcutAdded">捷径添加到手机主画面</string>
   <string name="ChatYourSelf">与自己聊天</string>
   <string name="ChatYourSelfName">您</string>
-  <string name="ChatYourSelfDescription1">转传消息到这里以保存它们</string>
+  <string name="ChatYourSelfDescription1">转发消息到这里以保存它们</string>
   <string name="ChatYourSelfDescription2">发送媒体和文件以保存它们</string>
   <string name="ChatYourSelfDescription3">从任何设备访问此聊天</string>
   <string name="ChatYourSelfDescription4">使用搜索功能快速找到东西</string>
@@ -807,7 +807,7 @@
   <string name="SelectColor">选择颜色</string>
   <string name="CreateNewTheme">创建新主题</string>
   <string name="CreateNewThemeHelp">点击调色板图标可查看每个画面上组成元素的列表，并进行编辑。</string>
-  <string name="CreateNewThemeInfo">您可以通过更改应用程序中的颜色来创建自己的主题。您可以随时切换回缺省的 Telegram 主题。</string>
+  <string name="CreateNewThemeInfo">您可以通过更改应用程序中的颜色来创建自己的主题。您可以随时切换回默认的 Telegram 主题。</string>
   <!--settings view-->
   <string name="ResetNotificationsText">重置所有通知设置为默认值</string>
   <string name="TextSize">消息的字体大小</string>
@@ -857,7 +857,7 @@
   <string name="BlockedUsers">封锁名单</string>
   <string name="LogOut">注销</string>
   <string name="NoSound">无音效</string>
-  <string name="Default">缺省</string>
+  <string name="Default">默认</string>
   <string name="Support">支持</string>
   <string name="OnlyIfSilent">仅无声时</string>
   <string name="ChatBackground">聊天室背景</string>
@@ -910,7 +910,7 @@
   <string name="NotificationsEnableCustom">启用自订通知</string>
   <string name="NotificationsPriority">优先程度</string>
   <string name="NotificationsPrioritySettings">与「设置」中相同</string>
-  <string name="NotificationsPriorityDefault">缺省</string>
+  <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityLow">低</string>
   <string name="NotificationsPriorityHigh">高</string>
   <string name="NotificationsPriorityMax">最大</string>
@@ -930,8 +930,8 @@
   <string name="LedDisabled">停用</string>
   <string name="RepeatDisabled">关闭</string>
   <string name="InChatSound">聊天室内音效</string>
-  <string name="SoundDefault">缺省</string>
-  <string name="VibrationDefault">缺省</string>
+  <string name="SoundDefault">默认</string>
+  <string name="VibrationDefault">默认</string>
   <string name="SmartNotifications">智能通知</string>
   <string name="SmartNotificationsInfo">%2$s内 %1$d 次</string>
   <string name="SmartNotificationsDisabled">停用</string>
@@ -945,7 +945,7 @@
   <string name="DirectShareInfo">在分享菜单，显示最近的聊天</string>
   <string name="Emoji">表情符号</string>
   <string name="EmojiBigSize">绘制单个大表情符号</string>
-  <string name="EmojiUseDefault">使用系统缺省表情符号</string>
+  <string name="EmojiUseDefault">使用系统默认表情符号</string>
   <string name="TelegramVersion">Android 版的 Telegram %1$s</string>
   <string name="DebugMenu">调试菜单</string>
   <string name="DebugMenuImportContacts">导入联系人</string>
@@ -1330,7 +1330,7 @@
   <string name="AddToTheGroupForwardCount">要给新成员看到的旧消息数量：</string>
   <string name="AddToTheGroup">将 %1$s 加入到群组？</string>
   <string name="UserAlreadyInGroup">此用户已是此群组的一员</string>
-  <string name="ForwardMessagesTo">转传消息给 %1$s？</string>
+  <string name="ForwardMessagesTo">转发消息给 %1$s？</string>
   <string name="SendMessagesTo">发送消息给 %1$s？</string>
   <string name="SendGameTo">分享游戏到 %1$s？</string>
   <string name="SendContactTo">发送联系人信息给 %1$s?</string>
@@ -1359,7 +1359,7 @@
   <string name="SendMessagesToGroup">发送消息给 %1$s？</string>
   <string name="SendGameToGroup">分享游戏到 %1$s？</string>
   <string name="SendContactToGroup">发送联系人信息给 %1$s?</string>
-  <string name="ForwardMessagesToGroup">转传消息给 %1$s？</string>
+  <string name="ForwardMessagesToGroup">转发消息给 %1$s？</string>
   <string name="FeatureUnavailable">抱歉，此功能目前无法在您的国家使用。</string>
   <string name="NoUsernameFound">没有 Telegram 帐号使用这个用户名。</string>
   <string name="BotCantJoinGroups">这个机器人无法加入群组。</string>
@@ -1456,7 +1456,7 @@
   <string name="VoipFeedbackCommentHint">添加可选择的评论</string>
   <string name="CallBack">回调</string>
   <string name="CallAgain">重拨</string>
-  <string name="DefaultRingtone">缺省</string>
+  <string name="DefaultRingtone">默认</string>
   <string name="ConfirmDeleteCallLog">您确定要删除这一笔通话纪录？</string>
   <string name="CallViaTelegram">Telegram Call</string>
   <string name="VoipAudioRoutingEarpiece">耳机</string>
