@@ -51,6 +51,7 @@ do
     sed -i "" 's/繁体中文（台湾）/简体中文/g' ./output/$out_filename
     sed -i "" 's/接口缩放比例/窗口缩放比例/g' ./output/$out_filename
     sed -i "" 's/缺省/默认/g' ./output/$out_filename
+    sed -i "" 's/保存空间/存储空间/g' ./output/$out_filename
   fi
 done
 

@@ -107,8 +107,8 @@
   <string name="ConnectingToProxyDisable">停用</string>
   <string name="ConnectingToProxyEnable">启用</string>
   <string name="EnableProxyAlert">您确定要启用此代理？</string>
-  <string name="EnableProxyAlert2">您可以稍候在设置 (数据和保存空间) 中变更代理服务器。</string>
-  <string name="ConnectingToProxyDisableAlert">您确定要停用代理服务器 %1$s？您可以稍后在设置 (数据和保存空间) 中重新启用它。</string>
+  <string name="EnableProxyAlert2">您可以稍候在设置 (数据和存储空间) 中变更代理服务器。</string>
+  <string name="ConnectingToProxyDisableAlert">您确定要停用代理服务器 %1$s？您可以稍后在设置 (数据和存储空间) 中重新启用它。</string>
   <string name="Updating">更新中...</string>
   <string name="NewSecretChat">添加秘密聊天</string>
   <string name="AwaitingEncryption">等待 %s 上线...</string>
@@ -436,10 +436,10 @@
   <string name="AccessError">无法访问</string>
   <string name="NoFiles">还没有文件...</string>
   <string name="FileUploadLimit">文件大小不应该超过 %1$s</string>
-  <string name="NotMounted">未挂载保存空间</string>
+  <string name="NotMounted">未挂载存储空间</string>
   <string name="UsbActive">已启用 USB 传输</string>
-  <string name="InternalStorage">内部保存空间</string>
-  <string name="ExternalStorage">外部保存空间</string>
+  <string name="InternalStorage">内部存储空间</string>
+  <string name="ExternalStorage">外部存储空间</string>
   <string name="SystemRoot">系统根目录</string>
   <string name="SdCard">SD卡</string>
   <string name="Folder">文件夹</string>
@@ -1157,9 +1157,9 @@
   <string name="EnabledPasswordText">您已启动了「两步验证」。\n您需要提供您先前设立的密码，才可以登录您的 Telegram 帐号。</string>
   <string name="PendingEmailText">您的复原用电子信箱 %1$s 还没有起作用，正等候确认。</string>
   <!--data settings-->
-  <string name="DataSettings">数据和保存空间</string>
+  <string name="DataSettings">数据和存储空间</string>
   <string name="DataUsage">磁盘和网络用量</string>
-  <string name="StorageUsage">保存空间用量</string>
+  <string name="StorageUsage">存储空间用量</string>
   <string name="MobileUsage">行动数据用量</string>
   <string name="RoamingUsage">漫游数据用量</string>
   <string name="WiFiUsage">Wi-Fi 数据用量</string>

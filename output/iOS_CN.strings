@@ -624,7 +624,7 @@
 "Settings.Logout" = "注销";
 "Settings.Title" = "设置";
 "Settings.NotificationsAndSounds" = "通知与音效";
-"Settings.ChatSettings" = "数据和保存空间";
+"Settings.ChatSettings" = "数据和存储空间";
 "Settings.BlockedUsers" = "封锁名单";
 "Settings.ChatBackground" = "聊天室背景";
 "Settings.Support" = "提出疑问";
@@ -664,7 +664,7 @@
 "Notifications.ResetAllNotificationsHelp" = "撤销您全部联系人和群组的所有自订通知设置。";
 
 // Chat Settings
-"ChatSettings.Title" = "数据和保存空间";
+"ChatSettings.Title" = "数据和存储空间";
 "ChatSettings.Appearance" = "外观";
 "ChatSettings.TextSize" = "文本大小";
 "ChatSettings.TextSizeUnits" = "pt";
@@ -678,7 +678,7 @@
 "ChatSettings.Cache" = "缓存";
 
 // Usage
-"Cache.Title" = "保存空间用量";
+"Cache.Title" = "存储空间用量";
 "Cache.ClearCache" = "清除缓存";
 "Cache.ClearCacheAlert" = "在云端聊天纪录中的照片、影片和其它文件将从这个设备中移除以节省磁盘空间。\n\n所有的媒体都会留在 Telegram 云端，并且在您需要时，可以重新下载。";
 "Cache.KeepMedia" = "保留媒体";
@@ -2885,8 +2885,8 @@
 "Channel.EditAdmin.CannotEdit" = "您无法编辑此管理员的权限。";
 "Call.RateCall" = "评价这个通话";
 
-"Settings.ApplyProxyAlert" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n\n您可以稍后在设置 (数据和保存空间) 中变更您的代理服务器。";
-"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n用户名：%3$@\n密码：%4$@\n\n您可以稍后在设置 (数据和保存空间) 中变更您的代理服务器。";
+"Settings.ApplyProxyAlert" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n\n您可以稍后在设置 (数据和存储空间) 中变更您的代理服务器。";
+"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n用户名：%3$@\n密码：%4$@\n\n您可以稍后在设置 (数据和存储空间) 中变更您的代理服务器。";
 "Settings.ApplyProxyAlertEnable" = "启用";
 
 "Channel.Management.RestrictedBy" = "受限于 %@";
