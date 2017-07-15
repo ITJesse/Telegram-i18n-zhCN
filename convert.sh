@@ -20,6 +20,7 @@ do
     opencc -i $tmpdir/$filename -o ./output/$out_filename -c tw2sp.json
 
     sed -i "" 's/转寄/转发/g' ./output/$out_filename
+    sed -i "" 's/转传/转发/g' ./output/$out_filename
     sed -i "" 's/透过/通过/g' ./output/$out_filename
     sed -i "" 's/志工/志愿者/g' ./output/$out_filename
     sed -i "" 's/系统匣/ Dock /g' ./output/$out_filename
@@ -46,7 +47,6 @@ do
     sed -i "" 's/作用中的连接/登陆中的设备/g' ./output/$out_filename
     sed -i "" 's/中断所有其他连接/注销所有其他设备/g' ./output/$out_filename
     sed -i "" 's/则将会从设备中被移除/则将会从设备中移除/g' ./output/$out_filename
-    sed -i "" 's/转传消息/转发消息/g' ./output/$out_filename
     sed -i "" 's/为了改变接口语言/为了改变语言/g' ./output/$out_filename
     sed -i "" 's/繁体中文（台湾）/简体中文/g' ./output/$out_filename
     sed -i "" 's/接口缩放比例/窗口缩放比例/g' ./output/$out_filename

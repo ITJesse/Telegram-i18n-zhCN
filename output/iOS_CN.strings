@@ -46,8 +46,8 @@
 "AUTH_UNKNOWN" = "从一个新的设备 %1$@ 登录";
 "AUTH_REGION" = "从一个新的设备 %1$@ 登录，位置: %2$@";
 
-"MESSAGE_FWDS" = "%1$@ 转传给您 %2$@ 消息";
-"CHAT_MESSAGE_FWDS" = "%1$@ 转传 %3$@ 消息到 %2$@ 群组";
+"MESSAGE_FWDS" = "%1$@ 转发给您 %2$@ 消息";
+"CHAT_MESSAGE_FWDS" = "%1$@ 转发 %3$@ 消息到 %2$@ 群组";
 
 "CHANNEL_MESSAGE_TEXT" = "%1$@: %2$@";
 "CHANNEL_MESSAGE_NOTEXT" = "%1$@ 张贴了一则消息";
@@ -59,7 +59,7 @@
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ 张贴了一则语音消息";
 "CHANNEL_MESSAGE_CONTACT" = "%1$@ 张贴了一个联系人";
 "CHANNEL_MESSAGE_GEO" = "%1$@ 张贴一张地图";
-"CHANNEL_MESSAGE_FWDS" = "%1$@ 张贴了 %2$@ 转传的消息";
+"CHANNEL_MESSAGE_FWDS" = "%1$@ 张贴了 %2$@ 转发的消息";
 "CHANNEL_MESSAGE_GIF" = "%1$@ 贴了一张 GIF 动图";
 
 "PINNED_TEXT" = "%1$@ 置顶了「%2$@」";
@@ -330,10 +330,10 @@
 "Conversation.LinkDialogOpen" = "开启";
 "Conversation.LinkDialogCopy" = "复制";
 "Conversation.EditDelete" = "删除";
-"Conversation.EditForward" = "转传";
-"Conversation.ForwardToPersonFormat" = "转传给 %@？";
-"Conversation.ForwardToGroupFormat" = "转传给 %@？";
-"Conversation.ForwardTitle" = "转传";
+"Conversation.EditForward" = "转发";
+"Conversation.ForwardToPersonFormat" = "转发给 %@？";
+"Conversation.ForwardToGroupFormat" = "转发给 %@？";
+"Conversation.ForwardTitle" = "转发";
 "Conversation.ForwardChats" = "聊天";
 "Conversation.ForwardContacts" = "联系人";
 "Conversation.StatusKickedFromGroup" = "您从群组中被移除了";
@@ -369,11 +369,11 @@
 "Conversation.EncryptedDescription1" = "使用端对端加密";
 "Conversation.EncryptedDescription2" = "不会在我们服务器留下痕迹";
 "Conversation.EncryptedDescription3" = "有一个「自毁计时器」";
-"Conversation.EncryptedDescription4" = "不允许转传";
+"Conversation.EncryptedDescription4" = "不允许转发";
 "Conversation.EncryptedForwardingAlert" = "抱歉，您无法从秘密聊天中转发消息。";
 "Conversation.ContextMenuCopy" = "复制";
 "Conversation.ContextMenuDelete" = "删除";
-"Conversation.ContextMenuForward" = "转传";
+"Conversation.ContextMenuForward" = "转发";
 "Conversation.ContextMenuMore" = "更多...";
 
 "Conversation.StatusMembers_0" = "%@ 位成员";
@@ -444,7 +444,7 @@
 "Message.File" = "文件";
 "Message.Sticker" = "贴图";
 "Message.Audio" = "语音消息";
-"Message.ForwardedMessage" = "转传的消息\n来自：%@";
+"Message.ForwardedMessage" = "转发的消息\n来自：%@";
 "Message.SharedContact" = "共享的联系人";
 "Message.Animation" = "GIF图";
 
@@ -592,7 +592,7 @@
 "Preview.LoadingImages" = "正在加载完整图片...";
 "Preview.DeletePhoto" = "删除照片";
 "Preview.DeleteVideo" = "删除影片";
-"Preview.ForwardViaTelegram" = "通过 Telegram 转传";
+"Preview.ForwardViaTelegram" = "通过 Telegram 转发";
 "Preview.SaveToCameraRoll" = "保存到相机胶卷";
 
 // Map
@@ -603,7 +603,7 @@
 "Map.Satellite" = "卫星";
 "Map.Hybrid" = "混合";
 "Map.AccessDeniedError" = "为使此功能生效，请为 Telegram 开启您在 iPhone 隐私设置中的定位服务。";
-"Map.ForwardViaTelegram" = "通过 Telegram 转传";
+"Map.ForwardViaTelegram" = "通过 Telegram 转发";
 "Map.GetDirections" = "取得方向";
 "Map.OpenInGoogleMaps" = "在 Google 地图打开";
 
@@ -1219,68 +1219,68 @@
 
 "Conversation.ContextMenuReply" = "回复";
 
-"ForwardedMessages_1" = "1 则转传的消息";
-"ForwardedMessages_2" = "2 则转传的消息";
-"ForwardedMessages_3_10" = "%@ 则转传的消息";
-"ForwardedMessages_any" = "%@ 则转传的消息";
-"ForwardedMessages_many" = "%@ 则转传的消息";
-"ForwardedMessages_0" = "%@ 则转传的消息";
+"ForwardedMessages_1" = "1 则转发的消息";
+"ForwardedMessages_2" = "2 则转发的消息";
+"ForwardedMessages_3_10" = "%@ 则转发的消息";
+"ForwardedMessages_any" = "%@ 则转发的消息";
+"ForwardedMessages_many" = "%@ 则转发的消息";
+"ForwardedMessages_0" = "%@ 则转发的消息";
 
-"ForwardedFiles_1" = "1 个转传的文件";
-"ForwardedFiles_2" = "2 个转传的文件";
-"ForwardedFiles_3_10" = "%@ 个转传的文件";
-"ForwardedFiles_any" = "%@ 个转传的文件";
-"ForwardedFiles_many" = "%@ 个转传的文件";
-"ForwardedFiles_0" = "%@ 个转传的文件";
+"ForwardedFiles_1" = "1 个转发的文件";
+"ForwardedFiles_2" = "2 个转发的文件";
+"ForwardedFiles_3_10" = "%@ 个转发的文件";
+"ForwardedFiles_any" = "%@ 个转发的文件";
+"ForwardedFiles_many" = "%@ 个转发的文件";
+"ForwardedFiles_0" = "%@ 个转发的文件";
 
-"ForwardedStickers_1" = "1 张转传的贴图";
-"ForwardedStickers_2" = "2 张转传的贴图";
-"ForwardedStickers_3_10" = "%@ 张转传的贴图";
-"ForwardedStickers_any" = "%@ 张转传的贴图";
-"ForwardedStickers_many" = "%@ 张转传的贴图";
-"ForwardedStickers_0" = "%@ 张转传的贴图";
+"ForwardedStickers_1" = "1 张转发的贴图";
+"ForwardedStickers_2" = "2 张转发的贴图";
+"ForwardedStickers_3_10" = "%@ 张转发的贴图";
+"ForwardedStickers_any" = "%@ 张转发的贴图";
+"ForwardedStickers_many" = "%@ 张转发的贴图";
+"ForwardedStickers_0" = "%@ 张转发的贴图";
 
-"ForwardedPhotos_1" = "1 张转传的照片";
-"ForwardedPhotos_2" = "2 张转传的照片";
-"ForwardedPhotos_3_10" = "%@ 张转传的照片";
-"ForwardedPhotos_any" = "%@ 张转传的照片";
-"ForwardedPhotos_many" = "%@ 张转传的照片";
-"ForwardedPhotos_0" = "%@ 张转传的照片";
+"ForwardedPhotos_1" = "1 张转发的照片";
+"ForwardedPhotos_2" = "2 张转发的照片";
+"ForwardedPhotos_3_10" = "%@ 张转发的照片";
+"ForwardedPhotos_any" = "%@ 张转发的照片";
+"ForwardedPhotos_many" = "%@ 张转发的照片";
+"ForwardedPhotos_0" = "%@ 张转发的照片";
 
-"ForwardedVideos_1" = "1 个转传的影片";
-"ForwardedVideos_2" = "2 个转传的影片";
-"ForwardedVideos_3_10" = "%@ 个转传的影片";
-"ForwardedVideos_any" = "%@ 个转传的影片";
-"ForwardedVideos_many" = "%@ 个转传的影片";
-"ForwardedVideos_0" = "%@ 个转传的影片";
+"ForwardedVideos_1" = "1 个转发的影片";
+"ForwardedVideos_2" = "2 个转发的影片";
+"ForwardedVideos_3_10" = "%@ 个转发的影片";
+"ForwardedVideos_any" = "%@ 个转发的影片";
+"ForwardedVideos_many" = "%@ 个转发的影片";
+"ForwardedVideos_0" = "%@ 个转发的影片";
 
-"ForwardedAudios_1" = "1 则转传的音频";
-"ForwardedAudios_2" = "2 则转传的音频";
-"ForwardedAudios_3_10" = "%@ 则转传的音频";
-"ForwardedAudios_any" = "%@ 则转传的音频";
-"ForwardedAudios_many" = "%@ 则转传的音频";
-"ForwardedAudios_0" = "%@ 则转传的音频";
+"ForwardedAudios_1" = "1 则转发的音频";
+"ForwardedAudios_2" = "2 则转发的音频";
+"ForwardedAudios_3_10" = "%@ 则转发的音频";
+"ForwardedAudios_any" = "%@ 则转发的音频";
+"ForwardedAudios_many" = "%@ 则转发的音频";
+"ForwardedAudios_0" = "%@ 则转发的音频";
 
-"ForwardedLocations_1" = "1 则转传的位置信息";
-"ForwardedLocations_2" = "2 则转传的位置信息";
-"ForwardedLocations_3_10" = "%@ 则转传的位置信息";
-"ForwardedLocations_any" = "%@ 则转传的位置信息";
-"ForwardedLocations_many" = "%@ 则转传的位置信息";
-"ForwardedLocations_0" = "%@ 则转传的位置信息";
+"ForwardedLocations_1" = "1 则转发的位置信息";
+"ForwardedLocations_2" = "2 则转发的位置信息";
+"ForwardedLocations_3_10" = "%@ 则转发的位置信息";
+"ForwardedLocations_any" = "%@ 则转发的位置信息";
+"ForwardedLocations_many" = "%@ 则转发的位置信息";
+"ForwardedLocations_0" = "%@ 则转发的位置信息";
 
-"ForwardedGifs_1" = "1 张转传的 GIF 动图";
-"ForwardedGifs_2" = "2 张转传的 GIF 动图";
-"ForwardedGifs_3_10" = "%@ 个转传的 GIF 动图";
-"ForwardedGifs_any" = "%@ 个转传的 GIF 动图";
-"ForwardedGifs_many" = "%@ 个转传的 GIF 动图";
-"ForwardedGifs_0" = "%@ 个转传的 GIF 动图";
+"ForwardedGifs_1" = "1 张转发的 GIF 动图";
+"ForwardedGifs_2" = "2 张转发的 GIF 动图";
+"ForwardedGifs_3_10" = "%@ 个转发的 GIF 动图";
+"ForwardedGifs_any" = "%@ 个转发的 GIF 动图";
+"ForwardedGifs_many" = "%@ 个转发的 GIF 动图";
+"ForwardedGifs_0" = "%@ 个转发的 GIF 动图";
 
-"ForwardedContacts_1" = "1 个转传的联系人";
-"ForwardedContacts_2" = "2 个转传的联系人";
-"ForwardedContacts_3_10" = "%@ 个转传的联系人";
-"ForwardedContacts_any" = "%@ 个转传的联系人";
-"ForwardedContacts_many" = "%@ 个转传的联系人";
-"ForwardedContacts_0" = "%@ 个转传的联系人";
+"ForwardedContacts_1" = "1 个转发的联系人";
+"ForwardedContacts_2" = "2 个转发的联系人";
+"ForwardedContacts_3_10" = "%@ 个转发的联系人";
+"ForwardedContacts_any" = "%@ 个转发的联系人";
+"ForwardedContacts_many" = "%@ 个转发的联系人";
+"ForwardedContacts_0" = "%@ 个转发的联系人";
 
 "ForwardedAuthors2" = "%@, %@";
 "ForwardedAuthorsOthers_1" = "%@ 和另外 1 人 ";
@@ -1804,12 +1804,12 @@
 "Watch.GroupInfo.Title" = "群组信息";
 "Watch.ChannelInfo.Title" = "频道信息";
 
-"Watch.Message.ForwardedFrom" = "转传自";
+"Watch.Message.ForwardedFrom" = "转发自";
 
 "Watch.Notification.Joined" = "加入了 Telegram";
 
 "Watch.MessageView.Title" = "消息";
-"Watch.MessageView.Forward" = "转传";
+"Watch.MessageView.Forward" = "转发";
 "Watch.MessageView.Reply" = "回复";
 "Watch.MessageView.ViewOnPhone" = "在手机上查看";
 
@@ -2646,18 +2646,18 @@
 
 "ChatSettings.AutomaticVideoMessageDownload" = "自动下载视频消息";
 
-"ForwardedVideoMessages_1" = "1 则转传的视频消息";
-"ForwardedVideoMessages_2" = "2 则转传的视频消息";
-"ForwardedVideoMessages_3_10" = "%@ 则转传的视频消息";
-"ForwardedVideoMessages_any" = "%@ 则转传的视频消息";
-"ForwardedVideoMessages_many" = "%@ 则转传的视频消息";
-"ForwardedVideoMessages_0" = "%@ 则转传的视频消息";
+"ForwardedVideoMessages_1" = "1 则转发的视频消息";
+"ForwardedVideoMessages_2" = "2 则转发的视频消息";
+"ForwardedVideoMessages_3_10" = "%@ 则转发的视频消息";
+"ForwardedVideoMessages_any" = "%@ 则转发的视频消息";
+"ForwardedVideoMessages_many" = "%@ 则转发的视频消息";
+"ForwardedVideoMessages_0" = "%@ 则转发的视频消息";
 
 "Conversation.DiscardVoiceMessageTitle" = "丢弃语音消息";
 "Conversation.DiscardVoiceMessageDescription" = "您确定要停止录制和丢弃\n您的语音消息？";
 "Conversation.DiscardVoiceMessageAction" = "丢弃";
 
-"Message.ForwardedMessageShort" = "转传自\n%@";
+"Message.ForwardedMessageShort" = "转发自\n%@";
 
 "Checkout.LiabilityAlertTitle" = "警告";
 "Checkout.LiabilityAlert" = "Telegram 和 %1$@ 都不能访问您的信用卡信息。信用卡细节只能由付款系统 %2$@ 来处理。\n\n支付的款项将直接转到 %1$@ 的开发者。Telegram 不能提供任何保证，因此您必须自己承担风险。 如果发生问题，请联系 %1$@ 的开发者或您的银行。";

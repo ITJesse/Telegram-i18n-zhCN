@@ -809,11 +809,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_channel_public_link_copied" = "链接已复制到剪贴板。";
 
-"lng_forwarded" = "转传自 {user}";
+"lng_forwarded" = "转发自 {user}";
 "lng_forwarded_date" = "原始：{date}";
-"lng_forwarded_channel" = "转传自 {channel}";
-"lng_forwarded_via" = "转传自 {user} 通过 {inline_bot}";
-"lng_forwarded_channel_via" = "转传自 {channel} 通过 {inline_bot}";
+"lng_forwarded_channel" = "转发自 {channel}";
+"lng_forwarded_via" = "转发自 {user} 通过 {inline_bot}";
+"lng_forwarded_channel_via" = "转发自 {channel} 通过 {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
 "lng_in_reply_to" = "回复";
 "lng_edited" = "已编辑";
@@ -1027,7 +1027,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_copy_hashtag" = "复制 ＃号标签";
 "lng_context_copy_mention" = "复制用户名";
 "lng_context_save_image" = "另存图片为...";
-"lng_context_forward_image" = "转传图片";
+"lng_context_forward_image" = "转发图片";
 "lng_context_delete_image" = "删除图片";
 "lng_context_copy_image" = "复制图片";
 "lng_context_close_image" = "关闭图片";
@@ -1040,7 +1040,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_pack_info" = "贴图包信息";
 "lng_context_pack_add" = "添加贴图";
 "lng_context_save_file" = "另存档案为...";
-"lng_context_forward_file" = "转传文件";
+"lng_context_forward_file" = "转发文件";
 "lng_context_delete_file" = "删除文件";
 "lng_context_close_file" = "关闭文件";
 "lng_context_copy_text" = "复制文本";
@@ -1057,7 +1057,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_cancel_upload" = "取消上传";
 "lng_context_copy_selected" = "复制选取的文本";
 "lng_context_copy_selected_items" = "复制选定的文本";
-"lng_context_forward_selected" = "转传选取的";
+"lng_context_forward_selected" = "转发选取的";
 "lng_context_delete_selected" = "删除选取的";
 "lng_context_clear_selection" = "清除选取";
 "lng_really_send_image" = "您想要发送这张图片吗？";
@@ -1079,16 +1079,16 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_send_files#other" = "发送 {count} 个文件";
 
 "lng_forward_choose" = "选择接收者...";
-"lng_forward_cant" = "抱歉，这里没办法转传 :(";
-"lng_forward_confirm" = "转传给 {recipient}？";
+"lng_forward_cant" = "抱歉，这里没办法转发 :(";
+"lng_forward_confirm" = "转发给 {recipient}？";
 "lng_forward_share_contact" = "分享联系信息给 {recipient}？";
 "lng_forward_share_cant" = "很抱歉，没有办法在这里分享联系信息 :(";
 "lng_forward_send_file_confirm" = "将 «{name}» 发送给 {recipient}？";
 "lng_forward_send_files_confirm" = "发送选取的文件给 {recipient}？";
 "lng_forward_send_files_cant" = "很抱歉，没有办法在这里发送媒体 :(";
 "lng_forward_send" = "发送";
-"lng_forward_messages#one" = "{count} 则转传的消息";
-"lng_forward_messages#other" = "{count} 则转传的消息";
+"lng_forward_messages#one" = "{count} 则转发的消息";
+"lng_forward_messages#other" = "{count} 则转发的消息";
 "lng_forwarding_from#one" = "{user} 和其他 {count} 人";
 "lng_forwarding_from#other" = "{user} 和其他 {count} 人";
 "lng_forwarding_from_two" = "{user} 和 {second_user}";
@@ -1097,7 +1097,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_share_cant" = "抱歉，没办法在这里分享 :(";
 "lng_reply_cant" = "抱歉，没办法在超级群组中回复一则旧的消息 :(";
-"lng_reply_cant_forward" = "抱歉，没办法在超级群组中回复一则旧的消息 :( 您是否希望转传它并且加上您的评论？";
+"lng_reply_cant_forward" = "抱歉，没办法在超级群组中回复一则旧的消息 :( 您是否希望转发它并且加上您的评论？";
 
 "lng_share_title" = "分享给";
 "lng_share_copy_link" = "复制分享链接";
@@ -1138,7 +1138,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_selected_clear" = "取消";
 "lng_selected_delete" = "删除";
-"lng_selected_forward" = "转传";
+"lng_selected_forward" = "转发";
 "lng_selected_count#one" = "{count} 则消息";
 "lng_selected_count#other" = "{count} 则消息";
 "lng_selected_cancel_sure_this" = "取消上传？";
@@ -1172,7 +1172,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_media_save_progress" = "{ready} / {total} {mb}";
 "lng_mediaview_save_as" = "另存为...";
 "lng_mediaview_copy" = "复制";
-"lng_mediaview_forward" = "转传";
+"lng_mediaview_forward" = "转发";
 "lng_mediaview_delete" = "删除";
 "lng_mediaview_photos_all" = "查看所有照片";
 "lng_mediaview_files_all" = "查看所有文件";
