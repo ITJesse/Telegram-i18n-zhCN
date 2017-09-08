@@ -2,7 +2,9 @@
 "MESSAGE_TEXT" = "%1$@: %2$@";
 "MESSAGE_NOTEXT" = "%1$@ 传给您一则消息";
 "MESSAGE_PHOTO" = "%1$@ 传给您一张照片";
+"MESSAGE_PHOTO_SECRET" = "%1$@ 发送给您一张自毁的照片";
 "MESSAGE_VIDEO" = "%1$@ 传给您一个影片";
+"MESSAGE_VIDEO_SECRET" = "%1$@ 发送给您一张自毁的影片";
 "MESSAGE_ROUND" = "%1$@ 传给您一则视频消息";
 "MESSAGE_CONTACT" = "%1$@ 与您分享了一个联系人";
 "MESSAGE_GEO" = "%1$@ 传给您一张地图";
@@ -11,6 +13,7 @@
 "MESSAGE_GIF" = "%1$@ 传给您一张 GIF 动";
 "ENCRYPTED_MESSAGE" = "您有一则新消息%1$@";
 "LOCKED_MESSAGE" = "您有一则新消息%1$@";
+"MESSAGE_SCREENSHOT" = "%1$@ 截取了屏幕画面！";
 "ENCRYPTION_REQUEST" = "新的加密请求%1$@";
 "ENCRYPTION_ACCEPT" = "您的加密请求已被接受%1$@";
 "DC_UPDATE" = "开启此通知以更新应用程序设置";
@@ -297,7 +300,6 @@
 "Compose.NewGroup" = "添加群组";
 "Compose.NewEncryptedChat" = "添加秘密聊天";
 "Compose.NewBroadcast" = "广播名单";
-"Compose.NewBroadcastButton" = "添加广播";
 "Compose.Recipients" = "接收者";
 "Compose.Create" = "创建";
 
@@ -331,8 +333,6 @@
 "Conversation.LinkDialogCopy" = "复制";
 "Conversation.EditDelete" = "删除";
 "Conversation.EditForward" = "转发";
-"Conversation.ForwardToPersonFormat" = "转发给 %@？";
-"Conversation.ForwardToGroupFormat" = "转发给 %@？";
 "Conversation.ForwardTitle" = "转发";
 "Conversation.ForwardChats" = "聊天";
 "Conversation.ForwardContacts" = "联系人";
@@ -357,7 +357,6 @@
 "Conversation.DeleteGroup" = "删除此群组";
 "Conversation.DeleteChat" = "删除此聊天";
 "Conversation.ClearAllConfirmation" = "删除所有消息？";
-"Conversation.SearchImages" = "搜索图片";
 "Conversation.UnsupportedMedia" = "您使用的 Telegram 版本不支持此消息。请更新应用程序：\nhttp://telegram.org/update";
 "Conversation.EncryptionWaiting" = "等待 %@ 上线中...";
 "Conversation.EncryptionProcessing" = "正在交换加密密钥...";
@@ -471,7 +470,6 @@
 "Conversation.DownloadProgressMegabytes" = "%1$.1f MB / %2$.1f MB";
 "Conversation.DownloadProgressKilobytes" = "%1$d KB / %2$d KB";
 "Conversation.ViewLocation" = "查看位置";
-"Conversation.SearchWebImages" = "寻找图片";
 "Conversation.ShareMyContactInfo" = "分享我的联系信息";
 "Conversation.AddContact" = "添加联系人";
 "Conversation.SendMessage" = "发送消息";
@@ -602,8 +600,6 @@
 "Map.Map" = "地图";
 "Map.Satellite" = "卫星";
 "Map.Hybrid" = "混合";
-"Map.AccessDeniedError" = "为使此功能生效，请为 Telegram 开启您在 iPhone 隐私设置中的定位服务。";
-"Map.ForwardViaTelegram" = "通过 Telegram 转发";
 "Map.GetDirections" = "取得方向";
 "Map.OpenInGoogleMaps" = "在 Google 地图打开";
 
@@ -672,10 +668,8 @@
 "ChatSettings.AutomaticAudioDownload" = "自动下载音频";
 "ChatSettings.PrivateChats" = "私人聊天";
 "ChatSettings.Groups" = "群组";
-"ChatSettings.Security" = "安全";
 "ChatSettings.Language" = "语言";
 "ChatSettings.RevertLanguage" = "恢复为英文";
-"ChatSettings.Cache" = "缓存";
 
 // Usage
 "Cache.Title" = "存储空间用量";
@@ -828,7 +822,7 @@
 "Contacts.GlobalSearch" = "全域搜索";
 "Profile.Username" = "用户名";
 "Settings.Username" = "用户名";
-"Settings.UsernameEmpty" = "无";
+"Settings.UsernameEmpty" = "添加";
 
 "Username.Title" = "用户名";
 "Username.Placeholder" = "您的用户名";
@@ -918,7 +912,7 @@
 "PhotoEditor.CropAspectRatioSquare" = "方形";
 
 "PhotoEditor.EnhanceTool" = "补强";
-"PhotoEditor.ExposureTool" = "曝光";
+"PhotoEditor.ExposureTool" = "亮度";
 "PhotoEditor.ContrastTool" = "对比";
 "PhotoEditor.WarmthTool" = "色温";
 "PhotoEditor.SaturationTool" = "饱和度";
@@ -926,7 +920,6 @@
 "PhotoEditor.ShadowsTool" = "阴影";
 "PhotoEditor.VignetteTool" = "暗角";
 "PhotoEditor.GrainTool" = "噪点";
-"PhotoEditor.BlurTool" = "模糊化";
 "PhotoEditor.SharpenTool" = "锐利化";
 
 "PhotoEditor.BlurToolOff" = "关闭";
@@ -1363,12 +1356,10 @@
 "Map.LocationTitle" = "位置";
 "Map.OpenInMaps" = "在地图中开启";
 "Map.OpenInGooglePlus" = "在 Google+ 中开启";
-"Map.OpenInFoursquare" = "在 Foursquare 中开启";
 "Map.OpenInHereMaps" = "在 HERE Maps 中开启";
 "Map.OpenInYandexMaps" = "在 Yandex Maps 中开启";
 "Map.OpenInYandexNavigator" = "在 Yandex 浏览器中开启";
 "Map.OpenIn" = "开启于";
-"Map.More" = "更多...";
 
 "Map.SendThisLocation" = "发送这个位置信息";
 "Map.SendMyCurrentLocation" = "发送我目前所在位置的信息";
@@ -1525,7 +1516,7 @@
 
 "Login.PhoneNumberHelp" = "帮助";
 "Login.EmailPhoneSubject" = "无效号码 %@";
-"Login.EmailPhoneBody" = "我试着用我的手机号码：%@\n但 Telegram 显示它是无效的。请帮忙。";
+"Login.EmailPhoneBody" = "我试图用我的手机号码：%@\n但 Telegram 表示该号码无效。请帮助我。\n附加消息：%@，%@。";
 
 "SharedMedia.TitleLink" = "共享的链接";
 "SharedMedia.EmptyLinksText" = "在这个聊天室中所分享的全部链接会出现在这里。";
@@ -1592,10 +1583,6 @@
 
 "Channel.ErrorAccessDenied" = "抱歉，此频道是私人的。";
 "Conversation.InputTextBroadcastPlaceholder" = "广播";
-
-"Channel.NotificationCommentsEnabled" = "评论已启用";
-"Channel.NotificationCommentsDisabled" = "评论已停用";
-"Channel.Edit.EnableComments" = "评论";
 
 "Channel.TitleShowDiscussion" = "显示评论";
 "Channel.ShareChannel" = "分享";
@@ -1935,9 +1922,6 @@
 "Conversation.MessageViaUser" = "通过 %@";
 
 "CreateGroup.SoftUserLimitAlert" = "在完成创建群组并转换成一个超级群组之后，您将能够加入更多的用户。";
-"ChannelMembers.AllMembersMayInvite" = "所有成员可以邀请";
-"ChannelMembers.AllMembersMayInviteOnHelp" = "每个人都可以添加新成员。";
-"ChannelMembers.AllMembersMayInviteOffHelp" = "只有管理员可以添加新成员。";
 
 "Privacy.GroupsAndChannels" = "群组";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "谁可以将我加入到群组聊天室";
@@ -2007,7 +1991,7 @@
 "Conversation.SilentBroadcastTooltipOn" = "当您发布时，成员将会收到通知";
 "Conversation.SilentBroadcastTooltipOff" = "当您发布时，成员将不会收到通知";
 
-"Settings.About" = "自我介绍";
+"Settings.About" = "个性签名";
 "GroupInfo.LabelAdmin" = "管理员";
 
 "Conversation.Pin" = "置顶";
@@ -2070,15 +2054,14 @@
 "Group.Username.CreatePrivateLinkHelp" = "人们可以通过点击此链接加入您的群组。任何时间，您都可以撤换链接。";
 
 "Conversation.PinMessageAlertGroup" = "要置顶这则消息并且通知所有群组成员？";
-"Conversation.PinMessageAlertChannel" = "要置顶这则消息并且通知所有频道成员？";
 "Conversation.PinMessageAlert.OnlyPin" = "仅置顶";
 
 "Conversation.UnpinMessageAlert" = "您想要取消置顶这则消息吗？";
 
-"Settings.About.Title" = "自我介绍";
-"Settings.About.Help" = "您可以添加几行关于您自己的描述。任何人开启您的个人数据会看到这份文本。";
+"Settings.About.Title" = "个性签名";
+"Settings.About.Help" = "任何细节，如年龄、职业或城市\n例如：23 岁来自旧金山的设计师。";
 
-"Profile.About" = "自我介绍";
+"Profile.About" = "个性签名";
 
 "Group.Management.ErrorNotMember" = "%@ 目前还没有加入群组中。您想要邀请该用户吗？";
 
@@ -2621,8 +2604,6 @@
 "Call.AudioRouteHeadphones" = "耳机";
 "Call.AudioRouteHide" = "隐藏";
 
-"EncryptionKey.TapToEmojify" = "点击以进行表情符号化";
-
 "Call.PhoneCallInProgressMessage" = "如果您已经在接电话，则无法拨打 Telegram 电话。";
 "Call.RecordingDisabledMessage" = "请在录制语音消息前挂断。";
 
@@ -2889,7 +2870,7 @@
 "Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n用户名：%3$@\n密码：%4$@\n\n您可以稍后在设置 (数据和存储空间) 中变更您的代理服务器。";
 "Settings.ApplyProxyAlertEnable" = "启用";
 
-"Channel.Management.RestrictedBy" = "受限于 %@";
+"Channel.Management.RestrictedBy" = "被 %@ 限制";
 
 "Stickers.FrequentlyUsed" = "最近使用的";
 
@@ -2908,8 +2889,8 @@
 "InviteText.URL" = "https://telegram.org/dl";
 "InviteText.SingleContact" = "嗨，我在使用 Telegram 聊天。加入我们吧！ 在这里下载：%@";
 "InviteText.ContactsCount_1" = "嗨，我在使用 Telegram 聊天。加入我们吧！ 在这里下载：%@";
-"InviteText.ContactsCount_2" = "嗨，我在使用 Telegram 聊天。 –  还有其他 2 个联系人。加入我们吧！在这里下载：%@";
-"InviteText.ContactsCount_3_10" = "嗨，我在使用 Telegram 聊天。 –  还有其他 %@ 个联系人。加入我们吧！在这里下载：%@";
+"InviteText.ContactsCount_2" = "嗨，我在使用 Telegram 聊天。– 还有其他 2 个联系人。加入我们吧！在这里下载：%@";
+"InviteText.ContactsCount_3_10" = "嗨，我在使用 Telegram 聊天。– 还有其他 %@ 个联系人。加入我们吧！在这里下载：%@";
 "InviteText.ContactsCount_any" = "嗨，我在使用 Telegram 聊天。 –  还有其他 %@ 个联系人。加入我们吧！在这里下载：%@";
 "InviteText.ContactsCount_many" = "嗨，我在使用 Telegram 聊天。 –  还有其他 %@ 个联系人。加入我们吧！在这里下载：%@";
 "InviteText.ContactsCount_0" = "嗨，我在使用 Telegram 聊天。加入我们吧！ 在这里下载：%@";
@@ -2917,3 +2898,60 @@
 "Invite.LargeRecipientsCountWarning" = "请注意，您的设备可能需要一些时间才能发送所有这些邀请";
 
 "Contacts.InviteSearchLabel" = "搜索联系人";
+
+"Message.ImageExpired" = "照片已过期";
+"Message.VideoExpired" = "影片已过期";
+
+"SecretImage.Title" = "消失的照片";
+"SecretVideo.Title" = "消失的影片";
+"SecretTimer.ImageDescription" = "如果您设置了一个计时器，该照片将在查看后自动销毁。";
+"SecretTimer.VideoDescription" = "如果您设置了一个计时器，该影片将在查看后自动销毁。";
+
+"PhotoEditor.TiltShift" = "倾斜移位";
+
+"Notification.SecretChatMessageScreenshotSelf" = "您截取了屏幕画面！";
+
+"Settings.AboutEmpty" = "添加";
+
+"SecretImage.NotViewedYet" = "%@ 尚未打开此照片";
+"SecretVideo.NotViewedYet" = "%@ 尚未播放此影片";
+
+"UserInfo.About.Placeholder" = "个性签名";
+
+"Call.StatusNoAnswer" = "无人接听";
+
+"Conversation.SearchByName.Prefix" = "从：";
+"Conversation.SearchByName.Placeholder" = "搜索成员";
+
+"Login.PhoneBannedError" = "您的电话被禁用了。";
+
+"Clipboard.SendPhoto" = "发送照片";
+
+"HashtagSearch.ThisChat" = "这个聊天";
+"HashtagSearch.AllChats" = "所有聊天";
+
+"Stickers.AddToFavorites" = "添加到最爱";
+"Stickers.RemoveFromFavorites" = "从最爱中移除";
+
+"Channel.Info.Stickers" = "群组贴图包";
+"Channel.Stickers.Placeholder" = "贴图包";
+"Channel.Stickers.YourStickers" = "从您的贴图中选择";
+
+"Stickers.FavoriteStickers" = "最爱的贴图";
+"Stickers.GroupStickers" = "群组贴图";
+"Stickers.GroupChooseStickerPack" = "选择贴图包";
+"Stickers.GroupStickersHelp" = "您可以选择在此群组中聊天时所有成员都可以使用的贴图包。";
+
+"Channel.AdminLog.MessageChangedGroupStickerPack" = "%@ 变更了群组贴图包";
+"Channel.AdminLog.MessageRemovedGroupStickerPack" = "%@ 移除了群组贴图包";
+
+"Conversation.ContextMenuCopyLink" = "复制链接";
+
+"Channel.Stickers.Searching" = "搜索中...";
+"Channel.Stickers.NotFound" = "没有找到这样的贴图";
+"Channel.Stickers.NotFoundHelp" = "再试一次或从下面的列表中选择";
+"Channel.Stickers.CreateYourOwn" = "您可以使用 @stickers 机器人创建您自己的自订贴图包。";
+
+"MediaPicker.TimerTooltip" = "您现在可以设置一自毁计时器";
+
+"UserInfo.BlockConfirmation" = "封锁/解除封锁 %@？";
