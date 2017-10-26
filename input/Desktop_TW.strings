@@ -149,8 +149,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_cant_add_admin_invite" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶還不是群組的成員。";
 "lng_error_cant_add_admin_unban" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶在封鎖名單之中，而您無法將其解除封鎖。";
 "lng_error_cant_ban_admin" = "很抱歉，您不能封鎖此用戶，因為他是此群組中的管理員，您不能將他降級。";
-"lng_sure_add_admin_invite" = "此用戶不是本群組的成員。將他加入到群組中，然後晉升他為管理員？";
-"lng_sure_add_admin_unban" = "此用戶目前在本群組中受到限制或封鎖。您確定要取消封鎖並晉升他？";
+"lng_sure_add_admin_invite" = "此用戶不是本群組的成員。要將其添加到群組中，並晉升為管理員嗎？";
+"lng_sure_add_admin_unban" = "此用戶目前在本群組中受到限制或封鎖。您確定要取消封鎖並提升他的權限？";
 "lng_sure_ban_admin" = "此用戶是本群組中的管理員。您確定要繼續並限制他？";
 "lng_sure_ban_user_group" = "在群組中封鎖 {user}？";
 "lng_sure_enable_socks" = "您確定要啟用此代理伺服器？\n\n伺服器：{server}\n連接埠：{port}\n\n您可以稍後在設定 (連接類型) 中變更它。";
@@ -659,8 +659,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admins" = "管理員";
 "lng_channel_add_admin" = "添加管理員";
 "lng_channel_admins_too_much" = "抱歉，管理員人數已經達到上限。請先移除一位管理員。";
-"lng_channel_admin_status_creator" = "創建者";
-"lng_channel_admin_status_promoted_by" = "被 {user} 晉升";
+"lng_channel_admin_status_creator" = "創立者";
+"lng_channel_admin_status_promoted_by" = "由 {user} 任命";
 "lng_channel_admin_status_not_admin" = "不是管理員";
 "lng_channel_banned_status_restricted_by" = "被 {user} 限制";
 
@@ -679,11 +679,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_create_group_create" = "建立";
 "lng_create_group_title" = "新增群組";
 "lng_create_channel_title" = "新增頻道";
-"lng_create_public_channel_title" = "公開的頻道";
+"lng_create_public_channel_title" = "公開頻道";
 "lng_create_public_channel_about" = "任何人都可以透過搜尋找到這個頻道，並且加入";
 "lng_create_private_channel_title" = "私人的頻道";
 "lng_create_private_channel_about" = "僅擁有特別邀請連結的人可以加入";
-"lng_create_public_group_title" = "公開的群組";
+"lng_create_public_group_title" = "公開群組";
 "lng_create_public_group_about" = "任何人可以透過搜尋找到這個群組並且加入，而聊天紀錄每個人都看得見";
 "lng_create_private_group_title" = "私人的群組";
 "lng_create_private_group_about" = "當被邀請或有一邀請連結時，人們才可以加入";
@@ -769,8 +769,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_game_you_scored_no_game#other" = "您得到了 {count} 分";
 "lng_action_payment_done" = "您剛剛成功轉帳 {amount} 給 {user}";
 "lng_action_payment_done_for" = "您剛剛成功為 {invoice} 轉帳 {amount} 給 {user}";
-"lng_action_took_screenshot" = "{from} 執行了螢幕截圖！";
-"lng_action_you_took_screenshot" = "您執行了螢幕截圖！";
+"lng_action_took_screenshot" = "{from} 擷取了螢幕畫面！";
+"lng_action_you_took_screenshot" = "您擷取了螢幕畫面！";
 
 "lng_ttl_photo_received" = "{from} 傳給您一張自毀的照片。請在您的手機上檢視。";
 "lng_ttl_photo_sent" = "您傳了一張自毀的照片。";
@@ -797,7 +797,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_convert_feature1" = "— 新成員可以看到完整的訊息紀錄";
 "lng_profile_convert_feature2" = "— 刪除的訊息將從所有成員的裝置中消失";
 "lng_profile_convert_feature3" = "— 管理員可以置頂重要訊息";
-"lng_profile_convert_feature4" = "— 創建者可以設定一個公開的連結給群組用";
+"lng_profile_convert_feature4" = "— 創立者可以設定一個公開的連結給群組用";
 "lng_profile_convert_warning" = "{bold_start}注意：{bold_end} 這個動作無法復原";
 "lng_profile_convert_confirm" = "轉換";
 "lng_profile_add_more_after_upgrade#one" = "在升級為一個超級群組之後，您將能夠添加高達 {count} 位成員。";
@@ -910,7 +910,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_add_pack" = "添加貼圖";
 "lng_stickers_share_pack" = "分享貼圖";
 "lng_stickers_not_found" = "找不到貼圖包。";
-"lng_stickers_packs_archived" = "一些您未使用的貼圖已經被封存以騰出空間給您啟用的。";
+"lng_stickers_packs_archived" = "一些未使用的貼圖包已被封存起來，以騰出空間給您較常使用的。";
 "lng_stickers_archived" = "封存的貼圖";
 "lng_stickers_copied" = "貼圖包連結已複製到剪貼簿。";
 "lng_stickers_default_set" = "Great Minds";
@@ -935,7 +935,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_in_dlg_sticker_emoji" = "{emoji} 貼圖";
 
 "lng_ban_user" = "封鎖用戶";
-"lng_delete_all_from" = "刪除所有出自此用戶的訊息";
+"lng_delete_all_from" = "刪除所有來自此用戶的訊息";
 "lng_report_spam" = "檢舉垃圾訊息";
 "lng_report_spam_hide" = "隱藏";
 "lng_report_spam_thanks" = "感謝您的檢舉！";
@@ -1050,7 +1050,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_pin_to_top" = "置頂";
 "lng_context_unpin_from_top" = "取消置頂";
 
-"lng_context_promote_admin" = "晉升為管理員";
+"lng_context_promote_admin" = "提升為管理員";
 "lng_context_edit_permissions" = "編輯權限";
 "lng_context_restrict_user" = "限制用戶";
 "lng_context_remove_from_group" = "從群組中移除";
@@ -1342,7 +1342,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_chat_banned_week#other" = "{count} 週";
 "lng_rights_chat_banned_custom" = "自訂";
 "lng_rights_chat_banned_custom_date" = "直到 {date}";
-"lng_rights_chat_banned_block" = "封鎖並從群組移除";
+"lng_rights_chat_banned_block" = "封鎖並從群組中移除";
 
 "lng_restricted_send_message" = "這個群組的管理員限制您在這裡發言。";
 "lng_restricted_send_media" = "這個群組的管理員限制您在這裡張貼媒體內容。";
@@ -1369,7 +1369,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_filter_members_removed" = "離開成員";
 "lng_admin_log_filter_all_admins" = "所有的用戶和管理員";
 "lng_admin_log_about" = "這是什麼？";
-"lng_admin_log_about_text" = "這是群組成員和管理員在過去48小時內採取的所有動作的列表。";
+"lng_admin_log_about_text" = "這是成員和管理員在過去48小時內所有操作的紀錄。";
 "lng_admin_log_no_results_title" = "沒有找到動作";
 "lng_admin_log_no_results_text" = "沒有找到符合您查詢的最近的動作。";
 "lng_admin_log_no_results_search_text" = "沒有找到最近有包含「{query}」的動作。";

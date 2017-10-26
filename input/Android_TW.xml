@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
@@ -24,13 +24,13 @@
   <string name="Code">驗證碼</string>
   <string name="WrongNumber">號碼不對嗎？</string>
   <string name="DidNotGetTheCode">仍未收到驗證碼？</string>
-  <string name="CancelAccountReset">取消帳號重置</string>
-  <string name="CancelAccountResetInfo">有存取您手機號碼 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人請求刪除您的 Telegram 帳號及重置您的 2 步驗證密碼。\n\n如果這不是您，請輸入我們剛剛透過簡訊傳送到您手機號碼的驗證碼。</string>
-  <string name="ResetAccount">重置帳號</string>
+  <string name="CancelAccountReset">取消帳號重設</string>
+  <string name="CancelAccountResetInfo">有存取您手機號碼 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的人請求刪除您的 Telegram 帳號及重設您的 2 步驗證密碼。\n\n如果這不是您，請輸入我們剛剛透過簡訊傳送到您手機號碼的驗證碼。</string>
+  <string name="ResetAccount">重設帳號</string>
   <string name="ResetAccountInfo">由於帳號 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 是活躍並且受密碼保護的，為了安全起見，我們將在 1 週內刪除它。\n\n您可以隨時取消這一過程。</string>
-  <string name="ResetAccountStatus">您可以重置您的帳號在：</string>
-  <string name="ResetAccountCancelledAlert">您最近重置此帳號的嘗試已被其活躍用戶取消。請在7天內再試一次。</string>
-  <string name="ResetAccountButton">重置</string>
+  <string name="ResetAccountStatus">您可以重設您的帳號在：</string>
+  <string name="ResetAccountCancelledAlert">您最近重設此帳號的嘗試已被其活躍用戶取消。請在7天內再試一次。</string>
+  <string name="ResetAccountButton">重設</string>
   <string name="CancelLinkExpired">連結無效或已過期。</string>
   <string name="CancelLinkSuccess">您帳號 %1$s 的刪除過程被取消了。 現在您可以關閉此視窗。</string>
   <!--signup view-->
@@ -66,11 +66,10 @@
   <string name="PaymentCardCvv">安全碼 (CVV)</string>
   <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">帳單地址</string>
-  <string name="PaymentCardNameTitle">持卡人</string>
   <string name="PaymentCardName">姓名</string>
   <string name="PaymentCardSavePaymentInformation">保存付款資訊</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">您可以保存付款資訊以備將來使用。</string>
-  <string name="PaymentCardSavePaymentInformationInfoLine2">請打開*兩步驗證*以啟用此功能。</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">請*打開兩步驟驗證*以啟用此功能。</string>
   <string name="PaymentTransactionReview">交易審查</string>
   <string name="PaymentTransactionMessage">您真的想為 %3$s 將 %1$s 轉移到 %2$s 機器人？ </string>
   <string name="PaymentTransactionTotal">總計</string>
@@ -98,7 +97,7 @@
   <string name="NewGroup">新增群組</string>
   <string name="Yesterday">昨天</string>
   <string name="NoResult">查無結果</string>
-  <string name="NoChats">還沒有聊天...</string>
+  <string name="NoChats">還沒有聊過…</string>
   <string name="NoChatsHelp">透過按下在右下角的新訊息按鈕開始傳訊息\n，或點擊選單按鈕以獲得更多選項。</string>
   <string name="WaitingForNetwork">等待網路中...</string>
   <string name="Connecting">連接中...</string>
@@ -122,8 +121,7 @@
   <string name="DeleteChatUser">刪除聊天</string>
   <string name="HiddenName">已刪除的帳號</string>
   <string name="SelectChat">選擇聊天室</string>
-  <string name="ForwardTo">轉傳給...</string>
-  <string name="PhotoTip">長按檢視</string>
+  <string name="ForwardTo">轉傳至...</string>
   <string name="DisappearingPhoto">秘密照片</string>
   <string name="DisappearingVideo">秘密影片</string>
   <string name="CompatibilityChat">%1$s 正在使用較舊版本的 Telegram，因此秘密照片會以相容模式顯示。\n\n當 %2$s 更新了 Telegram 之後，計時器設在 1 分鐘以內時，照片將開始以「長按檢視」模式運作，而對方執行螢幕快照時，您也將收到通知。</string>
@@ -140,7 +138,7 @@
   <string name="ChatHintsDelete">從建議中刪除 %1$s ？</string>
   <string name="LinkPreview">連結預覽</string>
   <string name="Draft">草稿</string>
-  <string name="HistoryCleared">聊天紀錄被清除了</string>
+  <string name="HistoryCleared">聊天紀錄已清空</string>
   <string name="ArticleByAuthor">作者 %1$s</string>
   <string name="ArticleDateByAuthor">%1$s 作者 %2$s</string>
   <string name="PreviewFeedback">留下您對於此預覽的反應</string>
@@ -152,15 +150,11 @@
   <string name="Italic">斜體</string>
   <string name="Regular">正常</string>
   <string name="ContactsPermissionAlert">要與所有您認識的人無縫連接在一起，請允許 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 存取您的手機聯絡人。</string>
-  <string name="ContactsPermissionAlertNotNow">不是現在</string>
+  <string name="ContactsPermissionAlertNotNow">現在不要</string>
   <string name="ContactsPermissionAlertContinue">繼續</string>
   <!--channels-->
-  <string name="ChannelTypePublic">公開</string>
-  <string name="ChannelTypePrivate">私人</string>
   <string name="SetAsAdmin">晉升為管理員</string>
   <string name="NoBlockedUsers">沒有被封鎖的用戶</string>
-  <string name="DescriptionInfoMega">您可以為您的群組提供選擇性的描述。</string>
-  <string name="LeaveMega">離開群組</string>
   <string name="DeleteMega">刪除群組</string>
   <string name="LeaveMegaMenu">離開群組</string>
   <string name="DeleteMegaMenu">刪除群組</string>
@@ -186,7 +180,7 @@
   <string name="ActionPinnedContact">un1 置頂了一個聯絡人</string>
   <string name="ActionPinnedGame">un1 置頂了 %1$s</string>
   <string name="ActionPinnedGeo">un1 置頂了一張地圖</string>
-  <string name="ActionPinnedGif">un1 置頂了一 GIF 動圖</string>
+  <string name="ActionPinnedGif">un1 置頂了一張 GIF 圖</string>
   <string name="ActionPinnedMusic">un1 置頂了一首音樂</string>
   <string name="ActionMigrateFromGroup">這個群組被升級為一個超級群組</string>
   <string name="ActionMigrateFromGroupNotify">%1$s 被升級為一個超級群組</string>
@@ -202,13 +196,13 @@
   <string name="MegaPrivateLinkHelp">人們可以透過點擊此連結加入您的群組。任何時間，您都可以撤換連結。</string>
   <string name="DescriptionOptionalPlaceholder">簡介 (選填)</string>
   <string name="DescriptionPlaceholder">簡介</string>
-  <string name="DescriptionInfo">您可以為您的頻道提供選擇性的描述。</string>
-  <string name="ChannelPublic">公開的頻道</string>
-  <string name="MegaPublic">公開的群組</string>
+  <string name="DescriptionInfo">您可以選擇為您的頻道提供簡單的描述。</string>
+  <string name="ChannelPublic">公開頻道</string>
+  <string name="MegaPublic">公開群組</string>
   <string name="ChannelPublicInfo">公開的頻道可以用搜尋找到，且任何人都可以加入它們。</string>
   <string name="MegaPublicInfo">公開的群組可以在搜尋中找到，聊天紀錄每個人都看得見，且任何人都可以加入。</string>
-  <string name="ChannelPrivate">私人的頻道</string>
-  <string name="MegaPrivate">私人的群組</string>
+  <string name="ChannelPrivate">私人頻道</string>
+  <string name="MegaPrivate">私人群組</string>
   <string name="ChannelPrivateInfo">私人的頻道只能透過邀請連結加入。</string>
   <string name="MegaPrivateInfo">私人的群組只有當您被邀請或有一個邀請連結的情況才能加入。</string>
   <string name="ChannelLinkTitle">連結</string>
@@ -231,7 +225,7 @@
   <string name="LinkInvalidShortMega">群組名稱必須至少有 5 個字元。</string>
   <string name="LinkInvalidStartNumberMega">群組名稱不能以數字開頭。</string>
   <string name="LinkChecking">正在檢查名稱...</string>
-  <string name="LinkAvailable">%1$s 是可用的。</string>
+  <string name="LinkAvailable">%1$s 可以使用。</string>
   <string name="ChannelMembers">成員</string>
   <string name="ChannelBlacklist">封鎖名單</string>
   <string name="ChannelBlockedUsers">封鎖名單</string>
@@ -243,8 +237,6 @@
   <string name="ChannelLeaveAlert">您確定要離開此頻道？</string>
   <string name="ChannelDeleteInfo">您將失去所有此頻道的訊息。</string>
   <string name="ChannelEdit">編輯</string>
-  <string name="MegaWasPrivateAlert">請注意，如果您選擇一公開的連結給您的群組，任何人可以透過搜尋找到它，並加入。\n\n不要建立此連結，如果您想維持您的群組為私人的。</string>
-  <string name="ChannelWasPrivateAlert">請注意，如果您選擇一公開的連結給您的頻道，任何人可以透過搜尋找到它，並加入。\n\n不要建立此連結，如果您想維持您的頻道為私人的。</string>
   <string name="ChannelPublicEmptyUsername">請為您公開的頻道選擇一連結，那麼人們可以透過搜尋找到它，並與其他人分享。
 
 如果您不感興趣，我們建議建一個私人的頻道。</string>
@@ -254,8 +246,7 @@
   <string name="ActionChannelChangedTitle">頻道名稱變更為 un2</string>
   <string name="ChangePublicLimitReached">抱歉，您已經建立了太多公開的連結。
 您可以撤換其中一個舊群組或頻道的連結，或是改為創建私人的。</string>
-  <string name="ChannelCreator">創建者</string>
-  <string name="ChannelEditor">管理員</string>
+  <string name="ChannelCreator">創立者</string>
   <string name="ChannelMute">關閉訊息通知</string>
   <string name="ChannelUnmute">恢復訊息通知</string>
   <string name="ChannelAddAdmin">添加管理員</string>
@@ -263,11 +254,9 @@
   <string name="Unban">解除封鎖</string>
   <string name="UnbanText">長按用戶可以解除封鎖。</string>
   <string name="ChannelInviteViaLink">透過連結來邀請</string>
-  <string name="ChannelAddUserAdminAlert">您確定要讓 %1$s 成為管理員？</string>
-  <string name="ChannelRemoveUserAdmin">開除管理員</string>
+  <string name="ChannelRemoveUserAdmin">解除管理員身分</string>
   <string name="ChannelMembersInfo">只有頻道管理員可以看到這個清單。</string>
-  <string name="ChannelAdminNotParticipant">這個用戶目前還沒有加入頻道中。您想要邀請該用戶嗎？</string>
-  <string name="ChannelLinkInfo">任何已安裝 Telegram 的人可以透過跟隨此連結加入到您的頻道。</string>
+  <string name="ChannelLinkInfo">任何已安裝 Telegram 的人都可以透過此連結加入到您的頻道。</string>
   <string name="ChannelAdminsInfo">您可以添加管理員來幫助您管理頻道。長按可以移除管理員。</string>
   <string name="ChannelJoinTo">您想要加入「%1$s」頻道？</string>
   <string name="ChannelCantOpenPrivate">抱歉，這個聊天室無法再被存取。</string>
@@ -292,7 +281,7 @@
   <string name="ChannelMessageGroupContact">%1$s 在 %2$s 頻道分享了一個聯絡人</string>
   <string name="ChannelMessageGroupMap">%1$s 傳送了一則位置資訊到 %2$s 頻道</string>
   <string name="ChannelMessageGroupDocument">%1$s 傳送一個檔案到 %2$s 頻道</string>
-  <string name="ChannelMessageGroupGif">%1$s 傳送一 GIF 動圖到 %2$s 頻道</string>
+  <string name="ChannelMessageGroupGif">%1$s 傳送一張 GIF 圖到 %2$s 頻道</string>
   <string name="ChannelMessageGroupAudio">%1$s 傳送了一則語音訊息到 %2$s 頻道</string>
   <string name="ChannelMessageGroupRound">%1$s 傳送了一則視訊訊息到 %2$s 頻道</string>
   <string name="ChannelMessageGroupMusic">%1$s 傳送一首歌曲到 %2$s 頻道</string>
@@ -304,7 +293,7 @@
   <string name="ChannelMessageContact">%1$s 張貼了一個聯絡人</string>
   <string name="ChannelMessageMap">%1$s 張貼了一則位置資訊</string>
   <string name="ChannelMessageDocument">%1$s 張貼了一個檔案</string>
-  <string name="ChannelMessageGIF">%1$s 張貼了一 GIF 動圖</string>
+  <string name="ChannelMessageGIF">%1$s 張貼了一張 GIF 圖</string>
   <string name="ChannelMessageAudio">%1$s 張貼了一則語音訊息</string>
   <string name="ChannelMessageRound">%1$s 張貼了一則視訊訊息</string>
   <string name="ChannelMessageMusic">%1$s 張貼了一首歌曲</string>
@@ -326,12 +315,12 @@
   <string name="EditAdminDeleteMessages">刪除別人的訊息</string>
   <string name="EditAdminGroupDeleteMessages">刪除訊息</string>
   <string name="EditAdminAddAdmins">添加新的管理員</string>
-  <string name="EditAdminRemoveAdmin">開除管理員</string>
+  <string name="EditAdminRemoveAdmin">解除管理員身分</string>
   <string name="EditAdminBanUsers">封鎖用戶</string>
   <string name="EditAdminAddUsers">添加用戶</string>
   <string name="EditAdminAddUsersViaLink">透過連結邀請用戶</string>
   <string name="EditAdminPinMessages">置頂訊息</string>
-  <string name="EditAdminPromotedBy">由 %1$s 添加</string>
+  <string name="EditAdminPromotedBy">由 %1$s 任命</string>
   <string name="EditAdminCantEdit">您無法編輯此管理員的權限。</string>
   <string name="UserRestrictionsBy">被 %1$s 限制</string>
   <string name="UserRestrictions">用戶限制</string>
@@ -339,12 +328,11 @@
   <string name="UserRestrictionsCanDo">這個用戶可以做什麼？</string>
   <string name="UserRestrictionsSend">傳送訊息</string>
   <string name="UserRestrictionsSendMedia">傳送媒體</string>
-  <string name="UserRestrictionsSendStickers">傳送貼圖 &amp; GIF</string>
+  <string name="UserRestrictionsSendStickers">傳送貼圖 &amp; GIF 圖</string>
   <string name="UserRestrictionsEmbedLinks">嵌入連結</string>
   <string name="UserRestrictionsUntil">封鎖直到</string>
   <string name="UserRestrictionsUntilForever">永遠</string>
-  <string name="UserRestrictionsUntilRemove">移除</string>
-  <string name="UserRestrictionsBlock">封鎖和從群組中移除</string>
+  <string name="UserRestrictionsBlock">封鎖並從群組中移除</string>
   <string name="ManageGroup">管理群組</string>
   <string name="ManageChannel">管理頻道</string>
   <string name="ManageGroupMenu">管理群組</string>
@@ -359,7 +347,7 @@
   <string name="EventLogEmptySearch"><![CDATA[<b>]]>這裡還沒有動作<![CDATA[</b>]]>\n\n沒有找到符合您查詢的\n最近的動作。</string>
   <string name="EventLogEmptyTextSearch">沒有找到最近有包含「<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>」的動作。</string>
   <string name="EventLogInfoTitle">什麼是最近的動作？</string>
-  <string name="EventLogInfoDetail">這是群組成員和管理員在過去48小時內採取的所有動作的列表。</string>
+  <string name="EventLogInfoDetail">這是成員和管理員在過去48小時內所有操作的紀錄。</string>
   <string name="EventLogInfoDetailChannel">這是頻道管理員在過去48小時內採取的所有動作的列表。</string>
   <string name="EventLogEditedGroupTitle">un1 重命名群組為「%1$s」</string>
   <string name="EventLogEditedChannelTitle">un1 重命名頻道為「%1$s」</string>
@@ -397,7 +385,7 @@
   <string name="EventLogToggledSignaturesOn">un1 啟用了簽名</string>
   <string name="EventLogToggledSignaturesOff">un1 停用了簽名</string>
   <string name="EventLogRestrictedUntil">變更了對 %1$s 的限制\n\n持續時間：%2$s</string>
-  <string name="EventLogRestrictedSendStickers">傳送貼圖 &amp; GIF</string>
+  <string name="EventLogRestrictedSendStickers">傳送貼圖 &amp; GIF 圖</string>
   <string name="EventLogRestrictedSendMedia">傳送媒體</string>
   <string name="EventLogRestrictedSendMessages">傳送訊息</string>
   <string name="EventLogRestrictedSendEmbed">嵌入連結</string>
@@ -418,7 +406,6 @@
   <string name="EventLogFilterNewMembers">新增成員</string>
   <string name="EventLogFilterGroupInfo">群組資訊</string>
   <string name="EventLogFilterChannelInfo">頻道資訊</string>
-  <string name="EventLogFilterGroupSettings">群組設定</string>
   <string name="EventLogFilterDeletedMessages">已刪除的訊息</string>
   <string name="EventLogFilterEditedMessages">已編輯的訊息</string>
   <string name="EventLogFilterPinnedMessages">置頂訊息</string>
@@ -438,7 +425,7 @@
   <string name="SelectFile">選擇檔案</string>
   <string name="FreeOfTotal">剩餘 %1$s，共 %2$s</string>
   <string name="UnknownError">不明錯誤</string>
-  <string name="AccessError">無法存取</string>
+  <string name="AccessError">存取錯誤</string>
   <string name="NoFiles">還沒有檔案...</string>
   <string name="FileUploadLimit">檔案大小不應該超過 %1$s</string>
   <string name="NotMounted">未掛載儲存空間</string>
@@ -456,7 +443,7 @@
   <string name="ChooseStickerSet">選擇貼圖包</string>
   <string name="ChooseStickerSetPlaceholder">貼圖包</string>
   <string name="ChooseStickerSetMy">您可以使用 @stickers 機器人創建您自己的自訂貼圖包。</string>
-  <string name="ChooseStickerSetNotFound">沒有找到這樣的貼圖</string>
+  <string name="ChooseStickerSetNotFound">沒有找到這樣的貼圖包</string>
   <string name="ChooseStickerSetNotFoundInfo">再試一次或從下面的列表中選擇</string>
   <!--chat view-->
   <string name="Invisible">隱形</string>
@@ -471,18 +458,17 @@
   <string name="OpenGroup">打開群組</string>
   <string name="OpenChannel">打開頻道</string>
   <string name="InstantViewNightMode">黑色主題將在夜間自動開啟</string>
-  <string name="IsSendingGame">%1$s 正在玩一個遊戲...</string>
+  <string name="IsSendingGame">%1$s 正在玩遊戲...</string>
   <string name="IsSendingVideo">%1$s 正在傳送影片...</string>
   <string name="IsSendingFile">%1$s 正在傳送檔案...</string>
   <string name="RecordingAudio">正在錄製一則語音訊息...</string>
   <string name="RecordingRound">正在錄製一則視訊訊息...</string>
   <string name="SendingAudio">正在傳送音訊...</string>
   <string name="SendingPhoto">正在傳送照片...</string>
-  <string name="SendingGame">正在玩一個遊戲...</string>
+  <string name="SendingGame">正在玩遊戲...</string>
   <string name="SendingVideoStatus">正在傳送影片...</string>
   <string name="SendingFile">正在傳送檔案...</string>
   <string name="GotAQuestion">對 Telegram 有疑問？</string>
-  <string name="ChatTakePhoto">拍攝照片</string>
   <string name="ChatGallery">相簿</string>
   <string name="ChatLocation">位置</string>
   <string name="ChatVideo">拍攝影片</string>
@@ -511,7 +497,7 @@
   <string name="SlideToCancel">滑動以取消</string>
   <string name="SaveToDownloads">儲存至下載</string>
   <string name="SaveToGIFs">儲存至 GIF 圖庫</string>
-  <string name="DeleteGif">刪除 GIF 動圖？</string>
+  <string name="DeleteGif">刪除 GIF 圖？</string>
   <string name="SaveToMusic">儲存為音樂</string>
   <string name="ShareFile">分享</string>
   <string name="ApplyLocalizationFile">套用本地化檔案</string>
@@ -522,7 +508,6 @@
   <string name="GettingLinkInfo">正在取得連結資訊...</string>
   <string name="OpenInBrowser">開啟於...</string>
   <string name="OpenInExternalApp">開啟於...</string>
-  <string name="CopyUrl">複製網址</string>
   <string name="SendItems">傳送 %1$s</string>
   <string name="SendAsFile">作為檔案傳送</string>
   <string name="SendAsFiles">作為檔案傳送</string>
@@ -536,13 +521,10 @@
   <string name="ReportSpamAlertChannel">您確定要檢舉出自此頻道的垃圾訊息？</string>
   <string name="NobodyLikesSpam1">抱歉，目前您只能發送訊息給互為聯絡人的用戶。</string>
   <string name="NobodyLikesSpam2">抱歉，目前您只能將互為聯絡人的用戶加入到群組。</string>
-  <string name="NobodyLikesSpam3">您今天已經聯繫了過多的非聯絡人，請明天再試試！但如果這個用戶先發訊息給您，您將可以立即回覆。</string>
-  <string name="NobodyLikesSpam4">您無法添加這個用戶，因為今天您已經聯繫了過多的非聯絡人。請明天再試試！您可以請其他成員將該用戶加入群組。</string>
-  <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">更多資訊</string>
   <string name="ShareSendTo">傳送給...</string>
-  <string name="ShareComment">寫一則評論...</string>
-  <string name="TapHereGifs">點擊這裡可存取已儲存的 GIF 動圖</string>
+  <string name="ShareComment">寫點評論...</string>
+  <string name="TapHereGifs">點擊這裡可存取保存的 GIF 圖</string>
   <string name="PinMessage">置頂</string>
   <string name="PinNotify">通知所有成員</string>
   <string name="UnpinMessage">取消置頂</string>
@@ -562,21 +544,20 @@
   <string name="EditedMessage">已編輯</string>
   <string name="AttachBotsHelp">向下滾動機器人</string>
   <string name="TimeToEdit">%1$s</string>
-  <string name="TimeToEditExpired">抱歉，編輯時間過期了。</string>
+  <string name="TimeToEditExpired">抱歉，編輯時間已逾期。</string>
   <string name="AddShortcut">添加捷徑</string>
   <string name="SearchMembers">搜尋成員</string>
-  <string name="ShortcutAdded">捷徑添加到手機主畫面</string>
   <string name="ChatYourSelf">與自己聊天</string>
   <string name="ChatYourSelfName">您</string>
   <string name="ChatYourSelfDescription1">轉傳訊息到這裡以保存它們</string>
-  <string name="ChatYourSelfDescription2">傳送媒體和檔案以儲存它們</string>
+  <string name="ChatYourSelfDescription2">傳送媒體和檔案以保存它們</string>
   <string name="ChatYourSelfDescription3">從任何裝置存取此聊天</string>
   <string name="ChatYourSelfDescription4">使用搜尋功能快速找到東西</string>
   <string name="ChatYourSelfTitle">您的雲端儲存</string>
   <string name="JumpToDate">跳到該日期</string>
   <string name="DeleteForUser">也從 %1$s 的聊天紀錄中刪除</string>
   <string name="DeleteForAll">也從所有人的聊天紀錄中刪除</string>
-  <string name="TextCopied">文字已復製到剪貼簿</string>
+  <string name="TextCopied">文字已複製到剪貼簿</string>
   <string name="HoldToAudio">按住可錄音。 點擊則切換到錄影功能。</string>
   <string name="HoldToVideo">按住可錄影。 點擊則切換到錄音功能。</string>
   <string name="DiscardVoiceMessageTitle">丟棄語音訊息</string>
@@ -608,7 +589,7 @@
   <string name="NotificationMessageMap">%1$s 傳送了一則位置資訊給您</string>
   <string name="NotificationMessageGame">%1$s 邀請了您玩 %2$s</string>
   <string name="NotificationMessageDocument">%1$s 傳送給您一個檔案</string>
-  <string name="NotificationMessageGif">%1$s 傳送給您一 GIF 動圖</string>
+  <string name="NotificationMessageGif">%1$s 傳送給您一張 GIF 圖</string>
   <string name="NotificationMessageAudio">%1$s 傳送給您一則語音訊息</string>
   <string name="NotificationMessageRound">%1$s 傳給您一則視訊訊息</string>
   <string name="NotificationMessageMusic">%1$s 傳給您一首歌曲</string>
@@ -622,7 +603,7 @@
   <string name="NotificationMessageGroupMap">%1$s 傳送了一則位置資訊到 %2$s 群組</string>
   <string name="NotificationMessageGroupGame">%1$s 邀請了 %2$s 群組玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 傳送一個檔案給 %2$s 群組</string>
-  <string name="NotificationMessageGroupGif">%1$s 傳送一 GIF 動圖到 %2$s 群組</string>
+  <string name="NotificationMessageGroupGif">%1$s 傳送一張 GIF 圖到 %2$s 群組</string>
   <string name="NotificationMessageGroupAudio">%1$s 傳送了一則語音訊息到 %2$s 群組</string>
   <string name="NotificationMessageGroupRound">%1$s 傳送了一則視訊訊息到 %2$s 群組</string>
   <string name="NotificationMessageGroupMusic">%1$s 傳送一首歌曲到 %2$s 群組</string>
@@ -638,8 +619,8 @@
   <string name="NotificationGroupKickYou">%1$s 將您從 %2$s 群組中移除</string>
   <string name="NotificationGroupLeftMember">%1$s 已離開了 %2$s 群組</string>
   <string name="NotificationContactJoined">%1$s 加入了 Telegram！</string>
-  <string name="NotificationUnrecognizedDevice">%1$s，\n我們偵測到有新裝置%2$s 使用您的帳號登入\n\n裝置類型：%3$s\n位置：%4$s\n\n如果這不是您，您可以到「設定」&gt;「隱私和安全」&gt;「作用中的連線」裡，中斷該連線。\n\n如果您懷疑有人未經您的同意登入您的帳號，請在「隱私和安全」的設定中，啟用「兩步驗證」。\n\n感謝您！\nTelegram 團隊</string>
-  <string name="NotificationContactNewPhoto">%1$s 更新了個人頭像</string>
+  <string name="NotificationUnrecognizedDevice">%1$s，\n我們偵測到有新裝置%2$s 使用您的帳號登入\n\n裝置類型：%3$s\n位置：%4$s\n\n如果這不是您，您可以到「設定」&gt;「隱私和安全」&gt;「作用中的連線」裡，中斷該連線。\n\n如果您懷疑有人未經您的同意登入您的帳號，請在「隱私和安全」的設定中，啟用「兩步驟驗證」。\n\n感謝您！\nTelegram 團隊</string>
+  <string name="NotificationContactNewPhoto">%1$s 更新了大頭貼</string>
   <string name="NotificationInvitedToGroupByLink">%1$s 透過邀請連結加入了%2$s群組</string>
   <string name="Reply">回覆</string>
   <string name="ReplyToGroup">回覆%1$s</string>
@@ -657,7 +638,7 @@
   <string name="NotificationActionPinnedRound">%1$s 在 %2$s 群組中置頂了一則視訊訊息</string>
   <string name="NotificationActionPinnedContact">%1$s 在 %2$s 群組置頂了一個聯絡人</string>
   <string name="NotificationActionPinnedGeo">%1$s 在 %2$s 群組置頂了一張地圖</string>
-  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群組置頂了一 GIF 動圖</string>
+  <string name="NotificationActionPinnedGif">%1$s 在 %2$s 群組置頂了一張 GIF 圖</string>
   <string name="NotificationActionPinnedMusic">%1$s 在 %2$s 群組置頂了一首歌曲</string>
   <string name="NotificationActionPinnedTextChannel">%1$s 置頂了「%2$s」</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s 置頂了一則訊息</string>
@@ -670,20 +651,18 @@
   <string name="NotificationActionPinnedRoundChannel">%1$s 置頂了一則視訊訊息</string>
   <string name="NotificationActionPinnedContactChannel">%1$s 置頂了一個聯絡人</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s 置頂了一張地圖</string>
-  <string name="NotificationActionPinnedGifChannel">%1$s 置頂了一 GIF 動圖</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s 置頂了一張 GIF 圖</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s 置頂了一首歌曲</string>
   <string name="NotificationActionPinnedGameChannel">%1$s 置頂了一個遊戲</string>
   <!--contacts view-->
   <string name="SelectContact">選擇聯絡人</string>
   <string name="NoContacts">還沒有任何聯絡人</string>
-  <string name="InviteText">嗨，我們來改用 Telegram 吧：https://telegram.org/dl</string>
-  <string name="InviteText2">嗨，我在使用 Telegram 聊天。加入我們吧！ 在這裡下載：%1$s</string>
+  <string name="InviteText2">嗨，我在使用 Telegram 聊天，來加入我們吧！從這裡下載：%1$s</string>
   <string name="TodayAt">於</string>
   <string name="YesterdayAt">於昨天</string>
   <string name="Online">在線上</string>
   <string name="LastSeen">最後上線</string>
   <string name="LastSeenDate">最後上線</string>
-  <string name="LastSeenNow">最後上線就在剛才</string>
   <string name="InviteFriends">邀請朋友</string>
   <string name="SearchFriends">搜尋好友</string>
   <string name="GlobalSearch">全域搜尋</string>
@@ -698,8 +677,8 @@
   <string name="UpdateContactsTitle">更新聯絡人？</string>
   <string name="UpdateContactsMessage">Telegram 已經檢測到許多未同步的聯絡人，您現在要同步嗎？如果您使用的是您自己的裝置、SIM卡和 Google 帳戶，請選擇「確定」。</string>
   <!--group create view-->
-  <string name="SendMessageTo">輸入「用戶名」或選取「聯絡人」...</string>
-  <string name="SoftUserLimitAlert">在完成建立群組並轉換成一個超級群組之後，您將能夠加入更多的用戶。</string>
+  <string name="SendMessageTo">添加成員...</string>
+  <string name="SoftUserLimitAlert">在完成群組建立及轉換為超級群組後，您將能夠加入更多的用戶。</string>
   <string name="EnterGroupNamePlaceholder">輸入群組名稱</string>
   <string name="GroupName">群組名稱</string>
   <string name="MembersCount">%1$d / %2$d 已選取</string>
@@ -707,18 +686,18 @@
   <string name="JoinToGroup">您想要加入「%1$s」聊天室嗎？</string>
   <string name="JoinToGroupErrorFull">抱歉，此群組名額已經滿了。</string>
   <string name="JoinToGroupErrorNotExist">抱歉，這個聊天室似乎並不存在。</string>
-  <string name="LinkCopied">「連結」已複製到剪貼簿</string>
+  <string name="LinkCopied">連結已複製到剪貼簿</string>
   <string name="InviteToGroupByLink">透過連結，邀請到群組</string>
   <string name="InviteLink">邀請連結</string>
-  <string name="RevokeAlert">您確定要撤換此連結？一旦連結被撤換，沒有人可以利用它加入。</string>
-  <string name="RevokeAlertNewLink">先前的邀請連結現在已經沒有作用。而一個新的連結已經產生了。</string>
+  <string name="RevokeAlert">您確定要撤換此連結？一旦連結被撤換，沒有人可以利用原先的連結加入。</string>
+  <string name="RevokeAlertNewLink">先前的邀請連結現在已失效，而一個新的連結已經產生。</string>
   <string name="RevokeButton">撤換</string>
   <string name="RevokeLink">撤換連結</string>
   <string name="RevokeLinkAlert">您確定要撤換連結 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\n群組 \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 將變成私人的。</string>
   <string name="RevokeLinkAlertChannel">您確定要撤換連結 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\n頻道 \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" 將變成私人的。</string>
   <string name="CopyLink">複製連結</string>
   <string name="ShareLink">分享連結</string>
-  <string name="LinkInfo">任何已安裝 Telegram 的人可以透過跟隨此連結加入到您的群組。</string>
+  <string name="LinkInfo">任何已安裝 Telegram 的人都可以透過此連結加入到您的群組。</string>
   <!--set admins view-->
   <string name="SetAdminsTitle">聊天室管理員</string>
   <string name="SetAdminsAll">所有成員都是管理員</string>
@@ -739,15 +718,15 @@
   <string name="ConvertGroup">轉換為超級群組</string>
   <string name="ConvertGroupMenu">轉換為超級群組</string>
   <string name="ConvertGroupAlertWarning">警告</string>
-  <string name="ConvertGroupAlert">這個動作是不可逆的。要將一個超級群組降級為普通群組是不可能的。</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成員數量已達到上限。<![CDATA[</b>]]>\n\n要超過這個限制，並獲得額外的功能，請升級到超級群組：\n\n• 超級群組最多可達 %1$s 人\n• 新成員可以看到完整的訊息紀錄\n• 刪除的訊息將從所有成員的裝置中消失\n• 管理員可以置頂重要訊息\n• 創建者可以為群組設定一個公開的連結</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>在超級群組中：<![CDATA[</b>]]>\n\n• 新成員可以看到完整的訊息紀錄\n• 刪除的訊息將從所有成員的裝置中消失\n• 管理員可以置頂重要訊息\n• 創建者可以為群組設定一個公開的連結</string>
+  <string name="ConvertGroupAlert">這個動作不可還原，超級群組無法降級為一般群組。</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>成員數量已達到上限。<![CDATA[</b>]]>\n\n要超過這個限制，並獲得額外的功能，請升級到超級群組：\n\n• 超級群組最多可達 %1$s 人\n• 新成員可以看到完整的訊息紀錄\n• 刪除的訊息將從所有成員的裝置中消失\n• 管理員可以置頂重要訊息\n• 創立者可以為群組設定一個公開的連結</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>在超級群組中：<![CDATA[</b>]]>\n\n• 新成員可以看到完整的訊息紀錄\n• 刪除的訊息將從所有成員的裝置中消失\n• 管理員可以置頂重要訊息\n• 創立者可以為群組設定一個公開的連結</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>注意：<![CDATA[</b>]]> 這個動作無法復原！</string>
   <!--contact info view-->
   <string name="ShareContact">分享</string>
   <string name="AddContact">添加</string>
   <string name="AddContactTitle">添加聯絡人</string>
-  <string name="ContactNotRegistered">%1$s 目前還沒有使用 Telegram，您想要邀請他或她加入嗎？</string>
+  <string name="ContactNotRegistered">%1$s 目前還沒有使用 Telegram，您想要邀請對方加入嗎？</string>
   <string name="Invite">邀請</string>
   <string name="BlockContact">封鎖</string>
   <string name="EditContact">編輯</string>
@@ -759,7 +738,7 @@
   <string name="PhoneMain">主要</string>
   <string name="UserBio">個性簽名</string>
   <string name="UserBioEmpty">無</string>
-  <string name="UserBioInfo">您可以添加幾行關於您自己的描述。任何打開您個人資料的人會看到這段文字。</string>
+  <string name="UserBioInfo">您可以添加幾行關於您自己的描述。任何檢視您個人資訊的人會看到這段文字。</string>
   <string name="StartEncryptedChat">開始秘密聊天</string>
   <string name="GroupsInCommon">共同的群組</string>
   <string name="GroupsInCommonTitle">共同的群組</string>
@@ -767,8 +746,8 @@
   <string name="CreateEncryptedChatError">發生錯誤。</string>
   <string name="EncryptionKey">加密金鑰</string>
   <string name="MessageLifetime">自毀計時器</string>
-  <string name="MessageLifetimePhoto">如果您設定了一個計時器，該照片將在查看後自動銷毀。</string>
-  <string name="MessageLifetimeVideo">如果您設定了一個計時器，該影片將在查看後自動銷毀。</string>
+  <string name="MessageLifetimePhoto">如果您設定了計時器，該照片將在被查看後自動銷毀。</string>
+  <string name="MessageLifetimeVideo">如果您設定了計時器，該影片將在被查看後自動銷毀。</string>
   <string name="ShortMessageLifetimeForever">關閉</string>
   <string name="EncryptionKeyDescription">這張圖片和文字是產生自這個與 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的秘密聊天之加密金鑰。\n\n如果它們看起來和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 裝置的一樣，則端對端加密會得到保證。\n\n 了解更多於 telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
@@ -787,7 +766,7 @@
   <string name="UsernameHelp">您可以在 <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> 上選擇一個用戶名稱。如果您這樣做，別人就可以藉由此用戶名稱找到您及與您聯絡，而不需要知道您的手機號碼。\n\n您可以使用 <![CDATA[<b>]]>a–z<![CDATA[</b>]]>、<![CDATA[<b>]]>0–9<![CDATA[</b>]]> 及底線。最小長度是 <![CDATA[<b>]]>5<![CDATA[</b>]]> 個字元。</string>
   <string name="UsernameHelpLink">此連結會開啟一個與您在 Telegram 上的聊天室：\n%1$s</string>
   <string name="UsernameChecking">正在檢查用戶名稱...</string>
-  <string name="UsernameAvailable">%1$s 是可用的。</string>
+  <string name="UsernameAvailable">%1$s 可以使用。</string>
   <string name="UsernameEmpty">無</string>
   <string name="ErrorOccurred">發生錯誤。</string>
   <!--stickers view-->
@@ -802,11 +781,11 @@
   <string name="FavoriteStickers">最愛</string>
   <string name="CurrentGroupStickers">群組貼圖</string>
   <string name="DeleteFromFavorites">從「最愛」中刪除</string>
-  <string name="AddToMasks">添加到面具</string>
+  <string name="AddToMasks">添加到「面具」</string>
   <string name="AddStickersNotFound">沒有找到貼圖</string>
   <string name="StickersRemoved">貼圖已移除</string>
   <string name="MasksRemoved">面具已移除</string>
-  <string name="AddStickersInstalled">已加入新貼圖</string>
+  <string name="AddStickersInstalled">新貼圖已加入</string>
   <string name="AddMasksInstalled">新面具已加入</string>
   <string name="StickersHide">封存</string>
   <string name="StickersShare">分享</string>
@@ -822,13 +801,13 @@
   <string name="ArchivedMasks">封存的面具</string>
   <string name="ArchivedStickersEmpty">沒有封存的貼圖</string>
   <string name="ArchivedMasksEmpty">沒有封存的面具</string>
-  <string name="ArchivedStickersInfo">您最多可以有200套已安裝的貼圖包。當您安裝新貼圖包時，未使用的貼圖會被封存。</string>
-  <string name="ArchivedMasksInfo">您最多可以有200套面具。當您添加更多時，未使用的面具會被封存。</string>
+  <string name="ArchivedStickersInfo">您最多只能安裝 200 套貼圖包。當您繼續安裝新貼圖包時，未使用的貼圖包會被封存。</string>
+  <string name="ArchivedMasksInfo">您最多只能安裝 200 套面具組。當您添加更多時，未使用的面具組會被封存。</string>
   <string name="SendSticker">傳送貼圖</string>
   <string name="ArchivedStickersAlertTitle">封存的貼圖</string>
   <string name="ArchivedStickersAlertInfo">一些較舊的貼圖包已經被封存。您可以在貼圖設定裡重新啟用它們。</string>
   <string name="ArchivedMasksAlertTitle">封存的面具</string>
-  <string name="ArchivedMasksAlertInfo">一些較舊的面具已經被封存。您可以在面具設定裡重新啟用它們。</string>
+  <string name="ArchivedMasksAlertInfo">一些較舊的面具組已經被封存。您可以在面具設定裡重新啟用它們。</string>
   <!--theme view-->
   <string name="Theme">主題</string>
   <string name="ThemeDark">黑色</string>
@@ -846,7 +825,7 @@
   <string name="CreateNewThemeHelp">點擊調色盤圖示可檢視每個畫面上組成元素的列表，並進行編輯。</string>
   <string name="CreateNewThemeInfo">您可以透過更改應用程式中的顏色來創建自己的主題。您可以隨時切換回預設的 Telegram 主題。</string>
   <!--settings view-->
-  <string name="ResetNotificationsText">重置所有通知設定為預設值</string>
+  <string name="ResetNotificationsText">將所有通知設定回預設值</string>
   <string name="TextSize">訊息的字體大小</string>
   <string name="AskAQuestion">提出疑問</string>
   <string name="EnableAnimations">使用動畫效果</string>
@@ -863,10 +842,10 @@
   <string name="InAppVibrate">程式內震動</string>
   <string name="Vibrate">震動</string>
   <string name="InAppPreview">程式內預覽</string>
-  <string name="Reset">重置</string>
+  <string name="Reset">重設</string>
   <string name="ResetAllNotifications">重置所有通知</string>
   <string name="UndoAllCustom">撤銷您對所有聯絡人與群組的自訂通知設定</string>
-  <string name="NotificationsAndSounds">通知與音效</string>
+  <string name="NotificationsAndSounds">通知和音效</string>
   <string name="CustomNotifications">自訂通知</string>
   <string name="ProfilePopupNotification">彈出通知</string>
   <string name="ProfilePopupNotificationInfo">如果您沒有正在使用 Telegram，此聯絡人的新訊息將顯示在您的螢幕上。</string>
@@ -885,7 +864,7 @@
   <string name="ColorViolet">紫色</string>
   <string name="ColorOrange">橙色</string>
   <string name="NotificationsLedInfo">LED 在某些裝置上是一個小閃爍的燈，用於指示新訊息。</string>
-  <string name="PriorityInfo">即使您的手機處於“請勿打擾”模式，優先級更高的通知也會正常工作。</string>
+  <string name="PriorityInfo">即使您的手機處於「請勿打擾」模式，優先級更高的通知也會正常運作。</string>
   <string name="General">一般</string>
   <string name="NotificationsOn">開啟</string>
   <string name="NotificationsOff">關閉</string>
@@ -899,24 +878,22 @@
   <string name="OnlyIfSilent">僅無聲時</string>
   <string name="ChatBackground">聊天室背景</string>
   <string name="MessagesSettings">訊息</string>
-  <string name="SendByEnter">按下 Enter 就送出訊息</string>
+  <string name="SendByEnter">按下 Enter 鍵就送出訊息</string>
   <string name="TerminateAllSessions">中斷其他連線</string>
   <string name="Events">事件</string>
   <string name="ContactJoined">聯絡人加入了 Telegram</string>
   <string name="PinnedMessages">置頂訊息</string>
   <string name="Language">語言</string>
   <string name="LanguageCustom">自訂</string>
-  <string name="AskAQuestionInfo">請留意，Telegram 的技術支援是由志工提供。我們會試著盡快回覆，但還是需要一點時間。\n\n請看看 <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>：當中包含了大量問題的解答及<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>的提示。</string>
+  <string name="AskAQuestionInfo">請注意，Telegram 的技術支援是由志工提供。我們會試著盡快回覆，但還是需要一點時間。\n\n請看 <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>：當中包含了大量問題的解答及<![CDATA[<a href="https://telegram.org/faq#troubleshooting">故障排除</a>]]>的提示。</string>
   <string name="AskButton">詢問志工</string>
-  <string name="TelegramFaq">Telegram FAQ</string>
+  <string name="TelegramFaq">Telegram 常見問題</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隱私政策</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">刪除本地化檔案？</string>
   <string name="IncorrectLocalization">不正確的本地化檔案</string>
-  <string name="Enabled">啟用</string>
-  <string name="Disabled">停用</string>
-  <string name="NotificationsService">保持活動服務</string>
+  <string name="NotificationsService">保持連線服務</string>
   <string name="NotificationsServiceInfo">當被用戶或系統關閉時重新啟動程式。這將確保電報可以顯示通知。</string>
   <string name="NotificationsServiceConnection">背景連接</string>
   <string name="NotificationsServiceConnectionInfo">保持一個低影響的背景連接，讓 Telegram 可以接收通知。如需要可靠的通知，請啟用它。</string>
@@ -935,20 +912,19 @@
   <string name="Long">長</string>
   <string name="AutomaticMediaDownload">自動下載媒體</string>
   <string name="WhenUsingMobileData">使用行動數據時</string>
-  <string name="WhenConnectedOnWiFi">在 Wi-Fi 上連接時</string>
+  <string name="WhenConnectedOnWiFi">使用 Wi-Fi 連線時</string>
   <string name="WhenRoaming">漫遊時</string>
   <string name="NoMediaAutoDownload">沒有媒體</string>
-  <string name="AutoplayGifs">自動播放 GIF 動圖</string>
+  <string name="AutoplayGifs">自動播放 GIF 圖</string>
   <string name="RaiseToSpeak">手機貼近臉頰說話</string>
   <string name="SaveToGallerySettings">儲存至相簿</string>
   <string name="EditName">編輯名稱</string>
-  <string name="NotificationsCustomize">訂做</string>
+  <string name="NotificationsCustomize">個人化</string>
   <string name="NotificationsCustom">自訂</string>
   <string name="NotificationsEnableCustom">啟用自訂通知</string>
   <string name="NotificationsPriority">優先程度</string>
   <string name="NotificationsPrioritySettings">與「設定」中相同</string>
   <string name="NotificationsPriorityDefault">預設</string>
-  <string name="NotificationsPriorityLow">低</string>
   <string name="NotificationsPriorityHigh">高</string>
   <string name="NotificationsPriorityMax">最大</string>
   <string name="RepeatNotificationsNever">永不</string>
@@ -958,9 +934,8 @@
   <string name="PhoneNumberChange">變更號碼</string>
   <string name="ChangePhoneNewNumber">新號碼</string>
   <string name="ChangePhoneHelp">我們將傳送包含驗證碼的簡訊到您的新電話號碼。</string>
-  <string name="ChangePhoneNumberOccupied">號碼 %1$s 已經連接到一個 Telegram 帳號。遷移到新號碼之前，請刪除該帳號。</string>
+  <string name="ChangePhoneNumberOccupied">號碼 %1$s 已被綁定至 Telegram 帳號，遷移到新號碼之前，請刪除該帳號。</string>
   <string name="NotificationsOther">其他</string>
-  <string name="NotificationsDisabled">停用</string>
   <string name="VibrationDisabled">停用</string>
   <string name="PopupEnabled">啟用</string>
   <string name="PopupDisabled">停用</string>
@@ -987,7 +962,7 @@
   <string name="DebugMenu">除錯選單</string>
   <string name="DebugMenuImportContacts">匯入聯絡人</string>
   <string name="DebugMenuReloadContacts">重新載入聯絡人</string>
-  <string name="DebugMenuResetContacts">重置匯入的聯絡人</string>
+  <string name="DebugMenuResetContacts">重置已匯入的聯絡人</string>
   <string name="ChangeLanguageLater">您稍後可以在「設定」中變更語言</string>
   <string name="ChooseYourLanguage">選擇您的語言</string>
   <string name="ChooseYourLanguageOther">其他</string>
@@ -997,7 +972,7 @@
   <string name="UseProxyAddress">伺服器</string>
   <string name="UseProxyPassword">密碼</string>
   <string name="UseProxyPort">連接埠</string>
-  <string name="UseProxyUsername">用戶名稱</string>
+  <string name="UseProxyUsername">帳號</string>
   <string name="UseProxyInfo">SOCKS5 代理伺服器設定</string>
   <string name="UseProxyForCalls">使用代理伺服器來通話</string>
   <string name="UseProxyForCallsInfo">代理伺服器可能會降低您的通話品質</string>
@@ -1017,7 +992,7 @@
   <string name="LocalAudioCache">語音/視訊訊息</string>
   <string name="LocalVideoCache">影片</string>
   <string name="LocalMusicCache">音樂</string>
-  <string name="LocalGifCache">GIFs</string>
+  <string name="LocalGifCache">GIF 圖</string>
   <string name="LocalCache">其他檔案</string>
   <string name="CacheEmpty">空的</string>
   <string name="KeepMedia">保留媒體</string>
@@ -1039,7 +1014,6 @@
   <string name="Passcode">密碼鎖</string>
   <string name="ChangePasscode">變更密碼</string>
   <string name="ChangePasscodeInfo">當您設定了一個額外的密碼，一個鎖形圖示將出現在聊天頁面上。點擊它來鎖定和解鎖您的 Telegram 程式。\n\n注意：如果您忘記了密碼，您將需要刪除並重新安裝應用程式。而所有的秘密聊天紀錄都將會遺失。</string>
-  <string name="ChangePasscodeAlert">現在，您將看到聊天紀錄頁面上的鎖形圖示。點擊它，用您的新密碼鎖定您的 Telegram 應用程式。</string>
   <string name="PasscodePIN">PIN碼</string>
   <string name="PasscodePassword">密碼</string>
   <string name="EnterCurrentPasscode">輸入您目前使用的密碼</string>
@@ -1047,7 +1021,6 @@
   <string name="EnterNewPasscode">輸入您的新密碼</string>
   <string name="EnterYourPasscode">輸入您的密碼</string>
   <string name="ReEnterYourPasscode">再次輸入您的新密碼</string>
-  <string name="InvalidPasscode">無效的密碼</string>
   <string name="PasscodeDoNotMatch">密碼不一致</string>
   <string name="AutoLock">自動鎖定</string>
   <string name="AutoLockInfo">要求密碼，如果您離開了一段時間。</string>
@@ -1056,7 +1029,7 @@
   <string name="UnlockFingerprint">用指紋解鎖</string>
   <string name="FingerprintInfo">確認指紋以繼續</string>
   <string name="FingerprintHelp">觸控感應器</string>
-  <string name="FingerprintNotRecognized">指紋無法識別。再試一次</string>
+  <string name="FingerprintNotRecognized">指紋無法識別，請再試一次</string>
   <string name="ScreenCapture">允許螢幕擷取</string>
   <string name="ScreenCaptureInfo">如果啟用，您可以擷取 Telegram 的螢幕畫面，且即使密碼鎖已開啟，系統仍會在任務切換器中顯示您的聊天。\n\n您可能需要重新啟動應用程式才能生效。</string>
   <!--media view-->
@@ -1078,8 +1051,8 @@
   <string name="Hybrid">混合</string>
   <string name="MetersAway">公尺遠</string>
   <string name="KMetersAway">公里遠</string>
-  <string name="SendLocation">傳送您目前的位置資訊</string>
-  <string name="SendSelectedLocation">傳送選定的位置資訊</string>
+  <string name="SendLocation">傳送目前位置</string>
+  <string name="SendSelectedLocation">傳送選定的位置</string>
   <string name="ShareLocation">位置</string>
   <string name="AccurateTo">精確到 %1$s</string>
   <string name="NearbyPlaces">或者選擇一個地點</string>
@@ -1092,17 +1065,15 @@
   <string name="AllPhotos">所有照片</string>
   <string name="AllMedia">所有媒體</string>
   <string name="NoPhotos">還沒有照片</string>
-  <string name="NoVideo">尚無影片</string>
   <string name="PleaseDownload">請先下載媒體</string>
   <string name="NoRecentPhotos">沒有最近的照片</string>
-  <string name="NoRecentGIFs">沒有最近的 GIF 動圖</string>
+  <string name="NoRecentGIFs">沒有最近的 GIF 圖</string>
   <string name="SearchImages">尋找圖片</string>
   <string name="SearchImagesInfo">網頁搜尋</string>
-  <string name="SearchGifs">尋找 GIF 動圖 </string>
+  <string name="SearchGifs">尋找 GIF 圖</string>
   <string name="SearchImagesTitle">搜尋網頁</string>
-  <string name="SearchGifsTitle">搜尋 GIF 動圖</string>
+  <string name="SearchGifsTitle">搜尋 GIF 圖</string>
   <string name="CropImage">裁切影像</string>
-  <string name="EditImage">編輯影像</string>
   <string name="Enhance">補強</string>
   <string name="Highlights">亮部</string>
   <string name="Contrast">對比</string>
@@ -1114,33 +1085,25 @@
   <string name="Grain">燥點</string>
   <string name="Sharpen">銳利化</string>
   <string name="Fade">褪色</string>
-  <string name="Tint">色調</string>
   <string name="TintShadows">陰影</string>
   <string name="TintHighlights">亮部</string>
-  <string name="Curves">曲線</string>
   <string name="CurvesAll">全部</string>
   <string name="CurvesRed">紅</string>
   <string name="CurvesGreen">綠</string>
   <string name="CurvesBlue">藍</string>
-  <string name="Blur">模糊化</string>
-  <string name="BlurOff">關閉</string>
-  <string name="BlurLinear">直線的</string>
-  <string name="BlurRadial">放射狀的</string>
+  <string name="BlurOff">關閉模糊</string>
+  <string name="BlurLinear">線性模糊</string>
+  <string name="BlurRadial">放射狀模糊</string>
   <string name="AreYouSureDeletePhoto">您確定要刪除此照片？</string>
   <string name="AreYouSureDeleteVideo">您確定要刪除此影片？</string>
   <string name="DiscardChanges">放棄變更？</string>
   <string name="ClearSearch">清除搜尋紀錄？</string>
   <string name="ClearButton">清除</string>
-  <string name="PickerPhotos">照片</string>
-  <string name="PickerVideo">影片</string>
-  <string name="AddCaption">加入一說明文字...</string>
+  <string name="AddCaption">添加說明文字...</string>
   <string name="PhotoCaption">照片說明文字</string>
   <string name="VideoCaption">影片說明文字</string>
-  <string name="GifCaption">GIF 說明</string>
+  <string name="GifCaption">GIF 圖說明文字</string>
   <string name="Caption">說明文字</string>
-  <string name="PaintDraw">畫圖</string>
-  <string name="PaintStickers">貼圖</string>
-  <string name="PaintText">文字</string>
   <string name="PaintDelete">刪除</string>
   <string name="PaintEdit">編輯</string>
   <string name="PaintDuplicate">複製</string>
@@ -1150,7 +1113,7 @@
   <string name="CropOriginal">原始</string>
   <string name="CropSquare">方形</string>
   <!--password view-->
-  <string name="TwoStepVerification">兩步驗證</string>
+  <string name="TwoStepVerification">兩步驟驗證</string>
   <string name="SetAdditionalPassword">設定額外的密碼</string>
   <string name="SetAdditionalPasswordInfo">您可以設定當您使用一個新裝置登入時，除了透過簡訊取得的驗證碼外，另外要輸入的密碼。</string>
   <string name="YourPassword">您的密碼</string>
@@ -1165,9 +1128,9 @@
   <string name="YourEmailSkipWarning">警告</string>
   <string name="YourEmailSkipWarningText">糟糕，那是很嚴重的。\n\n如果您忘記密碼，您將無法存取您的 Telegram 帳號。也就沒有辦法恢復它了。</string>
   <string name="YourEmailAlmostThere">快完成了！</string>
-  <string name="YourEmailAlmostThereText">請檢查您的電子信箱 (別忘了垃圾郵件資料夾)，以完成兩步驗證設定。</string>
+  <string name="YourEmailAlmostThereText">請檢查您的電子信箱 (別忘了垃圾郵件資料夾)，以完成兩步驟驗證設定。</string>
   <string name="YourPasswordSuccess">成功了！</string>
-  <string name="YourPasswordSuccessText">您用於兩步驗證的密碼現在起作用了。</string>
+  <string name="YourPasswordSuccessText">您用於兩步驟驗證的密碼現在已生效。</string>
   <string name="ChangePassword">變更密碼</string>
   <string name="TurnPasswordOff">關閉密碼</string>
   <string name="SetRecoveryEmail">設定復原用的電子信箱</string>
@@ -1176,8 +1139,8 @@
   <string name="PasswordHint">密碼提示</string>
   <string name="PasswordHintText">請為您的密碼建立一個提示</string>
   <string name="PasswordDoNotMatch">密碼並不相符</string>
-  <string name="AbortPassword">中止兩步驗證設定</string>
-  <string name="EmailPasswordConfirmText">請按照以下步驟來完成兩步驗證設定：\n\n1. 檢查您的電子郵件 (別忘了垃圾郵件資料夾) \n%1$s\n\n2. 點擊驗證連結。</string>
+  <string name="AbortPassword">中止兩步驟驗證設定</string>
+  <string name="EmailPasswordConfirmText">請按照以下步驟來完成兩步驟驗證設定：\n\n1. 檢查您的電子郵件 (別忘了垃圾郵件資料夾) \n%1$s\n\n2. 點擊驗證連結。</string>
   <string name="PasswordAsHintError">提示必須跟您的密碼不同</string>
   <string name="PasswordEmailInvalid">無效的電子信箱</string>
   <string name="RestorePasswordNoEmailTitle">抱歉</string>
@@ -1192,12 +1155,12 @@
   <string name="ResetMyAccountWarningText">這個動作無法復原。\n\n如果您繼續重置您的帳號，那您的所有訊息及聊天都會被刪除。</string>
   <string name="ResetMyAccountWarningReset">重置</string>
   <string name="LoginPassword">密碼</string>
-  <string name="LoginPasswordText">您已經啟用了「兩步驗證」，因此您的帳號被一個額外的密碼所保護。</string>
+  <string name="LoginPasswordText">您已經啟用了「兩步驟驗證」，因此您的帳號被一個額外的密碼所保護。</string>
   <string name="ForgotPassword">忘記密碼了？</string>
   <string name="PasswordRecovery">密碼復原</string>
   <string name="PasswordCode">驗證碼</string>
   <string name="PasswordReset">密碼已撤銷</string>
-  <string name="EnabledPasswordText">您已啟動了「兩步驗證」。\n您需要提供您先前設立的密碼，才可以登入您的 Telegram 帳號。</string>
+  <string name="EnabledPasswordText">您已啟動了「兩步驟驗證」。\n您需要提供您先前設立的密碼，才可以登入您的 Telegram 帳號。</string>
   <string name="PendingEmailText">您的復原用電子信箱 %1$s 還沒有起作用，正等候確認。</string>
   <!--data settings-->
   <string name="DataSettings">數據和儲存空間</string>
@@ -1241,8 +1204,6 @@
   <string name="DeleteAccountTitle">帳號自動銷毀</string>
   <string name="DeleteAccountIfAwayFor">如果您離開</string>
   <string name="DeleteAccountHelp">如果您在這期間內不至少上線一次，您的帳號與您所有的群組、訊息和聯絡人將一起被刪除。</string>
-  <string name="DeleteAccountNowConfirmation">刪除您的帳號嗎？</string>
-  <string name="LastSeenHelp">變更誰可以看見您最後上線的時間。</string>
   <string name="LastSeenTitle">誰可以看見您的最後上線時間？</string>
   <string name="AddExceptions">添加例外</string>
   <string name="CustomHelp">重要提示：您不分享您最後上線時間的對象，他們的最後上線時間，您也將無法看見。取而代之的是大概的最後上線時間 ( 最近，一週之內，一個月之內 )。</string>
@@ -1272,25 +1233,22 @@
   <string name="PrivacyCallsP2PTitle">點對點傳輸</string>
   <string name="PrivacyCallsP2PHelp">停用點對點傳輸（peer-to-peer）將改由 Telegram 伺服器傳遞所有通話，可避免洩露您的IP位址，但會稍微降低音訊品質。</string>
   <!--edit video view-->
-  <string name="EditVideo">編輯影片</string>
   <string name="SendingVideo">傳送影片中…</string>
-  <string name="SendingGif">正在傳送 GIF...</string>
+  <string name="SendingGif">正在傳送 GIF 圖...</string>
   <!--bot-->
   <string name="Bot">機器人</string>
   <string name="BotShare">分享</string>
   <string name="BotInvite">加入到群組</string>
   <string name="BotSettings">設定</string>
   <string name="BotHelp">幫助</string>
-  <string name="BotStatusRead">可以存取訊息</string>
-  <string name="BotStatusCantRead">沒有存取訊息的權限</string>
+  <string name="BotStatusRead">可存取訊息</string>
+  <string name="BotStatusCantRead">無權限存取訊息</string>
   <string name="BotInfoTitle">這個機器人可以做什麼？</string>
   <string name="BotStart">開始</string>
   <string name="BotUnblock">重新啟動</string>
   <string name="BotStop">讓機器人停止</string>
   <string name="BotRestart">重啟機器人</string>
   <!--button titles-->
-  <string name="Next">下一步</string>
-  <string name="Back">返回</string>
   <string name="Done">完成</string>
   <string name="Open">開啟</string>
   <string name="Save">儲存</string>
@@ -1311,8 +1269,6 @@
   <string name="Set">設定</string>
   <string name="OK">確定</string>
   <string name="Crop">裁切</string>
-  <string name="Yes">是</string>
-  <string name="No">否</string>
   <!--messages-->
   <string name="ActionInviteYou">您透過邀請連結加入了群組</string>
   <string name="ActionInviteUser">un1 透過邀請連結加入了群組</string>
@@ -1344,7 +1300,7 @@
   <string name="AttachVideo">影片</string>
   <string name="AttachPhotoExpired">照片已過期</string>
   <string name="AttachVideoExpired">影片已過期</string>
-  <string name="AttachGif">GIF</string>
+  <string name="AttachGif">GIF 圖</string>
   <string name="AttachLocation">位置</string>
   <string name="AttachContact">聯絡人</string>
   <string name="AttachDocument">檔案</string>
@@ -1353,8 +1309,8 @@
   <string name="AttachRound">視訊訊息</string>
   <string name="AttachGame">遊戲</string>
   <string name="FromYou">您</string>
-  <string name="ActionTakeScreenshootYou">您拍攝了螢幕快照！</string>
-  <string name="ActionTakeScreenshoot">un1 拍攝了螢幕快照！</string>
+  <string name="ActionTakeScreenshootYou">您擷取了螢幕畫面！</string>
+  <string name="ActionTakeScreenshoot">un1 擷取了螢幕畫面！</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">無效的手機號碼</string>
   <string name="BannedPhoneNumber">封鎖的電話號碼</string>
@@ -1363,8 +1319,8 @@
   <string name="FloodWaitTime">嘗試太多次了，請於 %1$s 後再試</string>
   <string name="InvalidCode">無效驗證碼</string>
   <string name="PhoneNumberFlood">很抱歉，您最近刪除並重新建立帳號的次數過多。 請等待幾天再重新註冊。</string>
-  <string name="InvalidFirstName">姓氏無效</string>
-  <string name="InvalidLastName">名字無效</string>
+  <string name="InvalidFirstName">無效的姓氏</string>
+  <string name="InvalidLastName">無效的名字</string>
   <string name="Loading">載入中……</string>
   <string name="NoPlayerInstalled">您沒有影片播放器，請安裝一套</string>
   <string name="NoMailInstalled">請傳送一封電子郵件到 sms@stel.com 並且告訴我們關於您的問題。</string>
@@ -1372,14 +1328,12 @@
   <string name="InviteUser">這位聯絡人尚未使用 Telegram，要傳送邀請訊息嗎？</string>
   <string name="AreYouSure">您確定嗎？</string>
   <string name="AddToTheGroupTitle">將 %1$s 加入到 %2$s 聊天室？</string>
-  <string name="AddToTheGroupForwardCount">要給新成員看到的舊訊息數量：</string>
+  <string name="AddToTheGroupForwardCount">要讓新成員收到的舊訊息數量：</string>
   <string name="AddToTheGroup">將 %1$s 加入到群組？</string>
-  <string name="UserAlreadyInGroup">此用戶已是此群組的一員</string>
-  <string name="ForwardMessagesTo">轉傳訊息給 %1$s？</string>
   <string name="SendMessagesTo">傳送訊息給 %1$s？</string>
   <string name="SendGameTo">分享遊戲到 %1$s？</string>
   <string name="SendContactTo">傳送聯絡人資訊給 %1$s?</string>
-  <string name="AreYouSureLogout">您確定要登出？\n\n請注意，您可以無縫地在所有裝置上同時使用 Telegram。 但記住，登出會讓您失去所有的秘密聊天。</string>
+  <string name="AreYouSureLogout">您確定要登出？\n\n請注意，您可以無縫地在所有裝置上同時使用 Telegram。 但記住，登出會讓您所有的秘密聊天消失。</string>
   <string name="AreYouSureSessions">您確定要中斷其他連線？</string>
   <string name="AreYouSureDeleteAndExit">您確定想要刪除並離開群組？</string>
   <string name="AreYouSureDeleteThisChat">您確定要刪除此聊天？</string>
@@ -1404,18 +1358,16 @@
   <string name="SendMessagesToGroup">傳送訊息給 %1$s？</string>
   <string name="SendGameToGroup">分享遊戲到 %1$s？</string>
   <string name="SendContactToGroup">傳送聯絡人資訊給 %1$s?</string>
-  <string name="ForwardMessagesToGroup">轉傳訊息給 %1$s？</string>
   <string name="FeatureUnavailable">抱歉，此功能目前無法在您的國家使用。</string>
   <string name="NoUsernameFound">沒有 Telegram 帳號使用這個用戶名稱。</string>
   <string name="BotCantJoinGroups">這個機器人無法加入群組。</string>
   <string name="SecretLinkPreviewAlert">您想要在秘密聊天中啟用延伸的連結預覽嗎？請注意，連結預覽是在 Telegram 伺服器上產生的。</string>
   <string name="SecretChatContextBotAlert">請注意，行內機器人是由第三方開發者所提供的。要讓機器人工作，您在機器人名稱後輸入的符號會被傳送給各自的開發商。</string>
-  <string name="RaiseToSpeakAlert">您想要啟用語音訊息的「手機貼近臉頰說話」功能嗎？</string>
   <string name="EditMessageError">抱歉，您無法編輯這個訊息。</string>
-  <string name="AllowReadSms">請允許 Telegram 接收簡訊，這樣我們就可以自動為你輸入密碼。</string>
-  <string name="AllowReadCall">請允許 Telegram 接聽電話，這樣我們就可以自動為你輸入密碼。</string>
-  <string name="AllowFillNumber">請允許 Telegram 接聽來電和簡訊，以便我們可以填寫您的電話號碼，向您傳送驗證碼，然後為您輸入。</string>
-  <string name="AllowReadCallAndSms">請允許 Telegram 接聽電話和接收簡訊，這樣我們就可以自動為你輸入密碼。</string>
+  <string name="AllowReadSms">請允許 Telegram 接收簡訊，這樣我們就可以自動幫您輸入驗證碼。</string>
+  <string name="AllowReadCall">請允許 Telegram 接聽電話，這樣我們就可以自動幫您輸入驗證碼。</string>
+  <string name="AllowFillNumber">請允許 Telegram 接聽電話和接收簡訊，以便我們可以填寫您的電話號碼，向您傳送驗證碼，然後幫您輸入。</string>
+  <string name="AllowReadCallAndSms">請允許 Telegram 接聽電話和接收簡訊，這樣我們就可以自動幫您輸入驗證碼。</string>
   <string name="UserRestricted">抱歉，您未被允許這樣做。</string>
   <string name="YouBlockedUser">抱歉，您無法將此用戶或機器人添加到群組，因為您已經封鎖他們了。請解除封鎖以繼續。</string>
   <string name="JoinGroup">加入群組</string>
@@ -1450,7 +1402,7 @@
   <string name="StartMessaging">開始傳訊息</string>
   <!--VoIP-->
   <string name="AccountSettings">帳號設定</string>
-  <string name="VoipUseLessData">使用較少的數據通話</string>
+  <string name="VoipUseLessData">用較少的數據量通話</string>
   <string name="VoipIncoming">撥入電話</string>
   <string name="VoipConnecting">正在連接</string>
   <string name="VoipExchangingKeys">正在交換加密金鑰</string>
@@ -1474,8 +1426,8 @@
   <string name="WhoCanCallMeInfo">您可以限制誰可以打電話給您。</string>
   <string name="CustomCallInfo">無論上述設定如何，這些用戶將能或不能打電話給您。</string>
   <string name="UseLessDataNever">永不</string>
-  <string name="UseLessDataOnMobile">僅限行動數據</string>
-  <string name="UseLessDataAlways">總是允許</string>
+  <string name="UseLessDataOnMobile">僅於行動數據</string>
+  <string name="UseLessDataAlways">總是</string>
   <string name="VoipAnswerCall">接聽</string>
   <string name="VoipDeclineCall">拒絕</string>
   <string name="VoipOffline">您目前處於離線狀態。 請連接到網路以撥打電話。</string>
@@ -1489,12 +1441,10 @@
   <string name="CallMessageOutgoingMissed">取消的通話</string>
   <string name="CallMessageIncomingDeclined">拒接的來電</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">這張圖片和文字是從與 <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的通話之加密金鑰所產生。\n\n如果它們看起來和 <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> 裝置的一樣，則端對端加密得到保證。</string>
   <string name="NoCallLog">您尚未撥打任何電話。</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的應用程式正在使用不相容的通訊傳輸協定。對方需要更新應用程式，然後您才能打電話給對方。</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 的應用程式不支援語音通話。對方需要更新應用程式，然後您才能打電話給對方。</string>
   <string name="VoipRateCallAlert">請評價您的 Telegram 通話品質</string>
-  <string name="VoipFeedbackAlert">您想留下任何意見反饋，以幫助我們改進通話服務嗎？</string>
   <string name="VoipNeedMicPermission">Telegram 需要存取您的麥克風，以便您可以撥打電話。</string>
   <string name="VoipFeedbackCommentHint">添加可選擇的評論</string>
   <string name="CallBack">回撥</string>
@@ -1508,7 +1458,7 @@
   <string name="ReturnToCall">返回通話</string>
   <string name="CallNotAvailable">抱歉，<![CDATA[<b>]]>%1$s<![CDATA[</b>]]> 不接受通話。</string>
   <string name="CallEmojiKeyTooltip">如果這些表情符號與 %1$s 螢幕上的相同，則此通話為 100%% 安全。</string>
-  <string name="CallMessageReportProblem">評價通話</string>
+  <string name="CallMessageReportProblem">評價通話品質</string>
   <string name="CallReportHint">什麼地方出了錯？</string>
   <string name="CallReportIncludeLogs">包括技術資訊</string>
   <string name="CallReportLogsExplain">這不會洩露您的對話內容，但會幫助我們更快解決問題。</string>
@@ -1640,12 +1590,6 @@
   <string name="Stickers_few">%1$d 張貼圖</string>
   <string name="Stickers_many">%1$d 張貼圖</string>
   <string name="Stickers_other">%1$d 張貼圖</string>
-  <string name="Photos_zero">%1$d 張照片</string>
-  <string name="Photos_one">%1$d 張照片</string>
-  <string name="Photos_two">%1$d 張照片</string>
-  <string name="Photos_few">%1$d 張照片</string>
-  <string name="Photos_many">%1$d 張照片</string>
-  <string name="Photos_other">%1$d 張照片</string>
   <string name="Points_zero">%1$d</string>
   <string name="Points_one">%1$d</string>
   <string name="Points_two">%1$d</string>
@@ -1689,12 +1633,7 @@
   <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> 天</string>
   <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> 天</string>
   <!--forwarded messages-->
-  <string name="ForwardedMessage_zero">%1$d 則轉傳的訊息</string>
-  <string name="ForwardedMessage_one">1 則轉傳的訊息</string>
-  <string name="ForwardedMessage_two">%1$d 則轉傳的訊息</string>
-  <string name="ForwardedMessage_few">%1$d 則轉傳的訊息</string>
-  <string name="ForwardedMessage_many">%1$d 則轉傳的訊息</string>
-  <string name="ForwardedMessage_other">%1$d 則轉傳的訊息</string>
+
   <string name="ForwardedFile_zero">%1$d 個轉傳的檔案</string>
   <string name="ForwardedFile_one">1 個轉傳的檔案</string>
   <string name="ForwardedFile_two">%1$d 個轉傳的檔案</string>
@@ -1772,4 +1711,50 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">a h:mm</string>
   <string name="formatDateAtTime">於時間 %1$s  %2$s</string>
+<!--以下是「即時位置」分享、「聊天歷史紀錄」和訊息右上角「管理員」徽章標記...等字串-->
+  <string name="ActionPinnedGeoLive">un1 置頂了一個即時位置</string>
+  <string name="AttachLiveLocation">即時位置</string>
+  <string name="LiveLocations">即時位置</string>
+  <string name="StopLiveLocation">停止分享即時位置</string>
+  <string name="StopLiveLocationAlertAll">您確定要停止分享您的即時位置嗎？</string>
+  <string name="AttachLiveLocationIsSharing">%1$s正在分享給「 %2$s 」 </string>
+  <string name="SharingLiveLocationTitle">您正在分享您的即時位置給「 %1$s 」</string>
+  <string name="SharingYouAndOtherName">您與 %1$s</string>
+  <string name="NotificationActionPinnedGeoLive">%1$s 在群組 %2$s 置頂了一個即時位置</string>
+  <string name="StopLiveLocationAlertToGroup">您確定要停止與 %1$s 分享您的即時位置嗎？</string>
+  <string name="StopLiveLocationAlertToUser">您確定要停止與 %1$s 分享您的即時位置嗎？</string>
+<string name="LiveLocationAlertGroup">選擇此聊天室中的人們將看到您準確所在位置的持續時間。</string>
+  <string name="LiveLocationAlertPrivate">選擇 %1$s 會看到您準確所在位置的持續時間。</string>
+<string name="SendLiveLocation">分享即時位置…</string>
+  <string name="SendLiveLocationFor15m">15 分鐘</string>
+  <string name="SendLiveLocationFor1h">1 小時</string>
+  <string name="SendLiveLocationFor8h">8 小時</string>
+  <string name="SendLiveLocationInfo">當您移動時，即時更新</string>
+  <string name="ShowNearbyPlaces">拉高視野來看看附近地區</string>
+  <string name="StopAllLocationSharings">全部停止</string>
+  <string name="LocationUpdated">已更新</string>
+  <string name="LocationUpdatedJustNow">剛剛更新</string>
+<string name="Chats_few">%1$d 個聊天室</string>
+  <string name="Chats_many">%1$d 個聊天室</string>
+  <string name="Chats_one">%1$d 個聊天室</string>
+  <string name="Chats_other">%1$d 個聊天室</string>
+  <string name="Chats_two">%1$d 個聊天室</string>
+  <string name="Chats_zero">%1$d 個聊天室</string>
+  <string name="UpdatedMinutes_few">更新於 %1$d 分鐘前</string>
+  <string name="UpdatedMinutes_many">更新於 %1$d 分鐘前</string>
+  <string name="UpdatedMinutes_one">更新於 %1$d 分鐘前</string>
+  <string name="UpdatedMinutes_other">更新於 %1$d 分鐘前</string>
+  <string name="UpdatedMinutes_two">更新於 %1$d 分鐘前</string>
+  <string name="UpdatedMinutes_zero">更新於 %1$d 分鐘前</string>
+  <string name="ChatHistory">新成員加入前的訊息</string>
+  <string name="ChatHistoryHidden">隱藏</string>
+  <string name="ChatHistoryHiddenInfo">新成員無法看到加入前的訊息。</string>
+  <string name="ChatHistoryVisible">顯示</string>
+  <string name="ChatHistoryVisibleInfo">新成員可以看到加入前的訊息。</string>
+  <string name="EventLogToggledInvitesHistoryOff">un1 對新成員隱藏了加入前的訊息</string>
+  <string name="EventLogToggledInvitesHistoryOn">un1 使新成員可以看到加入前的訊息</string>
+  <string name="ChatAdmin">管理員</string>
+  <string name="IsTypingGroup">%1$s 正在輸入...</string>
+  <string name="AreTypingGroup">%1$s 都在輸入...</string>
+  <string name="ForwardedMessageCount_other">%1$d 則轉傳的訊息</string>
 </resources>
