@@ -89,7 +89,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_continue" = "继续";
 "lng_close" = "关闭";
 "lng_connecting" = "连接中...";
-"lng_connecting_to_proxy" = "正在连接到代理服务器...";
+"lng_connecting_to_proxy" = "正在连接到代理服务器…";
 "lng_connecting_settings" = "设置";
 "lng_reconnecting#one" = "{count} 秒之后，重新连接...";
 "lng_reconnecting#other" = "{count} 秒之后，重新连接...";
@@ -147,7 +147,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_cant_add_member" = "很抱歉，您不能将机器人添加到此群组。您必须请一位群组管理员来做这件事。";
 "lng_error_cant_add_bot" = "很抱歉，这个机器人不能添加到群组。";
 "lng_error_cant_add_admin_invite" = "很抱歉，您不能将此用户添加为管理员，因为该用户还不是群组的成员。";
-"lng_error_cant_add_admin_unban" = "很抱歉，您不能将此用户添加为管理员，因为该用户在封锁名单之中，而您无法将其解除封锁。";
+"lng_error_cant_add_admin_unban" = "很抱歉，您不能将此用户添加为管理员，因为该用户在黑名单之中，而您无法将其解除封锁。";
 "lng_error_cant_ban_admin" = "很抱歉，您不能封锁此用户，因为他是此群组中的管理员，您不能将他降级。";
 "lng_sure_add_admin_invite" = "此用户不是本群组的成员。要将其添加到群组中，并晋升为管理员吗？";
 "lng_sure_add_admin_unban" = "此用户目前在本群组中受到限制或封锁。您确定要取消封锁并提升他的权限？";
@@ -273,7 +273,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_bio_title" = "编辑您的个性签名";
 "lng_bio_placeholder" = "个性签名";
-"lng_bio_about" = "您可以添加几行关于您自己的描述。任何人开启您的个人数据会看到这份文本。";
+"lng_bio_about" = "您可以添加几行关于您自己的描述。任何打开您个人信息页的人会看到这段文本。";
 
 "lng_settings_section_info" = "信息";
 "lng_settings_phone_number" = "手机号码：";
@@ -531,8 +531,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_calls_always_title" = "总是允许";
 "lng_edit_privacy_calls_never_title" = "永不允许";
 
-"lng_self_destruct_title" = "帐号自毁";
-"lng_self_destruct_description" = "如果您在这期间内不至少上线一次，您的帐号与您所有的群组、消息和联系人将一起被删除。";
+"lng_self_destruct_title" = "帐号自动销毁";
+"lng_self_destruct_description" = "您在这段期间内须至少上线一次，否则您的帐号将被删除，您也将失去所有的群组、消息及联系人。";
 "lng_self_destruct_months#one" = "{count} 个月";
 "lng_self_destruct_months#other" = "{count} 个月";
 "lng_self_destruct_years#one" = "{count} 年";
@@ -569,7 +569,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_search_members" = "搜索成员";
 "lng_profile_manage_admins" = "管理管理员";
 "lng_profile_manage_blocklist" = "管理封锁名单";
-"lng_profile_manage_restrictedlist" = "管理受限制的用户";
+"lng_profile_manage_restrictedlist" = "管理受限名单";
 "lng_profile_recent_actions" = "最近的动作";
 "lng_profile_common_groups#one" = "{count} 个共同的群组";
 "lng_profile_common_groups#other" = "{count} 个共同的群组";
@@ -1233,7 +1233,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新纪录可以在这里找到：\n{link}";
 "lng_new_version_minor" = "— 错误修正和其它细微的改进";
-"lng_new_version_text" = "— 改善视频消息︰ 绕圆的播放进度、画中画支持、持续时间倒数计时。\n— 语音和视频消息现在一个接一个自动播放。";
+"lng_new_version_text" = "— 改善视频消息︰ 绕圆的播放进度、悬浮窗口支持、持续时间倒数计时。\n— 语音和视频消息现在一个接一个自动播放。";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字符";
 
@@ -1350,7 +1350,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_restricted_send_gifs" = "这个群组的管理员限制您在这里张贴GIF动图。";
 "lng_restricted_send_inline" = "这个群组的管理员限制您在这里张贴行内机器人内容。";
 
-"lng_restricted_list_title" = "受限用户";
+"lng_restricted_list_title" = "受限名单";
 "lng_banned_list_title" = "封锁名单";
 
 "lng_admin_log_title_all" = "所有动作";
@@ -1411,14 +1411,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_participant_left_channel" = "{from} 离开了频道";
 "lng_admin_log_invited" = "邀请了 {user}";
 "lng_admin_log_banned" = "封锁了 {user}";
-"lng_admin_log_restricted" = "变更了对 {user} 的限制，直到 {until}";
+"lng_admin_log_restricted" = "变更了对 {user} 的限制，{until}";
 "lng_admin_log_promoted" = "变更了 {user} 的权限";
 "lng_admin_log_changed_stickers_group" = "{from} 变更了群组 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "贴图包";
 "lng_admin_log_removed_stickers_group" = "{from} 移除了群组贴图包";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
-"lng_admin_log_restricted_forever" = "无限期";
-"lng_admin_log_restricted_until" = "直到 {date}";
+"lng_admin_log_restricted_forever" = "永远";
+"lng_admin_log_restricted_until" = "受限直到 {date}";
 "lng_admin_log_banned_view_messages" = "阅读消息";
 "lng_admin_log_banned_send_messages" = "发送消息";
 "lng_admin_log_banned_send_media" = "发送媒体";

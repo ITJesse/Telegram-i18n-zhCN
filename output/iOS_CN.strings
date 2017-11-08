@@ -105,8 +105,8 @@
 "Common.Select" = "选择";
 
 // State
-"State.Connecting" = "连接中...";
-"State.ConnectingToProxy" = "正在连接到代理服务器...";
+"State.Connecting" = "连接中…";
+"State.ConnectingToProxy" = "正在连接到代理服务器…";
 "State.ConnectingToProxyInfo" = "点击此处进行设置";
 "State.Updating" = "更新中...";
 "State.WaitingForNetwork" = "正在等待网络";
@@ -151,10 +151,10 @@
 "Time.YesterdayAt" = "于昨天 %@";
 
 "LastSeen.JustNow" = "最后上线就在刚才";
-"LastSeen.MinutesAgo_0" = "最后上线于 %@ 分钟之前"; //three to ten
-"LastSeen.MinutesAgo_1" = "最后上线于 1 分钟之前"; //one
-"LastSeen.MinutesAgo_2" = "最后上线于 2 分钟之前"; //two
-"LastSeen.MinutesAgo_3_10" = "最后上线于 %@ 分钟之前"; //three to ten
+"LastSeen.MinutesAgo_0" = "最后上线于 %@ 分钟之前"; // three to ten
+"LastSeen.MinutesAgo_1" = "最后上线于 1 分钟之前"; // one
+"LastSeen.MinutesAgo_2" = "最后上线于 2 分钟之前"; // two
+"LastSeen.MinutesAgo_3_10" = "最后上线于 %@ 分钟之前"; // three to ten
 "LastSeen.MinutesAgo_many" = "最后上线于 %@ 分钟之前"; // more than ten
 "LastSeen.MinutesAgo_any" = "最后上线于 %@ 分钟之前"; // more than ten
 "LastSeen.HoursAgo_0" = "最后上线于 %@ 小时之前";
@@ -245,7 +245,7 @@
 "DialogList.SingleUploadingFileSuffix" = "%@ 正在发送文件";
 "DialogList.MultipleTypingSuffix" = "%d 正在输入";
 "DialogList.Typing" = "正在输入";
-"DialogList.ClearHistoryConfirmation" = "清空聊天纪录";
+"DialogList.ClearHistoryConfirmation" = "清除聊天纪录";
 "DialogList.DeleteConversationConfirmation" = "删除并退出";
 "DialogList.AwaitingEncryption" = "正在等待 %@ 上线";
 "DialogList.EncryptionRejected" = "秘密聊天已取消";
@@ -398,7 +398,7 @@
 
 // User Profile
 "Profile.CreateEncryptedChatError" = "发生错误。";
-"Profile.CreateEncryptedChatOutdatedError" = "不能与 %@ 创建一个秘密聊天。\n%@ 正在使用一个较旧版本的 Telegram，所以需要先更新才行。";
+"Profile.CreateEncryptedChatOutdatedError" = "不能跟 %@ 创建一个秘密聊天。\n%@ 正在使用一个较旧版本的 Telegram，所以需要先更新才行。";
 "Profile.CreateNewContact" = "创建新的联系人";
 "Profile.AddToExisting" = "加入到现有联系人";
 "Profile.EncryptionKey" = "加密密钥";
@@ -497,15 +497,15 @@
 "Settings.SetProfilePhoto" = "设置个人头像";
 "Settings.Logout" = "注销";
 "Settings.Title" = "设置";
-"Settings.NotificationsAndSounds" = "通知与音效";
-"Settings.ChatSettings" = "数据和存储空间";
+"Settings.NotificationsAndSounds" = "通知与声音";
+"Settings.ChatSettings" = "数据与保存";
 "Settings.BlockedUsers" = "封锁名单";
 "Settings.ChatBackground" = "聊天室背景";
 "Settings.Support" = "提出疑问";
 "Settings.FAQ" = "Telegram FAQ";
 "Settings.FAQ_URL" = "http://telegram.org/faq#general";
 "Settings.FAQ_Intro" = "请留意，Telegram 的技术支持是由志愿者提供。我们会试着尽快回复，但还是需要一点时间。\n\n请看看 Telegram FAQ：其中有重要的故障排除提示，并且回答了大多数问题。";
-"Settings.FAQ_Button" = "FAQ";
+"Settings.FAQ_Button" = "常见问题";
 "Settings.SaveIncomingPhotos" = "保存收到的照片";
 
 // Notifications and Sounds
@@ -514,29 +514,29 @@
 "Notifications.MessageNotificationsAlert" = "提示";
 "Notifications.MessageNotificationsPreview" = "消息预览";
 "Notifications.MessageNotificationsSound" = "音效";
-"Notifications.MessageNotificationsHelp" = "您可以针对特定用户在其个人信息页面上设置自订通知。";
+"Notifications.MessageNotificationsHelp" = "您可以针对特定用户在其个人信息页上设置自订通知。";
 
 "Notifications.GroupNotifications" = "群组通知";
 "Notifications.GroupNotificationsAlert" = "提示";
 "Notifications.GroupNotificationsPreview" = "消息预览";
 "Notifications.GroupNotificationsSound" = "音效";
-"Notifications.GroupNotificationsHelp" = "您可以针对特定群组在其群组信息页面上设置自订通知。";
+"Notifications.GroupNotificationsHelp" = "您可以针对特定群组在其群组信息页上设置自订通知。";
 
 "Notifications.TextTone" = "短信铃声";
 "Notifications.AlertTones" = "提示音";
 "Notifications.ClassicTones" = "经典";
 
-"Notifications.InAppNotifications" = "程序内通知";
-"Notifications.InAppNotificationsSounds" = "程序内音效";
-"Notifications.InAppNotificationsVibrate" = "程序内震动";
-"Notifications.InAppNotificationsPreview" = "程序内预览";
+"Notifications.InAppNotifications" = "应用内通知";
+"Notifications.InAppNotificationsSounds" = "应用内音效";
+"Notifications.InAppNotificationsVibrate" = "应用内震动";
+"Notifications.InAppNotificationsPreview" = "应用内预览";
 
-"Notifications.Reset" = "重设";
-"Notifications.ResetAllNotifications" = "重设所有通知";
+"Notifications.Reset" = "重置";
+"Notifications.ResetAllNotifications" = "重置所有通知";
 "Notifications.ResetAllNotificationsHelp" = "撤销您全部联系人和群组的所有自订通知设置。";
 
 // Chat Settings
-"ChatSettings.Title" = "数据和存储空间";
+"ChatSettings.Title" = "数据与保存";
 "ChatSettings.Appearance" = "外观";
 "ChatSettings.TextSize" = "文本大小";
 "ChatSettings.TextSizeUnits" = "pt";
@@ -684,7 +684,7 @@
 "WebSearch.RecentSectionTitle" = "最近的";
 "WebSearch.RecentSectionClear" = "清除";
 
-"Settings.PrivacySettings" = "隐私和安全";
+"Settings.PrivacySettings" = "隐私与安全";
 
 "UserCount_1" = "1 个用户";
 "UserCount_2" = "2 个用户";
@@ -693,7 +693,7 @@
 "UserCount_many" = "%@ 个用户";
 "UserCount_0" = "%@ 个用户";
 
-"PrivacySettings.Title" = "隐私和安全";
+"PrivacySettings.Title" = "隐私与安全";
 
 "PrivacySettings.PrivacyTitle" = "隐私";
 "PrivacySettings.LastSeen" = "最后上线";
@@ -709,9 +709,9 @@
 
 "PrivacySettings.SecurityTitle" = "安全";
 
-"PrivacySettings.DeleteAccountTitle" = "删除我的帐号";
+"PrivacySettings.DeleteAccountTitle" = "帐号自动销毁";
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
-"PrivacySettings.DeleteAccountHelp" = "如果您在这期间内不至少登录一次，您的帐号与您所有的群组、消息和联系人将一起被删除。";
+"PrivacySettings.DeleteAccountHelp" = "您在这段期间内须至少上线一次，否则您的帐号将被删除，您也将失去所有的群组、消息及联系人。";
 
 "PrivacyLastSeenSettings.Title" = "最后上线";
 "PrivacyLastSeenSettings.CustomHelp" = "重要提示：您不分享您最后上线时间的对象，他们的最后上线时间，您也将无法看见。取而代之的是大概的最后上线时间 ( 最近，一周之内，一个月之内 )。";
@@ -738,7 +738,7 @@
 "PhotoEditor.Original" = "原始";
 "PhotoEditor.Current" = "目前";
 
-"PhotoEditor.CropReset" = "重设";
+"PhotoEditor.CropReset" = "重置";
 "PhotoEditor.CropAuto" = "自动";
 "PhotoEditor.CropAspectRatioOriginal" = "原始";
 "PhotoEditor.CropAspectRatioSquare" = "方形";
@@ -794,7 +794,7 @@
 "LoginPassword.FloodError" = "超过限制。请稍后再试。";
 "LoginPassword.ForgotPassword" = "忘记密码了？";
 "LoginPassword.PasswordHelp" = "两步验证启用。您的帐号已被保护，用一个额外的密码。";
-"LoginPassword.ResetAccount" = "重设帐号";
+"LoginPassword.ResetAccount" = "重置帐号";
 
 "QuickSend.Photos_1" = "发送 1 张照片";
 "QuickSend.Photos_2" = "发送 2 张照片";
@@ -1125,10 +1125,10 @@
 "TwoStepAuth.PasswordSet" = "您用于两步验证的密码现在起作用了。";
 "TwoStepAuth.PasswordRemoveConfirmation" = "您确定要停用密码？";
 
-"TwoStepAuth.RecoveryUnavailable" = "由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重设您的帐号。";
-"TwoStepAuth.RecoveryFailed" = "您剩余的选项就是要记住您的密码或重设您的帐号。";
-"TwoStepAuth.ResetAccountHelp" = "如果您继续重设您的帐号，您将失去所有的聊天纪录和消息，连同您所分享过的任何媒体和文件。";
-"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重设您的帐号，您将失去所有的聊天纪录和消息，连同您所分享过的任何媒体和文件。";
+"TwoStepAuth.RecoveryUnavailable" = "由于您在设置密码时没有提供复原用的电子信箱，您剩余的选项就是要记住您的密码，或是重置您的帐号。";
+"TwoStepAuth.RecoveryFailed" = "您剩余的选项就是要记住您的密码或重置您的帐号。";
+"TwoStepAuth.ResetAccountHelp" = "如果您继续重置您的帐号，您将失去所有的聊天纪录和消息，连同您所分享过的任何媒体和文件。";
+"TwoStepAuth.ResetAccountConfirmation" = "如果您继续重置您的帐号，您将失去所有的聊天纪录和消息，连同您所分享过的任何媒体和文件。";
 
 "TwoStepAuth.RecoveryTitle" = "电子信箱验证码";
 "TwoStepAuth.RecoveryCode" = "验证码";
@@ -1379,7 +1379,7 @@
 "Channel.Members.AddMembers" = "添加成员";
 "Channel.Members.AddMembersHelp" = "只有频道管理员可以看到这个清单。";
 "Channel.Members.Title" = "成员";
-"Channel.BlackList.Title" = "封锁名单";
+"Channel.BlackList.Title" = "黑名单";
 "Channel.Management.Title" = "管理员";
 "Channel.Management.LabelCreator" = "创立者";
 "Channel.Management.LabelEditor" = "管理员";
@@ -1762,7 +1762,7 @@
 "Conversation.UnpinMessageAlert" = "您想要取消置顶这则消息吗？";
 
 "Settings.About.Title" = "个性签名";
-"Settings.About.Help" = "任何细节，如年龄、职业或城市\n例如：23 岁来自旧金山的设计师。";
+"Settings.About.Help" = "您可以添加几行关于您自己的描述。\n任何打开您个人信息页的人会看到这段文本。";
 
 "Profile.About" = "个性签名";
 
@@ -1815,7 +1815,7 @@
 "Conversation.EditingMessagePanelTitle" = "编辑消息";
 
 "DialogList.Draft" = "草稿";
-"Embed.PlayingInPIP" = "这影片正播放于浮动小窗口中";
+"Embed.PlayingInPIP" = "这影片正播放于悬浮窗口中";
 
 "StickerPacksSettings.FeaturedPacks" = "热门的贴图";
 "FeaturedStickerPacks.Title" = "热门的贴图";
@@ -1845,11 +1845,11 @@
 
 "Contacts.TopSection" = "联系人";
 
-"Login.ResetAccountProtected.Title" = "重设帐号";
+"Login.ResetAccountProtected.Title" = "重置帐号";
 "Login.ResetAccountProtected.Text" = "由于帐号 %@ 是活跃并且受密码保护的，为了安全起见，我们将在 1 周内删除它。\n\n您可以随时取消此一过程。";
-"Login.ResetAccountProtected.TimerTitle" = "您可以重设您的帐号在：";
-"Login.ResetAccountProtected.Reset" = "重设";
-"Login.ResetAccountProtected.LimitExceeded" = "您最近重设此帐号的尝试已被其活跃用户取消。请在7天内再试一次。";
+"Login.ResetAccountProtected.TimerTitle" = "您可以重置您的帐号在：";
+"Login.ResetAccountProtected.Reset" = "重置";
+"Login.ResetAccountProtected.LimitExceeded" = "您最近重置此帐号的尝试已被其活跃用户取消。请在7天后再试一次。";
 
 "Login.CodeSentCall" = "我们正拨打您的手机，语音告知一组验证码。";
 
@@ -1857,8 +1857,8 @@
 "Login.SmsRequestState2" = "正在请求来自 Telegram 的短信…";
 "Login.SmsRequestState3" = "Telegram 传给您一则短信\n[没有收到验证码？]";
 
-"CancelResetAccount.Title" = "取消帐号重设";
-"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重设您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
+"CancelResetAccount.Title" = "取消帐号重置";
+"CancelResetAccount.TextSMS" = "有访问您手机号码 %@ 的人请求删除您的 Telegram 帐号及重置您的 2 步验证密码。\n\n如果这不是您，请输入我们刚刚通过短信发送到您手机号码的验证码。";
 
 "CancelResetAccount.Success" = "您帐号 %@ 的删除过程被取消了。";
 "MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
@@ -2013,15 +2013,15 @@
 "NetworkUsageSettings.BytesSent" = "已发送的字节";
 "NetworkUsageSettings.BytesReceived" = "已接收的字节";
 
-"NetworkUsageSettings.ResetStats" = "重设统计数据";
-"NetworkUsageSettings.ResetStatsConfirmation" = "您想要重设您的用量统计数据吗？";
+"NetworkUsageSettings.ResetStats" = "重置统计数据";
+"NetworkUsageSettings.ResetStatsConfirmation" = "您想要重置您的用量统计数据吗？";
 "NetworkUsageSettings.CellularUsageSince" = "自从 %@ 以来的行动数据用量";
 "NetworkUsageSettings.WifiUsageSince" = " 自从 %@ 以来的 Wi-Fi 用量";
 
 "Settings.CallSettings" = "语音通话";
 
-"Calls.TabTitle" = "通话";
-"Calls.All" = "全部";
+"Calls.TabTitle" = "联系历史";
+"Calls.All" = "所有电话";
 "Calls.Missed" = "未接来电";
 
 "CallSettings.Title" = "语音通话";
@@ -2178,10 +2178,10 @@
 "Your_card_was_declined" = "您的卡被拒绝了。";
 
 /* Error when the card's expiration month is not valid */
-"Your_cards_expiration_month_is_invalid" ="您输入的到期月份无效。";
+"Your_cards_expiration_month_is_invalid" = "您输入的到期月份无效。";
 
 /* Error when the card's expiration year is not valid */
-"Your_cards_expiration_year_is_invalid" ="您输入的到期年份无效。";
+"Your_cards_expiration_year_is_invalid" = "您输入的到期年份无效。";
 
 /* Error when the card number is not valid */
 "Your_cards_number_is_invalid" = "您输入的卡号无效。";
@@ -2210,7 +2210,7 @@
 "Call.StatusRequesting" = "联系中...";
 "Call.StatusWaiting" = "等待中...";
 "Call.StatusRinging" = "响铃中...";
-"Call.StatusConnecting" = "连接中...";
+"Call.StatusConnecting" = "连接中…";
 "Call.StatusOngoing" = "Telegram 音频 %@";
 "Call.StatusEnded" = "通话已结束";
 "Call.StatusFailed" = "通话失败";
@@ -2347,7 +2347,7 @@
 "Channel.BanUser.BlockFor" = "封锁";
 
 "Channel.BanList.BlockedTitle" = "封锁名单";
-"Channel.BanList.RestrictedTitle" = "受限的";
+"Channel.BanList.RestrictedTitle" = "受限名单";
 
 "Group.Info.AdminLog" = "最近的动作";
 "Channel.AdminLog.InfoPanelTitle" = "这是什么？";
@@ -2402,9 +2402,9 @@
 "Channel.AdminLog.MessageRestrictedNameUsername" = "变更了对 %1$@ (%2$@) 的限制";
 "Channel.AdminLog.MessagePromotedName" = "变更了 %1$@ 的权限";
 "Channel.AdminLog.MessagePromotedNameUsername" = "变更了 %1$@ (%2$@) 的权限";
-"Channel.AdminLog.MessageRestrictedUntil" = "直到 %@";
-"Channel.AdminLog.MessageRestrictedForever" = "无限期";
-"Channel.AdminLog.MessageRestrictedNewSetting" = "现在：%@";
+"Channel.AdminLog.MessageRestrictedUntil" = "受限直到 %@";
+"Channel.AdminLog.MessageRestrictedForever" = "永远";
+"Channel.AdminLog.MessageRestrictedNewSetting" = "改为：%@";
 
 "Channel.AdminLog.MessagePreviousMessage" = "原始消息";
 "Channel.AdminLog.MessagePreviousCaption" = "原始说明文本";
@@ -2435,7 +2435,7 @@
 
 "SharedMedia.ViewInChat" = "在聊天室查看";
 
-"Channel.Info.BlackList" = "封锁名单";
+"Channel.Info.BlackList" = "黑名单";
 
 "Channel.Management.PromotedBy" = "由 %@ 任命";
 "DialogList.LanguageTooltip" = "您稍后可以在「设置」中变更语言";
@@ -2491,7 +2491,7 @@
 
 "Channel.Members.AddAdminErrorNotAMember" = "很抱歉，您不能将此用户添加为管理员，因为他不是此群组的成员，且您不被允许邀请他。";
 
-"Channel.Members.AddAdminErrorBlacklisted" = "很抱歉，您无法将此用户添加为管理员，因为他在封锁名单中，且您无法取消封锁他。";
+"Channel.Members.AddAdminErrorBlacklisted" = "很抱歉，您无法将此用户添加为管理员，因为他在黑名单中，且您无法取消封锁他。";
 
 "Channel.Members.AddBannedErrorAdmin" = "很抱歉，您不能封锁此用户，因为他是此群组中的管理员，您不被允许降级他。";
 
@@ -2512,8 +2512,8 @@
 "Channel.EditAdmin.CannotEdit" = "您无法编辑此管理员的权限。";
 "Call.RateCall" = "评价这个通话";
 
-"Settings.ApplyProxyAlert" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n\n您可以稍后在设置 (数据和存储空间) 中变更您的代理服务器。";
-"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n帐号：%3$@\n密码：%4$@\n\n您可以稍后在设置 (数据和存储空间) 中变更您的代理服务器。";
+"Settings.ApplyProxyAlert" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n\n您可以稍后在设置（数据和保存）中变更您的代理服务器。";
+"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n帐号：%3$@\n密码：%4$@\n\n您可以稍后在设置（数据和保存）中变更您的代理服务器。";
 "Settings.ApplyProxyAlertEnable" = "启用";
 
 "Channel.Management.RestrictedBy" = "被 %@ 限制";
@@ -2550,8 +2550,8 @@
 
 "SecretImage.Title" = "消失的照片";
 "SecretVideo.Title" = "消失的影片";
-"SecretTimer.ImageDescription" = "如果您设置了一个计时器，该照片将在查看后自动销毁。";
-"SecretTimer.VideoDescription" = "如果您设置了一个计时器，该影片将在查看后自动销毁。";
+"SecretTimer.ImageDescription" = "如果您设置了计时器，该照片将在查看后自动销毁。";
+"SecretTimer.VideoDescription" = "如果您设置了计时器，该影片将在查看后自动销毁。";
 
 "PhotoEditor.TiltShift" = "倾斜移位";
 
@@ -2597,7 +2597,7 @@
 "Channel.Stickers.NotFoundHelp" = "再试一次或从下面的列表中选择";
 "Channel.Stickers.CreateYourOwn" = "您可以使用 @stickers 机器人创建您自己的自订贴图包。";
 
-"MediaPicker.TimerTooltip" = "您现在可以设置一自毁计时器";
+"MediaPicker.TimerTooltip" = "您现在可以设置自毁计时器";
 
 "UserInfo.BlockConfirmation" = "封锁/解除封锁 %@？";
 
@@ -2608,7 +2608,7 @@
 "FastTwoStepSetup.PasswordHelp" = "请创建一组密码以保护您的付款信息。当您登录时，会被要求输入。";
 "FastTwoStepSetup.EmailSection" = "救援用的电子信箱";
 "FastTwoStepSetup.EmailPlaceholder" = "您的电子信箱";
-"FastTwoStepSetup.EmailHelp" = "请加入您有效的电子信箱。这是恢复忘记的密码唯一的途径。";
+"FastTwoStepSetup.EmailHelp" = "请添加您有效的电子信箱。这是恢复忘记的密码唯一的途径。";
 
 "Conversation.ViewMessage" = "查看消息";
 
@@ -2624,12 +2624,12 @@
 "Group.Setup.HistoryVisibleHelp" = "新成员可以看到加入前的消息。";
 "Group.Setup.HistoryHiddenHelp" = "新成员无法看到加入前的消息。";
 
-"Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 使新成员可以看到加入前的消息。";
+"Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ 使新成员可以看到加入前的消息";
 "Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ 对新成员隐藏了加入前的消息";
 
 "Map.PullUpForPlaces" = "拉高视野来看看附近地区";
 "Map.ShareLiveLocation" = "分享即时位置…";
-"Map.ShareLiveLocationHelp" = "移动时，即时更新";
+"Map.ShareLiveLocationHelp" = "当您移动时，即时更新";
 "Map.StopLiveLocation" = "停止分享所在位置";
 "Map.Directions" = "导航";
 "Map.DirectionsDriveEta" = "%@车程";
@@ -2638,8 +2638,8 @@
 "Map.LiveLocationShowAll" = "完整显示";
 
 "Map.LiveLocationTitle" = "即时位置";
-"Map.LiveLocationPrivateDescription" = "选择 %@ 会看到您准确位置的持续时间。";
-"Map.LiveLocationGroupDescription" = "选择此聊天室中的人们将看到您准确位置的持续时间。";
+"Map.LiveLocationPrivateDescription" = "选择 %@ 会看到您准确所在位置的持续时间。";
+"Map.LiveLocationGroupDescription" = "选择此聊天室中的人们将看到您准确所在位置的持续时间。";
 "Map.LiveLocationFor15Minutes" = "15分钟";
 "Map.LiveLocationFor1Hour" = "1小时";
 "Map.LiveLocationFor8Hours" = "8小时";
@@ -2647,7 +2647,7 @@
 
 "Message.LiveLocation" = "即时位置";
 "Conversation.LiveLocation" = "即时位置";
-"Conversation.LiveLocationEnded" = "位置分享已结束";
+"Conversation.LiveLocationEnded" = "所在位置分享已结束";
 
 "Conversation.LiveLocationYou" = "您";
 "Conversation.LiveLocationYouAnd" = "*您* 及 %@";
@@ -2661,13 +2661,13 @@
 "Conversation.Admin" = "管理员";
 
 "LiveLocationUpdated.JustNow" = "刚刚更新";
-"LiveLocationUpdated.MinutesAgo_0" = "在 %@ 分钟以前更新"; //three to ten
-"LiveLocationUpdated.MinutesAgo_1" = "在 1 分钟以前更新"; //one
-"LiveLocationUpdated.MinutesAgo_2" = "在 2 分钟以前更新"; //two
-"LiveLocationUpdated.MinutesAgo_3_10" = "在 %@ 分钟以前更新"; //three to ten
+"LiveLocationUpdated.MinutesAgo_0" = "在 %@ 分钟以前更新"; // three to ten
+"LiveLocationUpdated.MinutesAgo_1" = "在 1 分钟以前更新"; // one
+"LiveLocationUpdated.MinutesAgo_2" = "在 2 分钟以前更新"; // two
+"LiveLocationUpdated.MinutesAgo_3_10" = "在 %@ 分钟以前更新"; // three to ten
 "LiveLocationUpdated.MinutesAgo_many" = "在 %@ 分钟以前更新"; // more than ten
 "LiveLocationUpdated.MinutesAgo_any" = "在 %@ 分钟以前更新"; // more than ten
-"LiveLocationUpdated.TodayAt" = "在 %@ 更新  ";
+"LiveLocationUpdated.TodayAt" = "在 %@ 更新";
 "LiveLocationUpdated.YesterdayAt" = "在昨天的 %@ 更新";
 "LiveLocationUpdated.AtDate" = "更新了 %@";
 

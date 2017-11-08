@@ -89,7 +89,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_continue" = "繼續";
 "lng_close" = "關閉";
 "lng_connecting" = "連線中...";
-"lng_connecting_to_proxy" = "正在連接到代理伺服器...";
+"lng_connecting_to_proxy" = "正在連接到代理伺服器…";
 "lng_connecting_settings" = "設定";
 "lng_reconnecting#one" = "{count} 秒之後，重新連接...";
 "lng_reconnecting#other" = "{count} 秒之後，重新連接...";
@@ -147,7 +147,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_cant_add_member" = "很抱歉，您不能將機器人添加到此群組。您必須請一位群組管理員來做這件事。";
 "lng_error_cant_add_bot" = "很抱歉，這個機器人不能添加到群組。";
 "lng_error_cant_add_admin_invite" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶還不是群組的成員。";
-"lng_error_cant_add_admin_unban" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶在封鎖名單之中，而您無法將其解除封鎖。";
+"lng_error_cant_add_admin_unban" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶在黑名單之中，而您無法將其解除封鎖。";
 "lng_error_cant_ban_admin" = "很抱歉，您不能封鎖此用戶，因為他是此群組中的管理員，您不能將他降級。";
 "lng_sure_add_admin_invite" = "此用戶不是本群組的成員。要將其添加到群組中，並晉升為管理員嗎？";
 "lng_sure_add_admin_unban" = "此用戶目前在本群組中受到限制或封鎖。您確定要取消封鎖並提升他的權限？";
@@ -273,7 +273,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_bio_title" = "編輯您的個性簽名";
 "lng_bio_placeholder" = "個性簽名";
-"lng_bio_about" = "您可以添加幾行關於您自己的描述。任何人開啟您的個人資料會看到這份文字。";
+"lng_bio_about" = "您可以添加幾行關於您自己的描述。任何打開您個人資訊頁的人會看到這段文字。";
 
 "lng_settings_section_info" = "資訊";
 "lng_settings_phone_number" = "手機號碼：";
@@ -531,8 +531,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_calls_always_title" = "總是允許";
 "lng_edit_privacy_calls_never_title" = "永不允許";
 
-"lng_self_destruct_title" = "帳號自毀";
-"lng_self_destruct_description" = "如果您在這期間內不至少上線一次，您的帳號與您所有的群組、訊息和聯絡人將一起被刪除。";
+"lng_self_destruct_title" = "帳號自動銷毀";
+"lng_self_destruct_description" = "您在這段期間內須至少上線一次，否則您的帳號將被刪除，您也將失去所有的群組、訊息及聯絡人。";
 "lng_self_destruct_months#one" = "{count} 個月";
 "lng_self_destruct_months#other" = "{count} 個月";
 "lng_self_destruct_years#one" = "{count} 年";
@@ -569,7 +569,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_search_members" = "搜尋成員";
 "lng_profile_manage_admins" = "管理管理員";
 "lng_profile_manage_blocklist" = "管理封鎖名單";
-"lng_profile_manage_restrictedlist" = "管理受限制的用戶";
+"lng_profile_manage_restrictedlist" = "管理受限名單";
 "lng_profile_recent_actions" = "最近的動作";
 "lng_profile_common_groups#one" = "{count} 個共同的群組";
 "lng_profile_common_groups#other" = "{count} 個共同的群組";
@@ -1233,7 +1233,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新紀錄可以在這裡找到：\n{link}";
 "lng_new_version_minor" = "— 錯誤修正和其它細微的改進";
-"lng_new_version_text" = "— 改善視訊訊息︰ 繞圓的播放進度、畫中畫支援、持續時間倒數計時。\n— 語音和視訊訊息現在一個接一個自動播放。";
+"lng_new_version_text" = "— 改善視訊訊息︰ 繞圓的播放進度、懸浮視窗支援、持續時間倒數計時。\n— 語音和視訊訊息現在一個接一個自動播放。";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字元";
 
@@ -1270,13 +1270,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_payments_receipt_button" = "收據";
 
 "lng_call_status_incoming" = "正在打電話給您...";
-"lng_call_status_connecting" = "連接中...";
+"lng_call_status_connecting" = "連線中...";
 "lng_call_status_exchanging" = "正在交換加密金鑰...";
 "lng_call_status_waiting" = "等待中...";
 "lng_call_status_requesting" = "請求中...";
 "lng_call_status_hanging" = "掛斷中...";
 "lng_call_status_ended" = "通話結束";
-"lng_call_status_failed" = "連接失敗";
+"lng_call_status_failed" = "連線失敗";
 "lng_call_status_ringing" = "響鈴中...";
 "lng_call_status_busy" = "忙線中";
 "lng_call_fingerprint_tooltip" = "如果在 {user} 螢幕上的表情符號是一樣的，則這個通話是 100% 安全的";
@@ -1350,7 +1350,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_restricted_send_gifs" = "這個群組的管理員限制您在這裡張貼GIF動圖。";
 "lng_restricted_send_inline" = "這個群組的管理員限制您在這裡張貼行內機器人內容。";
 
-"lng_restricted_list_title" = "受限用戶";
+"lng_restricted_list_title" = "受限名單";
 "lng_banned_list_title" = "封鎖名單";
 
 "lng_admin_log_title_all" = "所有動作";
@@ -1411,14 +1411,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_participant_left_channel" = "{from} 離開了頻道";
 "lng_admin_log_invited" = "邀請了 {user}";
 "lng_admin_log_banned" = "封鎖了 {user}";
-"lng_admin_log_restricted" = "變更了對 {user} 的限制，直到 {until}";
+"lng_admin_log_restricted" = "變更了對 {user} 的限制，{until}";
 "lng_admin_log_promoted" = "變更了 {user} 的權限";
 "lng_admin_log_changed_stickers_group" = "{from} 變更了群組 {sticker_set}";
 "lng_admin_log_changed_stickers_set" = "貼圖包";
 "lng_admin_log_removed_stickers_group" = "{from} 移除了群組貼圖包";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
-"lng_admin_log_restricted_forever" = "無限期";
-"lng_admin_log_restricted_until" = "直到 {date}";
+"lng_admin_log_restricted_forever" = "永遠";
+"lng_admin_log_restricted_until" = "受限直到 {date}";
 "lng_admin_log_banned_view_messages" = "閱讀訊息";
 "lng_admin_log_banned_send_messages" = "傳送訊息";
 "lng_admin_log_banned_send_media" = "傳送媒體";
