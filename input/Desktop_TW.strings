@@ -18,15 +18,14 @@ to link the code of portions of this program with the OpenSSL library.
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
 Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
-"lng_language_name" = "繁體中文（台灣）";
-"lng_switch_to_this" = "切換到英文";
+"lng_language_name" = "正體中文（臺灣）";
+"lng_switch_to_this" = "繼續使用正體中文（臺灣）";
 
 "lng_menu_contacts" = "聯絡人";
 "lng_menu_calls" = "通話";
 "lng_menu_settings" = "設定";
 "lng_menu_about" = "關於";
 "lng_menu_update" = "更新";
-"lng_menu_restart" = "重新啟動";
 "lng_menu_back" = "返回";
 "lng_menu_night_mode" = "夜間模式";
 
@@ -71,14 +70,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_weekday6" = "週六";
 "lng_weekday7" = "週日";
 
-"lng_weekday1_full" = "星期一";
-"lng_weekday2_full" = "星期二";
-"lng_weekday3_full" = "星期三";
-"lng_weekday4_full" = "星期四";
-"lng_weekday5_full" = "星期五";
-"lng_weekday6_full" = "星期六";
-"lng_weekday7_full" = "星期日";
-
 "lng_month_day" = "{month}{day}日";
 "lng_month_day_year" = "{year}年{month}{day}日";
 "lng_month_year" = "{month} {year}";
@@ -88,11 +79,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cancel" = "取消";
 "lng_continue" = "繼續";
 "lng_close" = "關閉";
-"lng_connecting" = "連線中...";
+"lng_connecting" = "連線中…";
 "lng_connecting_to_proxy" = "正在連接到代理伺服器…";
 "lng_connecting_settings" = "設定";
-"lng_reconnecting#one" = "{count} 秒之後，重新連接...";
-"lng_reconnecting#other" = "{count} 秒之後，重新連接...";
+"lng_reconnecting#one" = "{count} 秒之後，重新連接…";
+"lng_reconnecting#other" = "{count} 秒之後，重新連接…";
 "lng_reconnecting_try_now" = "立即嘗試";
 
 "lng_status_service_notifications" = "服務通知";
@@ -104,7 +95,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_status_recently" = "最後上線於不久前";
 "lng_status_last_week" = "最後上線於一週內";
 "lng_status_last_month" = "最後上線於一個月內";
-"lng_status_invisible" = "看不見";
 "lng_status_lastseen_now" = "最後上線就在剛才";
 "lng_status_lastseen_minutes#one" = "最後上線於 {count} 分鐘之前";
 "lng_status_lastseen_minutes#other" = "最後上線於 {count} 分鐘之前";
@@ -115,10 +105,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_status_lastseen_date" = "最後上線於 {date}";
 "lng_status_lastseen_date_time" = "最後上線於 {date} 的 {time}";
 "lng_status_online" = "在線上";
-"lng_status_connecting" = "連線中...";
+"lng_status_connecting" = "連線中…";
 
 "lng_chat_status_unaccessible" = "無法存取群組";
-"lng_chat_status_no_members" = "沒有成員";
 "lng_chat_status_members#one" = "{count} 個成員";
 "lng_chat_status_members#other" = "{count} 個成員";
 "lng_chat_status_online#one" = "{count} 人在線上";
@@ -133,7 +122,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admins_link#one" = "{count} 個管理員";
 "lng_channel_admins_link#other" = "{count} 個管理員";
 
-"lng_server_error" = "內部伺服器錯誤。";
 "lng_flood_error" = "嘗試次數過多，請稍後再試。";
 "lng_gif_error" = "讀取GIF動圖發生錯誤 :(";
 "lng_edit_error" = "您不能編輯這則訊息";
@@ -143,7 +131,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_pinned_max#one" = "很抱歉，您不可以置頂超過 {count} 個聊天到頂部。";
 "lng_error_pinned_max#other" = "很抱歉，您不可以置頂超過 {count} 個聊天到頂部。";
 "lng_error_public_groups_denied" = "不幸的是，您被禁止參加公開群組。\n{more_info}";
-"lng_error_cant_edit_admin" = "很抱歉，您無法編輯此管理員的權限。";
 "lng_error_cant_add_member" = "很抱歉，您不能將機器人添加到此群組。您必須請一位群組管理員來做這件事。";
 "lng_error_cant_add_bot" = "很抱歉，這個機器人不能添加到群組。";
 "lng_error_cant_add_admin_invite" = "很抱歉，您不能將此用戶添加為管理員，因為該用戶還不是群組的成員。";
@@ -159,7 +146,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_deleted" = "這則訊息已被刪除";
 "lng_edit_too_long" = "您的訊息文字過長";
 "lng_edit_message" = "編輯訊息";
-"lng_edit_message_text" = "新增訊息文字...";
+"lng_edit_message_text" = "新增訊息文字…";
 "lng_deleted" = "已刪除的帳號";
 "lng_deleted_message" = "已刪除的訊息";
 "lng_pinned_message" = "置頂訊息";
@@ -179,14 +166,12 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_photo_caption" = "說明文字";
 "lng_photos_comment" = "評論";
 
-"lng_phone_ph" = "你的電話號碼";
 "lng_phone_title" = "您的手機";
 "lng_phone_desc" = "請確認您的國碼並且\n輸入您的手機號碼。";
 "lng_phone_notreg" = "如果您目前沒有 Telegram 帳號，\n請用 {link_start}Android / iPhone{link_end} 或 {signup_start}在這裡{signup_end}[b]註冊[/b]";
 "lng_country_code" = "國碼";
 "lng_bad_country_code" = "無效的國碼";
 "lng_country_ph" = "搜尋";
-"lng_country_done" = "完成";
 "lng_country_none" = "找不到國家";
 "lng_country_select" = "選擇國家";
 
@@ -232,6 +217,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}";
 "lng_signin_reset_in_hours" = "{hours_count} {minutes_count}";
 "lng_signin_reset_cancelled" = "您最近嘗試重置此帳號的動作已被活躍用戶取消。請在 7 天內再試一次。";
+"lng_signin_banned_text" = "這個電話號碼被封鎖了。";
+"lng_signin_banned_help" = "幫助";
 
 "lng_signup_title" = "您的資訊";
 "lng_signup_desc" = "請輸入您的姓名和\n上傳一張照片。";
@@ -244,7 +231,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_dlg_new_channel_name" = "頻道名稱";
 "lng_no_contacts" = "您沒有聯絡人";
 "lng_no_chats" = "您的聊天將在這裡";
-"lng_contacts_loading" = "載入中...";
+"lng_contacts_loading" = "載入中…";
 "lng_contacts_not_found" = "找不到聯絡人";
 "lng_dlg_search_for_messages" = "搜尋訊息";
 "lng_update_telegram" = "更新 Telegram";
@@ -254,7 +241,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_save" = "儲存";
 "lng_settings_upload" = "設定個人頭像";
 "lng_settings_crop_profile" = "為您的個人頭像選擇一個範圍";
-"lng_settings_uploading_photo" = "上傳照片中...";
+"lng_settings_uploading_photo" = "上傳照片中…";
 "lng_settings_edit" = "編輯";
 "lng_settings_drop_area_subtitle" = "將其設定為您的照片";
 
@@ -276,7 +263,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_bio_about" = "您可以添加幾行關於您自己的描述。任何打開您個人資訊頁的人會看到這段文字。";
 
 "lng_settings_section_info" = "資訊";
-"lng_settings_phone_number" = "手機號碼：";
 "lng_settings_username" = "用戶名稱：";
 "lng_settings_choose_username" = "選擇用戶名稱";
 "lng_settings_empty_bio" = "無";
@@ -306,9 +292,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_current_version_label" = "版本 {version}:";
 "lng_settings_current_version" = "版本 {version}";
 "lng_settings_check_now" = "檢查更新";
-"lng_settings_update_checking" = "正在檢查更新...";
+"lng_settings_update_checking" = "正在檢查更新…";
 "lng_settings_latest_installed" = "已安裝最新版";
-"lng_settings_downloading" = "正在下載更新 {ready} / {total} MB...";
+"lng_settings_downloading" = "正在下載更新 {ready} / {total} MB…";
 "lng_settings_update_ready" = "新版本已準備就緒";
 "lng_settings_update_now" = "立即重新啟動";
 "lng_settings_update_fail" = "更新檢查失敗 :(";
@@ -316,14 +302,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_workmode_window" = "顯示工作列圖示";
 "lng_settings_auto_start" = "開機時啟動 Telegram";
 "lng_settings_start_min" = "啟動時最小化";
-"lng_settings_add_sendto" = "將 Telegram 放於 «傳送到» 選單";
+"lng_settings_add_sendto" = "在「傳送到」選單中放置 Telegram";
 "lng_settings_section_scale" = "介面縮放比例";
 "lng_settings_scale_auto" = "自動 ({cur})";
 
 "lng_settings_section_chat_settings" = "聊天設定";
 "lng_settings_replace_emojis" = "取代表情符號";
 "lng_settings_view_emojis" = "檢視清單";
-"lng_settings_emoji_list" = "支援的表情符號清單";
 "lng_settings_send_enter" = "按下 Enter 鍵就送出訊息";
 "lng_settings_send_ctrlenter" = "按下 Ctrl+Enter 鍵才送出訊息";
 "lng_settings_send_cmdenter" = "傳送訊息透過 Cmd+Enter 鍵";
@@ -357,9 +342,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_download_path_failed" = "無法開始下載檔案。這可能因一個不適合的下載位置而發生。\n\n您可以在「設定」中變更下載路徑。";
 "lng_download_path_settings" = "前往「設定」";
 "lng_download_finish_failed" = "無法完成下載檔案。\n\n您想要再試一次嗎？";
-"lng_download_path_clearing" = "清除中...";
+"lng_download_path_clearing" = "清除中…";
 "lng_download_path_cleared" = "已清除！";
-"lng_download_path_clear_failed" = "清除失敗 :(";
 
 "lng_settings_section_privacy" = "隱私和安全";
 
@@ -370,9 +354,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_audios_cached#one" = "{count} 則語音訊息，{size}";
 "lng_settings_audios_cached#other" = "{count} 則語音訊息，{size}";
 "lng_local_storage_clear" = "清除全部";
-"lng_local_storage_clearing" = "清除中...";
+"lng_local_storage_clearing" = "清除中…";
 "lng_local_storage_cleared" = "已清除！";
-"lng_local_storage_clear_failed" = "清除失敗 :(";
 
 "lng_settings_section_advanced_settings" = "進階設定";
 "lng_settings_enable_night_theme" = "啟用夜間模式";
@@ -406,7 +389,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_passcode_logout" = "登出";
 "lng_passcode_need_unblock" = "您需要先解鎖我。";
 
-"lng_cloud_password_waiting" = "驗證連結傳送到 {email}...";
+"lng_cloud_password_waiting" = "驗證連結傳送到 {email}…";
 "lng_cloud_password_change" = "變更雲端密碼";
 "lng_cloud_password_create" = "雲端密碼";
 "lng_cloud_password_remove" = "移除雲端密碼";
@@ -433,9 +416,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cloud_password_is_same" = "密碼沒有被變更";
 
 "lng_connection_type" = "連接類型：";
-"lng_connection_auto_connecting" = "預設 (連線中...)";
+"lng_connection_auto_connecting" = "預設 (連線中…)";
 "lng_connection_auto" = "預設 (使用{transport} )";
-"lng_connection_proxy_connecting" = "透過代理連線中...";
+"lng_connection_proxy_connecting" = "透過代理連線中…";
 "lng_connection_proxy" = "{transport} 用代理方式";
 "lng_connection_header" = "連接類型";
 "lng_connection_auto_rb" = "自動 (TCP 如果可用或 HTTP)";
@@ -452,15 +435,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_last_seen_privacy" = "最後上線隱私";
 "lng_settings_calls_privacy" = "電話隱私";
 "lng_settings_groups_invite_privacy" = "群組邀請設定";
-"lng_settings_show_sessions" = "顯示所有連線";
+"lng_settings_show_sessions" = "顯示登入的裝置";
 "lng_settings_self_destruct" = "帳號自毀設定";
 "lng_settings_change_phone" = "更改電話號碼";
 
-"lng_settings_reset" = "中斷所有其它連線";
-"lng_settings_reset_sure" = "您確定想要中斷\n所有其它連線嗎？";
-"lng_settings_reset_one_sure" = "您想要中斷這個連線嗎？";
-"lng_settings_reset_button" = "中斷";
-"lng_settings_reset_done" = "已中斷其它連線";
+"lng_settings_reset" = "登出其他的裝置";
+"lng_settings_reset_sure" = "您確定要登出所有\n其他的裝置嗎？";
+"lng_settings_reset_one_sure" = "您想要登出這個裝置嗎？";
+"lng_settings_reset_button" = "登出";
 "lng_settings_manage_local_storage" = "管理本地儲存";
 "lng_settings_ask_question" = "提出疑問";
 "lng_settings_ask_sure" = "請留意，Telegram 的技術支援是由志工提供。我們會試著盡快回覆，但還是需要一點時間。\n\n請看看 Telegram FAQ：它回答了大部分的問題及提供了對於故障排除的重要提示。";
@@ -472,13 +454,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_settings_need_restart" = "您需要重新啟動以套用\n一些新的設定。現在要重新啟動嗎？";
 "lng_settings_restart_now" = "重新啟動";
-"lng_settings_restart_later" = "晚些時候";
 
-"lng_sessions_header" = "目前的連線";
-"lng_sessions_other_header" = "作用中的連線";
-"lng_sessions_no_other" = "沒有其它連線";
+"lng_sessions_header" = "目前使用的裝置";
+"lng_sessions_other_header" = "登入的裝置";
 "lng_sessions_other_desc" = "您可以使用相同的電話號碼，從其它手機、平板電腦和桌面電腦登入 Telegram 。您的所有數據將立即同步。";
-"lng_sessions_terminate_all" = "中斷所有連線";
+"lng_sessions_terminate_all" = "登出其他的裝置";
 
 "lng_blocked_list_title" = "封鎖名單";
 "lng_blocked_list_unknown_phone" = "未知的電話";
@@ -499,10 +479,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_lastseen_warning" = "重要提示：您不分享您最後上線時間的對象，他們的最後上線時間，您也將無法看見。取而代之的是大概的最後上線時間 ( 最近，一週之內，一個月之內 )。";
 "lng_edit_privacy_lastseen_always_empty" = "總是與誰分享";
 "lng_edit_privacy_lastseen_always#one" = "總是分享與 {count} 個用戶";
-"lng_edit_privacy_lastseen_always#other" = "總是分享與 {count} 個用戶";
+"lng_edit_privacy_lastseen_always#other" = "總是與 {count} 個用戶分享";
 "lng_edit_privacy_lastseen_never_empty" = "永不與誰分享";
 "lng_edit_privacy_lastseen_never#one" = "永不分享與 {count} 個用戶";
-"lng_edit_privacy_lastseen_never#other" = "永不分享與 {count} 個用戶";
+"lng_edit_privacy_lastseen_never#other" = "永不與 {count} 個用戶分享";
 "lng_edit_privacy_lastseen_exceptions" = "這些設定將覆蓋上述值。";
 "lng_edit_privacy_lastseen_always_title" = "總是與誰分享";
 "lng_edit_privacy_lastseen_never_title" = "永不與誰分享";
@@ -532,14 +512,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_calls_never_title" = "永不允許";
 
 "lng_self_destruct_title" = "帳號自動銷毀";
-"lng_self_destruct_description" = "您在這段期間內須至少上線一次，否則您的帳號將被刪除，您也將失去所有的群組、訊息及聯絡人。";
+"lng_self_destruct_description" = "您在這段期間內至少要上線一次，否則您的帳號將被刪除，您也將失去所有的群組、訊息及聯絡人。";
 "lng_self_destruct_months#one" = "{count} 個月";
 "lng_self_destruct_months#other" = "{count} 個月";
 "lng_self_destruct_years#one" = "{count} 年";
 "lng_self_destruct_years#other" = "{count} 年";
 
 "lng_change_phone_title" = "更改電話號碼";
-"lng_change_phone_description" = "您可以在這裡更改 Telegram 所綁定的手機\n號碼。您的帳號和所有您的雲端資料 — 訊息\n、媒體、聯絡人...等，將被移動到新的號碼。\n\n[b]重要提示[/b]：您所有的 Telegram 聯絡人將\n取得您的[b]新號碼[/b]，並加入到他們的手機通\n訊錄中，只要他們有您的舊號碼，並且您沒有在 \nTelegram 中封鎖他們。";
+"lng_change_phone_description" = "您可以在這裡更改 Telegram 所綁定的手機\n號碼。您的帳號和所有您的雲端資料 — 訊息\n、媒體、聯絡人……等，將被移動到新的號碼。\n\n[b]重要提示[/b]：您所有的 Telegram 聯絡人將\n取得您的[b]新號碼[/b]，並加入到他們的手機通\n訊錄中，只要他們有您的舊號碼，並且您沒有在 \nTelegram 中封鎖他們。";
 "lng_change_phone_warning" = "您的所有 Telegram 聯絡人將取得您的新號碼，並加入到他們的手機通訊錄中，只要他們有您的舊號碼，並且您沒有在 Telegram 中封鎖他們。";
 "lng_change_phone_occupied" = "號碼 {phone} 已經連接到一個 Telegram 帳號。遷移到新號碼之前，請刪除該帳號。";
 "lng_change_phone_button" = "更改號碼";
@@ -552,17 +532,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_mute_duration_hours#one" = "{count} 小時";
 "lng_mute_duration_hours#other" = "{count} 小時";
-"lng_mute_box_tip" = "從以下聊天中選擇關閉通知的持續時間";
+"lng_mute_box_tip" = "選擇您想要關閉以下聊天室通知的時間長度";
 
-"lng_preview_loading" = "取得連結資訊中...";
+"lng_preview_loading" = "取得連結資訊中…";
 
-"lng_profile_chat_unaccessible" = "無法存取群組";
-"lng_profile_about_section" = "關於";
-"lng_profile_description_section" = "簡介";
 "lng_profile_settings_section" = "設定";
 "lng_profile_actions_section" = "動作";
-"lng_profile_bot_settings" = "設定";
-"lng_profile_bot_help" = "幫助";
+"lng_profile_bot_settings" = "Bot 設定";
+"lng_profile_bot_help" = "Bot 説明";
 "lng_profile_invite_link_section" = "邀請連結";
 "lng_profile_create_public_link" = "建立公開的連結";
 "lng_profile_edit_public_link" = "編輯公開的連結";
@@ -573,18 +550,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_recent_actions" = "最近的動作";
 "lng_profile_common_groups#one" = "{count} 個共同的群組";
 "lng_profile_common_groups#other" = "{count} 個共同的群組";
-"lng_profile_common_groups_section" = "共同的群組";
 "lng_profile_participants_section" = "成員";
-"lng_profile_info_section" = "資訊";
 "lng_profile_mobile_number" = "手機：";
 "lng_profile_username" = "用戶名稱：";
 "lng_profile_link" = "連結：";
 "lng_profile_bio" = "個性簽名：";
 "lng_profile_add_contact" = "添加聯絡人";
 "lng_profile_edit_contact" = "編輯";
-"lng_profile_enable_notifications" = "通知";
-"lng_profile_clear_history" = "清除聊天紀錄";
-"lng_profile_delete_conversation" = "刪除對話";
 "lng_profile_clear_and_exit" = "刪除並離開";
 "lng_profile_leave_channel" = "離開頻道";
 "lng_profile_delete_channel" = "刪除頻道";
@@ -592,28 +564,20 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_delete_group" = "刪除群組";
 "lng_profile_report" = "檢舉";
 "lng_profile_search_messages" = "搜尋訊息";
-"lng_profile_block_user" = "封鎖用戶";
-"lng_profile_unblock_user" = "解除封鎖用戶";
 "lng_profile_block_bot" = "停止並封鎖機器人";
 "lng_profile_unblock_bot" = "解除封鎖機器人";
-"lng_profile_send_message" = "傳送訊息";
-"lng_profile_share_contact" = "分享聯絡資訊";
 "lng_profile_invite_to_group" = "加入到群組";
 "lng_profile_delete_contact" = "刪除";
 "lng_profile_set_group_photo" = "設定照片";
 "lng_profile_add_participant" = "添加成員";
 "lng_profile_view_channel" = "檢視頻道";
-"lng_profile_join_channel" = "加入";
+"lng_profile_join_channel" = "加入頻道";
+"lng_profile_join_group" = "加入群組";
 "lng_profile_delete_and_exit" = "離開";
 "lng_profile_kick" = "移除";
-"lng_profile_admin" = "管理員";
-"lng_profile_edit_permissions" = "編輯";
 "lng_profile_sure_kick" = "從群組中移除 {user} ？";
 "lng_profile_sure_kick_channel" = "從頻道中移除 {user} ？";
-"lng_profile_sure_kick_admin" = "從管理員中移除 {user} ？";
-"lng_profile_loading" = "載入中...";
-"lng_profile_shared_media" = "共享的媒體";
-"lng_profile_no_media" = "本對話中沒有媒體。";
+"lng_profile_loading" = "載入中…";
 "lng_profile_photos#one" = "{count} 張照片";
 "lng_profile_photos#other" = "{count} 張照片";
 "lng_profile_photos_header" = "照片";
@@ -628,6 +592,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_files_header" = "檔案";
 "lng_profile_audios#one" = "{count} 則語音訊息";
 "lng_profile_audios#other" = "{count} 則語音訊息";
+//"lng_profile_rounds#one" = "{count} video message";
+//"lng_profile_rounds#other" = "{count} video messages";
 "lng_profile_audios_header" = "語音訊息";
 "lng_profile_shared_links#one" = "{count} 個共享連結";
 "lng_profile_shared_links#other" = "{count} 個共享連結";
@@ -638,6 +604,76 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_drop_area_subtitle" = "將它設為群組照片";
 "lng_profile_drop_area_subtitle_channel" = "將它設為頻道照片";
 "lng_profile_top_bar_share_contact" = "分享";
+
+"lng_profile_info_section" = "資訊";
+"lng_info_tab_media" = "媒體";
+"lng_info_mobile_label" = "手機";
+"lng_info_username_label" = "用戶名稱";
+"lng_info_bio_label" = "個性簽名";
+"lng_info_link_label" = "連結";
+"lng_info_about_label" = "關於";
+"lng_info_user_title" = "用戶資訊";
+"lng_info_bot_title" = "Bot 資訊";
+"lng_info_group_title" = "群組資訊";
+"lng_info_channel_title" = "頻道資訊";
+"lng_profile_enable_notifications" = "通知";
+"lng_profile_send_message" = "傳送訊息";
+"lng_info_add_as_contact" = "添加為聯絡人";
+"lng_profile_shared_media" = "共享的媒體";
+"lng_media_type_photos" = "照片";
+"lng_media_type_videos" = "影片";
+"lng_media_type_songs" = "音訊檔";
+"lng_media_type_files" = "檔案";
+"lng_media_type_audios" = "語音訊息";
+"lng_media_type_links" = "共享的連結";
+"lng_media_type_rounds" = "視訊訊息";
+"lng_profile_common_groups_section" = "共同的群組";
+"lng_profile_share_contact" = "分享聯絡資訊";
+"lng_info_edit_contact" = "編輯聯絡人";
+"lng_info_delete_contact" = "刪除聯絡人";
+"lng_info_share_contact" = "分享聯絡人";
+"lng_profile_clear_history" = "清除聊天紀錄";
+"lng_profile_delete_conversation" = "刪除對話";
+"lng_profile_block_user" = "封鎖用戶";
+"lng_profile_unblock_user" = "解除封鎖用戶";
+"lng_media_selected_photo#one" = "{count} 張照片";
+"lng_media_selected_photo#other" = "{count} 張照片";
+"lng_media_selected_video#one" = "{count} 個影片";
+"lng_media_selected_video#other" = "{count} 個影片";
+"lng_media_selected_song#one" = "{count} 音訊檔";
+"lng_media_selected_song#other" = "{count} 音訊檔";
+"lng_media_selected_file#one" = "{count} 個檔案";
+"lng_media_selected_file#other" = "{count} 個檔案";
+"lng_media_selected_audio#one" = "{count} 則語音訊息";
+"lng_media_selected_audio#other" = "{count} 則語音訊息";
+//"lng_media_selected_round#one" = "{count} Video message";
+//"lng_media_selected_round#other" = "{count} Video messages";
+"lng_media_selected_link#one" = "{count} 個共享連結";
+"lng_media_selected_link#other" = "{count} 個共享連結";
+"lng_media_photo_empty" = "這裡還沒有照片";
+"lng_media_video_empty" = "這裡還沒有影片";
+"lng_media_song_empty" = "這裡還沒有音樂檔";
+"lng_media_file_empty" = "這裡還沒有檔案";
+"lng_media_audio_empty" = "這裡還沒有語音訊息";
+"lng_media_link_empty" = "這裡還沒有共享的連結";
+"lng_media_song_empty_search" = "沒有找到任何音樂檔";
+"lng_media_file_empty_search" = "沒有找到檔案";
+"lng_media_link_empty_search" = "沒有找到共享的連結";
+
+"lng_manage_group_title" = "管理群組";
+"lng_manage_channel_title" = "管理頻道";
+"lng_manage_group_info" = "群組資訊";
+"lng_manage_channel_info" = "頻道資訊";
+"lng_manage_peer_recent_actions" = "最近的動作";
+"lng_manage_peer_members" = "成員";
+"lng_manage_peer_administrators" = "管理員";
+"lng_manage_peer_banned_users" = "封鎖名單";
+"lng_manage_peer_restricted_users" = "受限名單";
+"lng_manage_history_visibility_title" = "新成員加入前的舊訊息";
+"lng_manage_history_visibility_shown" = "顯示";
+"lng_manage_history_visibility_shown_about" = "新成員可以看到加入前的舊訊息。";
+"lng_manage_history_visibility_hidden" = "隱藏";
+"lng_manage_history_visibility_hidden_about" = "新成員無法看到加入前的舊訊息。";
 
 "lng_report_title" = "檢舉頻道";
 "lng_report_group_title" = "檢舉群組";
@@ -653,12 +689,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_add_members" = "添加成員";
 "lng_channel_add_banned" = "封鎖用戶";
 "lng_channel_add_restricted" = "限制用戶";
-"lng_channel_members" = "成員";
-"lng_channel_only_last_shown#one" = "這裡只顯示最後 {count} 位成員";
-"lng_channel_only_last_shown#other" = "這裡只顯示最後 {count} 位成員";
 "lng_channel_admins" = "管理員";
 "lng_channel_add_admin" = "添加管理員";
-"lng_channel_admins_too_much" = "抱歉，管理員人數已經達到上限。請先移除一位管理員。";
 "lng_channel_admin_status_creator" = "創立者";
 "lng_channel_admin_status_promoted_by" = "由 {user} 任命";
 "lng_channel_admin_status_not_admin" = "不是管理員";
@@ -709,8 +741,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_sure_delete_and_exit" = "您確定要刪除所有聊天紀錄並且離開 «{group}» 群組？\n\n這個動作無法復原。";
 "lng_sure_leave_channel" = "您確定要離開\n這個頻道？";
 "lng_sure_delete_channel" = "您確定要刪除這個頻道？所有成員將被移除並且所有訊息會被清空。";
-"lng_sure_leave_group" = "您確定要離開\n這個群組？這個動作無法復原。";
+"lng_sure_leave_group" = "您確定要離開此群組？";
 "lng_sure_delete_group" = "您確定要刪除這個群組？所有成員將被移除並且所有訊息會被清空。";
+"lng_sure_delete_saved_messages" = "您確定想要刪除所有已儲存的訊息？\n\n這個動作無法復原。";
 
 "lng_message_empty" = "空的訊息";
 "lng_message_unsupported" = "您的 Telegram Desktop 版本不支援此訊息。請在設定中更新到最新版或從 {link} 安裝它。";
@@ -730,7 +763,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_add_you" = "{from} 將您加入到這個頻道";
 "lng_action_you_joined" = "您加入了這個頻道";
 "lng_action_add_you_group" = "{from} 將您加入到這個群組";
-"lng_action_you_joined_group" = "您加入了這個群組";
 "lng_action_kick_user" = "{from} 移除了 {user}";
 "lng_action_user_left" = "{from} 離開了群組";
 "lng_action_user_joined" = "{from} 加入了群組";
@@ -779,29 +811,20 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_ttl_video_sent" = "您傳了一張自毀的影片。";
 "lng_ttl_video_expired" = "影片已過期";
 
-"lng_profile_migrate_reached#one" = "{count} 位成員的限制達到了";
-"lng_profile_migrate_reached#other" = "{count} 位成員的限制達到了";
+"lng_profile_migrate_reached#one" = "{count} 個成員的限制達到了";
+"lng_profile_migrate_reached#other" = "{count} 個成員的限制達到了";
 "lng_profile_migrate_body" = "要克服此限制，您可以將您的群組升級為超級群組。";
 "lng_profile_migrate_learn_more" = "了解更多 »";
-"lng_profile_migrate_about" = "如果您想要超越這個極限，您可以將您的群組升級到一個超級群組。在超級群組中：";
-"lng_profile_migrate_feature1#one" = "— 成員限制是 {count} 位用戶";
-"lng_profile_migrate_feature1#other" = "— 成員限制是 {count} 位用戶";
-"lng_profile_migrate_feature2" = "— 新成員可以看到完整的聊天紀錄";
-"lng_profile_migrate_feature3" = "— 管理員可以刪除每個人的訊息";
-"lng_profile_migrate_feature4" = "— 通知預設情況下是關閉的";
 "lng_profile_migrate_button" = "升級為超級群組";
-"lng_profile_migrate_sure" = "您確定要將本群組升級為超級群組？這個動作無法復原。";
-"lng_profile_convert_button" = "轉換為超級群組";
 "lng_profile_convert_title" = "轉換為超級群組";
-"lng_profile_convert_about" = "在超級群組中：";
 "lng_profile_convert_feature1" = "— 新成員可以看到完整的訊息紀錄";
 "lng_profile_convert_feature2" = "— 刪除的訊息將從所有成員的裝置中消失";
 "lng_profile_convert_feature3" = "— 管理員可以置頂重要訊息";
 "lng_profile_convert_feature4" = "— 創立者可以設定一個公開的連結給群組用";
 "lng_profile_convert_warning" = "{bold_start}注意：{bold_end} 這個動作無法復原";
 "lng_profile_convert_confirm" = "轉換";
-"lng_profile_add_more_after_upgrade#one" = "在升級為一個超級群組之後，您將能夠添加高達 {count} 位成員。";
-"lng_profile_add_more_after_upgrade#other" = "在升級為一個超級群組之後，您將能夠添加高達 {count} 位成員。";
+"lng_profile_add_more_after_upgrade#one" = "在升級為一個超級群組之後，您將能夠添加高達 {count} 個成員。";
+"lng_profile_add_more_after_upgrade#other" = "在升級為一個超級群組之後，您將能夠添加高達 {count} 個成員。";
 
 "lng_channel_not_accessible" = "抱歉，這個頻道不能存取。";
 "lng_group_not_accessible" = "抱歉，這個群組不能存取。";
@@ -812,16 +835,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channels_too_much_public_revoke" = "撤換";
 
 "lng_group_invite_bad_link" = "這個邀請連結已經壞掉或過期了。";
-"lng_group_invite_want_join" = "您想要加入 «{title}» 群組嗎？";
-"lng_group_invite_want_join_channel" = "您想要加入 «{title}» 頻道嗎？";
 "lng_group_invite_join" = "加入";
 
-"lng_group_invite_members#one" = "{count} 位成員，其中：";
-"lng_group_invite_members#other" = "{count} 位成員，其中：";
+"lng_group_invite_members#one" = "{count} 個成員，其中：";
+"lng_group_invite_members#other" = "{count} 個成員，其中包括：";
 
-"lng_group_invite_link" = "邀請連結：";
 "lng_group_invite_create" = "建立一個邀請連結";
 "lng_group_invite_about" = "Telegram 用戶將能夠加入\n您的群組通過以下連結。";
+"lng_group_invite_about_channel" = "Telegram 用戶透過以下連結\n將能夠加入您的頻道。";
 "lng_group_invite_create_new" = "撤換邀請連結";
 "lng_group_invite_about_new" = "您之前的連結將被停用，而我們會產生一個新的邀請連結給您。";
 "lng_group_invite_copied" = "邀請連結已複製到剪貼簿。";
@@ -838,26 +859,18 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_in_reply_to" = "回覆";
 "lng_edited" = "已編輯";
 "lng_edited_date" = "已編輯：{date}";
+"lng_admin_badge" = "管理員";
 "lng_cancel_edit_post_sure" = "取消編輯？";
 "lng_cancel_edit_post_yes" = "是";
 "lng_cancel_edit_post_no" = "否";
 
 "lng_bot_share_location_unavailable" = "抱歉，位置資訊分享目前在 Telegram Desktop 還無法使用。";
-"lng_bot_inline_geo_unavailable" = "抱歉，這個機器人要求位置資訊分享。\n在 Telegram Desktop 中，這個功能還無法使用。";
 "lng_bot_share_phone" = "分享電話號碼？";
 "lng_bot_share_phone_confirm" = "分享";
 
 "lng_attach_failed" = "失敗了";
 "lng_attach_file" = "檔案";
 "lng_attach_photo" = "照片";
-
-"lng_media_type" = "媒體類型";
-"lng_media_type_photos" = "照片";
-"lng_media_type_videos" = "影片";
-"lng_media_type_songs" = "音訊檔";
-"lng_media_type_files" = "檔案";
-"lng_media_type_audios" = "語音訊息";
-"lng_media_type_links" = "共享的連結";
 
 "lng_media_open_with" = "開啟";
 "lng_media_download" = "下載";
@@ -884,7 +897,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_emoji_hide_panel" = "點擊這裡可以隱藏表情符號側邊欄";
 
 "lng_recent_stickers" = "常用";
-"lng_faved_stickers" = "最愛的貼圖";
 "lng_faved_stickers_add" = "添加到「最愛」";
 "lng_faved_stickers_remove" = "從「最愛」中移除";
 "lng_group_stickers" = "群組貼圖";
@@ -911,11 +923,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_share_pack" = "分享貼圖";
 "lng_stickers_not_found" = "找不到貼圖包。";
 "lng_stickers_packs_archived" = "一些未使用的貼圖包已被封存起來，以騰出空間給您較常使用的。";
-"lng_stickers_archived" = "封存的貼圖";
 "lng_stickers_copied" = "貼圖包連結已複製到剪貼簿。";
 "lng_stickers_default_set" = "Great Minds";
 "lng_stickers_you_have" = "管理和重新排列貼圖包";
-"lng_stickers_featured" = "熱門的貼圖";
 "lng_stickers_return" = "復原";
 "lng_stickers_count#one" = "{count} 張貼圖";
 "lng_stickers_count#other" = "{count} 張貼圖";
@@ -923,6 +933,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_group_set" = "群組貼圖包";
 "lng_stickers_remove_group_set" = "要移除群組貼圖包？";
 "lng_stickers_group_from_your" = "從您的貼圖中選擇";
+"lng_stickers_group_from_featured" = "從熱門貼圖選擇";
 
 "lng_in_dlg_photo" = "照片";
 "lng_in_dlg_video" = "影片";
@@ -945,22 +956,16 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_report_spam_ok" = "檢舉";
 "lng_cant_send_to_not_contact" = "抱歉，目前您只能傳送訊息給\n互相有聯絡的人。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，目前您只能將互相有聯絡\n的人加入到群組。\n{more_info}";
-"lng_cant_send_to_not_contact_flood" = "您今天聯絡了過多的非聯絡人，請明天再試一次。但如果是該用戶先傳給您訊息，您將可以立即回覆。";
-"lng_cant_invite_not_contact_flood" = "您無法添加此用戶，因為您今天聯絡了過多的非聯絡人。 請明天再試一次。 您可以要求其他成員將此用戶添加到群組中。";
 "lng_cant_more_info" = "更多資訊 »";
 "lng_cant_invite_banned" = "抱歉，只有管理員可以加入此用戶。";
 "lng_cant_invite_privacy" = "抱歉，因為用戶的隱私設定，您無法將其加入到群組中。";
 "lng_cant_invite_privacy_channel" = "抱歉，因為用戶的隱私設定，您無法將其加入到頻道中。";
-"lng_cant_delete_group#one" = "很抱歉，目前無法手動刪除超過 {count} 個成員的社群。如果要刪除此群組，請聯絡 Telegram support 。";
-"lng_cant_delete_group#other" = "很抱歉，目前無法手動刪除超過 {count} 個成員的社群。如果要刪除此群組，請聯絡 Telegram support 。";
-"lng_cant_delete_channel#one" = "很抱歉，目前無法手動刪除超過 {count} 個成員的社群。如果要刪除此頻道，請聯絡 Telegram support 。";
-"lng_cant_delete_channel#other" = "很抱歉，目前無法手動刪除超過 {count} 個成員的社群。如果要刪除此頻道，請聯絡 Telegram support 。";
 "lng_cant_do_this" = "抱歉，這個動作不可用。";
 
 "lng_send_button" = "傳送";
-"lng_message_ph" = "撰寫一則訊息...";
-"lng_broadcast_ph" = "廣播一則訊息...";
-"lng_broadcast_silent_ph" = "無聲廣播...";
+"lng_message_ph" = "寫一則訊息…";
+"lng_broadcast_ph" = "廣播一則訊息…";
+"lng_broadcast_silent_ph" = "無聲廣播…";
 "lng_record_cancel" = "在這範圍外鬆開可以取消";
 "lng_will_be_notified" = "當您發布時，成員將會收到通知";
 "lng_wont_be_notified" = "當您發布時，成員將不會收到通知";
@@ -969,9 +974,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_from_draft" = "草稿";
 "lng_bot_description" = "這個機器人可以做什麼？";
 "lng_unblock_button" = "解除封鎖";
-"lng_channel_join" = "加入頻道";
 "lng_channel_mute" = "關閉訊息通知";
 "lng_channel_unmute" = "恢復訊息通知";
+"lng_saved_messages" = "已儲存的訊息";
+"lng_saved_short" = "儲存";
+"lng_saved_forward_here" = "轉傳訊息到這裡以便快速存取";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
 "lng_dialogs_text_from_wrapped" = "{from}:";
@@ -1023,10 +1030,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_user_action_upload_photo" = "{user} 正在傳送照片";
 "lng_send_action_upload_file" = "正在傳送檔案";
 "lng_user_action_upload_file" = "{user} 正在傳送檔案";
-"lng_send_action_geo_location" = "正在挑選位置";
-"lng_user_action_geo_location" = "{user} 正在挑選位置";
-"lng_send_action_choose_contact" = "正在選擇聯絡人";
-"lng_user_action_choose_contact" = "{user} 正在選擇聯絡人";
 "lng_unread_bar#one" = "{count} 則未讀訊息";
 "lng_unread_bar#other" = "{count} 則未讀訊息";
 
@@ -1050,7 +1053,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_pin_to_top" = "置頂";
 "lng_context_unpin_from_top" = "取消置頂";
 
-"lng_context_promote_admin" = "提升為管理員";
+"lng_context_promote_admin" = "晉升為管理員";
 "lng_context_edit_permissions" = "編輯權限";
 "lng_context_restrict_user" = "限制用戶";
 "lng_context_remove_from_group" = "從群組中移除";
@@ -1060,23 +1063,17 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_copy_email" = "複製電子郵件地址";
 "lng_context_copy_hashtag" = "複製 ＃號標籤";
 "lng_context_copy_mention" = "複製用戶名稱";
-"lng_context_save_image" = "另存圖片為...";
-"lng_context_forward_image" = "轉傳圖片";
-"lng_context_delete_image" = "刪除圖片";
+"lng_context_save_image" = "另存圖片為…";
 "lng_context_copy_image" = "複製圖片";
-"lng_context_close_image" = "關閉圖片";
 "lng_context_cancel_download" = "取消下載";
 "lng_context_show_in_folder" = "在資料夾中顯示";
 "lng_context_show_in_finder" = "在 Finder 中顯示";
-"lng_context_save_video" = "另存影片為...";
-"lng_context_save_audio_file" = "另存音訊檔為...";
-"lng_context_save_audio" = "另存語音訊息為...";
+"lng_context_save_video" = "另存影片為…";
+"lng_context_save_audio_file" = "另存音訊檔為…";
+"lng_context_save_audio" = "另存語音訊息為…";
 "lng_context_pack_info" = "貼圖包資訊";
 "lng_context_pack_add" = "添加貼圖";
-"lng_context_save_file" = "另存檔案為...";
-"lng_context_forward_file" = "轉傳檔案";
-"lng_context_delete_file" = "刪除檔案";
-"lng_context_close_file" = "關閉檔案";
+"lng_context_save_file" = "另存檔案為…";
 "lng_context_copy_text" = "複製文字";
 "lng_context_open_gif" = "開啟 GIF";
 "lng_context_save_gif" = "儲存 GIF 動圖";
@@ -1094,15 +1091,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_forward_selected" = "轉傳選取的";
 "lng_context_delete_selected" = "刪除選取的";
 "lng_context_clear_selection" = "清除選取";
-"lng_really_send_image" = "您想要傳送這張圖片嗎？";
-"lng_really_send_file" = "您想要傳送這個檔案嗎？";
-"lng_really_share_contact" = "您想要分享此聯絡人資訊嗎？";
 "lng_send_images_compress#one" = "壓縮圖片";
 "lng_send_images_compress#other" = "壓縮圖片";
-"lng_send_image_non_local" = "無法傳送非本地檔︰ {name}";
 "lng_send_image_empty" = "無法傳送一個空的檔案︰ {name}";
 "lng_send_image_too_large" = "無法傳送一個檔案，因為它大於 1500 MB: {name}";
-"lng_send_folder" = "無法傳送 «{name}» 因為它是一個目錄 :(";
 "lng_send_images_selected#one" = "{count} 張圖片已選取";
 "lng_send_images_selected#other" = "{count} 張圖片已選取";
 "lng_send_photos#one" = "傳送 {count} 張照片";
@@ -1112,13 +1104,12 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_send_files#one" = "傳送 {count} 個檔案";
 "lng_send_files#other" = "傳送 {count} 個檔案";
 
-"lng_forward_choose" = "選擇接收者...";
+"lng_forward_choose" = "選擇接收者…";
 "lng_forward_cant" = "抱歉，這裡沒辦法轉傳 :(";
-"lng_forward_confirm" = "轉傳給 {recipient}？";
 "lng_forward_share_contact" = "分享聯絡資訊給 {recipient}？";
 "lng_forward_share_cant" = "很抱歉，沒有辦法在這裡分享聯絡資訊 :(";
-"lng_forward_send_file_confirm" = "將 «{name}» 傳送給 {recipient}？";
-"lng_forward_send_files_confirm" = "傳送選取的檔案給 {recipient}？";
+
+
 "lng_forward_send_files_cant" = "很抱歉，沒有辦法在這裡傳送媒體 :(";
 "lng_forward_send" = "傳送";
 "lng_forward_messages#one" = "{count} 則轉傳的訊息";
@@ -1126,7 +1117,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_forwarding_from#one" = "{user} 和其他 {count} 人";
 "lng_forwarding_from#other" = "{user} 和其他 {count} 人";
 "lng_forwarding_from_two" = "{user} 和 {second_user}";
-"lng_inline_switch_choose" = "選擇對話...";
+"lng_inline_switch_choose" = "選擇對話…";
 "lng_inline_switch_cant" = "抱歉，沒辦法寫在這裡:(";
 
 "lng_share_cant" = "抱歉，沒辦法在這裡分享 :(";
@@ -1142,7 +1133,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_contact_phone" = "手機號碼";
 "lng_enter_contact_data" = "新增聯絡人";
-"lng_edit_group_title" = "編輯群組名稱";
 "lng_edit_contact_title" = "編輯聯絡人名稱";
 "lng_edit_channel_title" = "編輯頻道";
 "lng_edit_sign_messages" = "訊息附上簽名";
@@ -1159,7 +1149,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_try_other_contact" = "嘗試其他的";
 "lng_create_group_link" = "連結";
 "lng_create_group_invite_link" = "邀請連結";
-"lng_create_group_photo" = "設定照片";
 "lng_create_group_description" = "簡介 (選填)";
 
 "lng_drag_images_here" = "拖放圖片到這裡";
@@ -1173,8 +1162,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_selected_clear" = "取消";
 "lng_selected_delete" = "刪除";
 "lng_selected_forward" = "轉傳";
-"lng_selected_count#one" = "{count} 則訊息";
-"lng_selected_count#other" = "{count} 則訊息";
 "lng_selected_cancel_sure_this" = "取消上傳？";
 "lng_selected_upload_stop" = "停止";
 "lng_selected_delete_sure_this" = "您想要刪除這則訊息嗎？";
@@ -1205,7 +1192,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_search_messages_from" = "顯示來自誰的訊息";
 
 "lng_media_save_progress" = "{ready} / {total} {mb}";
-"lng_mediaview_save_as" = "另存為...";
+"lng_mediaview_save_as" = "另存為…";
 "lng_mediaview_copy" = "複製";
 "lng_mediaview_forward" = "轉傳";
 "lng_mediaview_delete" = "刪除";
@@ -1225,15 +1212,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_mediaview_saved" = "圖片儲存至您的 [c]下載[/c] 資料夾";
 
 "lng_theme_preview_title" = "主題預覽";
-"lng_theme_preview_generating" = "正在產生顏色主題預覽...";
+"lng_theme_preview_generating" = "正在產生顏色主題預覽…";
 "lng_theme_preview_invalid" = "無效數據在此主題檔案中。";
 "lng_theme_preview_apply" = "套用此主題";
 
-"lng_new_authorization" = "{name},\n我們偵測到有新裝置使用您的帳號登入，時間為 {date} 日 {day} 的 {time} \n\n裝置： {device}\n位置： {location}\n\n如果這不是您，您可以到「設定」>「顯示所有連線」，然後中斷該連線。\n\n如果您懷疑有人未經您的同意登入您的帳號，您可以到「設定」中，啟用「兩步驗證」。\n\nTelegram 團隊，\n敬上";
+"lng_new_authorization" = "{name},\n我們偵測到有新裝置使用您的帳號登入，時間為 {date} 日 {day} 的 {time} \n\n裝置： {device}\n位置： {location}\n\n如果這不是您，您可以到「設定」>「顯示登入的裝置」，然後登出該裝置。\n\n如果您懷疑有人未經您的同意登入您的帳號，您可以到「設定」中，啟用「兩步驟驗證」。\n\nTelegram 團隊，\n敬上";
 
 "lng_new_version_wrap" = "Telegram Desktop 更新到版本 {version}\n\n{changes}\n\n完整的版本更新紀錄可以在這裡找到：\n{link}";
 "lng_new_version_minor" = "— 錯誤修正和其它細微的改進";
-"lng_new_version_text" = "— 改善視訊訊息︰ 繞圓的播放進度、懸浮視窗支援、持續時間倒數計時。\n— 語音和視訊訊息現在一個接一個自動播放。";
 
 "lng_menu_insert_unicode" = "插入 Unicode 控制字元";
 
@@ -1269,20 +1255,19 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_payments_invoice_label_test" = "測試發票";
 "lng_payments_receipt_button" = "收據";
 
-"lng_call_status_incoming" = "正在打電話給您...";
-"lng_call_status_connecting" = "連線中...";
-"lng_call_status_exchanging" = "正在交換加密金鑰...";
-"lng_call_status_waiting" = "等待中...";
-"lng_call_status_requesting" = "請求中...";
-"lng_call_status_hanging" = "掛斷中...";
+"lng_call_status_incoming" = "正在打電話給您…";
+"lng_call_status_connecting" = "連線中…";
+"lng_call_status_exchanging" = "正在交換加密金鑰…";
+"lng_call_status_waiting" = "等待中…";
+"lng_call_status_requesting" = "請求中…";
+"lng_call_status_hanging" = "掛斷中…";
 "lng_call_status_ended" = "通話結束";
 "lng_call_status_failed" = "連線失敗";
-"lng_call_status_ringing" = "響鈴中...";
+"lng_call_status_ringing" = "響鈴中…";
 "lng_call_status_busy" = "忙線中";
 "lng_call_fingerprint_tooltip" = "如果在 {user} 螢幕上的表情符號是一樣的，則這個通話是 100% 安全的";
 
 "lng_call_error_not_available" = "抱歉，{user} 不接受通話。";
-"lng_call_error_incompatible" = "{user} 的應用程式使用不相容的協定。他需要更新應用程式，然後您才能打電話給他。";
 "lng_call_error_outdated" = "{user} 的應用程式不支援通話。他需要更新應用程式，然後您才能打電話給他。";
 "lng_call_error_audio_io" = "您電腦上的音訊播放似乎有問題。請確保您電腦的喇叭和麥克風可以使用，然後重試。";
 
@@ -1342,7 +1327,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_chat_banned_week#other" = "{count} 週";
 "lng_rights_chat_banned_custom" = "自訂";
 "lng_rights_chat_banned_custom_date" = "直到 {date}";
-"lng_rights_chat_banned_block" = "封鎖並從群組中移除";
 
 "lng_restricted_send_message" = "這個群組的管理員限制您在這裡發言。";
 "lng_restricted_send_media" = "這個群組的管理員限制您在這裡張貼媒體內容。";
@@ -1397,6 +1381,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_invites_disabled" = "{from} 停用了群組邀請";
 "lng_admin_log_signatures_enabled" = "{from} 啟用了簽名";
 "lng_admin_log_signatures_disabled" = "{from} 停用了簽名";
+"lng_admin_log_history_made_hidden" = "{from} 對新成員隱藏了加入前的舊訊息";
+"lng_admin_log_history_made_visible" = "{from} 對新成員顯示了加入前的舊訊息";
 "lng_admin_log_pinned_message" = "{from} 置頂了訊息：";
 "lng_admin_log_unpinned_message" = "{from} 取消了置頂訊息";
 "lng_admin_log_edited_caption" = "{from} 編輯了說明文字：";
@@ -1434,18 +1420,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_admin_pin_messages" = "置頂訊息";
 "lng_admin_log_admin_add_admins" = "添加新的管理員";
 
-// Not used
-
-"lng_topbar_info" = "資訊";
-"lng_profile_group_info" = "群組資訊";
-"lng_profile_channel_info" = "頻道資訊";
-"lng_channel_add_admins" = "新增管理員";
-"lng_dlg_search_chat" = "在這個聊天室中搜尋";
-"lng_dlg_search_channel" = "在這個頻道搜尋";
-
 // Wnd specific
 
-"lng_wnd_choose_program_menu" = "選擇預設程式...";
+"lng_wnd_choose_program_menu" = "選擇預設程式…";
 
 "lng_wnd_menu_undo" = "復原";
 "lng_wnd_menu_redo" = "重做";
@@ -1457,7 +1434,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 // Mac specific
 
-"lng_mac_choose_program_menu" = "其他...";
+"lng_mac_choose_program_menu" = "其他…";
 
 "lng_mac_choose_app" = "選擇應用程式";
 "lng_mac_choose_text" = "選擇開啟文件的應用程式 \"{file}\"。";
@@ -1472,7 +1449,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_mac_menu_hide_telegram" = "隱藏 {telegram}";
 "lng_mac_menu_hide_others" = "隱藏其他";
 "lng_mac_menu_show_all" = "顯示所有";
-"lng_mac_menu_preferences" = "偏好設定...";
+"lng_mac_menu_preferences" = "偏好設定…";
 "lng_mac_menu_quit_telegram" = "退出 {telegram}";
 "lng_mac_menu_about_telegram" = "關於 {telegram}";
 "lng_mac_menu_file" = "檔案";
