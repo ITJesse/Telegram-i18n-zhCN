@@ -12,16 +12,24 @@
   <string name="YourPhone">您的手机</string>
   <string name="StartText">请确认您的国家代码并输入您的手机号码。</string>
   <string name="ChooseCountry">选择国家</string>
-  <string name="WrongCountry">错误的国家代码</string>
+  <string name="WrongCountry">无效国家代码</string>
+  <string name="AccountAlreadyLoggedIn">这个帐号已经从本应用程序中登录。</string>
+  <string name="AccountSwitch">切换</string>
+  <string name="SyncContacts">同步联系人</string>
+  <string name="SyncContactsOn">本设备的联系人将添加到这个帐号。</string>
+  <string name="SyncContactsOff">本设备的联系人将不会添加到这个帐号。</string>
+  <string name="SyncContactsInfoOn">本设备的联系人将添加到您的帐号。</string>
+  <string name="SyncContactsInfoOff">打开以将本设备的联系人导入到您的帐号。</string>
+  <string name="SyncContactsAdded">本设备的联系人被添加到您的帐号中。</string>
   <!--code enter view-->
   <string name="YourCode">手机验证</string>
   <string name="SentSmsCode">我们已经发送一则包含验证码的短信到您的手机 **%1$s**。</string>
   <string name="SentAppCode">我们已经发送验证码到您其它设备上的 **Telegram** App。</string>
-  <string name="SentCallCode">我们将发送一则包含验证码的短信到您的手机 **%1$s**。
+  <string name="SentCallCode">我们正在打电话到您的手机 **%1$s**。
 
-不必理它，Telegram 将自动处理一切。</string>
+不必接听电话，Telegram 会自动处理一切。</string>
   <string name="SentCallOnly">我们正拨打您的手机 **%1$s** ，语音告知一组验证码。</string>
-  <string name="CallText">我们会在 %1$d:%2$02d 后改用电话语音报验证码</string>
+  <string name="CallText">在 %1$d:%2$02d 后，Telegram 会打电话给您</string>
   <string name="SmsText">我们会在 %1$d:%2$02d 之后传给您一则短信</string>
   <string name="Calling">正在打电话给您…</string>
   <string name="Code">验证码</string>
@@ -37,7 +45,7 @@
 您可以随时取消此一过程。</string>
   <string name="ResetAccountStatus">您可以重置您的帐号在：</string>
   <string name="ResetAccountCancelledAlert">您最近重置此帐号的尝试已被其活跃用户取消。请在7天后再试一次。</string>
-  <string name="ResetAccountButton">重置</string>
+  <string name="ResetAccountButton">重置帐号</string>
   <string name="CancelLinkExpired">链接无效或已过期。</string>
   <string name="CancelLinkSuccess">您帐号 %1$s 的删除过程被取消了。 现在您可以关闭此窗口。</string>
   <!--signup view-->
@@ -86,7 +94,7 @@
   <string name="PaymentCheckoutMethod">付款方法</string>
   <string name="PaymentCheckoutProvider">支付服务供应商</string>
   <string name="PaymentCheckoutName">名称</string>
-  <string name="PaymentCheckoutPhoneNumber">电话号码</string>
+  <string name="PaymentCheckoutPhoneNumber">手机号码</string>
   <string name="PaymentCheckoutEmail">联系地址</string>
   <string name="PaymentCheckoutShippingMethod">送货方式</string>
   <string name="PaymentReceipt">收据</string>
@@ -108,8 +116,8 @@
   <string name="PaymentPasswordEmail">您的电子信箱</string>
   <string name="PaymentPasswordEmailInfo">请添加您有效的电子信箱。这是恢复忘记的密码唯一的途径。</string>
   <string name="PaymentPhoneToProvider">电话将被传递到 %1$s 作为帐单信息。</string>
-  <string name="PaymentEmailToProvider">电子邮件将被传递到 %1$s 作为帐单信息。</string>
-  <string name="PaymentPhoneEmailToProvider">电话和电子邮件将被传递到 %1$s 作为帐单信息。</string>
+  <string name="PaymentEmailToProvider">电子信箱将被传递到 %1$s 作为帐单信息。</string>
+  <string name="PaymentPhoneEmailToProvider">电话和电子信箱将被传递到 %1$s 作为帐单信息。</string>
   <!--chats view-->
   <string name="NewConversationShortcut">新的对话</string>
   <string name="Settings">设置</string>
@@ -302,12 +310,13 @@
   <string name="ChannelRemoveUser">从频道中移除</string>
   <string name="ChannelCantSendMessage">抱歉，您无法发送消息到这个频道。</string>
   <string name="ChannelAddedByNotification">%1$s 将您加入到 %2$s 频道</string>
-  <string name="ChannelPhotoEditNotification"> %1$s 频道更新了照片</string>
+  <string name="ChannelPhotoEditNotification">%1$s 频道更新了照片</string>
   <string name="ChannelMessageNoText">%1$s 张贴了一则消息</string>
   <string name="ChannelMessagePhoto">%1$s 张贴了一张照片</string>
   <string name="ChannelMessageVideo">%1$s 张贴了一个影片</string>
   <string name="ChannelMessageContact">%1$s 张贴了一个联系人</string>
   <string name="ChannelMessageMap">%1$s 张贴了一则位置信息</string>
+  <string name="ChannelMessageLiveLocation">%1$s 张贴了一即时位置消息</string>
   <string name="ChannelMessageDocument">%1$s 张贴了一个文件</string>
   <string name="ChannelMessageGIF">%1$s 张贴了一张 GIF 图</string>
   <string name="ChannelMessageAudio">%1$s 张贴了一则语音消息</string>
@@ -493,8 +502,9 @@
   <string name="IsSendingAudio">%1$s 正在发送音频…</string>
   <string name="IsSendingPhoto">%1$s 正在发送照片…</string>
   <string name="InstantView">立即查看</string>
-  <string name="OpenGroup">打开群组</string>
+  <string name="OpenGroup">查看群组</string>
   <string name="OpenChannel">查看频道</string>
+  <string name="OpenMessage">查看消息</string>
   <string name="InstantViewNightMode">黑色主题将在夜间自动开启</string>
   <string name="IsSendingGame">%1$s 正在玩游戏…</string>
   <string name="IsSendingVideo">%1$s 正在发送影片…</string>
@@ -629,6 +639,7 @@
   <string name="NotificationMessageSDVideo">%1$s 发送给您一张自毁的影片</string>
   <string name="NotificationMessageContact">%1$s 分享了联系人给您</string>
   <string name="NotificationMessageMap">%1$s 发送了一则位置信息给您</string>
+  <string name="NotificationMessageLiveLocation">%1$s 发送了即时位置信息给您</string>
   <string name="NotificationMessageGame">%1$s 邀请了您玩 %2$s</string>
   <string name="NotificationMessageDocument">%1$s 发送给您一个文件</string>
   <string name="NotificationMessageGif">%1$s 发送给您一张 GIF 图</string>
@@ -643,6 +654,7 @@
   <string name="NotificationMessageGroupVideo">%1$s 发送了影片到 %2$s 群组</string>
   <string name="NotificationMessageGroupContact">%1$s 分享了联系人信息到 %2$s 群组</string>
   <string name="NotificationMessageGroupMap">%1$s 发送了一则位置信息到 %2$s 群组</string>
+  <string name="NotificationMessageGroupLiveLocation">%1$s 发送了即时位置信息到 %2$s 群组</string>
   <string name="NotificationMessageGroupGame">%1$s 邀请了 %2$s 群组玩 %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s 发送一个文件给 %2$s 群组</string>
   <string name="NotificationMessageGroupGif">%1$s 发送一张 GIF 图到 %2$s 群组</string>
@@ -829,7 +841,7 @@ Telegram 团队</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">未知</string>
   <string name="Info">信息</string>
-  <string name="Phone">电话</string>
+  <string name="Phone">手机号码</string>
   <!--usernames-->
   <string name="Username">用户名</string>
   <string name="UsernamePlaceholder">您的用户名</string>
@@ -969,6 +981,7 @@ Telegram 团队</string>
   <string name="AskButton">询问志愿者</string>
   <string name="TelegramFAQ">常见问题</string>
   <string name="TelegramFaq">常见问题</string>
+  <string name="AddAccount">添加帐号</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">隐私政策</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
@@ -1019,7 +1032,7 @@ Telegram 团队</string>
   <string name="PhoneNumberAlert">您的所有 Telegram 联系人将取得您的新号码，并加入到他们的手机通信录中，条件是他们有您的旧号码，且您没有在 Telegram 中封锁他们。</string>
   <string name="PhoneNumberChange">变更号码</string>
   <string name="ChangePhoneNewNumber">新号码</string>
-  <string name="ChangePhoneHelp">我们将发送包含验证码的短信到您的新电话号码。</string>
+  <string name="ChangePhoneHelp">我们将发送包含验证码的短信到您的新手机号码。</string>
   <string name="ChangePhoneNumberOccupied">号码 %1$s 已被绑定至 Telegram 帐号，迁移到新号码之前，请删除该帐号。</string>
   <string name="NotificationsOther">其他</string>
   <string name="VibrationDisabled">停用</string>
@@ -1143,7 +1156,7 @@ Telegram 团队</string>
   <string name="LinksTitle">共享的链接</string>
   <string name="AudioTitle">共享的音乐</string>
   <string name="NoMedia">在此对话群组内分享照片与影片，且只能通过您已登录的设备来访问。</string>
-  <string name="NoSharedAudio">在这个聊天中分享音乐，然后在任何设备上访问它们。</string>
+  <string name="NoSharedAudio">在这个聊天室分享音乐，然后在任何设备上访问它。</string>
   <string name="NoSharedFiles">在此对话群组内分享文件与文档，且只能通过您已登录的设备来访问。</string>
   <string name="NoSharedLinks">在这个聊天中分享链接，然后在任何设备上访问它们。</string>
   <string name="NoMediaSecret">这个聊天室的照片和影片会显示在这里。</string>
@@ -1292,7 +1305,7 @@ Telegram 团队</string>
   <string name="ResetMyAccountWarningText">这个动作无法被复原。
 
 如果您继续重设您的帐号，那您的所有消息及聊天都会被删除。</string>
-  <string name="ResetMyAccountWarningReset">重置</string>
+  <string name="ResetMyAccountWarningReset">重置帐号</string>
   <string name="LoginPassword">密码</string>
   <string name="LoginPasswordText">您已经启用了「两步骤验证」，因此您的帐号被一个额外的密码所保护。</string>
   <string name="ForgotPassword">忘记密码了？</string>
@@ -1454,7 +1467,7 @@ Telegram 团队</string>
   <string name="ActionTakeScreenshoot">un1 截取了屏幕画面！</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">无效的手机号码</string>
-  <string name="BannedPhoneNumber">封锁的电话号码</string>
+  <string name="BannedPhoneNumber">封锁的手机号码</string>
   <string name="CodeExpired">验证码已过期，请重新登录</string>
   <string name="FloodWait">尝试太多次了，请稍后再试</string>
   <string name="FloodWaitTime">尝试太多次了，请于 %1$s 后再试</string>
@@ -1510,7 +1523,7 @@ Telegram 团队</string>
   <string name="EditMessageError">抱歉，您无法编辑这个消息。</string>
   <string name="AllowReadSms">请允许 Telegram 接收短信，这样我们就可以自动帮您输入验证码。</string>
   <string name="AllowReadCall">请允许 Telegram 接听电话，这样我们就可以自动帮您输入验证码。</string>
-  <string name="AllowFillNumber">请允许 Telegram 接听电话和接收短信，以便我们可以填写您的电话号码，向您发送验证码，然后帮您输入。</string>
+  <string name="AllowFillNumber">请允许 Telegram 接受通话和接收短信，以便我们可以填写您的手机号码，发送验证码给您，并且帮您自动输入。</string>
   <string name="AllowReadCallAndSms">请允许 Telegram 接听电话和接收短信，这样我们就可以自动帮您输入验证码。</string>
   <string name="UserRestricted">抱歉，您未被允许这样做。</string>
   <string name="YouBlockedUser">抱歉，您无法将此用户或机器人添加到群组，因为您已经封锁他们了。请解除封锁以继续。</string>
@@ -1613,6 +1626,7 @@ Telegram 团队</string>
   <string name="CallReportIncludeLogs">包括技术信息</string>
   <string name="CallReportLogsExplain">这不会泄露您的对话内容，但会帮助我们更快解决问题。</string>
   <string name="CallReportSent">感谢您的帮助让 Telegram Call 更好。</string>
+  <string name="VoipAnsweringAsAccount">以 %s 的身分接听来电</string>
   <!--plural-->
   <string name="Recipient_zero">%1$d 个接收者</string>
   <string name="Recipient_one">%1$d 个接收者</string>

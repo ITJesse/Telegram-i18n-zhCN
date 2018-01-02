@@ -15,7 +15,7 @@
 "ENCRYPTED_MESSAGE" = "您有一则新消息%1$@";
 "LOCKED_MESSAGE" = "您有一则新消息%1$@";
 "MESSAGE_SCREENSHOT" = "%1$@ 截取了屏幕画面！";
-"ENCRYPTION_REQUEST" = "新的加密请求%1$@";
+"ENCRYPTION_REQUEST" = "新的秘密聊天请求%1$@";
 "ENCRYPTION_ACCEPT" = "您的秘密聊天被接受了 %1$@";
 
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
@@ -547,7 +547,7 @@
 "ChatSettings.TextSizeUnits" = "pt";
 "ChatSettings.AutomaticPhotoDownload" = "自动下载照片";
 "ChatSettings.AutomaticAudioDownload" = "自动下载音频";
-"ChatSettings.PrivateChats" = "私人聊天";
+"ChatSettings.PrivateChats" = "私人的聊天";
 "ChatSettings.Groups" = "群组";
 
 // Usage
@@ -1358,8 +1358,8 @@
 "Compose.ChannelMembers" = "成员";
 
 "Channel.Setup.TypeHeader" = "频道类型";
-"Channel.Setup.TypePrivate" = "私人";
-"Channel.Setup.TypePublic" = "公开";
+"Channel.Setup.TypePrivate" = "私人的";
+"Channel.Setup.TypePublic" = "公开的";
 "Channel.Setup.TypePublicHelp" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
 "Channel.Setup.TypePrivateHelp" = "私人的频道只能通过邀请链接加入。";
 
@@ -2036,7 +2036,7 @@
 "CallSettings.UseLessDataLongDescription" = "使用较少的数据可能会改善您在不良网络上的体验，但会稍微降低音频品质。";
 
 "Calls.CallTabTitle" = "通话页签";
-"Calls.CallTabDescription" = "您可以在页签栏中添加通话页签。";
+"Calls.CallTabDescription" = "您可以在页签栏中添加「通话」页签。";
 "Calls.NotNow" = "不是现在";
 "Calls.AddTab" = "添加页签";
 "Calls.NewCall" = "新的通话";
@@ -2763,14 +2763,14 @@
 "PasscodeSettings.HelpBottom" = "注意：如果您忘记了密码，您将需要删除并重新安装应用程序，而所有的秘密聊天都将会消失。";
 
 "Channel.Setup.TypePublicHelp" = "公开的频道可以用搜索找到，且任何人都可以加入它们。";
-"Channel.Setup.TypePrivateHelp" = "私人频道只能通过邀请链接加入。";
+"Channel.Setup.TypePrivateHelp" = "私人的频道只能通过邀请链接加入。";
 "Group.Username.InvalidTooShort" = "群组名称必须至少有 5 个字符。";
 "Group.Username.InvalidStartsWithNumber" = "群组名称不能以数字开头。";
 "Group.Username.CreatePublicLinkHelp" = "人们可以分享这个链接给其他人，并且用 Telegram 搜索来找到您的群组。";
 "Channel.TypeSetup.Title" = "频道类型";
 
-"Group.Setup.TypePrivate" = "私人";
-"Group.Setup.TypePublic" = "公开";
+"Group.Setup.TypePrivate" = "私人的";
+"Group.Setup.TypePublic" = "公开的";
 
 "Channel.Info.Subscribers" = "订阅者";
 "Channel.Subscribers.Title" = "订阅者";
@@ -2790,7 +2790,7 @@
 "InfoPlist.NSLocationWhenInUseUsageDescription" = "当您发送您的位置给朋友时，Telegram 需要访问以显示一张地图给他们。";
 "InfoPlist.NSFaceIDUsageDescription" = "您可以使用 Face ID 来解锁应用程序。";
 
-"Privacy.Calls.P2PNever" = "绝不";
+"Privacy.Calls.P2PNever" = "永不";
 "Privacy.Calls.P2PContacts" = "我的联系人";
 "Privacy.Calls.P2PAlways" = "总是";
 
@@ -2814,7 +2814,7 @@
 "AutoDownloadSettings.Cellular" = "移动网络";
 "AutoDownloadSettings.WiFi" = "WI-FI";
 "AutoDownloadSettings.Contacts" = "联系人";
-"AutoDownloadSettings.PrivateChats" = "其他私人聊天";
+"AutoDownloadSettings.PrivateChats" = "其他私人的聊天";
 "AutoDownloadSettings.GroupChats" = "群组聊天";
 "AutoDownloadSettings.Channels" = "频道";
 "AutoDownloadSettings.LimitBySize" = "按大小限制";
@@ -2834,6 +2834,25 @@
 "Conversation.ClearPrivateHistory" = "这将从您的 Telegram 云端删除这个聊天室的所有消息和媒体。您的聊天对象仍将拥有它们。";
 "Conversation.ClearGroupHistory" = "这将从您的 Telegram 云端删除这个聊天室的所有消息和媒体。群组的其他成员仍将拥有它们。";
 "Conversation.ClearSecretHistory" = "这将为您及您的聊天对象删除这个聊天室的所有消息和媒体。";
+"Conversation.ClearSelfHistory" = "这会从您的 Telegram 云端中删除此聊天室里的所有消息和媒体。";
+
+"MediaPicker.LivePhotoDescription" = "动态照片将自动播放和循环像一个 GIF 。";
+
+"Settings.Appearance" = "外观";
+"Appearance.Title" = "外观";
+"Appearance.TextSize" = "文本大小";
+"Appearance.Preview" = "聊天预览";
+"Appearance.ColorTheme" = "颜色主题";
+"Appearance.ThemeDayClassic" = "日经典";
+"Appearance.ThemeDay" = "日";
+"Appearance.ThemeNight" = "夜";
+"Appearance.ThemeNightBlue" = "夜蓝色";
+"Appearance.PreviewReplyAuthor" = "卢西奥";
+"Appearance.PreviewReplyText" = "莱因哈特，我们需要找到您一些…";
+"Appearance.PreviewIncomingText" = "啊！你们这些孩子今天有了技术音乐！享受经典, 像大卫·哈塞尔霍夫！";
+"Appearance.PreviewOutgoingText" = "我现在不能认真对待你。抱歉…";
+"Appearance.AccentColor" = "强调色";
+"Appearance.PickAccentColor" = "选择一强调色";
 
 
 /* new from translations.telegram.org */
