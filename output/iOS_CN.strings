@@ -1427,8 +1427,8 @@
 
 "ShareMenu.Send" = "发送";
 
-"Conversation.ReportSpam" = "检举垃圾消息";
-"Conversation.ReportSpamConfirmation" = "您确定要检举出自此用户的垃圾消息？";
+"Conversation.ReportSpam" = "举报垃圾消息";
+"Conversation.ReportSpamConfirmation" = "您确定要举报出自此用户的垃圾消息？";
 "SharedMedia.EmptyMusicText" = "在这个聊天室中所分享的所有音乐会出现在这里。";
 
 "ChatSettings.AutoPlayAnimations" = "自动播放 GIF 动图";
@@ -1469,20 +1469,20 @@
 "ChannelInfo.DeleteGroup" = "删除群组";
 "ChannelInfo.DeleteGroupConfirmation" = "等一下！删除此群组将移除所有成员，且所有的消息都将会丢失。您确定要删除群组？";
 
-"ReportPeer.Report" = "检举";
+"ReportPeer.Report" = "举报";
 
 "ReportPeer.ReasonSpam" = "垃圾消息";
 "ReportPeer.ReasonViolence" = "暴力";
 "ReportPeer.ReasonPornography" = "色情";
 "ReportPeer.ReasonOther" = "其他";
 
-"ReportPeer.AlertSuccess" = "感谢您！\n您的检举将很快被我们的团队进行审查。";
+"ReportPeer.AlertSuccess" = "感谢您！\n您的举报将很快被我们的团队进行审查。";
 
 "Login.TermsOfServiceLabel" = "通过注册，\n您同意 [Terms of Service]。";
 "Login.TermsOfServiceHeader" = "服务条款";
 
 "ReportPeer.ReasonOther.Placeholder" = "描述";
-"ReportPeer.ReasonOther.Title" = "检举";
+"ReportPeer.ReasonOther.Title" = "举报";
 "ReportPeer.ReasonOther.Send" = "发送";
 
 "Group.Management.AddModeratorHelp" = "您可以添加管理员来帮助您管理群组。";
@@ -1706,12 +1706,12 @@
 
 "Conversation.Pin" = "置顶";
 "Conversation.Unpin" = "取消置顶";
-"Conversation.Report" = "检举垃圾消息";
+"Conversation.Report" = "举报垃圾消息";
 "Conversation.PinnedMessage" = "置顶消息";
 
 "Conversation.Moderate.Delete" = "删除消息";
 "Conversation.Moderate.Ban" = "封锁用户";
-"Conversation.Moderate.Report" = "检举垃圾消息";
+"Conversation.Moderate.Report" = "举报垃圾消息";
 "Conversation.Moderate.DeleteAllMessages" = "删除 %@ 的所有消息";
 
 "Group.Username.InvalidTooShort" = "群组名称必须至少有 5 个字符。";
@@ -2022,7 +2022,7 @@
 
 "Settings.CallSettings" = "语音通话";
 
-"Calls.TabTitle" = "联系历史";
+"Calls.TabTitle" = "通话记录";
 "Calls.All" = "所有电话";
 "Calls.Missed" = "未接来电";
 
@@ -2885,7 +2885,7 @@
 "AuthSessions.LogOut" = "注销";
 "AuthSessions.Message" = "您允许此机器人在您登录 %@ 时向您发送消息。";
 
-"Conversation.ContextMenuReport" = "检举";
+"Conversation.ContextMenuReport" = "举报";
 
 "Stickers.Search" = "搜索贴图";
 "Stickers.NoStickersFound" = "找不到贴图";

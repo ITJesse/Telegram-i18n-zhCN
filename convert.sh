@@ -53,6 +53,8 @@ do
     sed -i "" 's/缺省/默认/g' ./output/$out_filename
     sed -i "" 's/保存空间/存储空间/g' ./output/$out_filename
     sed -i "" 's/管理本地保存/管理本地存储/g' ./output/$out_filename
+    sed -i "" 's/联系历史/通话记录/g' ./output/$out_filename
+    sed -i "" 's/检举/举报/g' ./output/$out_filename
   fi
 done
 

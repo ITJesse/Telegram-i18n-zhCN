@@ -579,7 +579,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_delete_channel" = "删除频道";
 "lng_profile_leave_group" = "离开群组";
 "lng_profile_delete_group" = "删除群组";
-"lng_profile_report" = "检举";
+"lng_profile_report" = "举报";
 "lng_profile_search_messages" = "搜索消息";
 "lng_profile_block_bot" = "停止并封锁机器人";
 "lng_profile_unblock_bot" = "解除封锁机器人";
@@ -693,17 +693,17 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_history_visibility_hidden" = "隐藏";
 "lng_manage_history_visibility_hidden_about" = "新成员无法看到加入前的旧消息。";
 
-"lng_report_title" = "检举频道";
-"lng_report_group_title" = "检举群组";
+"lng_report_title" = "举报频道";
+"lng_report_group_title" = "举报群组";
 "lng_report_bot_title" = "回报 bot";
-"lng_report_message_title" = "检举消息";
+"lng_report_message_title" = "举报消息";
 "lng_report_reason_spam" = "垃圾消息";
 "lng_report_reason_violence" = "暴力";
 "lng_report_reason_pornography" = "色情";
 "lng_report_reason_other" = "其他";
 "lng_report_reason_description" = "简介";
-"lng_report_button" = "检举";
-"lng_report_thanks" = "感谢您！您的检举将很快被我们的团队进行审查。";
+"lng_report_button" = "举报";
+"lng_report_thanks" = "感谢您！您的举报将很快被我们的团队进行审查。";
 
 "lng_channel_add_members" = "添加成员";
 "lng_channel_add_banned" = "封锁用户";
@@ -974,13 +974,13 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 "lng_ban_user" = "封锁用户";
 "lng_delete_all_from" = "删除所有来自此用户的消息";
-"lng_report_spam" = "检举垃圾消息";
+"lng_report_spam" = "举报垃圾消息";
 "lng_report_spam_hide" = "隐藏";
-"lng_report_spam_thanks" = "感谢您的检举！";
-"lng_report_spam_sure" = "您确定要检举出自此用户的垃圾消息？";
-"lng_report_spam_sure_group" = "您确定要检举在此群组中的垃圾消息？";
-"lng_report_spam_sure_channel" = "您确定要检举在此频道中的垃圾消息？";
-"lng_report_spam_ok" = "检举";
+"lng_report_spam_thanks" = "感谢您的举报！";
+"lng_report_spam_sure" = "您确定要举报出自此用户的垃圾消息？";
+"lng_report_spam_sure_group" = "您确定要举报在此群组中的垃圾消息？";
+"lng_report_spam_sure_channel" = "您确定要举报在此频道中的垃圾消息？";
+"lng_report_spam_ok" = "举报";
 "lng_cant_send_to_not_contact" = "抱歉，目前您只能发送消息给\n互相有联系的人。\n{more_info}";
 "lng_cant_invite_not_contact" = "抱歉，目前您只能将互相有联系\n的人加入到群组。\n{more_info}";
 "lng_cant_more_info" = "更多信息 »";
@@ -1112,7 +1112,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_forward_msg" = "转发消息";
 "lng_context_delete_msg" = "删除消息";
 "lng_context_select_msg" = "选取消息";
-"lng_context_report_msg" = "检举消息";
+"lng_context_report_msg" = "举报消息";
 "lng_context_pin_msg" = "置顶消息";
 "lng_context_unpin_msg" = "取消置顶消息";
 "lng_context_cancel_upload" = "取消上传";
