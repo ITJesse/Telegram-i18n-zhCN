@@ -2329,8 +2329,8 @@
 "Channel.EditAdmin.PermissinAddAdminOn" = "此管理员将能够添加具有相同（或较少）权限的新管理员。";
 "Channel.EditAdmin.PermissinAddAdminOff" = "此管理员将不能添加新的管理员。";
 
-"Login.ContinueWithLocalization" = "继续使用正体中文（台湾）";
-"Localization.LanguageName" = "正体中文（台湾）";
+"Login.ContinueWithLocalization" = "继续使用简体中文";
+"Localization.LanguageName" = "简体中文";
 "Localization.ChooseLanguage" = "选择您的语言";
 "Localization.EnglishLanguageName" = "Chinese (Taiwan)";
 "Localization.LanguageOther" = "其他";

@@ -5,8 +5,8 @@ the official desktop application for the Telegram messaging service.
 For license and copyright information please follow this link:
 https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 */
-"lng_language_name" = "正体中文（台湾）";
-"lng_switch_to_this" = "继续使用正体中文（台湾）";
+"lng_language_name" = "简体中文";
+"lng_switch_to_this" = "继续使用简体中文";
 
 "lng_menu_contacts" = "联系人";
 "lng_menu_calls" = "通话";
