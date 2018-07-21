@@ -503,7 +503,7 @@
 "Settings.Logout" = "注销";
 "Settings.Title" = "设置";
 "Settings.NotificationsAndSounds" = "通知与声音";
-"Settings.ChatSettings" = "数据与保存";
+"Settings.ChatSettings" = "数据与存储";
 "Settings.BlockedUsers" = "封锁名单";
 "Settings.ChatBackground" = "聊天室背景";
 "Settings.Support" = "提出疑问";
@@ -541,7 +541,7 @@
 "Notifications.ResetAllNotificationsHelp" = "撤销您全部联系人和群组的所有自订通知设置。";
 
 // Chat Settings
-"ChatSettings.Title" = "数据与保存";
+"ChatSettings.Title" = "数据与存储";
 "ChatSettings.Appearance" = "外观";
 "ChatSettings.TextSize" = "字体大小";
 "ChatSettings.TextSizeUnits" = "pt";
@@ -2514,7 +2514,7 @@
 "Call.RateCall" = "评价这个通话";
 
 "Settings.ApplyProxyAlert" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n\n您可以稍后在设置（数据和保存）中变更您的代理服务器。";
-"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n帐号：%3$@\n密码：%4$@\n\n您可以稍后在设置（数据与保存）中变更您的代理服务器。";
+"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理？\n服务器：%1$@\n连接端口：%2$@\n帐号：%3$@\n密码：%4$@\n\n您可以稍后在设置（数据与存储）中变更您的代理服务器。";
 "Settings.ApplyProxyAlertEnable" = "启用";
 
 "Channel.Management.RestrictedBy" = "被 %@ 限制";

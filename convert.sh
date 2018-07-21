@@ -56,6 +56,7 @@ do
     sed -i "" 's/管理本地保存/管理本地存储/g' ./output/$out_filename
     sed -i "" 's/联系历史/通话记录/g' ./output/$out_filename
     sed -i "" 's/检举/举报/g' ./output/$out_filename
+    sed -i "" 's/数据与保存/数据与存储/g' ./output/$out_filename
   fi
 done
 

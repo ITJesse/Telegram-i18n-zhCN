@@ -1459,7 +1459,7 @@
   <string name="EnabledPasswordText">您已启动了「两步骤验证」。\n您需要提供您先前设立的密码，才可以登录您的 Telegram 帐号。</string>
   <string name="PendingEmailText">您的复原用电子信箱 %1$s 还没有起作用，正等候确认。</string>
   <!--data settings-->
-  <string name="DataSettings">数据与保存</string>
+  <string name="DataSettings">数据与存储</string>
   <string name="DataUsage">磁盘与网络用量</string>
   <string name="StorageUsage">存储空间用量</string>
   <string name="MobileUsage">行动数据用量</string>
@@ -2103,7 +2103,7 @@
   <string name="DeleteAccountIfAwayFor">如果离开</string>
   <string name="DeleteAccountTitle">帐号自动销毁</string>
   <string name="EnableProxyAlert">您确定要启用此代理？</string>
-  <string name="EnableProxyAlert2">您可以稍候在设置 (数据与保存) 中变更代理服务器。</string>
+  <string name="EnableProxyAlert2">您可以稍候在设置 (数据与存储) 中变更代理服务器。</string>
   <string name="NotificationsPriority">优先级</string>
   <string name="NotificationsPriorityDefault">默认</string>
   <string name="NotificationsPriorityMax">最大</string>
