@@ -36,7 +36,7 @@
 "CHAT_ADD_YOU" = "%1$@ 將您邀請到 %2$@ 群組";
 "CHAT_DELETE_YOU" = "%1$@ 將您從 %2$@ 群組中移除";
 "CHAT_DELETE_MEMBER" = "%1$@ 將 %3$@ 從 %2$@ 群組中移除";
-"CHAT_LEFT" = "%1$@ 離開了 %2$@ 群組";
+"CHAT_LEFT" = "%1$@ 退出了 %2$@ 群組";
 "CHAT_RETURNED" = "%1$@ 重新加入了 %2$@ 群組";
 
 "MESSAGE_STICKER" = "%1$@ 傳給您一張 %2$@ 貼圖";
@@ -89,7 +89,7 @@
 "Common.Edit" = "編輯";
 "Common.edit" = "編輯";
 "Common.Done" = "完成";
-"Common.Next" = "下一步";
+"Common.Next" = "下一頁";
 "Common.Delete" = "刪除";
 "Common.Create" = "建立";
 "Common.Back" = "返回";
@@ -261,8 +261,8 @@
 // Compose
 "Compose.TokenListPlaceholder" = "您想將哪些聯絡人加入群組？";
 "Compose.NewMessage" = "新訊息";
-"Compose.NewGroup" = "新增群組";
-"Compose.NewEncryptedChat" = "新增秘密聊天";
+"Compose.NewGroup" = "新建群組";
+"Compose.NewEncryptedChat" = "新建秘密聊天";
 "Compose.Create" = "建立";
 
 // Contacts
@@ -291,11 +291,11 @@
 "Conversation.ForwardChats" = "聊天";
 "Conversation.ForwardContacts" = "聯絡人";
 "Conversation.StatusKickedFromGroup" = "您從群組中被移除了";
-"Conversation.StatusLeftGroup" = "您已離開了群組";
+"Conversation.StatusLeftGroup" = "您已退出了群組";
 "Conversation.StatusTyping" = "正在輸入";
 "Conversation.Call" = "通話";
-"Conversation.Mute" = "關閉訊息通知";
-"Conversation.Unmute" = "恢復訊息通知";
+"Conversation.Mute" = "關閉通知";
+"Conversation.Unmute" = "開啟通知";
 "Conversation.Edit" = "編輯";
 "Conversation.Info" = "資訊";
 "Conversation.Search" = "搜尋";
@@ -345,8 +345,8 @@
 "Notification.JoinedChat" = "%@ 加入了此群組";
 "Notification.JoinedChannel" = "%@ 加入了頻道";
 "Notification.Invited" = "%@ 邀請了 %@";
-"Notification.LeftChat" = "%@ 離開了群組";
-"Notification.LeftChannel" = "%@ 離開了頻道";
+"Notification.LeftChat" = "%@ 退出了群組";
+"Notification.LeftChannel" = "%@ 退出了頻道";
 "Notification.Kicked" = "%@ 移除了 %@";
 "Notification.CreatedChat" = "%@ 建立了一個群組";
 "Notification.CreatedChannel" = "頻道已建立";
@@ -466,7 +466,7 @@
 "GroupInfo.AddParticipant" = "添加成員";
 "GroupInfo.AddParticipantTitle" = "聯絡人";
 "GroupInfo.AddParticipantConfirmation" = "將 %@ 加入到群組？";
-"GroupInfo.LeftStatus" = "您已離開了群組";
+"GroupInfo.LeftStatus" = "您已退出了群組";
 
 // Encryption Key
 "EncryptionKey.Title" = "加密金鑰";
@@ -561,7 +561,7 @@
 "BlockedUsers.SelectUserTitle" = "封鎖用戶";
 "BlockedUsers.BlockUser" = "封鎖用戶";
 "BlockedUsers.BlockTitle" = "封鎖";
-"BlockedUsers.LeavePrefix" = "離開";
+"BlockedUsers.LeavePrefix" = "退出 ";
 "BlockedUsers.Info" = "被封鎖的用戶無法向您傳送訊息或將您加入到群組。他們不會看到您的個人頭像，在線上和最後上線的狀態。";
 "BlockedUsers.AddNew" = "添加新的…";
 "BlockedUsers.Unblock" = "解除封鎖";
@@ -716,7 +716,7 @@
 
 "PrivacySettings.DeleteAccountTitle" = "帳號自動銷毀";
 "PrivacySettings.DeleteAccountIfAwayFor" = "如果離開";
-"PrivacySettings.DeleteAccountHelp" = "您在這段期間內至少要上線一次，否則您的帳號將被刪除，您也將失去所有的群組、訊息及聯絡人。";
+"PrivacySettings.DeleteAccountHelp" = "您在這段期間內至少要上線一次，否則您的帳號將被刪除，您也將失去所有的訊息及聯絡人。";
 
 "PrivacyLastSeenSettings.Title" = "最後上線";
 "PrivacyLastSeenSettings.CustomHelp" = "重要提示：您不分享您最後上線時間的對象，他們的最後上線時間，您也將無法看見。取而代之的是大概的最後上線時間 ( 最近，一週之內，一個月之內 )。";
@@ -1190,7 +1190,7 @@
 "AuthSessions.Title" = "已登入的裝置";
 "AuthSessions.CurrentSession" = "目前使用的裝置";
 "AuthSessions.TerminateOtherSessions" = "登出其他的裝置";
-"AuthSessions.TerminateOtherSessionsHelp" = "登出所有其他的裝置，只保留目前使用的。";
+"AuthSessions.TerminateOtherSessionsHelp" = "將其他裝置登出，只保留目前使用的。";
 "AuthSessions.TerminateSession" = "登出這個裝置";
 "AuthSessions.OtherSessions" = "其他的裝置";
 "AuthSessions.EmptyTitle" = "沒有其他已登入的裝置";
@@ -1266,7 +1266,7 @@
 "Bot.GenericBotStatus" = "機器人";
 "Bot.DescriptionTitle" = "這個機器人可以做什麼？";
 "Bot.GroupStatusReadsHistory" = "可以存取訊息";
-"Bot.GroupStatusDoesNotReadHistory" = "沒有存取訊息的權限";
+"Bot.GroupStatusDoesNotReadHistory" = "無法存取訊息";
 "Bot.Start" = "開始";
 "UserInfo.BotSettings" = "設定";
 "UserInfo.BotHelp" = "幫助";
@@ -1282,7 +1282,7 @@
 "Conversation.SearchPlaceholder" = "搜尋此聊天";
 "Conversation.SearchNoResults" = "查無結果";
 
-"GroupInfo.AddUserLeftError" = "抱歉，如果有人離開了群組，只有彼此有聯絡的人可以把他們帶回 (他們要有您的手機號碼，而您有他們的) 。";
+"GroupInfo.AddUserLeftError" = "抱歉，如果有人退出了群組，只有互為聯絡人的人可以把他們帶回 (他們要有您的手機號碼，而您有他們的) 。";
 
 "DialogList.SearchSectionRecent" = "最近的";
 
@@ -1305,7 +1305,7 @@
 "SharedMedia.Link_many" = "%@ 個連結";
 "SharedMedia.Link_0" = "%@ 個連結";
 
-"Compose.NewChannel" = "新增頻道";
+"Compose.NewChannel" = "新建頻道";
 "GroupInfo.ChannelListNamePlaceholder" = "頻道名稱";
 
 "Channel.MessagePhotoUpdated" = "頻道照片已更新";
@@ -1330,7 +1330,7 @@
 "Channel.Username.CheckingUsername" = "檢查用戶名稱中…";
 "Channel.Username.UsernameIsAvailable" = "%@ 是可用的。";
 
-"Channel.LeaveChannel" = "離開頻道";
+"Channel.LeaveChannel" = "退出頻道";
 
 "Channel.About.Title" = "簡介";
 
@@ -1343,7 +1343,7 @@
 
 
 
-"ChannelInfo.ConfirmLeave" = "離開頻道";
+"ChannelInfo.ConfirmLeave" = "退出頻道";
 "Channel.JoinChannel" = "加入";
 "Forward.ChannelReadOnly" = "抱歉，您無法貼文到這個頻道。";
 
@@ -1481,7 +1481,7 @@
 "Login.TermsOfServiceLabel" = "透過註冊，\n您同意 [Terms of Service]。";
 "Login.TermsOfServiceHeader" = "服務條款";
 
-"ReportPeer.ReasonOther.Placeholder" = "描述";
+"ReportPeer.ReasonOther.Placeholder" = "簡介";
 "ReportPeer.ReasonOther.Title" = "檢舉";
 "ReportPeer.ReasonOther.Send" = "傳送";
 
@@ -1514,8 +1514,8 @@
 "Watch.UserInfo.Mute_any" = "暫停通知 %@ 小時";
 "Watch.UserInfo.Mute_many" = "暫停通知 %@ 小時";
 "Watch.UserInfo.Mute_0" = "暫停通知 %@ 小時";
-"Watch.UserInfo.MuteTitle" = "關閉訊息通知";
-"Watch.UserInfo.Unmute" = "恢復訊息通知";
+"Watch.UserInfo.MuteTitle" = "關閉通知";
+"Watch.UserInfo.Unmute" = "開啟通知";
 
 "Watch.GroupInfo.Title" = "群組資訊";
 "Watch.ChannelInfo.Title" = "頻道資訊";
@@ -1819,8 +1819,8 @@
 "DialogList.Draft" = "草稿";
 "Embed.PlayingInPIP" = "這影片正播放於懸浮視窗中";
 
-"StickerPacksSettings.FeaturedPacks" = "熱門的貼圖";
-"FeaturedStickerPacks.Title" = "熱門的貼圖";
+"StickerPacksSettings.FeaturedPacks" = "熱門貼圖";
+"FeaturedStickerPacks.Title" = "熱門貼圖";
 
 "Invitation.JoinGroup" = "加入群組";
 "Invitation.Members_1" = "1 位成員：";
@@ -1830,7 +1830,7 @@
 "Invitation.Members_many" = "%@ 位成員：";
 "Invitation.Members_0" = "%@ 位成員：";
 
-"StickerPacksSettings.ArchivedPacks" = "封存的貼圖";
+"StickerPacksSettings.ArchivedPacks" = "已封存的貼圖";
 "StickerPacksSettings.ArchivedPacks.Info" = "您最多可以有200套已安裝的貼圖包。\n當您添加更多時，未使用的貼圖會被封存。";
 
 "Conversation.CloudStorageInfo.Title" = "您的雲端儲存";
@@ -1959,7 +1959,7 @@
 "StickerPack.RemoveMaskCount_0" = "移除 %@ 個面具";
 
 "Conversation.BotInteractiveUrlAlert" = "是否允許透過這個 %@ 機器人傳遞您的 Telegram 名稱和 id (並非您的手機號碼) 到您要開啟的網頁？";
-"StickerPacksSettings.ArchivedMasks" = "封存的面具";
+"StickerPacksSettings.ArchivedMasks" = "已封存的面具";
 "StickerSettings.MaskContextInfo" = "如果您封存了一套面具，之後您還是可以快速地從封存的面具中恢復。";
 "StickerPacksSettings.ArchivedMasks.Info" = "您最多可以有200套面具。\n當您添加更多時，未使用的面具會被封存。";
 
@@ -2079,7 +2079,7 @@
 "Notification.CallOutgoingShort" = "撥出";
 "Notification.CallIncomingShort" = "撥入";
 "Notification.CallMissedShort" = "未接來電";
-"Notification.CallCanceledShort" = "已取消通話";
+"Notification.CallCanceledShort" = "已取消";
 "Notification.CallFormat" = "%1$@, %2$@"; // 1 - time, 2 - duration
 
 
@@ -2210,7 +2210,7 @@
 "Call.StatusIncoming" = "Telegram 音訊…";
 "Call.StatusRequesting" = "聯繫中…";
 "Call.StatusWaiting" = "等待中…";
-"Call.StatusRinging" = "響鈴中…";
+"Call.StatusRinging" = "撥號中…";
 "Call.StatusConnecting" = "連線中…";
 "Call.StatusOngoing" = "Telegram 音訊 %@";
 "Call.StatusEnded" = "通話已結束";
@@ -2273,8 +2273,8 @@
 
 "Message.VideoMessage" = "視訊訊息";
 
-"Conversation.HoldForAudio" = "按住可錄音。 點擊則切換到錄影功能。";
-"Conversation.HoldForVideo" = "按住可錄影。 點擊則切換到錄音功能。";
+"Conversation.HoldForAudio" = "按住可錄音。點擊則切換到錄影功能。";
+"Conversation.HoldForVideo" = "按住可錄影。點擊則切換到錄音功能。";
 
 "UserInfo.TelegramCall" = "Telegram Call";
 "UserInfo.PhoneCall" = "手機通話";
@@ -2476,7 +2476,7 @@
 "SocksProxySetup.Hostname" = "伺服器";
 "SocksProxySetup.Port" = "連接埠";
 
-"SocksProxySetup.Credentials" = "身分驗證（可選）";
+"SocksProxySetup.Credentials" = "認證（可選）";
 "SocksProxySetup.Username" = "帳號";
 "SocksProxySetup.Password" = "密碼";
 
@@ -2551,7 +2551,7 @@
 
 "SecretImage.Title" = "消失的照片";
 "SecretVideo.Title" = "消失的影片";
-"SecretTimer.ImageDescription" = "如果您設定了計時器，該照片將在查看後自動銷毀。";
+"SecretTimer.ImageDescription" = "如果您設定了計時器，照片將在查看後自動銷毀。";
 "SecretTimer.VideoDescription" = "如果您設定了計時器，該影片將在查看後自動銷毀。";
 
 "PhotoEditor.TiltShift" = "傾斜移位";
@@ -2902,7 +2902,7 @@
 "Settings.ProxyConnecting" = "連接中...";
 "Settings.ProxyConnected" = "已連線";
 
-"SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
+"SocksProxySetup.UseProxy" = "使用代理";
 "SocksProxySetup.SavedProxies" = "已儲存的代理";
 "SocksProxySetup.AddProxy" = "添加代理伺服器";
 "SocksProxySetup.SaveProxy" = "儲存代理伺服器";
@@ -2915,14 +2915,357 @@
 "SocksProxySetup.ProxyStatusConnecting" = "正在連接";
 "SocksProxySetup.ProxyStatusConnected" = "已連接";
 
+"SocksProxySetup.ProxyType" = "類型";
+"SocksProxySetup.ProxySocks5" = "SOCKS5";
+"SocksProxySetup.ProxyTelegram" = "MTProto";
+"SocksProxySetup.HostnamePlaceholder" = "伺服器";
+"SocksProxySetup.PortPlaceholder" = "連接埠";
+"SocksProxySetup.UsernamePlaceholder" = "帳號";
+"SocksProxySetup.PasswordPlaceholder" = "密碼";
+"SocksProxySetup.Secret" = "金鑰";
+"SocksProxySetup.SecretPlaceholder" = "金鑰";
+"SocksProxySetup.RequiredCredentials" = "認證";
+
 "SocksProxySetup.Connecting" = "連接中...";
 "SocksProxySetup.FailedToConnect" = "連接失敗";
 
 "SocksProxySetup.ProxyEnabled" = "代理\n已啟用";
 
+"DialogList.AdLabel" = "代理贊助商";
+"DialogList.AdNoticeAlert" = "此頻道是由您使用的代理伺服器所顯示。要從聊天清單中刪除此頻道，請在 Telegram 的設定中停用該代理。";
+"SocksProxySetup.AdNoticeHelp" = "此代理可能會在您的聊天清單中顯示贊助者的頻道。這不會洩露您的 Telegram 通訊內容。";
+
+"SocksProxySetup.ShareProxyList" = "分享代理清單";
+
+"Privacy.SecretChatsTitle" = "秘密聊天";
+"Privacy.SecretChatsLinkPreviews" = "連結預覽";
+"Privacy.SecretChatsLinkPreviewsHelp" = "連結預覽將在 Telegram 伺服器上產生。我們不儲存有關您傳送的連結之資料。";
+
+"Privacy.ContactsTitle" = "聯絡人";
+"Privacy.ContactsSync" = "同步聯絡人";
+"Privacy.ContactsSyncHelp" = "打開此選項可以持續將本裝置中的聯絡人與您的帳號同步。";
+"Privacy.ContactsReset" = "刪除已同步的聯絡人";
+"Privacy.ContactsResetConfirmation" = "這將從 Telegram 伺服器中移除您的聯絡人。如果啟用了 \"同步聯絡人\", 則聯絡人將重新同步。";
+
+"Login.TermsOfServiceDecline" = "拒絕";
+"Login.TermsOfServiceAgree" = "同意並繼續";
+
+"Login.TermsOfServiceSignupDecline" = "我們很抱歉, 但這意味著您不能註冊 Telegram。\n\n不像其他公司，我們不使用您的資料作為廣告目標或其他商業目的。Telegram 只儲存它作為功能豐富的雲端服務所需的資訊。您可以在 \"隱私與安全\" 設定中調整使用資料的方式（例如，刪除已同步的聯絡人）。\n\n但是，通常如果您不同意 Telegram 適度的要求, 我們就無法提供您這項服務。";
+
+"UserInfo.BotPrivacy" = "隱私權政策";
+
+"PrivacyPolicy.Title" = "隱私權政策和服務條款";
+"PrivacyPolicy.Decline" = "拒絕";
+"PrivacyPolicy.Accept" = "接受並繼續";
+
+"PrivacyPolicy.AgeVerificationTitle" = "年齡驗證";
+"PrivacyPolicy.AgeVerificationMessage" = "點擊同意以確認您已經滿 %@ 歲。";
+"PrivacyPolicy.AgeVerificationAgree" = "同意";
+
+"PrivacyPolicy.DeclineTitle" = "拒絕";
+"PrivacyPolicy.DeclineMessage" = "我們很抱歉, 但這意味著您不能註冊 Telegram。不像其他公司，我們不使用您的資料作為廣告目標或其他商業目的。Telegram 只儲存它作為功能豐富的雲端服務所需的資訊。您可以在 \"隱私與安全\" 設定中調整使用資料的方式（例如，刪除已同步的聯絡人）。\n\n但是，通常如果您不同意 Telegram 適度的要求, 我們就不可能提供您這項服務。";
+"PrivacyPolicy.DeclineDeclineAndDelete" = "拒絕並刪除";
+
+"PrivacyPolicy.DeclineLastWarning" = "警告，這將不可逆轉地刪除您的 Telegram 帳號，以及您儲存在 Telegram 雲端中的所有資料。\n\n重要提示：您可以在刪除您的帳號之前先取消執行並匯出資料，而不是全部丟掉。（為此，請開啟最新版本的 Telegram Desktop，並前往 \"設定\" > \"匯出 Telegram 資料\" 。）";
+"PrivacyPolicy.DeclineDeleteNow" = "立即刪除";
+
+"Settings.Passport" = "Telegram 護照";
+
+"Passport.Title" = "護照";
+
+"Passport.RequestHeader" = "%@ 要求存取您的個人數據以便您註冊其服務。";
+
+"Passport.InfoTitle" = "什麼是 Telegram 護照？";
+"Passport.InfoText" = "使用 **Telegram** 護照，您可以輕鬆註冊需要身分驗證的網站和服務。\n\n您的資訊、個人數據和文件受到端對端加密的保護。沒有您的允許, 任何人都不能存取它們。";
+"Passport.InfoLearnMore" = "了解更多";
+"Passport.InfoFAQ_URL" = "https://telegram.org/faq#passport";
+
+"Passport.PassportInformation" = "護照資訊";
+"Passport.RequestedInformation" = "請求的資訊";
+"Passport.FieldIdentity" = "身分證件";
+"Passport.FieldIdentityDetailsHelp" = "填寫您的個人資訊";
+"Passport.FieldIdentityUploadHelp" = "上傳您的護照或其他ID的掃描";
+"Passport.FieldIdentitySelfieHelp" = "與您的文件一起自拍";
+"Passport.FieldAddress" = "住址";
+"Passport.FieldAddressHelp" = "請提供您的地址";
+"Passport.FieldAddressUploadHelp" = "上傳您的地址證明";
+"Passport.FieldPhone" = "電話號碼";
+"Passport.FieldPhoneHelp" = "提供您的聯絡電話";
+"Passport.FieldEmail" = "電子郵件地址";
+"Passport.FieldEmailHelp" = "提供您的聯絡電子郵件地址";
+"Passport.PrivacyPolicy" = "您接受 [%1$@ 的隱私權政策] 並允許其所屬的 @%2$@ 向您傳送訊息。";
+"Passport.AcceptHelp" = "您正在將您的文件直接傳送給 %1$@，並允許其所屬的 @%2$@ 向您傳送訊息。";
+"Passport.Authorize" = "授權";
+
+"Passport.DeletePassport" = "刪除 Telegram 護照";
+"Passport.DeletePassportConfirmation" = "您確定要刪除您的 Telegram 護照嗎？所有細節都將丟失。";
+
+"Passport.PasswordHelp" = "請輸入您的 Telegram 密碼以\n解密您的數據。";
+"Passport.PasswordPlaceholder" = "輸入您的密碼";
+"Passport.InvalidPasswordError" = "無效密碼。請重試。";
+"Passport.FloodError" = "超過限制。請稍後再試。";
+"Passport.UpdateRequiredError" = "很抱歉，您的 Telegram 應用已經過期，無法處理此請求。請更新 Telegram。";
+
+"Passport.ForgottenPassword" = "忘記密碼";
+"Passport.PasswordReset" = "上傳到您 Telegram 護照的所有文件都將丟失。而您將能夠上傳新文件。";
+
+"Passport.PasswordDescription" = "請建立一組密碼以使用端對端加密方式保護個人資料。\n\n無論您何時在新裝置上登入 Telegram，都需要此密碼。";
+"Passport.PasswordCreate" = "建立密碼";
+"Passport.PasswordNext" = "下一頁";
+
+"Passport.DeletePersonalDetails" = "刪除個人資訊";
+"Passport.DeletePersonalDetailsConfirmation" = "您確定要刪除個人資訊嗎？";
+
+"Passport.DeleteAddress" = "刪除地址";
+"Passport.DeleteAddressConfirmation" = "確定要刪除地址嗎?";
+
+"Passport.DeleteDocument" = "刪除文件";
+"Passport.DeleteDocumentConfirmation" = "您確定要刪除此文件嗎？ 所有細節都將丟失。";
+
+"Passport.Scans" = "掃瞄";
+"Passport.Scans.Upload" = "上傳掃描";
+"Passport.Scans.UploadNew" = "上傳其他掃描";
+"Passport.Scans.ScanIndex" = "掃描 %@";
+
+"Passport.Identity.TypePersonalDetails" = "個人資訊";
+"Passport.Identity.TypePassport" = "護照";
+"Passport.Identity.TypePassportUploadScan" = "上傳您的護照掃描";
+"Passport.Identity.TypeInternalPassport" = "內部護照";
+"Passport.Identity.TypeInternalPassportUploadScan" = "上傳您的內部護照掃描";
+"Passport.Identity.TypeIdentityCard" = "身分證";
+"Passport.Identity.TypeIdentityCardUploadScan" = "上傳您的身分證掃描";
+"Passport.Identity.TypeDriversLicense" = "駕照";
+"Passport.Identity.TypeDriversLicenseUploadScan" = "上傳您的駕照掃描";
+
+"Passport.Identity.AddPersonalDetails" = "添加個人資訊";
+"Passport.Identity.AddPassport" = "添加護照";
+"Passport.Identity.AddInternalPassport" = "添加內部護照";
+"Passport.Identity.AddIdentityCard" = "添加身分證";
+"Passport.Identity.AddDriversLicense" = "添加駕照";
+
+"Passport.Identity.EditPersonalDetails" = "編輯個人資訊";
+"Passport.Identity.EditPassport" = "編輯護照";
+"Passport.Identity.EditInternalPassport" = "編輯內部護照";
+"Passport.Identity.EditIdentityCard" = "編輯身分證";
+"Passport.Identity.EditDriversLicense" = "編輯駕照";
+
+"Passport.Identity.DocumentDetails" = "文件詳細資訊";
+"Passport.Identity.Name" = "名字";
+"Passport.Identity.NamePlaceholder" = "名字";
+"Passport.Identity.Surname" = "姓氏";
+"Passport.Identity.SurnamePlaceholder" = "姓氏";
+"Passport.Identity.DateOfBirth" = "出生日期";
+"Passport.Identity.DateOfBirthPlaceholder" = "出生日期";
+"Passport.Identity.Gender" = "性別";
+"Passport.Identity.GenderPlaceholder" = "性別";
+"Passport.Identity.GenderMale" = "男性";
+"Passport.Identity.GenderFemale" = "女性";
+"Passport.Identity.Country" = "公民身分";
+"Passport.Identity.CountryPlaceholder" = "公民身分";
+"Passport.Identity.ResidenceCountry" = "住處";
+"Passport.Identity.ResidenceCountryPlaceholder" = "住處";
+"Passport.Identity.DocumentNumber" = "文件 #";
+"Passport.Identity.DocumentNumberPlaceholder" = "文件號碼";
+"Passport.Identity.IssueDate" = "核發日期";
+"Passport.Identity.IssueDatePlaceholder" = "核發日期";
+"Passport.Identity.ExpiryDate" = "有效日期";
+"Passport.Identity.ExpiryDatePlaceholder" = "有效日期";
+"Passport.Identity.ExpiryDateNone" = "無";
+"Passport.Identity.DoesNotExpire" = "未過期";
+
+"Passport.Identity.FilesTitle" = "請求的檔案";
+"Passport.Identity.ScansHelp" = "該文件必須包含您的照片、姓名、出生日期、文件編號、簽發國家和有效日期。";
+"Passport.Identity.FilesView" = "檢視";
+"Passport.Identity.FilesUploadNew" = "上傳新的";
+"Passport.Identity.MainPage" = "首頁";
+"Passport.Identity.MainPageHelp" = "上傳文件的首頁照片";
+"Passport.Identity.FrontSide" = "正面";
+"Passport.Identity.FrontSideHelp" = "上傳文件的正面照片";
+"Passport.Identity.ReverseSide" = "反面";
+"Passport.Identity.ReverseSideHelp" = "上傳文件的反面照片";
+"Passport.Identity.Selfie" = "自拍照";
+"Passport.Identity.SelfieHelp" = "上傳一張持有此文件的自拍照";
+
+"Passport.Address.TypeResidentialAddress" = "住址";
+"Passport.Address.TypePassportRegistration" = "護照註冊";
+"Passport.Address.TypeUtilityBill" = "水電費帳單";
+"Passport.Address.TypeBankStatement" = "銀行對帳單";
+"Passport.Address.TypeRentalAgreement" = "租約";
+"Passport.Address.TypeTemporaryRegistration" = "臨時註冊";
+
+"Passport.Address.AddResidentialAddress" = "添加住址";
+"Passport.Address.AddPassportRegistration" = "添加護照註冊";
+"Passport.Address.AddUtilityBill" = "添加水電費帳單";
+"Passport.Address.AddBankStatement" = "添加銀行對帳單";
+"Passport.Address.AddRentalAgreement" = "添加租約";
+"Passport.Address.AddTemporaryRegistration" = "添加臨時註冊";
+
+"Passport.Address.EditResidentialAddress" = "編輯住址";
+"Passport.Address.EditPassportRegistration" = "編輯護照註冊";
+"Passport.Address.EditUtilityBill" = "編輯水電費帳單";
+"Passport.Address.EditBankStatement" = "編輯銀行對帳單";
+"Passport.Address.EditRentalAgreement" = "編輯租約";
+"Passport.Address.EditTemporaryRegistration" = "編輯臨時註冊";
+
+"Passport.Address.Address" = "地址";
+"Passport.Address.Street" = "街道";
+"Passport.Address.Street1Placeholder" = "街道和號碼，郵政信箱";
+"Passport.Address.Street2Placeholder" = "公寓、套房、單位、建築物、樓層";
+"Passport.Address.Postcode" = "郵遞區號";
+"Passport.Address.PostcodePlaceholder" = "郵遞區號";
+"Passport.Address.City" = "城市";
+"Passport.Address.CityPlaceholder" = "城市";
+"Passport.Address.Region" = "區域";
+"Passport.Address.RegionPlaceholder" = "州/省/地區";
+"Passport.Address.Country" = "國家";
+"Passport.Address.CountryPlaceholder" = "國家";
+
+"Passport.Address.ScansHelp" = "文件必須包含您的姓名、住址，郵票 / 條碼 / QR code / 商標，以及不超過3個月的核發日期。";
+
+"Passport.Phone.Title" = "電話號碼";
+"Passport.Phone.UseTelegramNumber" = "使用 %@";
+"Passport.Phone.UseTelegramNumberHelp" = "使用與在 Telegram 上相同的電話號碼。";
+"Passport.Phone.EnterOtherNumber" = "或輸入新電話號碼";
+"Passport.Phone.Help" = "注意：您將在您提供的電話號碼上收到驗證碼。";
+"Passport.Phone.Delete" = "刪除電話號碼";
+
+"Passport.Email.Title" = "電子郵件";
+"Passport.Email.UseTelegramEmail" = "使用 %@";
+"Passport.Email.UseTelegramEmailHelp" = "使用與在 Telegram 上相同的地址。";
+"Passport.Email.EnterOtherEmail" = "或輸入新的電子郵件地址";
+"Passport.Email.EmailPlaceholder" = "請輸入您的電子郵件地址";
+"Passport.Email.Help" = "注意：您將在您提供的電子信箱上收到驗證碼。";
+"Passport.Email.Delete" = "刪除電子郵件地址";
+"Passport.Email.CodeHelp" = "請輸入我們剛傳送到 %@ 的驗證碼。";
+
+"Notification.PassportValuesSentMessage" = "%1$@ 收到了以下文件：%2$@";
+"Notification.PassportValuePersonalDetails" = "個人資訊";
+"Notification.PassportValueProofOfIdentity" = "身分證明";
+"Notification.PassportValueAddress" = "您的地址";
+"Notification.PassportValueProofOfAddress" = "地址證明";
+"Notification.PassportValuePhone" = "電話號碼";
+"Notification.PassportValueEmail" = "電子郵件地址";
+
+"FastTwoStepSetup.HintSection" = "提示";
+"FastTwoStepSetup.HintPlaceholder" = "輸入提示";
+"FastTwoStepSetup.HintHelp" = "請選擇是否為您的密碼建立一個提示。";
+
+"Passport.DiscardMessageTitle" = "丟棄變更";
+"Passport.DiscardMessageDescription" = "您確定要放棄所有變更嗎？";
+"Passport.DiscardMessageAction" = "放棄";
+
+"Passport.ScanPassport" = "掃描您的護照";
+"Passport.ScanPassportHelp" = "使用機器可讀區掃描您的護照或身分證以自動填寫個人資訊。";
+
+"TwoStepAuth.PasswordRemovePassportConfirmation" = "您確定要停用您的密碼嗎？\n\n警告！您將失去所有保存在您 Telegram 護照中的資料！";
+
+"Application.Update" = "更新";
+
+"Conversation.EditingMessagePanelMedia" = "點擊以編輯媒體";
+"Conversation.EditingMessageMediaChange" = "變更照片或影片";
+"Conversation.EditingMessageMediaEditCurrentPhoto" = "編輯目前的照片";
+"Conversation.EditingMessageMediaEditCurrentVideo" = "編輯目前的影片";
+
+"Conversation.InputTextCaptionPlaceholder" = "說明文字";
+
+"Conversation.ViewContactDetails" = "查看聯絡人";
+
+"DialogList.Read" = "已讀";
+"DialogList.Unread" = "未讀";
+
+"ContactInfo.Title" = "聯絡資訊";
+"ContactInfo.PhoneLabelHome" = "住家";
+"ContactInfo.PhoneLabelWork" = "公司";
+"ContactInfo.PhoneLabelMobile" = "手機";
+"ContactInfo.PhoneLabelMain" = "主要";
+"ContactInfo.PhoneLabelHomeFax" = "住家傳真";
+"ContactInfo.PhoneLabelWorkFax" = "工作傳真";
+"ContactInfo.PhoneLabelPager" = "呼叫器";
+"ContactInfo.PhoneLabelOther" = "其他";
+"ContactInfo.URLLabelHomepage" = "首頁";
+"ContactInfo.BirthdayLabel" = "生日";
+"ContactInfo.Job" = "工作";
+
+"UserInfo.NotificationsDefault" = "預設";
+"UserInfo.NotificationsDefaultSound" = "預設 (%@)";
+
+"DialogList.ProxyConnectionIssuesTooltip" = "無法連接到您偏好的代理伺服器。\n點擊以變更設定。";
+
+"Conversation.TapAndHoldToRecord" = "長按以錄製";
+
+"Privacy.TopPeers" = "建議常用聯絡人";
+"Privacy.TopPeersHelp" = "在搜尋區塊的頂部顯示您經常傳訊息的對象，以便快速取用。";
+"Privacy.TopPeersWarning" = "這將刪除您常傳訊息對象的所有資料，以及您可能有在使用的行內機器人。";
+"Privacy.TopPeersDelete" = "刪除";
+
+"Conversation.EditingCaptionPanelTitle" = "編輯說明文字";
+
+"Passport.CorrectErrors" = "點擊以更正錯誤";
+
+"Passport.NotLoggedInMessage" = "請登入您的帳號以使用 Telegram 護照。";
+
+"Update.Title" = "Telegram 更新";
+"Update.AppVersion" = "Telegram %@";
+"Update.UpdateApp" = "更新 Telegram";
+"Update.Skip" = "略過";
+
+"ReportPeer.ReasonCopyright" = "版權";
+
+"PrivacySettings.DataSettings" = "資料設定";
+"PrivacySettings.DataSettingsHelp" = "控制將哪些資料儲存在雲端中，並可被 Telegram 使用，以啟用進階功能。";
+
+"PrivateDataSettings.Title" = "資料設定";
+"Privacy.ChatsTitle" = "聊天";
+"Privacy.DeleteDrafts" = "刪除所有雲端草稿";
+
 
 /* new from translations.telegram.org */
 
+"Login.PRIVACY_URL" = "https://telegram.org/privacy";
 "Map.ETAHours_0" = "%@ 小時";
+"PassportKit.Button.GetTelegramAlertInstall" = "安裝";
+"PassportKit.Button.GetTelegramAlertMessage" = "您需要安裝 Telegram 才能使用 Telegram 護照";
+"PassportKit.Button.GetTelegramAlertNotNow" = "不是現在";
+"PassportKit.Button.GetTelegramAlertTitle" = "獲取 Telegram Messenger";
+"PassportKit.Button.Title" = "使用 Telegram 帳號登入";
 "Peer.DeletedUser" = "已刪除的用戶";
+"SocksProxySetup.UseSocks5" = "使用 SOCKS5 代理";
 "StickerPacksSettings.ArchivedMasks.Info" = "您最多可以有200套面具。\n當您添加更多時，未使用的面具會被封存。";
+
+
+// 避免套用中文化檔案時出現錯誤訊息而加的字串
+"Profile.CreateEncryptedChatError" = "發生錯誤。";
+"Profile.CreateEncryptedChatOutdatedError" = "不能與 %@ 建立一個秘密聊天。\n%@ 正在使用一個較舊版本的 Telegram，所以需要先更新才行。";
+
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
+"MediaPicker.Nof" = "%@ of";
+"SharedMedia.TitleLink" = "共享的連結";
+"Compatibility.SecretMediaVersionTooLow" = "%@ 正在使用較舊版本的 Telegram，因此秘密照片會以相容模式顯示。\n\n當 %@ 更新了 Telegram 之後，計時器設在 1 分鐘以內時，照片將開始以「長按檢視」模式運作，而對方執行螢幕快照時，您也將收到通知。";
+
+"MessageTimer.Years_1" = "%@ 年";
+"MessageTimer.Years_2" = "%@ 年";
+"MessageTimer.Years_3_10" = "%@ 年";
+"MessageTimer.Years_any" = "%@ 年";
+
+"NotificationSettings.ContactJoined" = "新的聯絡人";
+"Notification.GroupActivated" = "群組已撤銷";
+
+"PhotoEditor.QualityVeryLow" = "很低";
+"PhotoEditor.QualityLow" = "低";
+"PhotoEditor.QualityMedium" = "中等";
+"PhotoEditor.QualityHigh" = "高";
+"PhotoEditor.QualityVeryHigh" = "很高";
+"PhotoEditor.TintTool" = "色調";
+"PhotoEditor.CurvesTool" = "曲線";
+"PhotoEditor.Set" = "設定";
+"PhotoEditor.Skip" = "跳過";
+
+"BroadcastListInfo.AddRecipient" = "添加接收者";
+"Channel.Management.ErrorNotMember" = "%@ 目前還沒有加入頻道中。您想要邀請該用戶嗎？";
+"Channel.ErrorAddBlocked" = "抱歉，您無法將此用戶加入到頻道。";
+"Compose.NewChannel.Members" = "成員";
+"GroupInfo.BroadcastListNamePlaceholder" = "名單名稱";
+
+"LiveLocationUpdated.YesterdayAt" = "在昨天的 %@ 更新";
+
+"Privacy.PaymentsClearInfoDoneHelp" = "找不到這個字串，隨便填充的";
